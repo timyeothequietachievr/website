@@ -19,7 +19,7 @@ export default function Nextra({ Component, pageProps }) {
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
-        />
+       /><link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
       </Head>
       <Component {...pageProps} />
     </>
