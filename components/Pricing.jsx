@@ -4,10 +4,10 @@ import { CheckIcon } from '@heroicons/react/outline'
 const pricing = {
   tiers: [
     {
-      title: 'Freelancer',
-      price: 24,
-      frequency: '/month',
-      description: 'The essentials to provide your best work for clients.',
+      title: 'video self learn',
+      price: 19.99,
+      frequency: '/billed monthly',
+      description: 'or $195 billed yearly (save $45)',
       features: [
         '5 products',
         'Up to 1,000 subscribers',
@@ -59,7 +59,7 @@ export default function Pricing() {
   return (
     <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8">
       <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-        Pricing plans for teams of all sizes
+        Pricing starts at $19.99/mo 
       </h2>
       <p className="mt-6 max-w-2xl text-xl text-gray-500">
         Choose an affordable plan that's packed with the best features for

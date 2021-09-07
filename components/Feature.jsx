@@ -10,23 +10,23 @@ import {
 const transferFeatures = [
   {
     id: 1,
-    name: 'Competitive exchange rates',
+    name: 'Over 60+ techniques',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Videos are TikTok-sized in topics like having impact in meetings, being more visible in your organisation and networking (gulp). New drops of topics and techniques over time.',
     icon: GlobeAltIcon
   },
   {
     id: 2,
-    name: 'No hidden fees',
+    name: 'Community of introverts',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Having impact as an introvert in a world that desires the extrovert ideal is hard. TQAs community provides a safe place for introverts to share and practice. Peers provide support and partners keep you accountable. You are not alone; together, we are stronger. ',
     icon: ScaleIcon
   },
   {
     id: 3,
-    name: 'Transfers are instant',
+    name: 'Coaching 1:1 or in groups',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Sometimes we need a little help. Coaching sessions are available 1:1 or in groups at additional cost when you need it.',
     icon: LightningBoltIcon
   }
 ]
@@ -53,11 +53,10 @@ export default function Feature() {
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            A better way to send money
+          How it works
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+          We offer introverts practical, actionable techniques that are easy to apply. 
           </p>
         </div>
 
