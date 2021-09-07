@@ -3,15 +3,14 @@ export default function Masthead() {
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span className="block xl:inline">Tim to enrich your</span>{' '}
+          <span className="block xl:inline">the</span>{' '}
           <span className="block text-indigo-600 xl:inline">
-            online business
+            quiet
           </span>
+          <span className="block xl:inline">achiever</span>{' '}
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-          aliqua.
+        self-learn videos, 1-on-1/cohort coaching and a community of practice to help introverts have impact and influence without pretending to be extroverts. 
         </p>
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
