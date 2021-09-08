@@ -95,7 +95,7 @@ export default function Feature() {
             <img
               className="relative mx-auto"
               width={490}
-              src="/images/always-be-networking.png"
+              src="images/always-be-networking.png"
               alt=""
             />
           </div>
