@@ -1,10 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
+  ClockIcon,
+  VideoCameraIcon,
+  UserCircleIcon,
   MailIcon,
-  ScaleIcon
+  CalendarIcon
 } from '@heroicons/react/outline'
 
 const transferFeatures = [
@@ -13,21 +13,28 @@ const transferFeatures = [
     name: 'Over 60+ techniques',
     description:
       'Videos are bite-sized, practical and easy to apply. New videos and techniques dropped over time.',
-    icon: GlobeAltIcon
+    icon: VideoCameraIcon
   },
   {
     id: 2,
     name: 'Weekly office hours',
     description:
-      'Walk in with a question about a technique you are trying to apply or dial in to the video call to listen and hang out with your fellow introverts.',
-    icon: ScaleIcon
+      'Walk in with a question or dial in to the video call to listen and hang out with your fellow introverts.',
+    icon: CalendarIcon
   },
   {
     id: 3,
     name: 'Monthly guest speakers',
     description:
-      'Starting Jan 2022, every month will feature a guest speaker. Sessions are members-only.',
-    icon: LightningBoltIcon
+      'Every month will feature a guest speaker. Sessions are members-only.',
+    icon: UserCircleIcon
+  },
+  {
+    id: 4,
+    name: '24/7 online community of introverts',
+    description:
+      'Fellow introverts you can learn from and commune with for learning and support.',
+    icon: ClockIcon
   }
 ]
 const communicationFeatures = [
