@@ -11,7 +11,6 @@ export default function IndexPage() {
       <Feature />
       <Pricing />
       <Testimonials />
-      <WhatDoYouGet />
     </>
   )
 }
