@@ -23,9 +23,9 @@ const pricing = {
       frequency: '/course',
       description: 'via video conference',
       features: [
-        '4 week course',
+        '4 week course of intensive learning',
         'Small group of 12-15 members',
-        'Weekly group-only coaching',
+        'Weekly coaching with the group',
         'Private channel for group-only conversations',
         '12-week access to Video self learn during and after the course'
       ],
@@ -42,7 +42,7 @@ const pricing = {
         'Private chat (message me directly)',
         'Full access to Video self learn for the duration of our coaching arrangement'
       ],
-      cta: 'Coming Jan 2022 - Signup Now',
+      cta: 'Coming Feb 2022 - Join Waitlist',
       mostPopular: false
     }
   ]
