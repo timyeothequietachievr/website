@@ -12,21 +12,21 @@ const transferFeatures = [
     id: 1,
     name: 'Over 60+ techniques',
     description:
-      'Videos are TikTok-sized in topics like having impact in meetings, being more visible in your organisation and networking (gulp). New drops of topics and techniques over time.',
+      'Videos are bite-sized, practical and easy to apply. New videos and techniques dropped over time.',
     icon: GlobeAltIcon
   },
   {
     id: 2,
-    name: 'Community of introverts',
+    name: 'Weekly office hours',
     description:
-      'Having impact as an introvert in a world that desires the extrovert ideal is hard. TQAs community provides a safe place for introverts to share and practice. Peers provide support and partners keep you accountable. You are not alone; together, we are stronger. ',
+      'Walk in with a question about a technique you are trying to apply or dial in to the video call to listen and hang out with your fellow introverts.',
     icon: ScaleIcon
   },
   {
     id: 3,
-    name: 'Coaching 1:1 or in groups',
+    name: 'Monthly guest speakers',
     description:
-      'Sometimes we need a little help. Coaching sessions are available 1:1 or in groups at additional cost when you need it.',
+      'Starting Jan 2022, every month will feature a guest speaker. Sessions are members-only.',
     icon: LightningBoltIcon
   }
 ]
@@ -56,20 +56,17 @@ export default function Feature() {
           How it works
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          We offer introverts practical, actionable techniques that are easy to apply. 
+          We offer online self-learn videos, weekly office hours, monthly guest speakers and an online community of introverts. 
           </p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+            Topics include:
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+            How to perform in meetings, being more visible in your organisation, how to network online and in real-life, how to make small talk, getting better at public speaking, how to say no politely etc
             </p>
 
             <dl className="mt-10 space-y-10">
