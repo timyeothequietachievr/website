@@ -7,7 +7,7 @@ const pricing = {
       title: 'Video self learn',
       price: 19.99,
       frequency: '/month',
-      description: 'or $y billed yearly (save $z)',
+      description: 'or $195 billed yearly (save $45)',
       features: [
         'Full access to 50+ videos of techniques (more added over time)',
         'Weekly office hours',
