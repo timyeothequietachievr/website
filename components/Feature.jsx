@@ -74,7 +74,7 @@ export default function Feature() {
             Topics include:
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-            How to perform in meetings, being more visible in your organisation, how to network online and in real-life, how to make small talk, getting better at public speaking, how to say no politely etc
+            How to speak up and perform in meetings, being more visible in your organisation, how to network online and in real-life, make small talk, getting better at public speaking, how to say no politely etc
             </p>
 
             <dl className="mt-10 space-y-10">

@@ -10,8 +10,8 @@ export default function IndexPage() {
       <Masthead />
       <Feature />
       <Pricing />
-      <WhatDoYouGet />
       <Testimonials />
+      <WhatDoYouGet />
     </>
   )
 }
