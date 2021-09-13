@@ -4,48 +4,45 @@ import { CheckIcon } from '@heroicons/react/outline'
 const pricing = {
   tiers: [
     {
-      title: '1:1 coaching',
-      price: 149,
-      frequency: '/hr',
-      description: 'xxx',
-      features: [
-        '5 products',
-        'Up to 1,000 subscribers',
-        'Basic analytics',
-        '48-hour support response time'
-      ],
-      cta: 'Monthly billing',
-      mostPopular: false
-    },
-    {
       title: 'Video self learn',
       price: 19.99,
       frequency: '/month',
-      description: 'or $195 billed yearly (save $45)',
+      description: 'or $y billed yearly (save $z)',
       features: [
-        'full access to 60+ videos, more dropped over time',
-        'Up to 10,000 subscribers',
-        'Advanced analytics',
-        '24-hour support response time',
-        'Marketing automations'
+        'Full access to 50+ videos of techniques (more added over time)',
+        'Weekly office hours',
+        'Monthly guest speakers',
+        '24/7 online community of introverts'
       ],
-      cta: 'Monthly billing',
-      mostPopular: true
+      cta: 'Buy Now',
+      mostPopular: false
     },
     {
-      title: 'Enterprise',
-      price: 48,
-      frequency: '/month',
-      description: 'Dedicated support and infrastructure for your company.',
+      title: '4-week group course',
+      price: 499,
+      frequency: '/course',
+      description: 'via video conference',
       features: [
-        'Unlimited products',
-        'Unlimited subscribers',
-        'Advanced analytics',
-        '1-hour, dedicated support response time',
-        'Marketing automations',
-        'Custom integrations'
+        '4 week course',
+        'Small group of 12-15 members',
+        'Weekly group-only coaching',
+        'Private channel for group-only conversations',
+        '12-week access to Video self learn during and after the course'
       ],
-      cta: 'Monthly billing',
+      cta: 'Buy Now',
+      mostPopular: false
+    },
+    {
+      title: 'Private 1:1 coaching',
+      price: 199,
+      frequency: '/session',
+      description: 'via video conference',
+      features: [
+        '1hr/session, just you and me',
+        'Private chat (message me directly)',
+        'Full access to Video self learn for the duration of our coaching arrangement'
+      ],
+      cta: 'Buy Now',
       mostPopular: false
     }
   ]
