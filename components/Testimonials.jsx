@@ -22,9 +22,7 @@ export default function Testimonials() {
                 <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
               </svg>
               <p className="relative">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.
+              Tim went above and beyond! He didn't just help me get unstuck with all the surrounding problems I was facing, but he reminded me that I was taking the right steps. He shared some actionable tips, was a great listener, patient, observative, and clever. I highly recommend; our session was therapeutic!
               </p>
             </div>
             <footer className="mt-8">
@@ -38,10 +36,10 @@ export default function Testimonials() {
                 </div>
                 <div className="ml-4">
                   <div className="text-base font-medium text-white">
-                    Judith Black
+                    Wilson Thai
                   </div>
                   <div className="text-base font-medium text-indigo-200">
-                    CEO, Tuple
+                    UX/UI Designer
                   </div>
                 </div>
               </div>
@@ -66,10 +64,7 @@ export default function Testimonials() {
                 <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
               </svg>
               <p className="relative">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis. Nemo expedita
-                voluptas culpa sapiente alias molestiae.
+              Tim's such a great listener! He asked me the right questions to understand my queries, and provided me with actionable points that I can start using right away. He shared resources with me that are relevant to my current challenges, can't wait to use them! Totally recommended!
               </p>
             </div>
             <footer className="mt-8">
@@ -83,10 +78,10 @@ export default function Testimonials() {
                 </div>
                 <div className="ml-4">
                   <div className="text-base font-medium text-white">
-                    Joseph Rodriguez
+                    Leonardo Mattei
                   </div>
                   <div className="text-base font-medium text-indigo-200">
-                    CEO, Workcation
+                    Principal Product Designer, Financial Times
                   </div>
                 </div>
               </div>
