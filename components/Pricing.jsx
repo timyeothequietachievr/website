@@ -29,7 +29,7 @@ const pricing = {
         'Private channel for group-only conversations',
         '12-week access to Video self learn during and after the course'
       ],
-      cta: 'Buy Now',
+      cta: 'Coming Feb 2022 - Join Waitlist',
       mostPopular: false
     },
     {
@@ -42,7 +42,7 @@ const pricing = {
         'Private chat (message me directly)',
         'Full access to Video self learn for the duration of our coaching arrangement'
       ],
-      cta: 'Buy Now',
+      cta: 'Coming Jan 2022 - Signup Now',
       mostPopular: false
     }
   ]
