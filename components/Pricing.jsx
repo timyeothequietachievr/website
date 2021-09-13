@@ -15,18 +15,18 @@ const pricing = {
         '24/7 online community of introverts'
       ],
       cta: 'Buy Now',
-      mostPopular: false
+      mostPopular: true
     },
     {
       title: '4-week group course',
-      price: 499,
+      price: 695,
       frequency: '/course',
       description: 'via video conference',
       features: [
         '4 weeks of intensive learning and practicing',
         'Small group of 12-15 members',
         'Weekly coaching with the group',
-        '12-week access to Video self learn during and after the course'
+        '1 year full access to Video self learn'
       ],
       cta: 'Coming Feb 2022 - Join Waitlist',
       mostPopular: false
@@ -45,8 +45,7 @@ export default function Pricing() {
         Pricing starts at $19.99/mo 
       </h2>
       <p className="mt-6 max-w-2xl text-xl text-gray-500">
-        Choose an affordable plan that's packed with the best features for
-        engaging your audience, creating customer loyalty, and driving sales.
+        Learn on your own or in a group. You choose. 
       </p>
 
       {/* Tiers */}
@@ -62,7 +61,7 @@ export default function Pricing() {
               </h3>
               {tier.mostPopular ? (
                 <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
-                  Just Launched
+                  Dec 2021
                 </p>
               ) : null}
               <p className="mt-4 flex items-baseline text-gray-900">

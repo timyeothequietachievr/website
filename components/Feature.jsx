@@ -20,7 +20,7 @@ const transferFeatures = [
     id: 2,
     name: 'Weekly office hours',
     description:
-      'Walk in with a question or dial in to the video call to listen and hang out with your fellow introverts.',
+      'Walk in with a question or dial in to listen. Participate as much or as little as you want.',
     icon: CalendarIcon
   },
   {
@@ -34,7 +34,7 @@ const transferFeatures = [
     id: 4,
     name: '24/7 online community of introverts',
     description:
-      'Fellow introverts you can learn from and commune with for learning and support.',
+      'You are not alone. Share with fellow introverts for learning and support.',
     icon: ClockIcon
   }
 ]
