@@ -23,24 +23,10 @@ const pricing = {
       frequency: '/course',
       description: 'via video conference',
       features: [
-        '4 week course of intensive learning',
+        '4 weeks of intensive learning and practicing',
         'Small group of 12-15 members',
         'Weekly coaching with the group',
-        'Private channel for group-only conversations',
         '12-week access to Video self learn during and after the course'
-      ],
-      cta: 'Coming Feb 2022 - Join Waitlist',
-      mostPopular: false
-    },
-    {
-      title: 'Private 1:1 coaching',
-      price: 199,
-      frequency: '/session',
-      description: 'via video conference',
-      features: [
-        '1hr/session, just you and me',
-        'Private chat (message me directly)',
-        'Full access to Video self learn for the duration of our coaching arrangement'
       ],
       cta: 'Coming Feb 2022 - Join Waitlist',
       mostPopular: false
