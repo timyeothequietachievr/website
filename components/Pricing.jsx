@@ -4,7 +4,7 @@ import { CheckIcon } from '@heroicons/react/outline'
 const pricing = {
   tiers: [
     {
-      title: 'Video self learn',
+      title: 'Video On-Demand',
       price: 19.99,
       frequency: '/month',
       description: 'or $195 billed yearly (save $45)',
@@ -26,7 +26,7 @@ const pricing = {
         '4 weeks of intensive learning and practicing',
         'Small group of 12-15 members',
         'Weekly coaching with the group',
-        '1 year full access to Video self learn'
+        '1 year full access to Video On-Demand'
       ],
       cta: 'Coming Feb 2022 - Join Waitlist',
       mostPopular: false

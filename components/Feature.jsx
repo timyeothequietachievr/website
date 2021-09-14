@@ -13,21 +13,21 @@ const transferFeatures = [
     id: 1,
     name: 'Over 60+ techniques',
     description:
-      'Videos are bite-sized, practical and easy to apply. New videos and techniques dropped over time.',
+      'Videos are bite-sized, practical and easy to apply. Watch on-demand with new techniques dropped over time.',
     icon: VideoCameraIcon
   },
   {
     id: 2,
     name: 'Weekly office hours',
     description:
-      'Walk in with a question or dial in to listen. Participate as much or as little as you want.',
+      'Walk in with a question or dial in to listen. Participate as much or as little as you want (embers-only via video conference).',
     icon: CalendarIcon
   },
   {
     id: 3,
     name: 'Monthly guest speakers',
     description:
-      'Every month will feature a guest speaker. Sessions are members-only.',
+      'Every month will feature a guest speaker (members-only via video conference).',
     icon: UserCircleIcon
   },
   {
@@ -64,7 +64,7 @@ export default function Feature() {
           How it works
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          We offer online self-learn videos, weekly office hours, monthly guest speakers and an online community of introverts. 
+          We offer video on-demand, weekly office hours, monthly guest speakers and an online community of introverts. 
           </p>
         </div>
 
