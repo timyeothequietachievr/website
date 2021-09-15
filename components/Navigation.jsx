@@ -12,24 +12,7 @@ export default function Navigation({ items }) {
               className="relative flex items-center justify-between sm:h-10 md:justify-center"
               aria-label="Global"
             >
-              <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                <div className="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
-                    <span className="sr-only">Workflow</span>
-                    <img
-                      className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                      alt=""
-                    />
-                  </a>
-                  <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                      <span className="sr-only">Open main menu</span>
-                      <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                    </Popover.Button>
-                  </div>
-                </div>
-              </div>
+              <Logo />
               <div className="hidden md:flex md:space-x-10">
                 {items.map((item) => (
                   <a
@@ -107,4 +90,28 @@ export default function Navigation({ items }) {
       </div>
     </div>
   )
+}
+
+function Logo() {
+  return null;
+  return (
+    <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+      <div className="flex items-center justify-between w-full md:w-auto">
+        <a href="#">
+          <span className="sr-only">Workflow</span>
+          <img
+            className="h-8 w-auto sm:h-10"
+            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            alt=""
+          />
+        </a>
+        <div className="-mr-2 flex items-center md:hidden">
+          <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span className="sr-only">Open main menu</span>
+            <MenuIcon className="h-6 w-6" aria-hidden="true" />
+          </Popover.Button>
+        </div>
+      </div>
+    </div>
+  );
 }
