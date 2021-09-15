@@ -7,10 +7,8 @@ import Footer from '../components/Footer'
 import 'tailwindcss/tailwind.css'
 
 const navigationItems = [
-  { name: 'Pricing', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'FAQ', href: '#' },
-  { name: 'Contact', href: '#' }
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
 ]
 
 const loginLink = 'https://circle.so'
