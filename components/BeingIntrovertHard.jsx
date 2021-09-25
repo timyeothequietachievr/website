@@ -35,7 +35,7 @@ export default function BeingIntrovertHard() {
               </h3>
               <p className="mt-8 text-lg text-gray-500">
               <ul role="list">
-                  <li>Do people say "you are too quiet" or "you should speak up more", but you don't know how?</li>
+                  <li>Do people say you are too quiet or you should speak up more, but you don't know how?</li>
                   <li>Is small talk and networking awkward for you?</li>
                   <li>In meetings, do you keep quiet even though you have something to say?</li>
                 </ul>
