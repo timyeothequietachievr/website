@@ -29,18 +29,19 @@ export default function BeingIntrovertHard() {
         <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-              <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
+              <!--<h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>-->
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Being an introvert in a noisy world is hard
               </h3>
               <p className="mt-8 text-lg text-gray-500">
-              <ul role="list">
-                  <li>Do people say you are too quiet or you should speak up more, but you don't know how?</li>
+              
+              </p>
+              <div className="mt-5 prose prose-indigo text-gray-500">
+                <ul role="list">
+                  <li>Do people say "you are too quiet" or "you should speak up more", but you don't know how?</li>
                   <li>Is small talk and networking awkward for you?</li>
                   <li>In meetings, do you keep quiet even though you have something to say?</li>
                 </ul>
-              </p>
-              <div className="mt-5 prose prose-indigo text-gray-500">
                 <p>
                 Most introverts struggle in silence, pretending to be extroverted. That may work for a while, but it's tiring and always feels unnatural. 
                 </p>
