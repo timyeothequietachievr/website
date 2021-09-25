@@ -31,45 +31,31 @@ export default function BeingIntrovertHard() {
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
               <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Our Process
+                Being an introvert in a noisy world is hard
               </h3>
               <p className="mt-8 text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              <ul role="list">
+                  <li>Do people say "you are too quiet" or "you should speak up more", but you don't know how?</li>
+                  <li>Is small talk and networking awkward for you?</li>
+                  <li>In meetings, do you keep quiet even though you have something to say?</li>
+                </ul>
               </p>
               <div className="mt-5 prose prose-indigo text-gray-500">
                 <p>
-                  Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                  pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                Most introverts struggle in silence, pretending to be extroverted. That may work for a while, but it's tiring and always feels unnatural. 
                 </p>
                 <p>
-                  Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                  fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
+                Tim Yeo has coached nearly a hundred introverts and has spoken at international conferences on the topic of introversion and leadership.
                 </p>
                 <p>
-                  Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
+                We'll show you how to turn your quiet traits into superpowers, remaining true to your authentic self; and you don't have to do it alone. 
                 </p>
-                <ul role="list">
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
+                <h3>x</h3>
                 <p>
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                  velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                  egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-                </p>
-                <h3>How we’re different</h3>
-                <p>
-                  Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                  Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                  lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+                  x
                 </p>
                 <p>
-                  Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus,
-                  eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare
-                  suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum
-                  imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.
+                  x
                 </p>
               </div>
             </div>
