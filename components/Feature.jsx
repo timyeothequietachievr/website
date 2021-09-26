@@ -74,6 +74,7 @@ export default function Feature() {
                   <li>How to say no politely</li>
                   <li>Be an introverted leader with impact</li>
             </ul>
+            Easy-to-apply techniques that leverage your quiet strengths.
             </p>
           </div>
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
