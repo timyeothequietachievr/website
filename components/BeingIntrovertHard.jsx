@@ -45,10 +45,7 @@ export default function BeingIntrovertHard() {
                 Most introverts struggle in silence, pretending to be extroverted. That may work for a while, but it's tiring and always feels unnatural. 
                 </p>
                 <p>
-                Tim Yeo has coached nearly a hundred introverts and has spoken at international conferences on the topic of introversion and leadership.
-                </p>
-                <p>
-                We'll show you how to turn your quiet traits into superpowers, remaining true to your authentic self; and you don't have to do it alone. 
+                We'll show you how to turn your quiet traits into <strong>superpowers</strong>, remaining true to your authentic self; and you don't have to do it alone. 
                 </p>
               </div>
             </div>
