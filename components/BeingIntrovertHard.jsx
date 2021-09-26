@@ -21,7 +21,7 @@ export default function BeingIntrovertHard() {
           <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
             <img
               className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="timyeothequietachievr/website/images/TQA-meme-moneypay.png"
+              src="images/TQA-meme-moneypay.png"
               alt=""
             />
           </div>
