@@ -64,7 +64,7 @@ export default function Feature() {
             <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
             What you will learn:
             </h2>
-            <p className="mt-3 text-lg text-gray-500">
+            <p className="mt-5 prose prose-indigo text-gray-500">
             <ul role="list">
                   <li>How to speak up and perform in meetings</li>
                   <li>Be more visible in your organisation</li>
@@ -73,7 +73,7 @@ export default function Feature() {
                   <li>Public speaking with confidence</li>
                   <li>How to say no politely</li>
                   <li>Be an introverted leader with impact</li>
-                </ul>
+            </ul>
             </p>
           </div>
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
