@@ -69,12 +69,14 @@ export default function Feature() {
                   <li>How to speak up and perform in meetings</li>
                   <li>Be more visible in your organisation</li>
                   <li>Networking - online and in real life</li>
-                  <li>Small talk with people you just met</li>
+                  <li>Small talk - with people you just met</li>
                   <li>Public speaking with confidence</li>
                   <li>How to say no politely</li>
+                  <li>Facilitate workshops</li>
                   <li>Be an introverted leader with impact</li>
+                  <li>Create an inclusive team for all, introverts included</li>
             </ul>
-            Easy-to-apply techniques that leverage your quiet strengths.
+            Easy-to-apply techniques that leverage your quiet introverted strengths.
             </p>
           </div>
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">

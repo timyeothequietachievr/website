@@ -1,30 +1,30 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon, AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Competitive exchange rates',
+    name: '60+ videos on-demand',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
+      'Videos are bite-sized, practical and easy to apply. Watch on-demand with new techniques dropped over time.',
+    icon: VideoCameraIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'Weekly office hours',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
+      'Walk in with a question or dial in to listen. Participate as much or as little as you want (embers-only via video conference).',
+    icon: CalendarIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Monthly guest speakers',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: LightningBoltIcon,
+      'Every month will feature a guest speaker (members-only via video conference)',
+    icon: UserCircleIcon,
   },
   {
-    name: 'Mobile notifications',
+    name: '24/7 online community of introverts',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: AnnotationIcon,
+      'You are not alone. Share with fellow introverts for learning and support. Online and in-app.',
+    icon: ClockIcon,
   },
 ]
 
@@ -35,11 +35,10 @@ export default function Example() {
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            A better way to send money
+            What is included
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+          Video on-demand, weekly office hours, monthly guest speakers . Members only. Binge watch. Practice as you go. Learn the way that suits you. 
           </p>
         </div>
 
