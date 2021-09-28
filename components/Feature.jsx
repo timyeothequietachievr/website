@@ -76,6 +76,7 @@ export default function Feature() {
                   <li>Be an introverted leader with impact</li>
                   <li>Create an inclusive team for all, introverts included</li>
             </ul>
+            
             Easy-to-apply techniques that leverage your quiet introverted strengths.
             </p>
           </div>
