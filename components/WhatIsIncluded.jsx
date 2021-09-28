@@ -5,7 +5,7 @@ const features = [
   {
     name: '60+ videos on-demand',
     description:
-      'Videos are bite-sized, practical and easy to apply. Need to introduce yourself? Preparing for a workshop? Watch a video right before you do it.',
+      'Videos are bite-sized, easy to apply and leverage your introverted strengths. Need to introduce yourself? Preparing for a workshop? Watch a video right before you do it.',
     icon: VideoCameraIcon,
   },
   {
