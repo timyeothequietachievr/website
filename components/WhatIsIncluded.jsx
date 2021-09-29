@@ -2,30 +2,7 @@
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon, AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [
-  {/*
-    name: '60+ videos on-demand',
-    description:
-      'Preparing for a workshop? Need to introduce yourself? Watch a video right before you do it.',
-    icon: VideoCameraIcon,
-  },
-  {
-    name: 'Weekly office hours',
-    description:
-      'Live via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want.',
-    icon: CalendarIcon,
-  },
-  {
-    name: 'Monthly guest speakers',
-    description:
-      'Live and recorded. Every month features a guest speaker who will share their introvert story.',
-    icon: UserCircleIcon,
-  },
-  {
-    name: '24/7 online community of introverts',
-    description:
-      'You are not alone. Share with fellow introverts for learning and support. Online and in-app.',
-    icon: ClockIcon,
-  */},
+
   
 ]
 
