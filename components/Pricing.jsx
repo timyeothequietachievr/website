@@ -40,7 +40,7 @@ function classNames(...classes) {
 
 export default function Pricing() {
   return (
-    <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8" id="pricing">
       <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
         Pricing starts at $19.99/mo 
       </h2>

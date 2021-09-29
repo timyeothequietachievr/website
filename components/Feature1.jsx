@@ -3,7 +3,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 export default function Example() {
   return (
-    <div className="relative bg-white pt-16 pb-32 overflow-hidden">
+    <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -17,7 +17,7 @@ export default function Example() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     See pricing
@@ -67,7 +67,7 @@ export default function Example() {
                   Weekly office hours
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Once a week, we will meet via video conference live. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want..
+                  Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want.
                 </p>
               </div>
             </div>

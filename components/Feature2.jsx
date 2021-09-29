@@ -13,7 +13,7 @@ export default function Example() {
                     Monthly guest speakers
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                    Live and recorded. Every month features a guest speaker who will share their introvert story. 
+                    Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.
                     </p>
                 </div>
             </div>
