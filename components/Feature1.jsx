@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
+import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
 export default function Example() {
   return (
@@ -10,17 +10,15 @@ export default function Example() {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                  <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                  <VideoCameraIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of customer support
+                  60+ videos on-demand
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                Binge watch. Practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
                 </p>
                 <div className="mt-6">
                   <a

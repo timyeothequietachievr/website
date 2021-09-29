@@ -5,7 +5,7 @@ const features = [
   {
     name: '60+ videos on-demand',
     description:
-      'Videos are bite-sized, easy to apply and leverage your introverted strengths. Need to introduce yourself? Preparing for a workshop? Watch a video right before you do it.',
+      'Need to introduce yourself? Preparing for a workshop? Watch a video right before you do it.',
     icon: VideoCameraIcon,
   },
   {
@@ -38,7 +38,7 @@ export default function Example() {
             What is included
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. Binge watch. Practice as you go. Learn the way that suits you. 
+          Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. 
           </p>
         </div>
 
