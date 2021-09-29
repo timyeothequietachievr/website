@@ -70,7 +70,7 @@ export default function Feature() {
                   <li>Be more visible in your organisation</li>
                   <li>Networking - online and in real life</li>
                   <li>Small talk - with people you just met</li>
-                  <li>Public speaking with confidence</li>
+                  <li>Public speaking - prepare and perform with confidence</li>
                   <li>How to say no politely</li>
                   <li>Facilitate workshops</li>
                   <li>Be an introverted leader with impact</li>
