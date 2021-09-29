@@ -2,6 +2,7 @@
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon, AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [
+  {/*
   {
     name: '60+ videos on-demand',
     description:
@@ -26,6 +27,7 @@ const features = [
       'You are not alone. Share with fellow introverts for learning and support. Online and in-app.',
     icon: ClockIcon,
   },
+  */}
 ]
 
 export default function Example() {
