@@ -79,14 +79,6 @@ export default function Example() {
                 <p className="mt-4 text-lg text-gray-500">
                   Once a week, we will meet via video conference live. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want..
                 </p>
-                <div className="mt-6">
-                  <a
-                    href="#"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
-                    Get started
-                  </a>
-                </div>
               </div>
             </div>
           </div>
