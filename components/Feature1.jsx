@@ -70,7 +70,7 @@ export default function Example() {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                  <CalendarIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
               <div className="mt-6">
