@@ -18,14 +18,14 @@ export default function Example() {
                   60+ videos on-demand
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                Binge watch. Practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
+                Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Get started
+                    See pricing
                   </a>
                 </div>
               </div>
@@ -34,8 +34,7 @@ export default function Example() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
-                    donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                    &ldquo;Watching Tim's videos is like listening to a supportive, knowledgeable, empathetic friend.  Tim gave me incredible advice and methods I could use in real-life scenarios. I highly recommend.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -47,7 +46,7 @@ export default function Example() {
                         alt=""
                       />
                     </div>
-                    <div className="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                    <div className="text-base font-medium text-gray-700">Leonardo Mattei, Principal Product Designer, Financial Times</div>
                   </div>
                 </footer>
               </blockquote>
