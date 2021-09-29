@@ -5,7 +5,7 @@ const features = [
   {
     name: '60+ videos on-demand',
     description:
-      'Need to introduce yourself? Preparing for a workshop? Watch a video right before you do it.',
+      'Preparing for a workshop? Need to introduce yourself? Watch a video right before you do it.',
     icon: VideoCameraIcon,
   },
   {

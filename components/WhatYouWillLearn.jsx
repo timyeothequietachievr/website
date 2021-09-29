@@ -77,7 +77,7 @@ export default function WhatYouWillLearn() {
                   <li>Create an inclusive team for all, introverts included</li>
             </ul>
             
-            Techniques are organised around <strong>The Introvert Skill Tree</strong>. Go deep into Networking or go broad across all skills. <br /><br />Level up your way.
+            Techniques are organised around <strong>The Introvert Skill Tree</strong>. Go deep into Networking or go broad across all skills. You choose what you learn, when you need to learn it.<br /><br /><strong>Level up</strong> your way.
             </p>
           </div>
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
