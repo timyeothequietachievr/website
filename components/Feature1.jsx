@@ -8,11 +8,6 @@ export default function Example() {
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
-              <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                  <VideoCameraIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
-              </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   60+ videos on-demand
@@ -67,11 +62,6 @@ export default function Example() {
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
-              <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                  <CalendarIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
-              </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   Weekly office hours
