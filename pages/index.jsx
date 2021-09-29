@@ -1,6 +1,6 @@
 import Masthead from '../components/Masthead'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
-import Feature from '../components/Feature'
+import WhatYouWillLearn from '../components/WhatYouWillLearn'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import Pricing from '../components/Pricing'
 import WhatDoYouGet from '../components/WhatDoYouGet'
@@ -11,7 +11,7 @@ export default function IndexPage() {
     <>
       <Masthead />
       <BeingIntrovertHard />
-      <Feature />
+      <WhatYouWillLearn />
       <WhatIsIncluded />
       <Pricing />
       <Testimonials />
