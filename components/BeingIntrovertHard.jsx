@@ -1,4 +1,4 @@
-import TQAimage1 from '../moneypay.png';
+import ximage from '../src/moneypay.png';
 
 /*
   This example requires Tailwind CSS v2.0+ 
