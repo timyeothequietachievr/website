@@ -1,3 +1,4 @@
+import IMGMemeMoneyPay from '../images/TQA-meme-moneypay.png'
  /*
   This example requires Tailwind CSS v2.0+ 
   
