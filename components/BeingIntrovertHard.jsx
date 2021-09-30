@@ -1,6 +1,7 @@
 /*
-import ximage from '../src/moneypay.png';
-src/moneypay.png
+import moneypay from '../src/moneypay.png';
+import moneypay from './src/moneypay.png'
+
 This example requires Tailwind CSS v2.0+ 
   
   This example requires some changes to your config:
