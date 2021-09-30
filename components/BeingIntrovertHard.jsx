@@ -1,5 +1,6 @@
-/* import image from './images/TQA-meme-moneypay';
+import imagez from '../images/TQA-meme-moneypay.png'
  
+/*
   This example requires Tailwind CSS v2.0+ 
   
   This example requires some changes to your config:
@@ -58,4 +59,3 @@ export default function BeingIntrovertHard() {
       </div>
     )
   }
-  
