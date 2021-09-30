@@ -1,4 +1,4 @@
-import image from '../images/TQA-meme-moneypay';
+import image from './images/TQA-meme-moneypay';
  /*
   This example requires Tailwind CSS v2.0+ 
   
