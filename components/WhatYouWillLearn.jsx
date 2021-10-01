@@ -149,16 +149,12 @@ export default function WhatYouWillLearn() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
 
             <img
-
-              className="relative mx-auto"
-
-              width={490}
-
+              /* className="relative mx-auto" */
+              className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+              /* width={490} */
               /* src="..images/always-be-networking.png" */
               src="src/IntrovertSkillTree.mov"
-
               alt=""
-
             />
 
           </div>
