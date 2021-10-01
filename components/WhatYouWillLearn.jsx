@@ -150,7 +150,8 @@ export default function WhatYouWillLearn() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
-                src="src/IntrovertSkillTree.mov"
+                /* src="src/IntrovertSkillTree.mov" */
+                src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4"
                 alt="Customer profile user interface"
               />
             </div>
