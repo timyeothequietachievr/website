@@ -145,19 +145,17 @@ export default function WhatYouWillLearn() {
             </p>
 
           </div>
-
-          <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-
-            <img
-              /* className="relative mx-auto" */
-              className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-              /* width={490} */
-              /* src="..images/always-be-networking.png" */
-              src="src/IntrovertSkillTree.mov"
-              alt=""
-            />
-
+          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
+                src="src/IntrovertSkillTree.mov"
+                alt="Customer profile user interface"
+              />
+            </div>
           </div>
+          
 
         </div>
 
