@@ -154,7 +154,8 @@ export default function WhatYouWillLearn() {
 
               width={490}
 
-              src="..images/always-be-networking.png"
+              /* src="..images/always-be-networking.png" */
+              src="src/IntrovertSkillTree.mov"
 
               alt=""
 
