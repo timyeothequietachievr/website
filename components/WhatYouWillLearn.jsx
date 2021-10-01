@@ -125,33 +125,19 @@ export default function WhatYouWillLearn() {
           <div className="relative">
 
             <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-
               What you will learn:
-
             </h2>
-
             <p className="mt-5 prose prose-indigo text-gray-500">
-
               <ul role="list">
-
                 <li>How to speak up and perform in meetings</li>
-
                 <li>Be more visible in your organisation</li>
-
                 <li>Networking - online and in real life</li>
-
                 <li>Small talk - with people you just met</li>
-
                 <li>Public speaking - prepare and perform with confidence</li>
-
                 <li>How to say no politely</li>
-
                 <li>Facilitate workshops</li>
-
                 <li>Be an introverted leader with impact</li>
-
-                <li>Create an inclusive team for all, introverts included</li>
-
+                <li>Create an inclusive team for all, introverts included</li>                 
               </ul>
 
               Techniques are organised around <strong>The Introvert Skill Tree</strong>. Go deep into Networking or go broad across all skills. You choose what you learn, when you need to learn it.<br /><br /><strong>Level up</strong> your way.
