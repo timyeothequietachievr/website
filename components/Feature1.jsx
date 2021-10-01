@@ -37,7 +37,7 @@ export default function Example() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
-                        src="src/profile-leonardo mattei.jpeg?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        src="src/profile-leonardo.jpg?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                         alt=""
                       />
                     </div>
