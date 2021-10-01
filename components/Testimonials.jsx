@@ -58,7 +58,7 @@ export default function Testimonials() {
                 <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="src/profile-leonardo mattei.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="src/profile-leonardo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""
                   />
                 </div>
@@ -169,7 +169,7 @@ export default function Testimonials() {
                 <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="src/profile-lewis.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="src/profile-lewis.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""
                   />
                 </div>
@@ -204,7 +204,7 @@ export default function Testimonials() {
                 <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="src/profile/andrewcuevas.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="src/profile-andrew.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""
                   />
                 </div>
