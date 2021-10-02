@@ -56,7 +56,8 @@ export default function Navigation({ items }) {
                     <div> 
                     <img
                       className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                      src="../src/logo-tqa.svg"
+                      /* src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" */
                       alt=""
                     />
                   </div> }
