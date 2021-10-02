@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">chief introvert</h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet tim yeo
+              Meet Tim Yeo
             </h3>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">
                   <CameraIcon className="flex-none w-5 h-5 text-gray-400" aria-hidden="true" />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
+                  <span className="ml-2">Speaking about Design Leadership for Introverts at IxDA Milan 2020</span>
                 </figcaption>
               </figure>
             </div>
@@ -76,27 +76,25 @@ export default function AboutPage() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-              Tim Yeo is a designer, leader and chief introvert at The Quiet Achiever (TQA). Best known for saying complex things simply.<br />16 years a designer, design leader. 40 years an introvert.
+              Tim Yeo is a designer, leader and chief introvert at The Quiet Achiever (TQA). Best known for saying complex things simply.<br /><br />16 years a designer, design leader. 40 years an introvert.
               </p>
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <h3>Being an introvert in a world that desires the extrovert ideal is hard.</h3>
               <p>
-                Being an introvert in a world that desires the extrovert ideal is hard. 
-              </p>
-              <p>
-                Like you, I struggled to manage my introversion. <br />For years, I read self-help books on public speaking. I modeled social butterflies at networking events. I watched in awe as company leaders delivered speeches effortlessly.
+                Like you, I struggled to manage my introversion.<br /><br />For years, I read self-help books on public speaking. I modeled social butterflies at networking events. I watched in awe as company leaders delivered speeches effortlessly.
               </p>
               <h3>I thought: if I tried hard enough I could be like them.</h3>
               <p>
-              Mostly, it didn't work. When it did work, I was exhausted pretending to be someone else. It always felt unnatural.<br />Maybe there was something wrong with me. Maybe I wasn't good enough. 
+              Mostly, it didn't work.<br /><br />When it did work, I was exhausted pretending to be someone else. It always felt unnatural.<br /><br />Maybe there was something wrong with me. Maybe I wasn't good enough. 
               </p>
-              <h3>Yet, the lion inside me _just_ would not shut up.</h3>
+              <h3>Yet, the lion inside me <i>just</i> would not shut up.</h3>
               <p>
-                There had to be a better way.<br />I did not realise it at the time. But I took the best of what I learned. I stopped pretending and started practicing, making those techniques my own.<br />Which brings us to The Quiet Achiever. 
+                There had to be a better way.<br /><br />I did not realise it at the time. But I took the best of what I learned. I stopped pretending and started practicing, making those techniques my own.<br /><br />Which brings us to The Quiet Achiever. 
               </p>
               <h3>The Quiet Achiever's mission is to help introverts have impact and influence without pretending to be extroverts.</h3>
               <p>
-              Maybe you are tired of keeping quiet in meetings even though you have something to say.<br />Perhaps you wish you were better at networking and didn't find it awkward and embarrassing.<br />Or maybe you just wish you were more visible in your organisation because you know how have something value to say; if only people heard you.<br />There is a better way; and you don't have to do it alone; cos' we're here.
+              Maybe you are tired of keeping quiet in meetings even though you have something to say.<br />Perhaps you wish you were better at networking and didn't find it awkward and embarrassing.<br />Or maybe you just wish you were more visible in your organisation because you know how have something value to say; if only people heard you.<br /><br />There is a better way; and you don't have to do it alone.<br /><br />Welcome to The Quiet Achiever.
               </p>
             </div>
           </div>
