@@ -18,21 +18,21 @@ export default function Example() {
                     <p className="mt-5 prose prose-indigo text-gray-500">
                       <ul role="list">
                         <li>Sophie Matrai - former stutter, now mentor and coach-in-training</li>
-                        <li>Jim Lim - Singer, Songwriter, Performer</li>
+                        <li>Jim Lim 林倛玉 - Singer, Songwriter, Performer</li>
                         <li>Diane Tarshis - Entrepreneur, startup advisor, coach, introvert</li>
-                        <li>Emily Chardac - Chief People Officer, Board Advisor x-Square, Mozilla, introvert</li>
-                        <li>Mark Ledsham - Chief Operating Officer, Executive</li>
                         <li>Larry Cornett - Leadership coach, Business Advisor, x-Yahoo x-eBay Design leader</li>
-                        <li>Rebecca James - CEO, Marketer, Mom, introvert</li>
                         <li>Mags Hanley - Author-Career architecture, Speaker, Coach, Extrovert, Leader of introverts</li>
                         <li>Jason Mesut - Coach, Design leader, introvert</li>
-                        <li>John Cutler - Product leader, designer</li>
                         <li>Ryan Rumsey - Author-Business thinking for designers, Founder, x-Apple x-Electronic Arts, x-Nestle</li>
                         {/* 
                         <li>Jonathon Colman - Design leader, keynote speaker, introvert</li>
                         <li>Margaret Lee - Leadership Coach, x-Google x-Yahoo Design leader, introvert</li>
+                        <li>John Cutler - Product leader, designer</li>
                         <li>Bob Baxley - SVP Design Thoughtspot, x-Apple x-Pinterest x-Yahoo, introvert</li>
                         <li>Christina Wodtke - </li>
+                        <li>Rebecca James - CEO, Marketer, Mom, introvert</li>
+                        <li>Emily Chardac - Chief People Officer, Board Advisor x-Square, Mozilla, introvert</li>
+                        <li>Mark Ledsham - Chief Operating Officer, Executive</li>
                         */}
                       </ul> 
                     </p>
