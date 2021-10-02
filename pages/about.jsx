@@ -61,7 +61,7 @@ export default function AboutPage() {
                     className="rounded-lg shadow-lg object-cover object-center"
                     /* src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80" */
                     src="src/about-timyeo.jpg"
-                    alt="tim yeo speaking on stage at IxDA Milan 2020 about Design leadership for introverty"
+                    alt="Tim speaking on stage at IxDA Milan 2020 about Design leadership for introverts"
                     width={1184}
                     height={1376}
                   />
@@ -94,7 +94,7 @@ export default function AboutPage() {
               </p>
               <h3>The Quiet Achiever's mission is to help introverts have impact and influence without pretending to be extroverts.</h3>
               <p>
-              Maybe you are tired of keeping quiet in meetings even though you have something to say.<br />Perhaps you wish you were better at networking and didn't find it awkward and embarrassing.<br />Or maybe you just wish you were more visible in your organisation because you know how have something value to say; if only people heard you.<br /><br />There is a better way; and you don't have to do it alone.<br /><br />Welcome to The Quiet Achiever.
+              Maybe you are tired of keeping quiet in meetings even though you have something to say.<br /><br />Perhaps you wish you were better at networking and didn't find it awkward and embarrassing.<br /><br />Or maybe you just wish you were more visible in your organisation because you know how have something value to say; if only people heard you.<br /><br />There is a better way; and you don't have to do it alone.<br /><br />Welcome to The Quiet Achiever.
               </p>
             </div>
           </div>
