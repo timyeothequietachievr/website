@@ -134,7 +134,7 @@ export function usePaymentOptions() {
     price,
     currencyName,
     periodName
-  } = paymentOptionsMatrix[selectedCurrency][selectedPeriod][selectedGroupCourse1];
+  } = paymentOptionsMatrix[selectedCurrency][selectedPeriod];
 
   function onCurrencyChanged(currency) {
     setSelectedCurrency(currency)
