@@ -51,8 +51,8 @@ export default function Example() {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://www.youtube.com/embed/QRn5SFM97pA"
-                /* src="src/demoVideo.gif" */
+                /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
+                src="src/demoVideo.gif"
                 alt="Inbox user interface"
               />
             </div>
