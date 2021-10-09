@@ -16,6 +16,12 @@ export function usePaymentOptions() {
         currencyName: 'AUD',
         periodName: 'mo',
       }
+      /* groupcourse1: {
+        stripeLink: 'https://stripe.com/aud/groupcourse1',
+        price: 695,
+        currencyName: 'AUD',
+        periodName: 'course',
+      } */
     },
     usd: {
       monthly: {
@@ -30,6 +36,12 @@ export function usePaymentOptions() {
         currencyName: 'USD',
         periodName: 'mo',
       }
+      /* groupcourse1: {
+        stripeLink: 'https://stripe.com/usd/groupcourse1',
+        price: 499,
+        currencyName: 'USD',
+        periodName: 'course',
+      } */
     },
     cad: {
       monthly: {
@@ -44,6 +56,12 @@ export function usePaymentOptions() {
         currencyName: 'CAD',
         periodName: 'mo',
       }
+      /*groupcourse1: {
+        stripeLink: 'https://stripe.com/cad/groupcourse1',
+        price: 645,
+        currencyName: 'CAD',
+        periodName: 'course',
+      } */
     },
     gbp: {
       monthly: {
@@ -58,6 +76,12 @@ export function usePaymentOptions() {
         currencyName: 'GBP',
         periodName: 'mo',
       }
+      /* groupcourse1: {
+        stripeLink: 'https://stripe.com/gbp/groupcourse1',
+        price: 265,
+        currencyName: 'GBP',
+        periodName: 'course',
+      } */
     },
     eur: {
       monthly: {
@@ -72,6 +96,12 @@ export function usePaymentOptions() {
         currencyName: 'EUR',
         periodName: 'mo',
       }
+      /* groupcourse1: {
+        stripeLink: 'https://stripe.com/aud/groupcourse1',
+        price: 429,
+        currencyName: 'EUR',
+        periodName: 'course',
+      } */
     },
     sgd: {
       monthly: {
@@ -86,18 +116,25 @@ export function usePaymentOptions() {
         currencyName: 'SGD',
         periodName: 'mo',
       }
+      /* groupcourse1: {
+        stripeLink: 'https://stripe.com/aud/groupcourse1',
+        price: 688,
+        currencyName: 'SGD',
+        periodName: 'course',
+      } */
     }
   }
 
   const [selectedCurrency, setSelectedCurrency] = useState('aud')
   const [selectedPeriod, setSelectedPeriod] = useState('monthly')
+  /* const [selectedGroupCourse1, setSelectedGroupCourse1] = useState('groupcourse1') */
 
   const {
     stripeLink,
     price,
     currencyName,
     periodName
-  } = paymentOptionsMatrix[selectedCurrency][selectedPeriod];
+  } = paymentOptionsMatrix[selectedCurrency][selectedPeriod][selectedGroupCourse1];
 
   function onCurrencyChanged(currency) {
     setSelectedCurrency(currency)
@@ -106,10 +143,14 @@ export function usePaymentOptions() {
   function onPeriodChanged(period) {
     setSelectedPeriod(period)
   }
+  /* function onGroupCourse1Changed(groupcourse1) {
+    setSelectedGroupCourse1(groupcourse1)
+  } */
 
   return {
     onCurrencyChanged,
     onPeriodChanged,
+    /* onGroupCourse1Changed, */
     stripeLink,
     currencyName,
     price,
