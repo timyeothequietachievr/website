@@ -125,7 +125,12 @@ export function PaymentOptions({ onCurrencyChanged }) {
         onChange={(event) => onCurrencyChanged(event.target.value)}
       >
         <option value="aud">Australian Dollar (AUD)</option>
+        <option value="usd">US Dollar (USD)</option>
         <option value="cad">Canadian Dollar (CAD)</option>
+        <option value="gbp">British Pound (GBP)</option>
+        <option value="eur">Euro (EUR)</option>
+        <option value="sgd">Singapore Dollar (SGD)</option>
+
       </select>
     </>
   )
