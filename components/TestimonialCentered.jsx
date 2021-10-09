@@ -6,7 +6,7 @@ export default function Example() {
            
   
           <div className="relative">
-            <p class="mt-2 text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">What people are saying</p>
+            <p class="mt-2 text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">What people are saying</p>
             <blockquote className="mt-10">
               <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
                 <p>

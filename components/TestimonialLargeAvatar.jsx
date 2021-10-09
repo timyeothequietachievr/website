@@ -74,8 +74,7 @@ export default function Example() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                    molestiae. Numquam corrupti in laborum sed rerum et corporis.
+                    Tim gave me incredible advice and methods I could use in real-life scenarios. He showed me how to build confidence to speak up in uncomfortable situations. I highly recommend.
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -83,13 +82,13 @@ export default function Example() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="src/profile-ezra.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                         alt=""
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Judith Black</div>
-                      <div className="text-base font-medium text-indigo-600">CEO, Tuple</div>
+                      <div className="text-base font-medium text-gray-900">Ezra Ju</div>
+                      <div className="text-base font-medium text-indigo-600">UX Designer, 86 400</div>
                     </div>
                   </div>
                 </footer>

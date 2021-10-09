@@ -8,7 +8,7 @@ import Pricing from '../components/Pricing'
 import WhatDoYouGet from '../components/WhatDoYouGet'
 import Testimonials from '../components/Testimonials'
 import TestimonialCentered from '../components/TestimonialCentered'
-/* import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar' */
+import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar'
 
 export default function IndexPage() {
   return (
@@ -17,6 +17,7 @@ export default function IndexPage() {
       <BeingIntrovertHard />
       <WhatYouWillLearn />
       <TestimonialCentered />
+      <TestimonialLargeAvatar />
       <WhatIsIncluded />
       <Feature1 />
       <Feature2 />
