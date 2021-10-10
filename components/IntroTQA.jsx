@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function Example() {
     return (
-      <div className="relative bg-indigo-800">
+      <div className="relative bg-indigo-700">
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover"

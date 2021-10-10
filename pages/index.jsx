@@ -9,7 +9,7 @@ import WhatDoYouGet from '../components/WhatDoYouGet'
 import Testimonials from '../components/Testimonials'
 import TestimonialCentered from '../components/TestimonialCentered'
 import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar'
-import TestimonialLargeAvatar from '../components/IntroTQA'
+import IntroTQA from '../components/IntroTQA'
 
 export default function IndexPage() {
   return (
