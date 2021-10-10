@@ -48,13 +48,26 @@ export default function BeingIntrovertHard() {
                   <li>In meetings, do you keep quiet even though you have something to say?</li>
                 </ul>
                 <p>
-                Most introverts struggle in silence, pretending to be extroverted. That may work for a while, but it's tiring and always feels unnatural. 
+                Like me, most introverts struggle in silence, or pretend to be extroverted. The result was always the same: I was tired pretending to be someone else.  
                 </p>
+                <h3>I struggled to manage, then I learned how</h3>
+                  <p>For years:</p>
+                <ul role="list">
+                  <li>I read self-help books on public speaking</li>
+                  <li>I modeled social butterflies at networking events</li>
+                  <li>I thought: if I tried hard enough I could be like them</li>
+                </ul>
                 <p>
-                We'll show you how to turn your quiet traits into <strong>superpowers</strong>, while remaining true to your authentic self. 
-                </p>
-                <p>
-                You don't have to do it alone.  
+                Mostly, it didn't work. When it did work, it always felt unnatural. 
+                
+                Maybe: 
+                <ul role="list">
+                  <li>there was something wrong with me</li>
+                  <li>I wasn't good enough</li>
+                  <li>In meetings, do you keep quiet even though you have something to say?</li>
+                </ul>
+                But the lion inside me _just_ would not shut up. 
+                There had to be a better way. 
                 </p>
               </div>
             </div>
