@@ -54,9 +54,9 @@ export default function BeingIntrovertHard() {
                 For years, I read self-help books, modeled others and thought: if I tried hard enough I could be like them. Mostly, it didn't work. If it did work, it always felt unnatural.    
                 </p>
                 <p>
-                I thought: maybe there was something wrong with me; maybe I wasn't good enough.    
+                I thought: what's wrong with me? Maybe I wasn't good enough. Maybe I should be content in my own shell.  
                 </p>
-                <h3>But the lion inside me _just_ would not shut up.</h3>
+                <h3>But the lion inside me <i>just</i> would not shut up.</h3>
                   <p>There had to be a better way.</p>
               </div>
             </div>
