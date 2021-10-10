@@ -16,7 +16,6 @@ export default function IndexPage() {
       <Masthead />
       <BeingIntrovertHard />
       <WhatYouWillLearn />
-      <TestimonialCentered />
       <TestimonialLargeAvatar />
       <WhatIsIncluded />
       <Feature1 />
