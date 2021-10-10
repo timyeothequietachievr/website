@@ -48,27 +48,16 @@ export default function BeingIntrovertHard() {
                   <li>In meetings, do you keep quiet even though you have something to say?</li>
                 </ul>
                 <p>
-                Like me, most introverts struggle in silence, or pretend to be extroverted. The result was always the same: I was tired pretending to be someone else.  
+                Like me, most introverts struggle in silence, or pretend to be extroverted.   
                 </p>
-                <h3>I struggled to manage, then I learned how</h3>
-                  <p>For years:</p>
-                <ul role="list">
-                  <li>I read self-help books on public speaking</li>
-                  <li>I modeled social butterflies at networking events</li>
-                  <li>I thought: if I tried hard enough I could be like them</li>
-                </ul>
                 <p>
-                Mostly, it didn't work. When it did work, it always felt unnatural. 
-                
-                Maybe: 
-                <ul role="list">
-                  <li>there was something wrong with me</li>
-                  <li>I wasn't good enough</li>
-                  <li>In meetings, do you keep quiet even though you have something to say?</li>
-                </ul>
-                But the lion inside me _just_ would not shut up. 
-                There had to be a better way. 
+                For years, I read self-help books, modeled others and thought: if I tried hard enough I could be like them. Mostly, it didn't work. If it did work, it always felt unnatural.    
                 </p>
+                <p>
+                I thought: maybe there was something wrong with me; maybe I wasn't good enough.    
+                </p>
+                <h3>But the lion inside me _just_ would not shut up.</h3>
+                  <p>There had to be a better way.</p>
               </div>
             </div>
           </div>
