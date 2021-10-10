@@ -8,6 +8,21 @@ module.exports = {
                 indigo: {
                     850: '#022351',
                     950: '#011632'
+                },
+                blue: {
+                    850: '#1441FA',
+                    950: '#103AE5'
+                },
+                red: {
+                    850: '#FA2A37',
+                    950: '#E52531'
+                },
+                yellow: {
+                    850: '#FFB700'
+                },
+                gray: {
+                    850: '#FEF8F1',
+                    950: '#EBEBEB'
                 }
                 // 'tqa-blue-dark': '#022351',
                 // 'tqa-blue-darker': '#011632',
