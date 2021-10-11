@@ -10,7 +10,7 @@ export default function Example() {
             <span className="md:hidden">🎁 Gift a membership. 1, 3 or 12 months.</span>
             <span className="hidden md:inline">🎁 Gift a membership. 1, 3 or 12 months.</span>
             <span className="block sm:ml-2 sm:inline-block">
-              <a href="#pricing" className="text-white font-bold underline">
+              <a href="#gift" className="text-white font-bold underline">
                 {' '}
                 see pricing<span aria-hidden="true">&rarr;</span>
               </a>
