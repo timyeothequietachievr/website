@@ -59,8 +59,9 @@ export default function Example() {
             </div>
   
             <div className="relative lg:ml-10">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
               <svg
-                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 144 144"
@@ -82,7 +83,7 @@ export default function Example() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="src/profile-ezra.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                         alt=""
                       />
                     </div>
@@ -147,14 +148,14 @@ export default function Example() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <img
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="src/profile-ezra.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="src/profile-leonardo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt=""
               />
             </div>
   
             <div className="relative lg:ml-10">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 144 144"
@@ -168,7 +169,7 @@ export default function Example() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                    Tim gave me incredible advice and methods I could use in real-life scenarios. He showed me how to build confidence to speak up in uncomfortable situations. I highly recommend.
+                  Watching Tim's videos is like listening to a supportive, knowledgeable, empathetic friend. Tim gave me incredible advice and methods I could use in real-life scenarios. I highly recommend.
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -176,13 +177,13 @@ export default function Example() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="src/profile-leonardo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                         alt=""
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Ezra Ju</div>
-                      <div className="text-base font-medium text-indigo-600">UX Designer, 86 400</div>
+                      <div className="text-base font-medium text-gray-900">Leonardo Mattei</div>
+                      <div className="text-base font-medium text-indigo-600">Principal Product Designer, Financial Times</div>
                     </div>
                   </div>
                 </footer>
