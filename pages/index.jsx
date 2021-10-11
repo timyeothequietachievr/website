@@ -10,6 +10,7 @@ import Testimonials from '../components/Testimonials'
 import TestimonialCentered from '../components/TestimonialCentered'
 import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar'
 import IntroTQA from '../components/IntroTQA'
+import Gift from '../components/Gift'
 
 export default function IndexPage() {
   return (
@@ -25,6 +26,7 @@ export default function IndexPage() {
       <Feature2 />
       <Pricing />
       <Testimonials />
+      <Gift />
     </>
   )
 }
