@@ -61,14 +61,14 @@ export default function Example() {
                     24/7 online community of introverts
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500"> 
-                    Share with fellow introverts for learning and support. Online and in-app. Cos' some things are more fun together. 
+                    Share with fellow introverts for learning and support. Get notified of updates and replies. <br />Online and in-app.  
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://circle.so/ios"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Get started
+                    Download iOS app
                   </a>
                 </div>
               </div>
