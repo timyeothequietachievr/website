@@ -79,8 +79,9 @@ export default function Example() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
-                src="src/TQA-community.png"
-                alt="Customer profile user interface"
+                /* src="src/TQA-community.png" */
+                src="https://cdn.circle.so/508o0openexv1eou9nwmuxu8u6sg"
+                alt="24/7 community of introverts via web or iOS app"
               />
             </div>
           </div>
