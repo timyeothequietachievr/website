@@ -18,10 +18,10 @@ export default function Example() {
         <div className="text-center">
           <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">🎁</h2>
           <p className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-            Gift a membership
+            Gift a gift
           </p>
           <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-            Pay only for the period and recievers renew after. 
+            to an introvert friend or colleague you know. 
           </p>
         </div>
       </div>
