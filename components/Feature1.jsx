@@ -12,7 +12,7 @@ export default function Example() {
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   60+ videos on-demand
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
                 </p>
                 <div className="mt-6">
@@ -24,27 +24,6 @@ export default function Example() {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="mt-8 border-t border-gray-200 pt-6">
-              <blockquote>
-                <div>
-                  <p className="text-base text-gray-500">
-                    &ldquo;Watching Tim's videos is like listening to a supportive, knowledgeable, empathetic friend.  Tim gave me incredible advice and methods I could use in real-life scenarios. I highly recommend.&rdquo;
-                  </p>
-                </div>
-                <footer className="mt-3">
-                  <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-6 w-6 rounded-full"
-                        src="src/profile-leonardo.jpg?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt=""
-                      />
-                    </div>
-                    <div className="text-base font-medium text-gray-700">Leonardo Mattei, Principal Product Designer, Financial Times</div>
-                  </div>
-                </footer>
-              </blockquote>
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
@@ -67,7 +46,7 @@ export default function Example() {
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   Weekly office hours
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-5 prose prose-indigo text-gray-500">
                   Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want.
                 </p>
               </div>

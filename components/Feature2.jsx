@@ -12,7 +12,7 @@ export default function Example() {
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                     Monthly guest speakers
                     </h2>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <p className="mt-5 prose prose-indigo text-gray-500">
                     Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.<br /><br />2022 guest speakers include:
                     </p>
                     <p className="mt-5 prose prose-indigo text-gray-500">
@@ -60,7 +60,7 @@ export default function Example() {
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                     24/7 online community of introverts
                 </h2>
-                <p className="mt-4 text-lg text-gray-500"> 
+                <p className="mt-5 prose prose-indigo text-gray-500"> 
                     Share with fellow introverts for learning and support. Online and in-app. Cos' some things are more fun together. 
                 </p>
                 <div className="mt-6">

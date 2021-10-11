@@ -8,7 +8,7 @@ export default function Example() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-2 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   What you will learn:
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
