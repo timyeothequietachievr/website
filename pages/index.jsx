@@ -1,4 +1,3 @@
-import Toaster from '../components/Toaster'
 import Masthead from '../components/Masthead'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearn from '../components/WhatYouWillLearn'
@@ -15,7 +14,7 @@ import IntroTQA from '../components/IntroTQA'
 export default function IndexPage() {
   return (
     <>
-      <Toaster />
+      
       <Masthead />
       <BeingIntrovertHard />
       <IntroTQA />
