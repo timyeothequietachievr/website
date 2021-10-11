@@ -6,12 +6,12 @@ import { PaymentOptions, usePaymentOptions, PeriodToggle } from '../components/p
 const pricing = {
   tiers: [
     {
-      title: 'Video On-Demand',
+      title: 'Basic',
       price: 19.99,
       frequency: '/month',
       description: 'or $195 billed yearly (save $45)',
       features: [
-        'Full access to 50+ videos of techniques (more added over time)',
+        'Full access 60+ videos on demand (more added over time)',
         'Weekly office hours',
         'Monthly guest speakers',
         '24/7 online community of introverts'
