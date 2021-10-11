@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Shell from '../components/Shell'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import Toaster from '../components/Toaster'
 
 import 'tailwindcss/tailwind.css'
 
@@ -35,6 +36,7 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       
+      <Toaster />
       <Navigation items={navigationItems} loginLink={loginLink} />
       <Component {...pageProps} />
       <Footer />
