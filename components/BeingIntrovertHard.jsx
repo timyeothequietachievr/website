@@ -56,7 +56,7 @@ export default function BeingIntrovertHard() {
                 <p>
                 I thought: what's wrong with me? Maybe I wasn't good enough. Maybe I should be content in my own shell.  
                 </p>
-                <h3>But the lion inside me <i>just</i> would not shut up.</h3>
+                <h3>But the voice inside me <i>just</i> refused to give up.</h3>
                   <p>There had to be a better way.</p>
               </div>
             </div>
