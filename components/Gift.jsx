@@ -41,10 +41,10 @@ export default function Example() {
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                            <span className="font-extrabold">79</span>
+                            <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
+                            <span className="font-extrabold">14.99</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">/month</span>
+                          <span className="text-xl font-medium text-gray-500"></span>
                         </div>
                       </div>
                     </div>
@@ -66,7 +66,7 @@ export default function Example() {
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
-                            Start your trial
+                            Gift Now
                           </a>
                         </div>
                       </div>
@@ -83,21 +83,21 @@ export default function Example() {
                   <div className="absolute inset-x-0 top-0 transform translate-y-px">
                     <div className="flex justify-center transform -translate-y-1/2">
                       <span className="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
-                        3 months 🎁
+                        Most Popular
                       </span>
                     </div>
                   </div>
                   <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
                       <h3 className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
-                        Growth
+                      3 months 🎁
                       </h3>
                       <div className="mt-4 flex items-center justify-center">
                         <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
-                          <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                          <span className="font-extrabold">149</span>
+                          <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
+                          <span className="font-extrabold">39.99</span>
                         </span>
-                        <span className="text-2xl font-medium text-gray-500">/month</span>
+                        <span className="text-2xl font-medium text-gray-500"></span>
                       </div>
                     </div>
                   </div>
@@ -119,7 +119,7 @@ export default function Example() {
                           className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                           aria-describedby="tier-growth"
                         >
-                          Start your trial
+                          Gift Now
                         </a>
                       </div>
                     </div>
@@ -136,10 +136,10 @@ export default function Example() {
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                            <span className="font-extrabold">349</span>
+                            <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
+                            <span className="font-extrabold">139.99</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">/month</span>
+                          <span className="text-xl font-medium text-gray-500"></span>
                         </div>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ export default function Example() {
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
-                            Start your trial
+                            Gift Now
                           </a>
                         </div>
                       </div>
