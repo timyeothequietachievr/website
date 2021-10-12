@@ -15,7 +15,6 @@ import Gift from '../components/Gift'
 export default function IndexPage() {
   return (
     <>
-      
       <Masthead />
       <BeingIntrovertHard />
       <IntroTQA />

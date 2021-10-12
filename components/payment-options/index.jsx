@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Switch } from '@headlessui/react'
 
-export function usePaymentOptions() {
+export function usePaymentOptions({ setPricing }) {
   const paymentOptionsMatrix = {
     aud: {
       monthly: {
@@ -9,12 +9,23 @@ export function usePaymentOptions() {
         price: 19.99,
         currencyName: 'AUD',
         periodName: 'mo',
+        totalPerYear: 239.88,
+      },
+      quarterly: {
+        stripeLink: 'https://stripe.com/aud/yearly',
+        price: 17.99,
+        currencyName: 'AUD',
+        periodName: 'mo',
+        totalPerYear: 215.96,
+        savingComparedToMontly: '10%',
       },
       yearly: {
         stripeLink: 'https://stripe.com/aud/yearly',
         price: 15.99,
         currencyName: 'AUD',
         periodName: 'mo',
+        annualPriceCoefficient: 189.99,
+        savingComparedToMontly: '20%',
       }
       /* groupcourse1: {
         stripeLink: 'https://stripe.com/aud/groupcourse1',
@@ -135,6 +146,15 @@ export function usePaymentOptions() {
     currencyName,
     periodName
   } = paymentOptionsMatrix[selectedCurrency][selectedPeriod];
+  
+  useEffect(() => {
+    setPricing({
+      currency: selectedCurrency,
+      unit: selectedPeriod,
+      price,
+    })
+  }, [selectedCurrency, selectedPeriod, price, setPricing])
+
 
   function onCurrencyChanged(currency) {
     setSelectedCurrency(currency)
@@ -214,4 +234,32 @@ export function PeriodToggle({ onPeriodChanged }) {
       </Switch.Label>
     </Switch.Group>
   )
+}
+
+export function PeriodToggleExtended({ onPeriodChanged }) {
+  return (
+    <span className="relative z-0 inline-flex shadow-sm rounded-md">
+      <button
+        onClick={() => onPeriodChanged('monthly')}
+        type="button"
+        className="relative inline-flex items-center px-4 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+      >
+        Monthly
+      </button>
+      <button
+        onClick={() => onPeriodChanged('quarterly')}
+        type="button"
+        className="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+      >
+        Quarterly
+      </button>
+      <button
+        onClick={() => onPeriodChanged('yearly')}
+        type="button"
+        className="-ml-px relative inline-flex items-center px-4 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+      >
+        Yearly
+      </button>
+    </span>
+  );
 }

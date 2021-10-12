@@ -1,7 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/outline'
 
-import { PaymentOptions, usePaymentOptions, PeriodToggle } from '../components/payment-options'
+import { PaymentOptions, usePaymentOptions, PeriodToggleExtended } from '../components/payment-options'
+import { PricingDisplay } from './pricing-utils/Display';
+import { PricingContext } from './pricing-utils/Context';
+import { useContext } from 'react';
 
 const pricing = {
   tiers: [
@@ -41,6 +44,7 @@ function classNames(...classes) {
 }
 
 export default function Pricing() {
+  const { setPricing } = useContext(PricingContext);
   const {
     stripeLink,
     currencyName,
@@ -48,16 +52,17 @@ export default function Pricing() {
     periodName,
     onCurrencyChanged,
     onPeriodChanged
-  } = usePaymentOptions();
+  } = usePaymentOptions({ setPricing });
 
   return (
     <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8" id="pricing">
       <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-        Pricing starts at {currencyName} {price}/{periodName}
+        Pricing starts at <PricingDisplay />
       </h2>
       <p className="mt-6 max-w-2xl text-xl text-gray-500">
         Learn on your own or in a group. You choose. 
       </p>
+
       <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
 
       {/* Tiers */}
@@ -70,7 +75,7 @@ export default function Pricing() {
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
                 {tier.title}
-                {idx === 0 ? <PeriodToggle onPeriodChanged={onPeriodChanged} /> : null}
+                {idx === 0 ? <PeriodToggleExtended onPeriodChanged={onPeriodChanged} /> : null}
               </h3>
               {tier.mostPopular ? (
                 <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
