@@ -1,23 +1,5 @@
-/*
-import moneypay from '../src/moneypay.png';
-import moneypay from './src/TQA-meme-moneypay.svg'
-import TQA-meme-moneypay from './src/TQA-meme-moneypay.svg'
+import {PricingDisplay} from './pricing-utils/Display'
 
-This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
-*/
 export default function BeingIntrovertHard() {
     return (
       <div className="relative bg-white">
@@ -38,6 +20,8 @@ export default function BeingIntrovertHard() {
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Being an introvert is hard in a noisy world
               </h3>
+
+
               <p className="mt-8 text-lg text-gray-500">
               
               </p>

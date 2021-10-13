@@ -1,3 +1,5 @@
+import { PricingDisplay } from "./pricing-utils/Display";
+
 export default function Masthead() {
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">

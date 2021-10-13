@@ -12,11 +12,11 @@ import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
+import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
   return (
-    <>
-      
+    <PricingContextProvider>
       <Masthead />
       <BeingIntrovertHard />
       <IntroTQA />
@@ -29,6 +29,6 @@ export default function IndexPage() {
       <Pricing />
       <Testimonials />
       <Gift />
-    </>
+    </PricingContextProvider>
   )
 }
