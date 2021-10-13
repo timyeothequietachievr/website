@@ -8,7 +8,8 @@ import Pricing from '../components/Pricing'
 import WhatDoYouGet from '../components/WhatDoYouGet'
 import Testimonials from '../components/Testimonials'
 import TestimonialCentered from '../components/TestimonialCentered'
-import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar'
+import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
+import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
@@ -20,9 +21,10 @@ export default function IndexPage() {
       <BeingIntrovertHard />
       <IntroTQA />
       <WhatYouWillLearn />
-      <TestimonialLargeAvatar />
+      <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
       <Feature1 />
+      <TestimonialLargeAvatar2 />
       <Feature2 />
       <Pricing />
       <Testimonials />
