@@ -1,6 +1,5 @@
 import Head from 'next/head'
 
-import Shell from '../components/Shell'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import Toaster from '../components/Toaster'

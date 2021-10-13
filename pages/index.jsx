@@ -11,10 +11,11 @@ import TestimonialCentered from '../components/TestimonialCentered'
 import TestimonialLargeAvatar from '../components/TestimonialLargeAvatar'
 import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
+import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
   return (
-    <>
+    <PricingContextProvider>
       <Masthead />
       <BeingIntrovertHard />
       <IntroTQA />
@@ -26,6 +27,6 @@ export default function IndexPage() {
       <Pricing />
       <Testimonials />
       <Gift />
-    </>
+    </PricingContextProvider>
   )
 }

@@ -1,8 +1,13 @@
-import { useContext } from "react";
-import { PricingContext } from "./Context";
+import { PricingContextConsumer } from './Context'
 
 export function PricingDisplay() {
-  const { price, unit, currency } = useContext(PricingContext);
-
-  return <p><strong>Price: {price}</strong> {currency}/{unit}</p>
+  return (
+    <PricingContextConsumer>
+      {({ state }) => (
+        <>
+          <strong>{state.price}</strong> {state.currency.toUpperCase()}/{state.unit}
+        </>
+      )}
+    </PricingContextConsumer>
+  )
 }

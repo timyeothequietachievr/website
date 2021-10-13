@@ -21,7 +21,6 @@ export default function BeingIntrovertHard() {
                 Being an introvert in a noisy world is hard
               </h3>
 
-              <PricingDisplay />
 
               <p className="mt-8 text-lg text-gray-500">
               

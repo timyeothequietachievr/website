@@ -30,8 +30,6 @@ export default function Masthead() {
               ▶️ Watch Intro
             </a>
           </div>
-
-          <PricingDisplay />
         </div>
       </div>
     </section>
