@@ -49,7 +49,7 @@ export default function Pricing() {
             >
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-gray-900">
-                  {tier.title     }
+                  {tier.title}
                   {idx === 0 ? (
                     <PeriodToggleExtended
                       onPeriodChanged={onSubscriptionPeriodChanged}
