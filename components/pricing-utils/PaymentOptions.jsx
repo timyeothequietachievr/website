@@ -70,21 +70,21 @@ export function PeriodToggleExtended({ onPeriodChanged, subscriptionPeriod }) {
       <button
         onClick={() => onPeriodChanged('monthly')}
         type="button"
-        className={`relative inline-flex items-center px-4 py-2 rounded-l-md border ${getBorderClassName('monthly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
+        className={`relative inline-flex items-center px-4 py-1 rounded-l-md border ${getBorderClassName('monthly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
       >
         Monthly
       </button>
       <button
         onClick={() => onPeriodChanged('quarterly')}
         type="button"
-        className={`-ml-px relative inline-flex items-center px-4 py-2 border ${getBorderClassName('quarterly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
+        className={`-ml-px relative inline-flex items-center px-4 py-1 border ${getBorderClassName('quarterly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
       >
         Quarterly
       </button>
       <button
         onClick={() => onPeriodChanged('yearly')}
         type="button"
-        className={`-ml-px relative inline-flex items-center px-4 py-2 rounded-r-md border ${getBorderClassName('yearly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
+        className={`-ml-px relative inline-flex items-center px-4 py-1 rounded-r-md border ${getBorderClassName('yearly')} bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500`}
       >
         Yearly
       </button>

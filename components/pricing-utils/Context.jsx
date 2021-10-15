@@ -7,7 +7,7 @@ const initialState = {
   price: 19.99,
   tiers: [
     {
-      title: 'Basic  ',
+      title: 'Basic     ',
       features: [
         'Full access 60+ videos on demand (more added over time)',
         'Weekly office hours',
