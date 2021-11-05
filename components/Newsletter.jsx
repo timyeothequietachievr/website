@@ -23,8 +23,7 @@ export default function Newsletter() {
               Sign up for our newsletter
             </h2>
             <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat.
+              shortly.
             </p>
           </div>
           <div className="mt-8 lg:mt-0 lg:ml-8">
