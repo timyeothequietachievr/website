@@ -64,7 +64,7 @@ const initialState = {
           },
           quarterly: {
             stripeLink: 'https://stripe.com/aud/quarterly',
-            price: 13.49,
+            price: 13.33,
             currencyName: 'USD',
             periodName: 'mo',
             totalPerYear: 161.88,
