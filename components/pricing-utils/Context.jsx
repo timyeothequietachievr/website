@@ -32,7 +32,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 215.96,
             saving: {
-              absolute: 23,
+              absolute: 24,
               relative: '10%'
             }
           },
@@ -43,7 +43,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 189.99,
             saving: {
-              absolute: '215.96',
+              absolute: '50',
               relative: '20%'
             }
           }
@@ -69,7 +69,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 161.88,
             saving: {
-              absolute: 24,
+              absolute: 20,
               relative: '10%'
             }
           },
@@ -80,7 +80,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 143.88,
             saving: {
-              absolute: 48,
+              absolute: 40,
               relative: '20%'
             }
           }
@@ -100,7 +100,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 203.88,
             saving: {
-              absolute: 25,
+              absolute: 28,
               relative: '10%'
             }
           },
@@ -111,7 +111,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 179.88,
             saving: {
-              absolute: 50,
+              absolute: 40,
               relative: '20%'
             }
           }
@@ -131,7 +131,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 107.88,
             saving: {
-              absolute: 26,
+              absolute: 12,
               relative: '10%'
             }
           },
@@ -140,9 +140,9 @@ const initialState = {
             price: 7.99,
             currencyName: 'GBP',
             periodName: 'mo',
-            totalPerYear: 95.88,
+            totalPerYear: 95.99,
             saving: {
-              absolute: 52,
+              absolute: 24,
               relative: '20%'
             }
           }
@@ -162,7 +162,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 143.88,
             saving: {
-              absolute: 27,
+              absolute: 16,
               relative: '10%'
             }
           },
@@ -173,7 +173,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 131.88,
             saving: {
-              absolute: 54,
+              absolute: 32,
               relative: '20%'
             }
           }
@@ -193,7 +193,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 214.56,
             saving: {
-              absolute: 28,
+              absolute: 27,
               relative: '10%'
             }
           },
@@ -204,7 +204,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 190.56,
             saving: {
-              absolute: 56,
+              absolute: 50,
               relative: '20%'
             }
           }
