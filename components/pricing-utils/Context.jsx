@@ -293,7 +293,7 @@ const initialState = {
         },
       },
       localisedPrice(currency) {
-        return (nul);
+        null;
       },
       localisedStripeLink(currency) {
         return this.variants[currency].stripeLink;
