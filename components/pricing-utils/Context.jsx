@@ -292,8 +292,8 @@ const initialState = {
           stripeLink: 'https//tqa.stripe.com/course/eur',
         },
       },
-      localisedPrice(currency) {
-        null;
+      localisedPrice() {
+        return (null);
       },
       localisedStripeLink(currency) {
         return this.variants[currency].stripeLink;
