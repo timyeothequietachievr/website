@@ -43,7 +43,7 @@ const initialState = {
             periodName: 'mo',
             totalPerYear: 189.99,
             saving: {
-              absolute: 46,
+              absolute: 'total 215.96',
               relative: '20%'
             }
           }
