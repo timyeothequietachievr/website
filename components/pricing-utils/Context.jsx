@@ -39,7 +39,7 @@ const initialState = {
           yearly: {
             stripeLink: 'https://stripe.com/aud/yearly',
             price: 15.99,
-            currencyName: 'AUD',
+            currencyName: 'AUD yearly',
             periodName: 'mo',
             totalPerYear: 189.99,
             saving: {
