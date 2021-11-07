@@ -255,49 +255,6 @@ const initialState = {
       localisedStripeLink(currency) {
         return this.variants[currency].stripeLink;
       },
-    },
-    {
-      title: '',
-      frequency: 'Scholarships and discounts',
-      description: 'Everyone deserves a fair chance.',
-      features: [
-        'For every 10 product purchases, 1 free scholarship to a minority, disadvantaged person.',
-        'If you can pay but your currency is at extreme disadvantage (e.g. Brazil, India, Malaysia etc), discounts available for you. ',
-      ],
-      cta: 'Signup for Scholarship or Discount',
-      mostPopular: false,
-      variants: {
-        aud: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/aud',
-        },
-        usd: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/usd',
-        },
-        cad: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/cad',
-        },
-        sgd: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/sgd',
-        },
-        gbp: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/gbp',
-        },
-        eur: {
-          price: '',
-          stripeLink: 'https//tqa.stripe.com/course/eur',
-        },
-      },
-      localisedPrice(currency) {
-        return 'this is right';
-      },
-      localisedStripeLink(currency) {
-        return this.variants[currency].stripeLink;
-      },
     }
   ]
 }
