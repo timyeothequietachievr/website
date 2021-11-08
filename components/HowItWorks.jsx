@@ -9,12 +9,9 @@ import {
   } from '@heroicons/react/outline'
   
   const features = [
-    { name: 'Push to Deploy', icon: CloudUploadIcon, para: 'Push to Deploy' },
-    { name: 'SSL Certificates', icon: LockClosedIcon, para: 'Push to Deploy' },
-    { name: 'Simple Queues', icon: RefreshIcon, para: 'Push to Deploy' },
-    { name: 'Advanced Security', icon: ShieldCheckIcon, para: 'Push to Deploy' },
-    { name: 'Powerful API', icon: CogIcon, para: 'Push to Deploy' },
-    { name: 'Database Backups', icon: ServerIcon, para: 'Push to Deploy' },
+    { name: 'Watch', icon: CloudUploadIcon, para: 'Pick a lesson, any lesson. Something you want to learn today. Watch it, watch it again. Learn what you need to do.' },
+    { name: 'Practice', icon: LockClosedIcon, para: 'Try it out. Apply it in the real world. Start low stakes and do it today. Things do not change until you try.' },
+    { name: 'Share', icon: RefreshIcon, para: 'How did it go? Ask questions online or when we meet at weekly office hours. ' },
   ]
   
   export default function Example() {
