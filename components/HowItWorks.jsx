@@ -13,8 +13,8 @@ import {
   
   const features = [
     { name: 'Watch', icon: PlayIcon, para: 'Videos are on-demand. Learn at your own pace, binge watch if you like. Watch them on repeat. You decide how best you learn.' },
-    { name: 'Practice', icon: UserGroupIcon, para: 'Practice at work, practice on your own, or with your loved ones. Find a real life situation where you can practice for real, something just a little outside of your comfort zone.' },
-    { name: 'Share', icon: ShareIcon, para: 'Share what you made or how things went, with people just like you. People who get it. That is what we the community are here for. We will listen, troubleshoot, offer feedback, celebrate your wins and support you when you try again.' },
+    { name: 'Practice', icon: UserGroupIcon, para: 'Practice at work or on your own. Practice for real, a real life situation just a little outside of your comfort zone.' },
+    { name: 'Share', icon: ShareIcon, para: 'Share what you made or how things went, with people just like you. We will celebrate your wins, offer feedback and support when you try again.' },
   ]
   
   export default function Example() {
