@@ -9,20 +9,12 @@ import {
   } from '@heroicons/react/outline'
   
   const features = [
-    { name: 'Push to Deploy', icon: CloudUploadIcon },
-    { name: 'SSL Certificates', icon: LockClosedIcon },
-    { name: 'Simple Queues', icon: RefreshIcon },
-    { name: 'Advanced Security', icon: ShieldCheckIcon },
-    { name: 'Powerful API', icon: CogIcon },
-    { name: 'Database Backups', icon: ServerIcon },
-  ]
-  const descriptions = [
-    { para: 'Push to Deploy' },
-    { para: 'SSL Certificates' },
-    { para: 'Simple Queues' },
-    { para: 'Advanced Security' },
-    { para: 'Powerful API' },
-    { para: 'Database Backups' },
+    { name: 'Push to Deploy', icon: CloudUploadIcon, para: 'Push to Deploy' },
+    { name: 'SSL Certificates', icon: LockClosedIcon, para: 'Push to Deploy' },
+    { name: 'Simple Queues', icon: RefreshIcon, para: 'Push to Deploy' },
+    { name: 'Advanced Security', icon: ShieldCheckIcon, para: 'Push to Deploy' },
+    { name: 'Powerful API', icon: CogIcon, para: 'Push to Deploy' },
+    { name: 'Database Backups', icon: ServerIcon, para: 'Push to Deploy' },
   ]
   
   export default function Example() {
@@ -51,7 +43,7 @@ import {
                       </div>
                       <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">{feature.name}</h3>
                       <p className="mt-5 text-base text-gray-500">
-                        {description.para}
+                        {feature.para}
                       </p>
                     </div>
                   </div>
