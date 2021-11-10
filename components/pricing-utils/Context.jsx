@@ -279,6 +279,10 @@ const initialState = {
           price: 495,
           stripeLink: 'https//tqa.stripe.com/course/eur',
         },
+        pln: {
+          price: 2049,
+          stripeLink: 'https//tqa.stripe.com/course/pln',
+        },
       },
       localisedPrice(currency) {
         return this.variants[currency].price;
