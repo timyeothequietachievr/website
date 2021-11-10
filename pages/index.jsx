@@ -30,7 +30,7 @@ export default function IndexPage() {
       <Feature2 />
       <Pricing />
       <Testimonials />
-      <Gift />
+      {/* <Gift /> */}
     </PricingContextProvider>
   )
 }
