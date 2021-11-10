@@ -35,7 +35,7 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       
-      <Toaster />
+      {/* <Toaster /> */}
       <Navigation items={navigationItems} loginLink={loginLink} />
       <Component {...pageProps} />
       <Footer />
