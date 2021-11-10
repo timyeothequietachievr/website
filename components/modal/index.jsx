@@ -67,7 +67,7 @@ export function IntroVideoModalContents({ ytLink }) {
             as="h3"
             className="text-lg leading-6 font-medium text-gray-900"
           >
-            Intro
+            {/*Intro */}
           </Dialog.Title>
           <div className="mt-2">
             <iframe
