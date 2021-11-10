@@ -1,4 +1,4 @@
-const plugin = require('tailwindcss/plugin')
+/*const plugin = require('tailwindcss/plugin')*/
 
 module.exports = {
     mode: 'jit',
@@ -24,6 +24,6 @@ module.exports = {
     },
     plugins: [
         require('@tailwindcss/typography'), 
-        require('@tailwindcss/aspect-ratio'),
+        /*require('@tailwindcss/aspect-ratio'),*/
     ],
 };
