@@ -1,6 +1,7 @@
-import { PricingDisplay } from "./pricing-utils/Display";
+import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
 export default function Masthead() {
+  const { open, close, isOpened } = useModal();
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">
@@ -23,15 +24,19 @@ export default function Masthead() {
             </a>
           </div>
           <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a
-              href="#"
+            <button
+              type="button"
+              onClick={open}
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
             >
               ▶️ Watch Intro
-            </a>
+            </button>
           </div>
         </div>
       </div>
+      <Modal open={open} close={close} isOpened={isOpened}>
+        <IntroVideoModalContents ytLink="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" />
+      </Modal>
     </section>
   )
 }

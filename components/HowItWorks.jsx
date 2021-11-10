@@ -17,7 +17,7 @@ import {
     { name: 'Share', icon: ShareIcon, para: 'Share what you made or how things went, with people just like you. We will celebrate your wins, offer feedback and support when you try again.' },
   ]
   
-  export default function Example() {
+  export default function HowItWorks() {
     return (
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">

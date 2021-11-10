@@ -1,12 +1,12 @@
 /* This example requires Tailwind CSS v2.0+ */
-export default function Example() {
+export default function TestimonialCentered() {
     return (
       <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
            
   
           <div className="relative">
-            <p class="mt-2 text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">What people are saying</p>
+            <p className="mt-2 text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">What people are saying</p>
             <blockquote className="mt-10">
               <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
                 <p>

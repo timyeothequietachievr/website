@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-export default function Example() {
+export default function TestimonialLargeAvatar1() {
     return (
       <section className="bg-white overflow-hidden">
         <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
@@ -59,7 +59,7 @@ export default function Example() {
             </div>
   
             <div className="relative lg:ml-10">
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"

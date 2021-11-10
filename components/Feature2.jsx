@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function Example() {
+export default function Feature2() {
   return (
     <div className="relative bg-white pt-16 pb-32 overflow-hidden">
       <div className="relative">
@@ -15,7 +15,7 @@ export default function Example() {
                     <p className="mt-5 prose prose-indigo text-gray-500">
                     Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.<br /><br />2022 guest speakers include:
                     </p>
-                    <p className="mt-5 prose prose-indigo text-gray-500">
+                    <div className="mt-5 prose prose-indigo text-gray-500">
                       <ul role="list">
                         <li>Sophie Matrai - former stutter, now mentor and coach-in-training</li>
                         <li>Bob Baxley - SVP Design Thoughtspot, x-Apple x-Pinterest x-Yahoo, introvert</li>
@@ -35,7 +35,7 @@ export default function Example() {
                         <li>Mark Ledsham - Chief Operating Officer, Executive</li>
                         */}
                       </ul> 
-                    </p>
+                    </div>
                 </div>
                 
             </div>
