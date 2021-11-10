@@ -19,7 +19,7 @@ const initialState = {
       variants: {
         aud: {
           monthly: {
-            stripeLink: 'https://stripe.com/aud/monthly',
+            stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
             price: 19.99,
             currencyName: 'AUD',
             periodName: 'mo',
@@ -205,6 +205,37 @@ const initialState = {
             totalPerYear: 190.56,
             saving: {
               absolute: 50,
+              relative: '20%'
+            }
+          }
+        },
+        pln: {
+          monthly: {
+            stripeLink: 'https://stripe.com/pln/monthly',
+            price: 57.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 695.88
+          },
+          quarterly: {
+            stripeLink: 'https://stripe.com/pln/quarterly',
+            price: 51.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 623.96,
+            saving: {
+              absolute: 71,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://stripe.com/pln/yearly',
+            price: 46.33,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 555.99,
+            saving: {
+              absolute: 140,
               relative: '20%'
             }
           }

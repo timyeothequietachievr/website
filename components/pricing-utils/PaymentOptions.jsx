@@ -14,6 +14,7 @@ export function PaymentOptions({ onCurrencyChanged }) {
         <option value="gbp">British Pound (GBP)</option>
         <option value="eur">Euro (EUR)</option>
         <option value="sgd">Singapore Dollar (SGD)</option>
+        <option value="pln">Poland złoty (PLN)</option>
       </select>
     </div>
   )
