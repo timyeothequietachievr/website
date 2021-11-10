@@ -4,7 +4,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon, AnnotationIco
 const features = [
 ]
 
-export default function Example() {
+export default function WhatsIncluded() {
   return (
     <div className="py-6 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

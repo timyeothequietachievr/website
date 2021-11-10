@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { XIcon } from '@heroicons/react/outline'
 
-export default function Example() {
+export default function Toaster() {
   return (
     <div className="relative bg-indigo-600">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
