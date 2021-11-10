@@ -41,7 +41,7 @@ const navigation = {
     { name: 'Terms', href: '#' }
   ],
   social: [
-    {/*
+    /*{
       name: 'Facebook',
       href: '#',
       icon: (props) => (
@@ -53,8 +53,8 @@ const navigation = {
           />
         </svg>
       )
-    */},
-    {/*
+    },*/
+    /*{
       name: 'Instagram',
       href: '#',
       icon: (props) => (
@@ -66,7 +66,7 @@ const navigation = {
           />
         </svg>
       )
-    */},
+    },*/
     {
       name: 'Twitter',
       href: 'https://twitter.com/timyeo',
@@ -76,7 +76,7 @@ const navigation = {
         </svg>
       )
     },
-    {/*
+    /*{
       name: 'GitHub',
       href: '#',
       icon: (props) => (
@@ -88,8 +88,8 @@ const navigation = {
           />
         </svg>
       )
-      */},
-    {/*
+      },*/
+    /*{
       name: 'Dribbble',
       href: '#',
       icon: (props) => (
@@ -101,7 +101,7 @@ const navigation = {
           />
         </svg>
       )
-    */}
+    }*/
   ]
 }
 
