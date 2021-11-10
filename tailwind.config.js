@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
     mode: 'jit',
     purge: ['./pages/**/*.{js,ts,jsx,tsx,mdx,md}', './components/**/*.{js,ts,jsx,tsx}'],
