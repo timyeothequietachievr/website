@@ -1,6 +1,17 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/outline'
 
+import {
+  PaymentOptions,
+  PeriodToggleExtended
+} from './pricing-utils/PaymentOptions'
+import { PricingDisplay } from './pricing-utils/Display'
+import { usePaymentOptions } from './pricing-utils/Context'
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
 const hobbyFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
 const scaleFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
 const growthFeatures = [
@@ -12,8 +23,20 @@ const growthFeatures = [
 ]
 
 export default function Gift() {
+  const {
+    price,
+    stripeLink,
+    saving,
+    currencyName,
+    periodName,
+    onCurrencyChanged,
+    onSubscriptionPeriodChanged,
+    subscriptionPeriod,
+    tiers
+  } = usePaymentOptions()
+
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900" id="gift">
       <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
           <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">🎁</h2>
@@ -25,7 +48,7 @@ export default function Gift() {
           </p>
         </div>
       </div>
-
+      <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
       <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
         <div className="relative z-0">
           <div className="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
