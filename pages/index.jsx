@@ -12,6 +12,7 @@ import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
+import Gift from '../components/Gift2'
 import HowItWorks from '../components/HowItWorks'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
@@ -31,6 +32,7 @@ export default function IndexPage() {
       <Pricing />
       <Testimonials />
       {/* <Gift /> */}
+      <Gift2 />
     </PricingContextProvider>
   )
 }
