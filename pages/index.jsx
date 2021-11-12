@@ -32,7 +32,7 @@ export default function IndexPage() {
       <Pricing />
       <Testimonials />
       {/* <Gift /> */}
-      <Gift2 />
+      {/*<Gift2 /> */}
     </PricingContextProvider>
   )
 }
