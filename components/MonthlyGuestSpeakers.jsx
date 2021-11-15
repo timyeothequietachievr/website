@@ -16,14 +16,6 @@
 */
 const people = [
     {
-      name: 'Lindsay Walton',
-      role: 'Front-end Developer',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      twitterUrl: '#',
-      linkedinUrl: '#',
-    },
-    {
         name: 'Bob Baxley',
         role: 'INSERT ROLE',
         imageUrl:
@@ -81,6 +73,14 @@ const people = [
       },
       {
         name: 'Mags Hanley',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'More to be announced',
         role: 'INSERT ROLE',
         imageUrl:
           'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
