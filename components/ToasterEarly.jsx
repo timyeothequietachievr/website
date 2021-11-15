@@ -10,7 +10,7 @@ export default function Toaster() {
             <span className="md:hidden">💪🏻 Join now as early adopter (full launch 12/12/2021)</span>
             <span className="hidden md:inline">💪🏻 Join now as early adopter (full launch 12/12/2021)</span>
             <span className="block sm:ml-2 sm:inline-block">
-              <a href="#gift" className="text-white font-bold underline">
+              <a href="#pricing" className="text-white font-bold underline">
                 {' '}
                 see pricing<span aria-hidden="true">&rarr;</span>
               </a>
