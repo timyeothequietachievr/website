@@ -23,6 +23,70 @@ const people = [
       twitterUrl: '#',
       linkedinUrl: '#',
     },
+    {
+        name: 'Bob Baxley',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Sophie Matrai',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Diane Tarshis',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Jonathon Colman',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Ryan Rumsey',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Jason Mesut',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Larry Cornett',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Mags Hanley',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
     // More people...
   ]
   
