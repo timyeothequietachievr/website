@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import Toaster from '../components/Toaster'
+import ToasterEarly from '../components/ToasterEarly'
 
 import 'tailwindcss/tailwind.css'
 
@@ -28,7 +29,7 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       
-      {/* <Toaster /> */}
+      <ToasterEarly />
       <Navigation items={navigationItems} loginLink={loginLink} />
       <Component {...pageProps} />
       <Footer />
