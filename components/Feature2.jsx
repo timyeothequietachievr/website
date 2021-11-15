@@ -6,7 +6,7 @@ export default function Feature2() {
     <div className="relative bg-white pt-16 pb-32 overflow-hidden">
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+          {/*<div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
                 <div className="mt-6">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -22,24 +22,15 @@ export default function Feature2() {
                         <li>Diane Tarshis - Entrepreneur, startup advisor, coach, introvert</li>
                         <li>Larry Cornett - Leadership coach, Business Advisor, x-Yahoo x-eBay Design leader</li>
                         <li>Jim Lim 林倛玉 - Singer, Songwriter, Performer</li>
+                        <li>Jonathon Colman - Design leader, keynote speaker, introvert</li>
                         <li>Mags Hanley - Author-Career architecture, Speaker, Coach, Extrovert, Leader of introverts</li>
                         <li>Jason Mesut - Coach, Design leader, introvert</li>
                         <li>Ryan Rumsey - Author-Business thinking for designers, Founder, x-Apple x-Electronic Arts, x-Nestle</li>
-                        {/* 
-                        <li>Jonathon Colman - Design leader, keynote speaker, introvert</li>
-                        <li>Margaret Lee - Leadership Coach, x-Google x-Yahoo Design leader, introvert</li>
-                        <li>John Cutler - Product leader, designer</li>
-                        <li>Christina Wodtke - </li>
-                        <li>Rebecca James - CEO, Marketer, Mom, introvert</li>
-                        <li>Emily Chardac - Chief People Officer, Board Advisor x-Square, Mozilla, introvert</li>
-                        <li>Mark Ledsham - Chief Operating Officer, Executive</li>
-                        */}
                       </ul> 
                     </div>
-                </div>
-                
+                </div>  
             </div>
-          </div>
+          </div> */}
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
@@ -90,3 +81,11 @@ export default function Feature2() {
     </div>
   )
 }
+{/*
+<li>Margaret Lee - Leadership Coach, x-Google x-Yahoo Design leader, introvert</li>
+  <li>John Cutler - Product leader, designer</li>
+  <li>Christina Wodtke - </li>
+  <li>Rebecca James - CEO, Marketer, Mom, introvert</li>
+  <li>Emily Chardac - Chief People Officer, Board Advisor x-Square, Mozilla, introvert</li>
+  <li>Mark Ledsham - Chief Operating Officer, Executive</li>
+*/}
