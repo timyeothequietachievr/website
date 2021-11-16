@@ -24,16 +24,11 @@ const growthFeatures = [
 
 export default function Gift() {
   const {
-    price,
-    stripeLink,
-    saving,
-    currencyName,
-    periodName,
     onCurrencyChanged,
-    onSubscriptionPeriodChanged,
-    subscriptionPeriod,
-    tiers
-  } = usePaymentOptions()
+    getTierAt,
+    getTierVariantAt,
+    currencyName
+  } = usePaymentOptions({ kind: 'gift' })
 
   return (
     <div className="bg-gray-900" id="gift">
@@ -47,8 +42,10 @@ export default function Gift() {
             to an introvert friend or colleague you know. 
           </p>
         </div>
+        <div className="text-center">
+          <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
+        </div>
       </div>
-      <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
       <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
         <div className="relative z-0">
           <div className="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
@@ -60,12 +57,12 @@ export default function Gift() {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-hobby">
-                          1 month 🎁
+                          {getTierAt(0).title} 🎁
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
-                            <span className="font-extrabold">14.99</span>
+                            <span className="mt-2 mr-2 text-4xl font-medium">{currencyName}</span>
+                            <span className="font-extrabold">{getTierVariantAt(0).price}</span>
                           </span>
                           <span className="text-xl font-medium text-gray-500"></span>
                         </div>
@@ -73,8 +70,8 @@ export default function Gift() {
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul role="list" className="space-y-4">
-                        {hobbyFeatures.map((feature) => (
-                          <li key={feature} className="flex items-start">
+                        {getTierAt(0).features.map((feature, idx) => (
+                          <li key={feature+idx} className="flex items-start">
                             <div className="flex-shrink-0">
                               <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                             </div>
@@ -85,11 +82,11 @@ export default function Gift() {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href={getTierVariantAt(0).stripeLink}
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
-                            Gift Now
+                            {getTierAt(0).cta}
                           </a>
                         </div>
                       </div>
@@ -113,12 +110,12 @@ export default function Gift() {
                   <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
                       <h3 className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
-                      3 months 🎁
+                      {getTierAt(1).title} 🎁
                       </h3>
                       <div className="mt-4 flex items-center justify-center">
                         <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
-                          <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
-                          <span className="font-extrabold">39.99</span>
+                          <span className="mt-2 mr-2 text-4xl font-medium">{currencyName}</span>
+                          <span className="font-extrabold">{getTierVariantAt(1).price}</span>
                         </span>
                         <span className="text-2xl font-medium text-gray-500"></span>
                       </div>
@@ -126,8 +123,8 @@ export default function Gift() {
                   </div>
                   <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
                     <ul role="list" className="space-y-4">
-                      {growthFeatures.map((feature) => (
-                        <li key={feature} className="flex items-start">
+                      {getTierAt(1).features.map((feature, idx) => (
+                        <li key={feature+idx} className="flex items-start">
                           <div className="flex-shrink-0">
                             <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                           </div>
@@ -138,11 +135,11 @@ export default function Gift() {
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href={getTierVariantAt(1).stripeLink}
                           className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                           aria-describedby="tier-growth"
                         >
-                          Gift Now
+                          {getTierAt(1).cta}
                         </a>
                       </div>
                     </div>
@@ -155,12 +152,12 @@ export default function Gift() {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-scale">
-                          12 months 🎁
+                        {getTierAt(2).title} 🎁
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">USD</span>
-                            <span className="font-extrabold">139.99</span>
+                            <span className="mt-2 mr-2 text-4xl font-medium">{currencyName}</span>
+                            <span className="font-extrabold">{getTierVariantAt(2).price}</span>
                           </span>
                           <span className="text-xl font-medium text-gray-500"></span>
                         </div>
@@ -168,8 +165,8 @@ export default function Gift() {
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul role="list" className="space-y-4">
-                        {scaleFeatures.map((feature) => (
-                          <li key={feature} className="flex items-start">
+                        {getTierAt(2).features.map((feature, idx) => (
+                          <li key={feature+idx} className="flex items-start">
                             <div className="flex-shrink-0">
                               <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                             </div>
@@ -180,11 +177,11 @@ export default function Gift() {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href={getTierAt(2).stripeLink}
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
-                            Gift Now
+                            {getTierAt(2).cta}
                           </a>
                         </div>
                       </div>
