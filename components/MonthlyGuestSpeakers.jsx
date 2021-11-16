@@ -27,15 +27,7 @@ const people = [
         name: 'Sophie Matrai',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Diane Tarshis',
-        role: 'INSERT ROLE',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
@@ -43,7 +35,15 @@ const people = [
         name: 'Jonathon Colman',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-jonathoncolman.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+      },
+      {
+        name: 'Diane Tarshis',
+        role: 'INSERT ROLE',
+        imageUrl:
+          'src/guest-dianetarshis.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
@@ -51,7 +51,7 @@ const people = [
         name: 'Ryan Rumsey',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-ryanrumsey.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
@@ -59,7 +59,7 @@ const people = [
         name: 'Jason Mesut',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-jasonmesut.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
@@ -67,7 +67,7 @@ const people = [
         name: 'Larry Cornett',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-larrycornett.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
@@ -75,7 +75,7 @@ const people = [
         name: 'Mags Hanley',
         role: 'INSERT ROLE',
         imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-magshanley.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
