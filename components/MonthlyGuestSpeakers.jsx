@@ -17,7 +17,7 @@
 const people = [
     {
         name: 'Bob Baxley',
-        role: 'INSERT ROLE',
+        role: 'SVP Design of ThoughtSpot, coach and mentor, formerly Apple, Pinterest, Yahoo!',
         imageUrl:
           'src/guest-bobbaxley2.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -25,7 +25,7 @@ const people = [
       },
       {
         name: 'Sophie Matrai',
-        role: 'INSERT ROLE',
+        role: 'Product Designer of hipages, mentor and coach, former stutter, formerly Humanforce, Fashion designer',
         imageUrl:
           'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -33,7 +33,7 @@ const people = [
       },
       {
         name: 'Jonathon Colman',
-        role: 'INSERT ROLE',
+        role: 'Senior Design Manager of HubSpot, formerly Intercom, Facebook, REI',
         imageUrl:
           'src/guest-jonathoncolman.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -41,7 +41,7 @@ const people = [
       },
       {
         name: 'Diane Tarshis',
-        role: 'INSERT ROLE',
+        role: 'Founder of Startup Distillery',
         imageUrl:
           'src/guest-dianetarshis.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -49,7 +49,7 @@ const people = [
       },
       {
         name: 'Ryan Rumsey',
-        role: 'INSERT ROLE',
+        role: 'Author of Business Thinking for Designers, CEO of Second Wave Dive, formerly Apple, Electronic Arts, USAA, Nestlé, Comcast',
         imageUrl:
           'src/guest-ryanrumsey.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -57,7 +57,7 @@ const people = [
       },
       {
         name: 'Jason Mesut',
-        role: 'INSERT ROLE',
+        role: 'Coach and Founder of Resonant Design, formerly Group of Humans, RMA Consulting, LBi, Flow Interactive',
         imageUrl:
           'src/guest-jasonmesut.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -65,7 +65,7 @@ const people = [
       },
       {
         name: 'Larry Cornett',
-        role: 'INSERT ROLE',
+        role: 'Leadership Coach of Brillant Forge, formerly Yahoo!, Apple, eBay, GigaOM',
         imageUrl:
           'src/guest-larrycornett.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
@@ -73,7 +73,7 @@ const people = [
       },
       {
         name: 'Mags Hanley',
-        role: 'INSERT ROLE',
+        role: 'Author of Career Architecture, Coach, Mentor, formerly DiUS, PwC Australia, BBC, Telstra',
         imageUrl:
           'src/guest-magshanley.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
