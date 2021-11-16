@@ -28,7 +28,7 @@ const people = [
         role: 'Product Designer of hipages, mentor and coach, former stutter, formerly Humanforce, Fashion designer',
         imageUrl:
           'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        instagramUrl: 'https://www.instagram.com/sophioia/?hl=en',
+        twitterUrl: 'https://www.instagram.com/sophioia/?hl=en',
         linkedinUrl: 'https://www.linkedin.com/in/sophie-matrai-0b9936110/',
       },
       {
