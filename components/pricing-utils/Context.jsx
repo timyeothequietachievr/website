@@ -291,6 +291,718 @@ const initialState = {
         return this.variants[currency].stripeLink;
       },
     }
+  ],
+  giftTiers: [
+    {
+      title: '1 month',
+      features: [
+        'Full access 60+ videos on demand (more added over time)',
+        'Weekly office hours',
+        'Monthly guest speakers',
+        '24/7 online community of introverts'
+      ],
+      cta: 'Gift Now',
+      mostPopular: true,
+      variants: {
+        aud: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
+            price: 19.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 239.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/9AQ8Aa5KHe6b5NK8wG',
+            price: 17.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 215.96,
+            saving: {
+              absolute: 24,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
+            price: 15.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 189.99,
+            saving: {
+              absolute: '50',
+              relative: '20%'
+            }
+          }
+          /* groupcourse1: {
+            stripeLink: 'https://stripe.com/aud/groupcourse1',
+            price: 695,
+            currencyName: 'AUD',
+            periodName: 'course',
+          } */
+        },
+        usd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/fZeaIi4GD5zF6ROaEJ',
+            price: 14.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 179.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/6oE17I0qnfafb844gp',
+            price: 13.33,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 159.96,
+            saving: {
+              absolute: 20,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
+            price: 11.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 139.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        cad: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/3cs8AaehdaTZ1xuaEK',
+            price: 18.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 227.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/00g03E5KHe6bb84fZ5',
+            price: 16.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 199.96,
+            saving: {
+              absolute: 28,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
+            price: 14.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 179.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        gbp: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/14k2bM2yv8LR6RO28c',
+            price: 9.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 119.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/fZeg2C3Czgejekg4gs',
+            price: 8.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 107.88,
+            saving: {
+              absolute: 12,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
+            price: 7.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 95.99,
+            saving: {
+              absolute: 24,
+              relative: '20%'
+            }
+          }
+        },
+        eur: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/9AQ17I4GDaTZdgcaEH',
+            price: 12.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 155.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/cN24jU0qn9PV5NK00d',
+            price: 11.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 139.96,
+            saving: {
+              absolute: 16,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
+            price: 10.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 123.99,
+            saving: {
+              absolute: 32,
+              relative: '20%'
+            }
+          }
+        },
+        sgd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/00g8Aagplfafb844gi',
+            price: 19.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 238.56
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/8wM5nYc950fldgc14c',
+            price: 17.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 211.52,
+            saving: {
+              absolute: 27,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
+            price: 15.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 188.88,
+            saving: {
+              absolute: 50,
+              relative: '20%'
+            }
+          }
+        },
+        pln: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/aEUbMmc953rxgso3cd',
+            price: 57.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 695.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/28o9Ee5KHfaf5NK9AL',
+            price: 51.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 623.96,
+            saving: {
+              absolute: 71,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
+            price: 46.33,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 555.99,
+            saving: {
+              absolute: 140,
+              relative: '20%'
+            }
+          }
+        }
+      }
+    },
+    {
+      title: '3 months',
+      features: [
+        'Full access 60+ videos on demand (more added over time)',
+        'Weekly office hours',
+        'Monthly guest speakers',
+        'Monthly guest speakers',
+        'Monthly guest speakers',
+        '24/7 online community of introverts'
+      ],
+      cta: 'Gift Now',
+      mostPopular: true,
+      variants: {
+        aud: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
+            price: 19.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 239.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/9AQ8Aa5KHe6b5NK8wG',
+            price: 17.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 215.96,
+            saving: {
+              absolute: 24,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
+            price: 15.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 189.99,
+            saving: {
+              absolute: '50',
+              relative: '20%'
+            }
+          }
+          /* groupcourse1: {
+            stripeLink: 'https://stripe.com/aud/groupcourse1',
+            price: 695,
+            currencyName: 'AUD',
+            periodName: 'course',
+          } */
+        },
+        usd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/fZeaIi4GD5zF6ROaEJ',
+            price: 14.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 179.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/6oE17I0qnfafb844gp',
+            price: 13.33,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 159.96,
+            saving: {
+              absolute: 20,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
+            price: 11.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 139.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        cad: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/3cs8AaehdaTZ1xuaEK',
+            price: 18.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 227.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/00g03E5KHe6bb84fZ5',
+            price: 16.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 199.96,
+            saving: {
+              absolute: 28,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
+            price: 14.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 179.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        gbp: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/14k2bM2yv8LR6RO28c',
+            price: 9.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 119.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/fZeg2C3Czgejekg4gs',
+            price: 8.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 107.88,
+            saving: {
+              absolute: 12,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
+            price: 7.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 95.99,
+            saving: {
+              absolute: 24,
+              relative: '20%'
+            }
+          }
+        },
+        eur: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/9AQ17I4GDaTZdgcaEH',
+            price: 12.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 155.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/cN24jU0qn9PV5NK00d',
+            price: 11.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 139.96,
+            saving: {
+              absolute: 16,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
+            price: 10.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 123.99,
+            saving: {
+              absolute: 32,
+              relative: '20%'
+            }
+          }
+        },
+        sgd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/00g8Aagplfafb844gi',
+            price: 19.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 238.56
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/8wM5nYc950fldgc14c',
+            price: 17.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 211.52,
+            saving: {
+              absolute: 27,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
+            price: 15.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 188.88,
+            saving: {
+              absolute: 50,
+              relative: '20%'
+            }
+          }
+        },
+        pln: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/aEUbMmc953rxgso3cd',
+            price: 57.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 695.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/28o9Ee5KHfaf5NK9AL',
+            price: 51.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 623.96,
+            saving: {
+              absolute: 71,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
+            price: 46.33,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 555.99,
+            saving: {
+              absolute: 140,
+              relative: '20%'
+            }
+          }
+        }
+      }
+    },
+    {
+      title: '12 months',
+      features: [
+        'Full access 60+ videos on demand (more added over time)',
+        'Weekly office hours',
+        'Monthly guest speakers',
+        '24/7 online community of introverts'
+      ],
+      cta: 'Gift Now',
+      mostPopular: true,
+      variants: {
+        aud: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
+            price: 19.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 239.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/9AQ8Aa5KHe6b5NK8wG',
+            price: 17.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 215.96,
+            saving: {
+              absolute: 24,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
+            price: 15.99,
+            currencyName: 'AUD',
+            periodName: 'mo',
+            totalPerYear: 189.99,
+            saving: {
+              absolute: '50',
+              relative: '20%'
+            }
+          }
+          /* groupcourse1: {
+            stripeLink: 'https://stripe.com/aud/groupcourse1',
+            price: 695,
+            currencyName: 'AUD',
+            periodName: 'course',
+          } */
+        },
+        usd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/fZeaIi4GD5zF6ROaEJ',
+            price: 14.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 179.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/6oE17I0qnfafb844gp',
+            price: 13.33,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 159.96,
+            saving: {
+              absolute: 20,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
+            price: 11.99,
+            currencyName: 'USD',
+            periodName: 'mo',
+            totalPerYear: 139.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        cad: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/3cs8AaehdaTZ1xuaEK',
+            price: 18.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 227.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/00g03E5KHe6bb84fZ5',
+            price: 16.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 199.96,
+            saving: {
+              absolute: 28,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
+            price: 14.99,
+            currencyName: 'CAD',
+            periodName: 'mo',
+            totalPerYear: 179.99,
+            saving: {
+              absolute: 40,
+              relative: '20%'
+            }
+          }
+        },
+        gbp: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/14k2bM2yv8LR6RO28c',
+            price: 9.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 119.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/fZeg2C3Czgejekg4gs',
+            price: 8.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 107.88,
+            saving: {
+              absolute: 12,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
+            price: 7.99,
+            currencyName: 'GBP',
+            periodName: 'mo',
+            totalPerYear: 95.99,
+            saving: {
+              absolute: 24,
+              relative: '20%'
+            }
+          }
+        },
+        eur: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/9AQ17I4GDaTZdgcaEH',
+            price: 12.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 155.88,
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/cN24jU0qn9PV5NK00d',
+            price: 11.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 139.96,
+            saving: {
+              absolute: 16,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
+            price: 10.99,
+            currencyName: 'EUR',
+            periodName: 'mo',
+            totalPerYear: 123.99,
+            saving: {
+              absolute: 32,
+              relative: '20%'
+            }
+          }
+        },
+        sgd: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/00g8Aagplfafb844gi',
+            price: 19.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 238.56
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/8wM5nYc950fldgc14c',
+            price: 17.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 211.52,
+            saving: {
+              absolute: 27,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
+            price: 15.88,
+            currencyName: 'SGD',
+            periodName: 'mo',
+            totalPerYear: 188.88,
+            saving: {
+              absolute: 50,
+              relative: '20%'
+            }
+          }
+        },
+        pln: {
+          monthly: {
+            stripeLink: 'https://buy.stripe.com/aEUbMmc953rxgso3cd',
+            price: 57.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 695.88
+          },
+          quarterly: {
+            stripeLink: 'https://buy.stripe.com/28o9Ee5KHfaf5NK9AL',
+            price: 51.99,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 623.96,
+            saving: {
+              absolute: 71,
+              relative: '10%'
+            }
+          },
+          yearly: {
+            stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
+            price: 46.33,
+            currencyName: 'PLN',
+            periodName: 'mo',
+            totalPerYear: 555.99,
+            saving: {
+              absolute: 140,
+              relative: '20%'
+            }
+          }
+        }
+      }
+    },
   ]
 }
 
@@ -342,14 +1054,17 @@ export function PricingContextConsumer({ children }) {
   )
 }
 
-export function usePaymentOptions() {
+
+export function usePaymentOptions({ kind } = {}) {
   const context = useContext(PricingContext)
 
   if (context === undefined) {
     throw new Error('useCount must be used within a CountProvider')
   }
 
-  const { currency, subscriptionPeriod, tiers } = context.state
+  const { currency, subscriptionPeriod, tiers, giftTiers } = context.state
+
+  const selectedTiers = kind === 'gift' ? giftTiers : tiers
 
   const {
     stripeLink,
@@ -357,7 +1072,7 @@ export function usePaymentOptions() {
     currencyName,
     periodName,
     saving,
-  } = tiers[0].variants[currency][subscriptionPeriod]
+  } = selectedTiers[0].variants[currency][subscriptionPeriod]
 
   useEffect(() => {
     const lowestPriceAvailable = tiers[0].variants[currency].yearly.price
@@ -389,8 +1104,14 @@ export function usePaymentOptions() {
     price,
     currencyName,
     periodName,
-    tiers,
+    selectedTiers,
     saving,
     subscriptionPeriod,
+    getTierAt(idx) {
+      return selectedTiers[idx]
+    },
+    getTierVariantAt(idx) {
+      return selectedTiers[idx].variants[currency][subscriptionPeriod]
+    },
   }
 }

@@ -22,7 +22,7 @@ export default function Pricing() {
     onCurrencyChanged,
     onSubscriptionPeriodChanged,
     subscriptionPeriod,
-    tiers
+    selectedTiers
   } = usePaymentOptions()
 
   return (
@@ -42,7 +42,7 @@ export default function Pricing() {
 
         {/* Tiers */}
         <div className="mt-24 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
-          {tiers.map((tier, idx) => (
+          {selectedTiers.map((tier, idx) => (
             <div
               key={tier.title}
               className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col"
