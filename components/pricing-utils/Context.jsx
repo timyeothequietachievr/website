@@ -369,50 +369,50 @@ const initialState = {
       mostPopular: true,
       variants: {
         aud: {
-          stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
-          price: 19.99,
+          stripeLink: 'https://buy.stripe.com/9AQ8Aa5KHe6b5NK8wG',
+          price: 53.99,
           currencyName: 'AUD',
           periodName: 'mo',
           totalPerYear: 239.88
         },
         usd: {
-          stripeLink: 'https://buy.stripe.com/fZeaIi4GD5zF6ROaEJ',
-          price: 14.99,
+          stripeLink: 'https://buy.stripe.com/6oE17I0qnfafb844gp',
+          price: 39.99,
           currencyName: 'USD',
           periodName: 'mo',
           totalPerYear: 179.88
         },
         cad: {
-          stripeLink: 'https://buy.stripe.com/3cs8AaehdaTZ1xuaEK',
-          price: 18.99,
+          stripeLink: 'https://buy.stripe.com/00g03E5KHe6bb84fZ5',
+          price: 49.99,
           currencyName: 'CAD',
           periodName: 'mo',
           totalPerYear: 227.88
         },
         gbp: {
-          stripeLink: 'https://buy.stripe.com/14k2bM2yv8LR6RO28c',
-          price: 9.99,
+          stripeLink: 'https://buy.stripe.com/fZeg2C3Czgejekg4gs',
+          price: 26.99,
           currencyName: 'GBP',
           periodName: 'mo',
           totalPerYear: 119.88
         },
         eur: {
-          stripeLink: 'https://buy.stripe.com/9AQ17I4GDaTZdgcaEH',
-          price: 12.99,
+          stripeLink: 'https://buy.stripe.com/cN24jU0qn9PV5NK00d',
+          price: 34.99,
           currencyName: 'EUR',
           periodName: 'mo',
           totalPerYear: 155.88
         },
         sgd: {
-          stripeLink: 'https://buy.stripe.com/00g8Aagplfafb844gi',
-          price: 19.88,
+          stripeLink: 'https://buy.stripe.com/8wM5nYc950fldgc14c',
+          price: 52.88,
           currencyName: 'SGD',
           periodName: 'mo',
           totalPerYear: 238.56
         },
         pln: {
-          stripeLink: 'https://buy.stripe.com/aEUbMmc953rxgso3cd',
-          price: 57.99,
+          stripeLink: 'https://buy.stripe.com/28o9Ee5KHfaf5NK9AL',
+          price: 155.99,
           currencyName: 'PLN',
           periodName: 'mo',
           totalPerYear: 695.88
@@ -431,50 +431,50 @@ const initialState = {
       mostPopular: true,
       variants: {
         aud: {
-          stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
-          price: 19.99,
+          stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
+          price: 189.99,
           currencyName: 'AUD',
           periodName: 'mo',
           totalPerYear: 239.88
         },
         usd: {
-          stripeLink: 'https://buy.stripe.com/fZeaIi4GD5zF6ROaEJ',
-          price: 14.99,
+          stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
+          price: 139.99,
           currencyName: 'USD',
           periodName: 'mo',
           totalPerYear: 179.88
         },
         cad: {
-          stripeLink: 'https://buy.stripe.com/3cs8AaehdaTZ1xuaEK',
-          price: 18.99,
+          stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
+          price: 179.99,
           currencyName: 'CAD',
           periodName: 'mo',
           totalPerYear: 227.88
         },
         gbp: {
-          stripeLink: 'https://buy.stripe.com/14k2bM2yv8LR6RO28c',
-          price: 9.99,
+          stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
+          price: 95.99,
           currencyName: 'GBP',
           periodName: 'mo',
           totalPerYear: 119.88
         },
         eur: {
-          stripeLink: 'https://buy.stripe.com/9AQ17I4GDaTZdgcaEH',
-          price: 12.99,
+          stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
+          price: 123.99,
           currencyName: 'EUR',
           periodName: 'mo',
           totalPerYear: 155.88
         },
         sgd: {
-          stripeLink: 'https://buy.stripe.com/00g8Aagplfafb844gi',
-          price: 19.88,
+          stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
+          price: 188.88,
           currencyName: 'SGD',
           periodName: 'mo',
           totalPerYear: 238.56
         },
         pln: {
-          stripeLink: 'https://buy.stripe.com/aEUbMmc953rxgso3cd',
-          price: 57.99,
+          stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
+          price: 555.99,
           currencyName: 'PLN',
           periodName: 'mo',
           totalPerYear: 695.88
