@@ -177,7 +177,7 @@ export default function Gift() {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href={getTierAt(2).stripeLink}
+                            href={getTierVariantAt(2).stripeLink}
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
