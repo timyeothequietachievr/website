@@ -20,64 +20,64 @@ const people = [
         role: 'SVP Design of ThoughtSpot, coach and mentor, formerly Apple, Pinterest, Yahoo!',
         imageUrl:
           'src/guest-bobbaxley2.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/ThisIsBobBaxley',
+        linkedinUrl: 'https://www.linkedin.com/in/bbaxley/',
       },
       {
         name: 'Sophie Matrai',
         role: 'Product Designer of hipages, mentor and coach, former stutter, formerly Humanforce, Fashion designer',
         imageUrl:
           'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        instagramUrl: 'https://www.instagram.com/sophioia/?hl=en',
+        linkedinUrl: 'https://www.linkedin.com/in/sophie-matrai-0b9936110/',
       },
       {
         name: 'Jonathon Colman',
         role: 'Senior Design Manager of HubSpot, formerly Intercom, Facebook, REI',
         imageUrl:
           'src/guest-jonathoncolman.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/jcolman',
+        linkedinUrl: 'https://www.linkedin.com/in/jcolman/',
       },
       {
         name: 'Diane Tarshis',
         role: 'Founder of Startup Distillery',
         imageUrl:
           'src/guest-dianetarshis.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/StartupDistillr',
+        linkedinUrl: 'https://www.linkedin.com/in/dianetarshis/',
       },
       {
         name: 'Ryan Rumsey',
         role: 'Author of Business Thinking for Designers, CEO of Second Wave Dive, formerly Apple, Electronic Arts, USAA, Nestlé, Comcast',
         imageUrl:
           'src/guest-ryanrumsey.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/ryanrumsey',
+        linkedinUrl: 'https://www.linkedin.com/in/ryanrumsey/',
       },
       {
         name: 'Jason Mesut',
         role: 'Coach and Founder of Resonant Design, formerly Group of Humans, RMA Consulting, LBi, Flow Interactive',
         imageUrl:
           'src/guest-jasonmesut.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/jasonmesut',
+        linkedinUrl: 'https://www.linkedin.com/in/jasonmesut/',
       },
       {
         name: 'Larry Cornett',
         role: 'Leadership Coach of Brillant Forge, formerly Yahoo!, Apple, eBay, GigaOM',
         imageUrl:
           'src/guest-larrycornett.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/cornett',
+        linkedinUrl: 'https://www.linkedin.com/in/cornett/',
       },
       {
         name: 'Mags Hanley',
         role: 'Author of Career Architecture, Coach, Mentor, formerly DiUS, PwC Australia, BBC, Telstra',
         imageUrl:
           'src/guest-magshanley.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/magshanley',
+        linkedinUrl: 'https://www.linkedin.com/in/magshanley/',
       },
       {
         name: 'More to be announced',
