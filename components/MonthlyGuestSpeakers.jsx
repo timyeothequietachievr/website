@@ -19,7 +19,7 @@ const people = [
         name: 'Bob Baxley',
         role: 'INSERT ROLE',
         imageUrl:
-          'src/guest-bobbaxley.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          'src/guest-bobbaxley2.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: '#',
         linkedinUrl: '#',
       },
