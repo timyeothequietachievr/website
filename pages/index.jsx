@@ -28,12 +28,12 @@ export default function IndexPage() {
       <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
       <Feature1 />
-      <TestimonialLargeAvatar2 />
       <Feature2 />
+      <TestimonialLargeAvatar2 />
       <MonthlyGuestSpeakers />
       <Pricing />
       <Testimonials />
-      <Gift />
+      {/*<Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
   )
