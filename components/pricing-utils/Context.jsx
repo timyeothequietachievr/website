@@ -296,10 +296,7 @@ const initialState = {
     {
       title: '1 month',
       features: [
-        'Full access 60+ videos on demand (more added over time)',
-        'Weekly office hours',
-        'Monthly guest speakers',
-      '24/7 online community of introverts'
+        
       ],
       cta: 'Gift Now',
       mostPopular: true,
@@ -589,3 +586,9 @@ export function usePaymentOptions({ kind } = {}) {
     }
   }
 }
+/*
+'Full access 60+ videos on demand (more added over time)',
+        'Weekly office hours',
+        'Monthly guest speakers',
+      '24/7 online community of introverts'
+      */
