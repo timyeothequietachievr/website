@@ -7,7 +7,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'tqa-blue-dark': '#022351',
+                'tqa-blue-dark': '#4D47DC',
                 'tqa-blue-darker': '#011632',
                 'tqa-blue-light': '#1441FA',
                 'tqa-blue-lighter': '#103AE5',
