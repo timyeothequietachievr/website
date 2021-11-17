@@ -33,7 +33,7 @@ export default function IndexPage() {
       <MonthlyGuestSpeakers />
       <Pricing />
       <Testimonials />
-      {/*<Gift /> */}
+      <Gift />
       {/*<Gift2 /> */}
     </PricingContextProvider>
   )
