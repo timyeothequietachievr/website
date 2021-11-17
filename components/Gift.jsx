@@ -70,14 +70,14 @@ export default function Gift() {
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul role="list" className="space-y-4">
-                        {getTierAt(0).features.map((feature, idx) => (
+                        {/*getTierAt(0).features.map((feature, idx) => (
                           <li key={feature+idx} className="flex items-start">
                             <div className="flex-shrink-0">
                               <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                             </div>
                             <p className="ml-3 text-base font-medium text-gray-500">{feature}</p>
                           </li>
-                        ))}
+                        ))*/}
                       </ul>
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
@@ -123,14 +123,14 @@ export default function Gift() {
                   </div>
                   <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
                     <ul role="list" className="space-y-4">
-                      {getTierAt(1).features.map((feature, idx) => (
+                      {/* getTierAt(1).features.map((feature, idx) => (
                         <li key={feature+idx} className="flex items-start">
                           <div className="flex-shrink-0">
                             <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">{feature}</p>
                         </li>
-                      ))}
+                      ))*/}
                     </ul>
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
@@ -164,6 +164,7 @@ export default function Gift() {
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                      {/*
                       <ul role="list" className="space-y-4">
                         {getTierAt(2).features.map((feature, idx) => (
                           <li key={feature+idx} className="flex items-start">
@@ -174,6 +175,7 @@ export default function Gift() {
                           </li>
                         ))}
                       </ul>
+                        */}
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
