@@ -79,7 +79,7 @@ export default function Gift() {
                           </li>
                         ))*
                         </ul>*/}
-                      <div className="mt-8">
+                      <div className="mt-1">
                         <div className="rounded-lg shadow-md">
                           <a
                             href={getTierVariantAt(0).stripeLink}
@@ -132,7 +132,7 @@ export default function Gift() {
                         </li>
                       ))
                     </ul>*/}
-                    <div className="mt-10">
+                    <div className="mt-1">
                       <div className="rounded-lg shadow-md">
                         <a
                           href={getTierVariantAt(1).stripeLink}
@@ -176,7 +176,7 @@ export default function Gift() {
                         ))}
                       </ul>
                         */}
-                      <div className="mt-8">
+                      <div className="mt-1">
                         <div className="rounded-lg shadow-md">
                           <a
                             href={getTierVariantAt(2).stripeLink}
