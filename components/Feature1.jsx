@@ -31,7 +31,7 @@ export default function Feature1() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/videoondemand.mp4"
+                src="src/demoVideo.gif"
                 alt="Inbox user interface"
               />
             </div>
