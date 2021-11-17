@@ -7,8 +7,8 @@ export default function Toaster() {
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">
-            <span className="md:hidden">💪🏻 Join now as early adopter (full launch 12/12/2021)</span>
-            <span className="hidden md:inline">💪🏻 Join now as early adopter</span>
+            <span className="md:hidden">💪🏻 Join now as early adopter</span>
+            <span className="hidden md:inline">💪🏻 Join now as early adopter (full launch 12/12/2021)</span>
             <span className="block sm:ml-2 sm:inline-block">
               <a href="#pricing" className="text-white font-bold underline">
                 {' '}
