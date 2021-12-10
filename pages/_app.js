@@ -29,7 +29,7 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       
-      <ToasterEarly />
+      <Toaster />
       <Navigation items={navigationItems} loginLink={loginLink} />
       <Component {...pageProps} />
       <Footer />
