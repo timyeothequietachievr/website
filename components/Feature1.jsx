@@ -10,7 +10,7 @@ export default function Feature1() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  60+ videos on-demand
+                  Videos on-demand
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
