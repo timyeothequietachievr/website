@@ -48,20 +48,20 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/dianetarshis/',
       },
       {
+        name: 'Khai Seng Hong',
+        role: 'Founder, Studio Dojo; formerly Head of Foolproof (Singapore)',
+        imageUrl:
+          'src/guest-khaiseng.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://twitter.com/khai5eng',
+        linkedinUrl: 'https://www.linkedin.com/in/khaiseng/',
+      },
+      {
         name: 'Ryan Rumsey',
         role: 'Author of Business Thinking for Designers, CEO of Second Wave Dive, formerly Apple, Electronic Arts, USAA, Nestlé, Comcast',
         imageUrl:
           'src/guest-ryanrumsey.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://twitter.com/ryanrumsey',
         linkedinUrl: 'https://www.linkedin.com/in/ryanrumsey/',
-      },
-      {
-        name: 'Jason Mesut',
-        role: 'Coach and Founder of Resonant Design, formerly Group of Humans, RMA Consulting, LBi, Flow Interactive',
-        imageUrl:
-          'src/guest-jasonmesut.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: 'https://twitter.com/jasonmesut',
-        linkedinUrl: 'https://www.linkedin.com/in/jasonmesut/',
       },
       {
         name: 'Larry Cornett',
@@ -72,20 +72,20 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/cornett/',
       },
       {
+        name: 'Jason Mesut',
+        role: 'Coach and Founder of Resonant Design, formerly Group of Humans, RMA Consulting, LBi, Flow Interactive',
+        imageUrl:
+          'src/guest-jasonmesut.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://twitter.com/jasonmesut',
+        linkedinUrl: 'https://www.linkedin.com/in/jasonmesut/',
+      },
+      {
         name: 'Mags Hanley',
         role: 'Author of Career Architecture, Coach, Mentor, formerly DiUS, PwC Australia, BBC, Telstra',
         imageUrl:
           'src/guest-magshanley.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://twitter.com/magshanley',
         linkedinUrl: 'https://www.linkedin.com/in/magshanley/',
-      },
-      {
-        name: 'Khai Seng Hong',
-        role: 'Founder, Studio Dojo; formerly Head of Foolproof (Singapore)',
-        imageUrl:
-          'src/guest-khaiseng.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: 'https://twitter.com/khai5eng',
-        linkedinUrl: 'https://www.linkedin.com/in/khaiseng/',
       },
       {
         name: 'More to be announced',
