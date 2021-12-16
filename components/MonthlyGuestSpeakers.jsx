@@ -80,6 +80,14 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/magshanley/',
       },
       {
+        name: 'Khai Seng Hong',
+        role: 'Founder, Studio Dojo; formerly Head of Foolproof (Singapore)',
+        imageUrl:
+          'src/guest-khaiseng.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://twitter.com/khai5eng',
+        linkedinUrl: 'https://www.linkedin.com/in/khaiseng/',
+      },
+      {
         name: 'More to be announced',
         role: 'in',
         imageUrl:
