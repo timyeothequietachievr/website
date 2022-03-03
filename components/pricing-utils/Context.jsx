@@ -252,37 +252,38 @@ const initialState = {
         'Weekly coaching with the group',
         '1 year full access to Video On-Demand'
       ],
-      cta: 'Coming Feb 2022 - Join Waitlist',
+      cta: 'Coming Soon - Join Waitlist',
       mostPopular: false,
       variants: {
         aud: {
           price: 695,
-          stripeLink: 'https//tqa.stripe.com/course/aud'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         usd: {
           price: 499,
-          stripeLink: 'https//tqa.stripe.com/course/usd'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         cad: {
           price: 645,
-          stripeLink: 'https//tqa.stripe.com/course/cad'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         sgd: {
           price: 688,
-          stripeLink: 'https//tqa.stripe.com/course/sgd'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         gbp: {
           price: 265,
-          stripeLink: 'https//tqa.stripe.com/course/gbp'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         eur: {
           price: 429,
-          stripeLink: 'https//tqa.stripe.com/course/eur'
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         pln: {
           price: 2049,
-          stripeLink: 'https//tqa.stripe.com/course/pln'
-        }
+          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          /* stripeLink: 'https//tqa.stripe.com/course/pln' */
+        } 
       },
       localisedPrice(currency) {
         return this.variants[currency].price
