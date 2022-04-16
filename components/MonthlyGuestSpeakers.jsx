@@ -25,7 +25,7 @@ const people = [
       },
       {
         name: 'Emily-Rose Hills',
-        role: 'The Social Media Coach, formerly The ICONIC, Digitas APAC; worked with brands Clarins, Superga, Arnotts, EA Games, Tigerair, Samsung, Redbull, H&M, Google',
+        role: 'The Social Media Coach, worked with brands Clarins, Superga, Arnotts, EA Games, Tigerair, Samsung, Redbull, H&M, Google',
         imageUrl:
           'src/guest-emilyrose.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://www.instagram.com/the.socialmediacoach/',
