@@ -24,12 +24,12 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/bbaxley/',
       },
       {
-        name: 'Sophie Matrai',
-        role: 'Product Designer of hipages, mentor and coach, former stutter, formerly Humanforce, Fashion designer',
+        name: 'Emily-Rose Hills',
+        role: 'The Social Media Coach, formerly The ICONIC, Digitas APAC; worked with brands Clarins, Superga, Arnotts, EA Games, Tigerair, Samsung, Redbull, H&M, Google',
         imageUrl:
-          'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: 'https://www.instagram.com/sophioia/?hl=en',
-        linkedinUrl: 'https://www.linkedin.com/in/sophie-matrai-0b9936110/',
+          'src/guest-emilyrose.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://www.instagram.com/the.socialmediacoach/',
+        linkedinUrl: 'https://www.linkedin.com/in/emilyrosehills',
       },
       {
         name: 'Jonathon Colman',
@@ -86,6 +86,14 @@ const people = [
           'src/guest-magshanley.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://twitter.com/magshanley',
         linkedinUrl: 'https://www.linkedin.com/in/magshanley/',
+      },
+      {
+        name: 'Sophie Matrai',
+        role: 'Product Designer of hipages, mentor and coach, former stutter, formerly Humanforce, Fashion designer',
+        imageUrl:
+          'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://www.instagram.com/sophioia/?hl=en',
+        linkedinUrl: 'https://www.linkedin.com/in/sophie-matrai-0b9936110/',
       },
       {
         name: 'More to be announced',
