@@ -72,8 +72,7 @@ export default function Pricing() {
                     {idx === 0 ? `${periodName}` : tier.frequency}
                   </span>
                 </p>
-                <p className="mt-6 text-gray-500">{idx === 0 && saving ? `${saving.relative} off (save $${saving.absolute}/year)` : tier.description}</p>
-
+                {/* <p className="mt-6 text-gray-500">{idx === 0 && saving ? `${saving.relative} off (save $${saving.absolute}/year)` : tier.description}</p> */}
                 {/* Feature list */}
                 <ul role="list" className="mt-6 space-y-6">
                   {tier.features.map((feature) => (
