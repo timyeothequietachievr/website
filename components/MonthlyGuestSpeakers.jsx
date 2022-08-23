@@ -25,7 +25,7 @@ const people = [
       },
       {
         name: 'Dr. Samantha Soma',
-        role: 'Leadership Coach, formerly GE - UX Leadership Program, Lunar Design, Bolt Peters',
+        role: 'Leadership Coach, formerly General Electric, Lunar Design, Bolt Peters',
         imageUrl:
           'src/guest-sisoma.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://twitter.com/sisoma',
