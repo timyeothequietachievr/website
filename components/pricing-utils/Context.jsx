@@ -2,9 +2,9 @@ import { createContext, useContext, useEffect, useReducer } from 'react'
 
 const initialState = {
   currency: 'aud',
-  subscriptionPeriod: 'monthly',
-  unit: 'mo',
-  price: 19.99,
+  subscriptionPeriod: 'yearly',
+  unit: 'yr',
+  price: 199,
   tiers: [
     {
       title: 'billed: ',
@@ -38,10 +38,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
-            price: 15.99,
+            price: 199,
             currencyName: 'AUD',
-            periodName: 'mo',
-            totalPerYear: 189.99,
+            periodName: 'yr',
+            totalPerYear: 199.99,
             saving: {
               absolute: '50',
               relative: '20%'
