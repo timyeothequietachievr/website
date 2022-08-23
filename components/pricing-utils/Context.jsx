@@ -243,7 +243,7 @@ const initialState = {
       }
     },
     {
-      title: '4-week group course',
+      title: '3-week group course',
       frequency: '/course',
       description: 'via video conference',
       features: [
