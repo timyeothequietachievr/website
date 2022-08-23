@@ -37,7 +37,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/3cs9Ee7SP3rx6RObIZ',
+            stripeLink: 'https://buy.stripe.com/5kAeYyflh4vBdgc5l3',
             price: 199,
             currencyName: 'AUD',
             periodName: 'yr',
@@ -74,7 +74,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
+            stripeLink: 'https://buy.stripe.com/14k7w64GDgej4JG7tc',
             price: 139,
             currencyName: 'USD',
             periodName: 'yr',
@@ -105,7 +105,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
+            stripeLink: 'https://buy.stripe.com/dR6aIiehd6DJ5NKdRB',
             price: 179,
             currencyName: 'CAD',
             periodName: 'yr',
@@ -136,7 +136,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
+            stripeLink: 'https://buy.stripe.com/eVaeYy8WT8LR0tqdRC',
             price: 99,
             currencyName: 'GBP',
             periodName: 'yr',
@@ -167,7 +167,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
+            stripeLink: 'https://buy.stripe.com/00g2bM1ur6DJekgaFr',
             price: 129,
             currencyName: 'EUR',
             periodName: 'yr',
@@ -198,7 +198,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
+            stripeLink: 'https://buy.stripe.com/6oE9Eegpl8LR7VS4h4',
             price: 188,
             currencyName: 'SGD',
             periodName: 'yr',
@@ -229,7 +229,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
+            stripeLink: 'https://buy.stripe.com/14kbMmgplaTZ6RO14T',
             price: 599,
             currencyName: 'PLN',
             periodName: 'yr',
