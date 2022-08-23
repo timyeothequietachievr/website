@@ -14,7 +14,7 @@ export default function Toaster() {
             <span className="hidden md:inline">🗣1:1 coaching. </span>
             <span className="block sm:ml-2 sm:inline-block">
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
-              <a href="#https://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline">
                 {' '}
                 signup now<span aria-hidden="true">&rarr;</span>
               </a>
