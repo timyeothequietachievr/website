@@ -9,7 +9,7 @@ const initialState = {
     {
       title: 'Learn on your own',
       features: [
-        'Full access 60+ videos on demand (more added over time)',
+        'Full access 30+ videos on demand (more added over time)',
         'Weekly office hours',
         'Monthly guest speakers',
         '24/7 online community of introverts'
@@ -356,7 +356,7 @@ const initialState = {
     {
       title: '3 months',
       features: [
-        'Full access 60+ videos on demand (more added over time)',
+        'Full access 30+ videos on demand (more added over time)',
         'Weekly office hours',
         'Monthly guest speakers',
         'Monthly guest speakers',
@@ -420,7 +420,7 @@ const initialState = {
     {
       title: '12 months',
       features: [
-        'Full access 60+ videos on demand (more added over time)',
+        'Full access 30+ videos on demand (more added over time)',
         'Weekly office hours',
         'Monthly guest speakers',
         '24/7 online community of introverts'
@@ -588,7 +588,7 @@ export function usePaymentOptions({ kind } = {}) {
   }
 }
 /*
-'Full access 60+ videos on demand (more added over time)',
+'Full access 30+ videos on demand (more added over time)',
         'Weekly office hours',
         'Monthly guest speakers',
       '24/7 online community of introverts'
