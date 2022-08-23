@@ -67,6 +67,7 @@ export function PeriodToggleExtended({ onPeriodChanged, subscriptionPeriod }) {
   }
 
   return (
+    /* 
     <span className="relative z-0 inline-flex shadow-sm rounded-md">
       <button
         onClick={() => onPeriodChanged('monthly')}
@@ -90,5 +91,6 @@ export function PeriodToggleExtended({ onPeriodChanged, subscriptionPeriod }) {
         Yearly
       </button>
     </span>
+    */
   )
 }
