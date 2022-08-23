@@ -24,12 +24,12 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/bbaxley/',
       },
       {
-        name: 'Emily-Rose Hills',
-        role: 'The Social Media Coach, worked with brands Clarins, Superga, Arnotts, EA Games, Tigerair, Samsung, Redbull, H&M, Google',
+        name: 'Dr. Samantha Soma',
+        role: 'Leadership Coach, formerly GE - UX Leadership Program, Lunar Design, Bolt Peters',
         imageUrl:
-          'src/guest-emilyrose.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: 'https://www.instagram.com/the.socialmediacoach/',
-        linkedinUrl: 'https://www.linkedin.com/in/emilyrosehills',
+          'src/guest-sisoma.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://twitter.com/sisoma',
+        linkedinUrl: 'https://www.linkedin.com/in/samanthasoma',
       },
       {
         name: 'Jonathon Colman',
@@ -64,7 +64,7 @@ const people = [
         linkedinUrl: 'https://www.linkedin.com/in/ryanrumsey/',
       },
       {
-        name: 'Larry Cornett',
+        name: 'Dr. Larry Cornett',
         role: 'Leadership Coach of Brillant Forge, formerly Yahoo!, Apple, eBay, GigaOM',
         imageUrl:
           'src/guest-larrycornett.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -94,6 +94,14 @@ const people = [
           'src/profile-sophiematrai.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         twitterUrl: 'https://www.instagram.com/sophioia/?hl=en',
         linkedinUrl: 'https://www.linkedin.com/in/sophie-matrai-0b9936110/',
+      },
+      {
+        name: 'Emily-Rose Hills',
+        role: 'The Social Media Coach, worked with brands Clarins, Superga, Arnotts, EA Games, Tigerair, Samsung, Redbull, H&M, Google',
+        imageUrl:
+          'src/guest-emilyrose.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        twitterUrl: 'https://www.instagram.com/the.socialmediacoach/',
+        linkedinUrl: 'https://www.linkedin.com/in/emilyrosehills',
       },
       {
         name: 'More to be announced',
