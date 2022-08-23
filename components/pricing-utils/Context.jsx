@@ -247,10 +247,10 @@ const initialState = {
       frequency: '/course',
       description: 'via video conference',
       features: [
-        '4 weeks of intensive learning and practicing',
+        '3 weeks of intensive learning and practicing',
         'Small group of 12-15 members',
         'Weekly coaching with the group',
-        '1 year full access to Video On-Demand'
+        '1 year full access'
       ],
       cta: 'Coming Soon - Join Waitlist',
       mostPopular: false,
@@ -357,7 +357,7 @@ const initialState = {
       title: '3 months',
       features: [
         'Full access 30+ videos on demand (more added over time)',
-        'Weekly office hours',
+        '2 x weekly 1:1 coaching timeslots',
         'Monthly guest speakers',
         'Monthly guest speakers',
         'Monthly guest speakers',
