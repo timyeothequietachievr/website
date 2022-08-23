@@ -7,7 +7,7 @@ const initialState = {
   price: 199,
   tiers: [
     {
-      title: 'billed: ',
+      title: 'Learn on your own',
       features: [
         'Full access 60+ videos on demand (more added over time)',
         'Weekly office hours',
@@ -41,7 +41,7 @@ const initialState = {
             price: 199,
             currencyName: 'AUD',
             periodName: 'yr',
-            totalPerYear: 199.99,
+            totalPerYear: 199,
             saving: {
               absolute: '50',
               relative: '20%'
@@ -75,10 +75,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/cN2bMmflh4vB3FC3cu',
-            price: 11.99,
+            price: 139,
             currencyName: 'USD',
-            periodName: 'mo',
-            totalPerYear: 139.99,
+            periodName: 'yr',
+            totalPerYear: 139,
             saving: {
               absolute: 40,
               relative: '20%'
@@ -106,10 +106,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/cN29Ee6OL1jpgsofZd',
-            price: 14.99,
+            price: 179,
             currencyName: 'CAD',
-            periodName: 'mo',
-            totalPerYear: 179.99,
+            periodName: 'yr',
+            totalPerYear: 179,
             saving: {
               absolute: 40,
               relative: '20%'
@@ -137,10 +137,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/14k2bMdd9bY37VS00g',
-            price: 7.99,
+            price: 99,
             currencyName: 'GBP',
-            periodName: 'mo',
-            totalPerYear: 95.99,
+            periodName: 'yr',
+            totalPerYear: 99,
             saving: {
               absolute: 24,
               relative: '20%'
@@ -168,10 +168,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/5kA2bMgple6ba408wP',
-            price: 10.99,
+            price: 129,
             currencyName: 'EUR',
-            periodName: 'mo',
-            totalPerYear: 123.99,
+            periodName: 'yr',
+            totalPerYear: 129,
             saving: {
               absolute: 32,
               relative: '20%'
@@ -199,10 +199,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/7sI4jU4GD5zF7VS14i',
-            price: 15.88,
+            price: 188,
             currencyName: 'SGD',
-            periodName: 'mo',
-            totalPerYear: 188.88,
+            periodName: 'yr',
+            totalPerYear: 188,
             saving: {
               absolute: 50,
               relative: '20%'
@@ -230,10 +230,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/eVadUu7SPe6b4JGdRa',
-            price: 46.33,
+            price: 599,
             currencyName: 'PLN',
-            periodName: 'mo',
-            totalPerYear: 555.99,
+            periodName: 'yr',
+            totalPerYear: 599,
             saving: {
               absolute: 140,
               relative: '20%'
