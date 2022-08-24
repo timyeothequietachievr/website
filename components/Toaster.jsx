@@ -16,7 +16,7 @@ export default function Toaster() {
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline">
                 {' '}
-                signup now<span aria-hidden="true">&rarr;</span>
+                free signup<span aria-hidden="true">&rarr;</span>
               </a>
             </span>
           </p>
