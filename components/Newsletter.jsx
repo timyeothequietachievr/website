@@ -43,12 +43,12 @@ export default function Newsletter() {
               />
               */}
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                <button
-                  a href="https://forms.gle/DZBWcDmYSJ6brxPj9#"
+                <a
+                  href="https://forms.gle/DZBWcDmYSJ6brxPj9#"
                   className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
                 >
                   Download Now
-                </button>
+                </a>
             {/* <button
                   type="submit"
                   className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
