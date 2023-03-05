@@ -76,7 +76,7 @@ export default function AboutPage() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-              Tim Yeo is a designer, leader and chief introvert at The Quiet Achiever (TQA). Best known for saying complex things simply.<br /><br />16 years a designer, design leader. 40 years an introvert.
+              Tim Yeo is a designer, leader and chief introvert at The Quiet Achiever (TQA). Best known for saying complex things simply.<br /><br />18 years a designer, design leader. 40 years an introvert.
               </p>
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
