@@ -11,7 +11,7 @@ const initialState = {
       features: [
         '10 April - 5 May 2023',
         '4 weeks of focused learning and practicing',
-        'Small group of 10-15 people',
+        'Small group of 10-15 introverts',
         '1 year full access to The Quiet Achiever Community'
       ],
       cta: 'Buy Now',
@@ -37,7 +37,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://www.thequietachievr.com',
+            stripeLink: 'https://www.thequietachievr.com/aud',
             price: 799,
             currencyName: 'AUD',
             periodName: '',
@@ -74,11 +74,11 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/14k7w64GDgej4JG7tc',
-            price: 139,
+            stripeLink: 'https://www.thequietachievr.com/USD',
+            price: 539,
             currencyName: 'USD',
-            periodName: 'yr',
-            totalPerYear: 139,
+            periodName: '',
+            totalPerYear: 539,
             saving: {
               absolute: 40,
               relative: '20%'
@@ -105,10 +105,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/dR6aIiehd6DJ5NKdRB',
+            stripeLink: 'https://www.thequietachievr.com/cad',
             price: 179,
             currencyName: 'CAD',
-            periodName: 'yr',
+            periodName: '',
             totalPerYear: 179,
             saving: {
               absolute: 40,
@@ -136,11 +136,11 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/eVaeYy8WT8LR0tqdRC',
-            price: 99,
+            stripeLink: 'https://www.thequietachievr.com/gbp',
+            price: 449,
             currencyName: 'GBP',
-            periodName: 'yr',
-            totalPerYear: 99,
+            periodName: '',
+            totalPerYear: 449,
             saving: {
               absolute: 24,
               relative: '20%'
@@ -167,11 +167,11 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/00g2bM1ur6DJekgaFr',
-            price: 129,
+            stripeLink: 'https://www.thequietachievr.com/eur',
+            price: 519,
             currencyName: 'EUR',
-            periodName: 'yr',
-            totalPerYear: 129,
+            periodName: '',
+            totalPerYear: 519,
             saving: {
               absolute: 32,
               relative: '20%'
@@ -198,11 +198,11 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/6oE9Eegpl8LR7VS4h4',
-            price: 188,
+            stripeLink: 'https://www.thequietachievr.com/sgd',
+            price: 688,
             currencyName: 'SGD',
-            periodName: 'yr',
-            totalPerYear: 188,
+            periodName: '',
+            totalPerYear: 688,
             saving: {
               absolute: 50,
               relative: '20%'
@@ -230,10 +230,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://buy.stripe.com/14kbMmgplaTZ6RO14T',
-            price: 599,
+            price: 2389,
             currencyName: 'PLN',
-            periodName: 'yr',
-            totalPerYear: 599,
+            periodName: '',
+            totalPerYear: 2389,
             saving: {
               absolute: 140,
               relative: '20%'
@@ -243,14 +243,14 @@ const initialState = {
       }
     },
     {
-      title: '3-week group course',
-      frequency: '/course',
+      title: 'Late 2023',
+      frequency: '',
       description: 'via video conference',
       features: [
-        '3 weeks of intensive learning and practicing',
-        'Small group of 12-15 members',
-        'Weekly coaching with the group',
-        '1 year full access'
+        'Dates: TBC',
+        '4 weeks of focused learning and practicing',
+        'Small group of 10-15 introverts',
+        '1 year full access to The Quiet Achiever Community'
       ],
       cta: 'Coming Soon - Join Waitlist',
       mostPopular: false,
