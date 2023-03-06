@@ -229,7 +229,7 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/14kbMmgplaTZ6RO14T',
+            stripeLink: 'https://www.thequietachievr.com/pln',
             price: 2389,
             currencyName: 'PLN',
             periodName: '',
