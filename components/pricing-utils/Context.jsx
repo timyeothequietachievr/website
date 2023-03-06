@@ -8,14 +8,6 @@ const initialState = {
   tiers: [
     {
       title: 'Apr 2023',
-      {/* 
-      features: [
-        'Full access 30+ videos on demand (more added over time)',
-        'Weekly office hours',
-        'Monthly guest speakers',
-        '24/7 online community of introverts'
-      ]
-    */}
       features: [
         '10 April - 5 May 2023',
         '4 weeks of focused learning and practicing',
