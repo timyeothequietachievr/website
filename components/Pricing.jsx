@@ -32,7 +32,8 @@ export default function Pricing() {
         id="pricing"
       >
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Pricing starts at <PricingDisplay />
+          {/*   Pricing starts at <PricingDisplay /> */}
+          Next cohort in 5 weeks
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
           Learn on your own or in a group. You choose.
