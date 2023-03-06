@@ -256,31 +256,31 @@ const initialState = {
       mostPopular: false,
       variants: {
         aud: {
-          price: 799,
+          price: 899,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         usd: {
-          price: 539,
+          price: 609,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         cad: {
-          price: 739,
+          price: 829,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         sgd: {
-          price: 688,
+          price: 788,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         gbp: {
-          price: 449,
+          price: 509,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         eur: {
-          price: 519,
+          price: 579,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         pln: {
-          price: 2389,
+          price: 2699,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
           /* stripeLink: 'https//tqa.stripe.com/course/pln' */
         } 
