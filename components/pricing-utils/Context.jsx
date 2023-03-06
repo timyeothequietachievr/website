@@ -37,11 +37,11 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/5kAeYyflh4vBdgc5l3',
-            price: 199,
+            stripeLink: 'https://www.thequietachievr.com',
+            price: 799,
             currencyName: 'AUD',
-            periodName: 'yr',
-            totalPerYear: 199,
+            periodName: '',
+            totalPerYear: 799,
             saving: {
               absolute: '50',
               relative: '20%'
