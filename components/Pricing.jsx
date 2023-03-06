@@ -36,7 +36,8 @@ export default function Pricing() {
           Next cohort in 5 weeks
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
-          Learn on your own or in a group. You choose.
+          {/* Learn on your own or in a group. You choose. */}
+          Choose currency: 
         </p>
 
         <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
@@ -60,7 +61,8 @@ export default function Pricing() {
                 </h3>
                 {tier.mostPopular ? (
                   <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
-                    Basic
+                    {/* BASIC */}
+                    9 places left
                   </p>
                 ) : null}
                 <p className="mt-4 flex items-baseline text-gray-900">
