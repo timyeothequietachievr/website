@@ -28,7 +28,7 @@ export default function WhatYouWillLearn() {
                     <li>How to say no politely</li>
                     <li>Handle difficult conversations</li>
                   </ul>
-                  <p>
+                  {/* <p>
                     Techniques are organised around{' '}
                     <strong>The Introvert Skill Tree</strong>. Go deep into
                     Networking or go broad across all skills. You choose what
@@ -36,7 +36,7 @@ export default function WhatYouWillLearn() {
                   </p>
                   <p>
                     <strong>Level up</strong> your way.
-                  </p>
+  </p>*/}
                 </div>
               </div>
             </div>

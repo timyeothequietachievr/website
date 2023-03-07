@@ -57,7 +57,7 @@ export default function Pricing() {
                       onPeriodChanged={onSubscriptionPeriodChanged}
                       subscriptionPeriod={subscriptionPeriod}
                     />
-                  ) : null}late 2023
+                  ) : null}
                 </h3>
                 {tier.mostPopular ? (
                   <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
