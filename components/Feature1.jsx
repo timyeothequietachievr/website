@@ -10,10 +10,12 @@ export default function Feature1() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Videos on-demand
+                  {/* Videos on-demand */}
+                  50+ video lessons
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. 
+                10-15 videos released every week. Learn async in your own time. Videos are short and easy to apply. Lessons leverage your introverted strengths. 
+                {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
                   <a
@@ -44,10 +46,12 @@ export default function Feature1() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Weekly office hours
+                  {/* Weekly office hours */}
+                  Live video calls
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                  Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want.
+                <strong>First call:</strong> presentation of the week's lessons. During the week, you practice the lessons and share your work. Second call: discuss how your practice went. 
+                  {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
               </div>
             </div>
