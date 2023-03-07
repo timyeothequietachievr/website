@@ -31,6 +31,14 @@ export default function WhatYouWillLearn() {
                   <p>
                   The course is entirely online with a mix of live and async learning.
                     </p>
+                <div className="mt-6">
+                  <a
+                    href="#pricing"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Next cohort in 5 weeks
+                  </a>
+                </div>
                   {/* <p>
                     Techniques are organised around{' '}
                     <strong>The Introvert Skill Tree</strong>. Go deep into
