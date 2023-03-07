@@ -255,7 +255,7 @@ const initialState = {
       mostPopular: false,
       variants: {
         aud: {
-          price: 899,
+          price: 799,
           stripeLink: 'https://www.thequietachievr.com'
         },
         usd: {
