@@ -256,31 +256,31 @@ const initialState = {
       variants: {
         aud: {
           price: 899,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         usd: {
           price: 609,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         cad: {
           price: 829,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         sgd: {
           price: 788,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         gbp: {
           price: 509,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         eur: {
           price: 579,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
         },
         pln: {
           price: 2699,
-          stripeLink: 'https://wwww.thequietachievr.com'
+          stripeLink: 'https://www.thequietachievr.com'
           /* stripeLink: 'https//tqa.stripe.com/course/pln' */
           /* stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846' */
         } 
