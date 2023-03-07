@@ -18,7 +18,7 @@ export default function BeingIntrovertHard() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Being an introvert is hard in a noisy world
+                Being an introvert in a noisy world is hard
               </h3>
 
 

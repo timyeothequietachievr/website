@@ -106,10 +106,10 @@ const initialState = {
           },
           yearly: {
             stripeLink: 'https://www.thequietachievr.com/cad',
-            price: 179,
+            price: 739,
             currencyName: 'CAD',
             periodName: '',
-            totalPerYear: 179,
+            totalPerYear: 739,
             saving: {
               absolute: 40,
               relative: '20%'
