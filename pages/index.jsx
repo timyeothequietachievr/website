@@ -12,6 +12,7 @@ import Testimonials from '../components/Testimonials'
 import TestimonialCentered from '../components/TestimonialCentered'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
+import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
 import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
 import Gift2 from '../components/Gift2'
@@ -33,6 +34,7 @@ export default function IndexPage() {
       <Feature3 />
       <MonthlyGuestSpeakers />
       <TestimonialLargeAvatar2 />
+      <TestimonialLargeAvatar3 />
       <Pricing />
       <Testimonials />
       {/* <Gift /> */}
