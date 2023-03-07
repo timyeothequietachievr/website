@@ -120,7 +120,8 @@ const people = [
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Monthly guest speakers</h2>
+              {/* <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Monthly guest speakers</h2>*/}
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">After the course, join the community</h2>
               <p className="text-xl text-gray-500">
               Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.<br /><br />2022 guest speakers include:
               </p>
