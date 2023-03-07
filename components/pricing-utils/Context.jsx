@@ -248,8 +248,8 @@ const initialState = {
       description: 'via video conference',
       features: [
         'Dates: TBC',
-        'Same same but different dates',
-        'Full refund if cancel before course starts',
+        'Same course, different dates',
+        'Full refund if you cancel before the course starts',
       ],
       cta: 'Buy Now - Confirm Your Spot',
       mostPopular: false,
