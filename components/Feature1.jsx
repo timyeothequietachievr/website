@@ -61,8 +61,9 @@ export default function Feature1() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
-                src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4"
-                alt="Customer profile user interface"
+                /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
+                src="src/course-livevideocalls.png"
+                alt="2 live video calls every week"
               />
             </div>
           </div>
