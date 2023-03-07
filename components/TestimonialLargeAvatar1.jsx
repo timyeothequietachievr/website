@@ -89,7 +89,7 @@ export default function TestimonialLargeAvatar1() {
                     </div>
                     <div className="ml-4 lg:ml-0">
                       <div className="text-base font-medium text-gray-900">Ezra Ju</div>
-                      <div className="text-base font-medium text-indigo-600">UX Designer, 86 400</div>
+                      <div className="text-base font-medium text-indigo-600">Product Designer, Domain</div>
                     </div>
                   </div>
                 </footer>

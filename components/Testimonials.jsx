@@ -105,7 +105,7 @@ export default function Testimonials() {
                     Lewis Kang'ethe Ngugi
                   </div>
                   <div className="text-base font-medium text-indigo-200">
-                    Product Designer, Lookback.io
+                    Senior Product Designer, HubSpot
                   </div>
                 </div>
               </div>
