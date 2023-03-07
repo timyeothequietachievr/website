@@ -49,17 +49,19 @@ export default function Feature2() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    24/7 online community of introverts
+                    {/* 24/7 online community of introverts */}
+                    Access via Web and App
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500"> 
-                    Share with fellow introverts for learning and support. Get notified of updates and replies. <br />Online and in-app.  
+                  Access the course via our website, or use the native iOS or Android apps. 
+                    {/* Share with fellow introverts for learning and support. Get notified of updates and replies. <br />Online and in-app.  */}
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://circle.so/ios"
+                    href="https://circle.so/mobile"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Download iOS app
+                    Download App
                   </a>
                 </div>
               </div>

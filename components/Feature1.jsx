@@ -50,7 +50,7 @@ export default function Feature1() {
                   Live video calls
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>First call:</strong> presentation of the week's lessons. During the week, you practice the lessons and share your work. Second call: discuss how your practice went. 
+                <strong>First call:</strong> presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> discuss how your practice went. 
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
               </div>
