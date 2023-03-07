@@ -27,7 +27,10 @@ export default function WhatYouWillLearn() {
                     </li>
                     <li>How to say no politely</li>
                     <li>Handle difficult conversations</li>
-                  </ul>
+                  </ul> 
+                  <p>
+                  The course is entirely online with a mix of live and async learning.
+                    </p>
                   {/* <p>
                     Techniques are organised around{' '}
                     <strong>The Introvert Skill Tree</strong>. Go deep into
