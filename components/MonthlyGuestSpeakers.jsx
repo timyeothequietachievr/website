@@ -121,9 +121,10 @@ const people = [
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
               {/* <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Monthly guest speakers</h2>*/}
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">After the course, join the community</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Guest speaker interviews</h2>
               <p className="text-xl text-gray-500">
-              Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.<br /><br />2022 guest speakers include:
+              Watch and learn from well known introvert leaders. So far, our guest speakers include: 
+              {/* Every month features a guest speaker who will share their introvert story. Sessions are live and recorded. Members-only.<br /><br />2022 guest speakers include: */}
               </p>
             </div>
             <ul

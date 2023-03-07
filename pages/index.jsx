@@ -31,8 +31,8 @@ export default function IndexPage() {
       <Feature1 />
       <Feature2 />
       <Feature3 />
-      <TestimonialLargeAvatar2 />
       <MonthlyGuestSpeakers />
+      <TestimonialLargeAvatar2 />
       <Pricing />
       <Testimonials />
       {/* <Gift /> */}
