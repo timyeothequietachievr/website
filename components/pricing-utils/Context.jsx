@@ -248,41 +248,41 @@ const initialState = {
       description: 'via video conference',
       features: [
         'Dates: TBC',
-        '4 weeks of focused learning and practicing',
-        'Small group of 10-15 introverts',
-        '1 year full access to The Quiet Achiever Community'
+        'Same same but different dates',
+        'Full refund if cancel before course starts',
       ],
-      cta: 'Coming Soon - Join Waitlist',
+      cta: 'Buy Now - Confirm Your Spot',
       mostPopular: false,
       variants: {
         aud: {
-          price: 799,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 899,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         usd: {
-          price: 539,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 609,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         cad: {
-          price: 739,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 829,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         sgd: {
-          price: 688,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 788,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         gbp: {
-          price: 449,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 509,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         eur: {
-          price: 519,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 579,
+          stripeLink: 'https://wwww.thequietachievr.com'
         },
         pln: {
-          price: 2389,
-          stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
+          price: 2699,
+          stripeLink: 'https://wwww.thequietachievr.com'
           /* stripeLink: 'https//tqa.stripe.com/course/pln' */
+          /* stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846' */
         } 
       },
       localisedPrice(currency) {
