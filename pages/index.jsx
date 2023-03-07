@@ -23,7 +23,7 @@ export default function IndexPage() {
       <Masthead />
       <BeingIntrovertHard />
       <IntroTQA />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <WhatYouWillLearn />
       <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
