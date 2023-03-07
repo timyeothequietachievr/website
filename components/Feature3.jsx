@@ -33,7 +33,7 @@ export default function Feature3() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/TQA-community.png"
+                src="src/TQA-members.png"
                 alt="Community"
               />
             </div>
