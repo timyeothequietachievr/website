@@ -243,7 +243,7 @@ const initialState = {
       }
     },
     {
-      title: 'Late 2023',
+      title: 'Mid 2023',
       frequency: '',
       description: 'via video conference',
       features: [
@@ -256,31 +256,31 @@ const initialState = {
       mostPopular: false,
       variants: {
         aud: {
-          price: 899,
+          price: 799,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         usd: {
-          price: 609,
+          price: 539,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         cad: {
-          price: 829,
+          price: 739,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         sgd: {
-          price: 788,
+          price: 688,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         gbp: {
-          price: 509,
+          price: 449,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         eur: {
-          price: 579,
+          price: 519,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
         },
         pln: {
-          price: 2699,
+          price: 2389,
           stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846'
           /* stripeLink: 'https//tqa.stripe.com/course/pln' */
         } 

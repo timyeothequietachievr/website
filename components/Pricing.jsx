@@ -57,12 +57,12 @@ export default function Pricing() {
                       onPeriodChanged={onSubscriptionPeriodChanged}
                       subscriptionPeriod={subscriptionPeriod}
                     />
-                  ) : null}
+                  ) : null}late 2023
                 </h3>
                 {tier.mostPopular ? (
                   <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
                     {/* BASIC */}
-                    Intro price
+                    NEXT COHORT
                   </p>
                 ) : null}
                 <p className="mt-4 flex items-baseline text-gray-900">
