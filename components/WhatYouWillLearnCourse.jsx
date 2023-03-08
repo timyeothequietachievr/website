@@ -25,13 +25,14 @@ export default function WhatYouWillLearnCourse() {
                     <li>How to say no politely</li>
                     <li>Handle difficult conversations</li>
                   </ul> 
+                  The course is entirely online with a mix of live and async learning.
                 </p>
                 <div className="mt-6">
                   <a
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    See pricing
+                    Next cohort in 5 weeks
                   </a>
                 </div>
               </div>
@@ -42,7 +43,7 @@ export default function WhatYouWillLearnCourse() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/videoondemand.gif"
+                src="src/tqaoncircle.png"
                 alt="Inbox user interface"
               />
             </div>

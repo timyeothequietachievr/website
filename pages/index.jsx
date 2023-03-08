@@ -28,7 +28,7 @@ export default function IndexPage() {
       <BeingIntrovertHard />
       <IntroTQA />
       {/* <HowItWorks /> */}
-      <WhatYouWillLearn />
+      {/* <WhatYouWillLearn /> */}
       <WhatYouWillLearnCourse />
       <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
