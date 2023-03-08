@@ -1,6 +1,7 @@
 import Masthead from '../components/Masthead'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearn from '../components/WhatYouWillLearn'
+import WhatYouWillLearnCourse from '../WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -28,6 +29,7 @@ export default function IndexPage() {
       <IntroTQA />
       {/* <HowItWorks /> */}
       <WhatYouWillLearn />
+      <WhatYouWillLearnCourse />
       <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
       <Feature1 />
