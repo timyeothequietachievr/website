@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function TestimonialLargeAvatar2() {
     return (
-      <section className="bg-white overflow-hidden">
+      <section className="bg-white overflow-hidden" id="testimonials">
         <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
           <svg
             className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
