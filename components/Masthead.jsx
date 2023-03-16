@@ -36,7 +36,7 @@ export default function Masthead() {
         </div>
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
-        <IntroVideoModalContents ytLink="https://www.youtube.com/embed/yOGc_A0uyrc?controls=0" />
+        <IntroVideoModalContents ytLink="https://www.youtube.com/embed/_ZUbIJcvTlM?controls=0" />
       </Modal>
     </section>
   )
