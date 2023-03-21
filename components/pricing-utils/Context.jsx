@@ -263,31 +263,38 @@ const initialState = {
       variants: {
         aud: {
           price: 899,
-          stripeLink: 'https://buy.stripe.com/cN2dUu6OLe6b4JGaFX'
+          stripeLink: 'https://buy.stripe.com/cN2dUu6OLe6b4JGaFX',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkPLN'
         },
         usd: {
           price: 609,
-          stripeLink: 'https://buy.stripe.com/8wMg2C8WTbY3cc801d'
+          stripeLink: 'https://buy.stripe.com/8wMg2C8WTbY3cc801d',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkUSD'
         },
         cad: {
           price: 829,
-          stripeLink: 'https://buy.stripe.com/8wMdUu3Cz3rxgso4hy'
+          stripeLink: 'https://buy.stripe.com/8wMdUu3Cz3rxgso4hy',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkPLN'
         },
         sgd: {
           price: 788,
-          stripeLink: 'https://buy.stripe.com/4gw9Eeb51bY32By6pC'
+          stripeLink: 'https://buy.stripe.com/4gw9Eeb51bY32By6pC',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkSGD'
         },
         gbp: {
           price: 509,
-          stripeLink: 'https://buy.stripe.com/00gcQq6OLe6bcc8g0e'
+          stripeLink: 'https://buy.stripe.com/00gcQq6OLe6bcc8g0e',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkGBP'
         },
         eur: {
           price: 579,
-          stripeLink: 'https://buy.stripe.com/eVag2C2yv6DJ4JG6pF'
+          stripeLink: 'https://buy.stripe.com/eVag2C2yv6DJ4JG6pF',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkEUR'
         },
         pln: {
           price: 2699,
-          stripeLink: 'https://buy.stripe.com/14k3fQ2yv1jp5NKdS5'
+          stripeLink: 'https://buy.stripe.com/14k3fQ2yv1jp5NKdS5',
+          stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/notreallinkPLN'
           /* stripeLink: 'https//tqa.stripe.com/course/pln' */
           /* stripeLink: 'https://forms.gle/ax4GaGghTLRQj4846' */
         } 
