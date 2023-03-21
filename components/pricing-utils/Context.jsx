@@ -590,6 +590,7 @@ export function usePaymentOptions({ kind } = {}) {
         subscriptionPeriod
       }),
     stripeLink,
+    stripeLinkPaymentPlanMonthly,
     price,
     currencyName,
     periodName,
