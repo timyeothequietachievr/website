@@ -596,7 +596,6 @@ export function usePaymentOptions({ kind } = {}) {
     selectedTiers,
     saving,
     subscriptionPeriod,
-    stripeLinkPaymentPlanMonthly,
     getTierAt(idx) {
       return selectedTiers[idx]
     },
