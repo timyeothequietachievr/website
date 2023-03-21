@@ -90,9 +90,7 @@ export default function Pricing() {
                   ))}
                 </ul>
               </div>
-              <a
-                href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}
-              >
+              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}>
                 split payment over 4 months
               </a>    
               <a
