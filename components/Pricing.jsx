@@ -18,6 +18,7 @@ export default function Pricing() {
     stripeLink,
     saving,
     currencyName,
+    stripeLinkPaymentPlanMonthly,
     periodName,
     onCurrencyChanged,
     onSubscriptionPeriodChanged,

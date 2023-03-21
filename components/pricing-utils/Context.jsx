@@ -40,6 +40,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/5kAdUub51d27cc8296',
             price: 799,
             currencyName: 'AUD',
+            stripeLinkPaymentPlanMonthly: '#pricingAUD',
             periodName: '',
             totalPerYear: 799,
             saving: {
@@ -77,6 +78,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/9AQeYy2yvfaffokbK6',
             price: 539,
             currencyName: 'USD',
+            stripeLinkPaymentPlanMonthly: '#pricingUSD',
             periodName: '',
             totalPerYear: 539,
             saving: {
@@ -108,6 +110,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/8wM6s2flhfaffokaFY',
             price: 739,
             currencyName: 'CAD',
+            stripeLinkPaymentPlanMonthly: '#pricingCAD',
             periodName: '',
             totalPerYear: 739,
             saving: {
@@ -139,6 +142,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/5kA9Ee0qnaTZekgaG0',
             price: 449,
             currencyName: 'GBP',
+            stripeLinkPaymentPlanMonthly: '#pricingGBP',
             periodName: '',
             totalPerYear: 449,
             saving: {
@@ -170,6 +174,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/9AQ5nY1ur0fl1xu15p',
             price: 519,
             currencyName: 'EUR',
+            stripeLinkPaymentPlanMonthly: '#pricingEUR',
             periodName: '',
             totalPerYear: 519,
             saving: {
@@ -201,6 +206,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/fZeeYya0X9PV8ZW8xV',
             price: 688,
             currencyName: 'SGD',
+            stripeLinkPaymentPlanMonthly: '#pricingSGD',
             periodName: '',
             totalPerYear: 688,
             saving: {
@@ -232,6 +238,7 @@ const initialState = {
             stripeLink: 'https://buy.stripe.com/4gw5nY1uraTZa40g0l',
             price: 2389,
             currencyName: 'PLN',
+            stripeLinkPaymentPlanMonthly: '#pricingPLN',
             periodName: '',
             totalPerYear: 2389,
             saving: {
