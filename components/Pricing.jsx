@@ -89,11 +89,7 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())} className="text-sm font-semibold leading-6 text-indigo-600">
-              {/* <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}> */}
-                split payment over 4 months
-              </a>    
+              </div>  
               <a
                 href={idx === 0 ? stripeLink : tier.localisedStripeLink(currencyName.toLowerCase())}
                 className={classNames(
@@ -105,6 +101,10 @@ export default function Pricing() {
               >
                 {tier.cta}
               </a>
+              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())} className="text-sm font-semibold leading-6 text-indigo-600">
+              {/* <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}> */}
+                split payment over 4 months
+              </a> 
             </div>
           ))}
         </div>
