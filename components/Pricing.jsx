@@ -91,7 +91,7 @@ export default function Pricing() {
                 </ul>
               </div>
               </ br>
-              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())} className="mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-indigo-600">
+              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())} className="text-sm font-semibold leading-6 text-indigo-600">
               {/* <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}> */}
                 split payment over 4 months
               </a>    
