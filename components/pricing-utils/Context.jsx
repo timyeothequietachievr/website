@@ -572,7 +572,7 @@ export function usePaymentOptions({ kind } = {}) {
 
   const selectedTiers = kind === 'gift' ? giftTiers : tiers
 
-  const { stripeLink, price, currencyName, periodName, saving } =
+  const { stripeLink, stripeLinkPaymentPlanMonthly, price, currencyName, periodName, saving } =
     kind === 'gift'
       ? selectedTiers[0].variants[currency]
       : selectedTiers[0].variants[currency][subscriptionPeriod]
@@ -604,6 +604,7 @@ export function usePaymentOptions({ kind } = {}) {
         subscriptionPeriod
       }),
     stripeLink,
+    stripeLinkPaymentPlanMonthly,
     price,
     currencyName,
     periodName,
