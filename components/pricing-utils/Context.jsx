@@ -297,6 +297,9 @@ const initialState = {
       },
       localisedStripeLink(currency) {
         return this.variants[currency].stripeLink
+      },
+      localisedstripeLinkPaymentPlanMonthly(currency) {
+        return this.variants[currency].stripeLinkPaymentPlanMonthly
       }
     }
   ],
