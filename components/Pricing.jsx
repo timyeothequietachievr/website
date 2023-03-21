@@ -92,14 +92,8 @@ export default function Pricing() {
               </div>
               <a
                 href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}
-                className={classNames(
-                  tier.mostPopular
-                    ? 'bg-indigo-500 text-white hover:bg-indigo-600'
-                    : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100',
-                  'mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
-                )}
               >
-                {tier.cta}
+                split payment over 4 months
               </a>    
               <a
                 href={idx === 0 ? stripeLink : tier.localisedStripeLink(currencyName.toLowerCase())}
