@@ -22,16 +22,7 @@ import HowItWorks from '../components/HowItWorks'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
-  return (
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TVY6L0GW07"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TVY6L0GW07');
-</script>
+  return (    
     <PricingContextProvider>
       <Masthead />
       <BeingIntrovertHard />
