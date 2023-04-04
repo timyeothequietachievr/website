@@ -13,18 +13,18 @@ export default function WhatYouWillLearnCourse() {
                   {/* Videos on-demand */}
                   In 4 weeks, you will learn:
                 </h2>
+                <ul role="list" className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
+                  <li>How to speak up and perform in meetings</li>
+                  <li>Introduce yourself confidently</li>
+                  <li>Networking - online and in real life</li>
+                  <li>Small talk - with people you just met</li>
+                  <li>
+                    Public speaking - prepare and perform with confidence
+                  </li>
+                  <li>How to say no politely</li>
+                  <li>Handle difficult conversations</li>
+                </ul> 
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <ul role="list">
-                    <li>How to speak up and perform in meetings</li>
-                    <li>Introduce yourself confidently</li>
-                    <li>Networking - online and in real life</li>
-                    <li>Small talk - with people you just met</li>
-                    <li>
-                      Public speaking - prepare and perform with confidence
-                    </li>
-                    <li>How to say no politely</li>
-                    <li>Handle difficult conversations</li>
-                  </ul> 
                   The course is entirely online with a mix of live and async learning.
                 </p>
                 <div className="mt-6">

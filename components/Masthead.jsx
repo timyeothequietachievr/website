@@ -1,3 +1,4 @@
+import * as gtag from '../lib/gtag';
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
 export default function Masthead() {
@@ -20,6 +21,9 @@ export default function Masthead() {
             <a
               href="#pricing"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+              data-event-category="purchase"
+              data-event-action="buy_now_click"
+              data-event-label="masthead cta"
             >
               Buy Now
             </a>
@@ -29,6 +33,9 @@ export default function Masthead() {
               type="button"
               onClick={open}
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+              data-event-category="education"
+              data-event-action="watch_now_click"
+              data-event-label="masthead cta"
             >
               ▶️ Watch Intro
             </button>

@@ -98,12 +98,21 @@ export default function Pricing() {
                     : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100',
                   'mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
                 )}
+                data-event-category="purchase"
+                data-event-action="full_payment_click"
+                data-event-label="payment cta"
+                data-event-value={`${tier.title}|${currencyName}`}
               >
                 {tier.cta}
               </a>
-              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())} className="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300">
-              {/* <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}> */}
-                split payment over 4 months
+              <a href={idx === 0 ? stripeLinkPaymentPlanMonthly : tier.localisedstripeLinkPaymentPlanMonthly(currencyName.toLowerCase())}
+                className="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300"
+                data-event-category="purchase"
+                data-event-label="payment cta"
+                data-event-action="split_payment_click"
+                data-event-value={`${tier.title}|${currencyName}`}
+              >
+                Split payment over 4 months
               </a> 
             </div>
           ))}
