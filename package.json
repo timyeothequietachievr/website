@@ -11,15 +11,15 @@
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.4",
-    "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^13",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.10",
+    "postcss": "8.4.21",
     "tailwindcss": "^2.1.1"
   },
   "prettier": {
