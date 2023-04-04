@@ -13,7 +13,9 @@ import ToasterEarly from '../components/ToasterEarly'
 import 'tailwindcss/tailwind.css'
 
 const navigationItems = [
-    { name: 'About', href: '/about' },
+  { name: 'Courses', href: '/courses' },
+  { name: 'Coaching', href: '/coaching' },
+  { name: 'About', href: '/about' },
 ]
 
 const loginLink = 'https://circle.so'
