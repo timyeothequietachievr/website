@@ -22,7 +22,7 @@ import HowItWorks from '../components/HowItWorks'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
-  return (    
+  return (
     <PricingContextProvider>
       <Masthead />
       <BeingIntrovertHard />
@@ -39,7 +39,11 @@ export default function IndexPage() {
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      <Pricing />
+      <Pricing kind="all">
+        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+          Next cohort in 3 weeks
+        </h2>
+      </Pricing>
       <Testimonials />
       {/* <Gift /> */}
       {/*<Gift2 /> */}

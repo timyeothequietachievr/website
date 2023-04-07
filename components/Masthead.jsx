@@ -1,4 +1,3 @@
-import * as gtag from '../lib/gtag';
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
 export default function Masthead() {

@@ -5,7 +5,11 @@ import {
   PaymentOptions,
   PeriodToggleExtended
 } from './pricing-utils/PaymentOptions'
-import { PricingDisplay } from './pricing-utils/Display'
+import {
+  localisedPrice,
+  localisedStripeLink,
+} from './pricing-utils/selectors'
+
 import { usePaymentOptions } from './pricing-utils/Context'
 
 function classNames(...classes) {
@@ -35,7 +39,7 @@ export default function Pricing() {
           Give a gift
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
-          to an introvert friend or colleague you know. 
+          to an introvert friend or colleague you know.
         </p>
 
         <PaymentOptions onCurrencyChanged={onCurrencyChanged} />
@@ -66,13 +70,20 @@ export default function Pricing() {
                   <span className="text-5xl font-extrabold tracking-tight">
                     {idx === 0
                       ? `${currencyName} ${price}`
-                      : `${currencyName} ${tier.localisedPrice(currencyName.toLowerCase())}`}
+                      : `${currencyName} ${localisedPrice(
+                          tier,
+                          currencyName.toLowerCase()
+                        )}`}
                   </span>
                   <span className="ml-1 text-xl font-semibold">
                     {idx === 0 ? `${periodName}` : tier.frequency}
                   </span>
                 </p>
-                <p className="mt-6 text-gray-500">{idx === 0 && saving ? `${saving.relative} off (save $${saving.absolute}/year)` : tier.description}</p>
+                <p className="mt-6 text-gray-500">
+                  {idx === 0 && saving
+                    ? `${saving.relative} off (save $${saving.absolute}/year)`
+                    : tier.description}
+                </p>
 
                 {/* Feature list */}
                 <ul role="list" className="mt-6 space-y-6">
@@ -89,7 +100,14 @@ export default function Pricing() {
               </div>
 
               <a
-                href={idx === 0 ? stripeLink : tier.localisedStripeLink(currencyName.toLowerCase())}
+                href={
+                  idx === 0
+                    ? stripeLink
+                    : localisedStripeLink(
+                      tier,
+                      currencyName.toLowerCase()
+                    )
+                }
                 className={classNames(
                   tier.mostPopular
                     ? 'bg-indigo-500 text-white hover:bg-indigo-600'
