@@ -14,12 +14,12 @@ const initialState = {
         'Small group of 10-15 introverts',
         '1 year full access to The Quiet Achiever Community'
       ],
-      cta: 'Buy Now',
+      cta: 'Closed',
       mostPopular: true,
       variants: {
         aud: {
           monthly: {
-            stripeLink: 'https://buy.stripe.com/dR68Aaa0XbY31xuaEE',
+            stripeLink: '#pricing',
             price: 19.99,
             currencyName: 'AUD',
             periodName: 'mo',
@@ -37,10 +37,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/5kAdUub51d27cc8296',
+            stripeLink: '#pricing',
             price: 799,
             currencyName: 'AUD',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/8wM03E3Czfafgso3dI',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 799,
             saving: {
@@ -75,10 +75,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/9AQeYy2yvfaffokbK6',
+            stripeLink: '#pricing',
             price: 539,
             currencyName: 'USD',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/3cs4jU6OLaTZdgc8xX',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 539,
             saving: {
@@ -107,10 +107,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/8wM6s2flhfaffokaFY',
+            stripeLink: '#pricing',
             price: 739,
             currencyName: 'CAD',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/3cseYy0qnaTZ0tq8y1',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 739,
             saving: {
@@ -139,10 +139,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/5kA9Ee0qnaTZekgaG0',
+            stripeLink: '#pricing',
             price: 449,
             currencyName: 'GBP',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/8wMaIic953rxekgcOf',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 449,
             saving: {
@@ -171,10 +171,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/9AQ5nY1ur0fl1xu15p',
+            stripeLink: '#pricing',
             price: 519,
             currencyName: 'EUR',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/28o03E0qnbY38ZWcOg',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 519,
             saving: {
@@ -203,10 +203,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/fZeeYya0X9PV8ZW8xV',
+            stripeLink: '#pricing',
             price: 688,
             currencyName: 'SGD',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/7sI2bM5KHfaf0tq5lK',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 688,
             saving: {
@@ -235,10 +235,10 @@ const initialState = {
             }
           },
           yearly: {
-            stripeLink: 'https://buy.stripe.com/4gw5nY1uraTZa40g0l',
+            stripeLink: '#pricing',
             price: 2389,
             currencyName: 'PLN',
-            stripeLinkPaymentPlanMonthly: 'https://buy.stripe.com/28oaIib51fafcc8aG6',
+            stripeLinkPaymentPlanMonthly: '#pricing',
             periodName: '',
             totalPerYear: 2389,
             saving: {
