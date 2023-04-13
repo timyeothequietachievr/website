@@ -10,7 +10,7 @@ const initialState = {
       title: 'Apr 2023',
       features: [
         '10 April - 5 May 2023',
-        '4 weeks of focused learning and practicing',
+        '4 weeks of focused learning and practicing, 4-5hrs/week',
         'Small group of 10-15 introverts',
         '1 year full access to The Quiet Achiever Community'
       ],
