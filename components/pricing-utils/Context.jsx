@@ -10,7 +10,7 @@ const initialState = {
       title: 'Apr 2023',
       features: [
         '10 April - 5 May 2023',
-        '4 weeks of focused learning and practicing, 4-5hrs/week',
+        '4 weeks of focused learning and practicing, 3-4hrs/week',
         'Small group of 10-15 introverts',
         '1 year full access to The Quiet Achiever Community'
       ],
@@ -250,15 +250,14 @@ const initialState = {
       }
     },
     {
-      title: 'Mid 2023',
+      title: 'June 2023',
       frequency: '',
       description: 'via video conference',
       features: [
-        'Dates: TBC',
+        'Dates: 15Jun - 11Jul',
         'Same course, different dates',
-        'Full refund if you cancel before the course starts',
       ],
-      cta: 'Buy Now - Confirm Your Spot',
+      cta: 'Buy Now',
       mostPopular: false,
       variants: {
         aud: {
