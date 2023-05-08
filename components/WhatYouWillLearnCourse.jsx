@@ -32,7 +32,7 @@ export default function WhatYouWillLearnCourse() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Next cohort Mid 2023
+                    Next cohort Jun 2023
                   </a>
                 </div>
               </div>
