@@ -50,7 +50,7 @@ export default function Feature1() {
                   Live video calls
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>First call:</strong> Wed (US, Canada) & Thu (rest of world) - presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> Mon (US, Canada) & Tue (rest of world) - discuss how your practice went.<br /><strong>Session times:</strong>SYD 10am/5pm SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />  
+                <strong>First call:</strong> Wed (US, Canada) & Thu (rest of world) - presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> Mon (US, Canada) & Tue (rest of world) - discuss how your practice went.<br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
               </div>
