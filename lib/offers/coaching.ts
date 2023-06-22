@@ -140,6 +140,145 @@ const coaching: Array<CoachingOffer> = [
     }
   },
 
+  {
+    name: 'Free Discovery Chat',
+    features: [
+      'Book a free 30min 1:1 session',
+      'Discuss challenges you are facing',
+      'Learn tiny habits you can practice the next day',
+    ],
+    paymentOptions: {
+      monthly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'monthly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        }
+      },
+      
+      yearly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/5'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'yearly',
+          price: 'free',
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        }
+      }
+    }
+  }
 ]
 
 export default coaching

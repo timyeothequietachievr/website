@@ -23,7 +23,7 @@ export function listingOffersFromCoachingOffers(
       widget: 'frequencyToggle',
       cta: {
         primary: {
-          label: 'Buy now',
+          label: 'Book Now',
           link: paymentLinks.full,
         },
       }
