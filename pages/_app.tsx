@@ -3,22 +3,18 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 
-import * as gtag from '../lib/gtag'
+import { siteMetaData, navigationItems } from '../config/core'
 
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import Toaster from '../components/Toaster'
-import ToasterEarly from '../components/ToasterEarly'
+
+import * as gtag from '../lib/gtag'
+import type { EventData } from '../lib/gtag'
 
 import 'tailwindcss/tailwind.css'
 
-const navigationItems = [
-    { name: 'About', href: '/about' },
-]
-
-const loginLink = 'https://circle.so'
-
-export default function Nextra({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
@@ -28,7 +24,7 @@ export default function Nextra({ Component, pageProps }) {
 
     const trackGaEvents = (e) => {
       if (e.target.matches('[data-event-category][data-event-action][data-event-label]')) {
-        let eventData = {
+        let eventData: EventData = {
           action: e.target.dataset.eventAction,
           category: e.target.dataset.eventCategory,
           label: e.target.dataset.eventLabel,
@@ -54,6 +50,20 @@ export default function Nextra({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>{siteMetaData.title}</title>
+        <meta name="robots" content="follow, index" />
+        <meta name="description" content={siteMetaData.description} />
+        <meta property="og:site_name" content={siteMetaData.title} />
+        <meta property="og:description" content={siteMetaData.description} />
+        <meta property="og:title" content={siteMetaData.title} />
+        <meta property="og:image" content={siteMetaData.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:title" content={siteMetaData.title} />
+        <meta name="twitter:description" content={siteMetaData.description} />
+        <meta name="twitter:image" content={siteMetaData.image} />
+      </Head>
       <Head>
         <link
           rel="alternate"
@@ -86,7 +96,7 @@ export default function Nextra({ Component, pageProps }) {
       />
       
       {  <Toaster /> }
-      <Navigation items={navigationItems} loginLink={loginLink} />
+      <Navigation items={navigationItems} />
       <Component {...pageProps} />
       <Footer />
     </>
