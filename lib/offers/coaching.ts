@@ -152,7 +152,7 @@ const coaching: Array<CoachingOffer> = [
         AUD: {
           currency: 'AUD',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -161,7 +161,7 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -170,7 +170,7 @@ const coaching: Array<CoachingOffer> = [
         EUR: {
           currency: 'EUR',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -179,7 +179,7 @@ const coaching: Array<CoachingOffer> = [
         GBP: {
           currency: 'GBP',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -188,7 +188,7 @@ const coaching: Array<CoachingOffer> = [
         PLN: {
           currency: 'PLN',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -197,7 +197,7 @@ const coaching: Array<CoachingOffer> = [
         SGD: {
           currency: 'SGD',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -206,7 +206,7 @@ const coaching: Array<CoachingOffer> = [
         USD: {
           currency: 'USD',
           frequency: 'monthly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -217,7 +217,7 @@ const coaching: Array<CoachingOffer> = [
         AUD: {
           currency: 'AUD',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -226,7 +226,7 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -235,7 +235,7 @@ const coaching: Array<CoachingOffer> = [
         EUR: {
           currency: 'EUR',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -244,7 +244,7 @@ const coaching: Array<CoachingOffer> = [
         GBP: {
           currency: 'GBP',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -253,7 +253,7 @@ const coaching: Array<CoachingOffer> = [
         PLN: {
           currency: 'PLN',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }
@@ -262,7 +262,7 @@ const coaching: Array<CoachingOffer> = [
         SGD: {
           currency: 'SGD',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/5'
           }
@@ -271,7 +271,7 @@ const coaching: Array<CoachingOffer> = [
         USD: {
           currency: 'USD',
           frequency: 'yearly',
-          price: 'free',
+          price: 0,
           paymentLinks: {
             full: 'https://calendly.com/thequietachievr/'
           }

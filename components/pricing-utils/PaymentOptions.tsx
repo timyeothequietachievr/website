@@ -60,7 +60,7 @@ export function FrequencyToggle({ onFrequencyChanged, frequency }: FrequencyTogg
       </Switch>
       <Switch.Label as="span" className="ml-3">
         <span className="text-sm font-medium text-gray-900">pay yearly </span>
-        <span className="text-sm text-gray-500">(Save 20%)</span>
+        <span className="text-sm text-gray-500">(Save%)</span>
       </Switch.Label>
     </Switch.Group>
   )
