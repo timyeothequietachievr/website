@@ -1,6 +1,6 @@
 const coaching: Array<CoachingOffer> = [
   {
-    name: 'Free Discovery Chat',
+    name: 'Free Discovery Coaching',
     features: [
       'Book a free 30min 1:1 session',
       'Discuss challenges you are facing',
@@ -123,7 +123,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 0,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/5'
+            full: 'https://calendly.com/thequietachievr/'
           }
         },
 
@@ -138,14 +138,15 @@ const coaching: Array<CoachingOffer> = [
       }
     }
   },
-  
+
   {
     name: '1:1 Coaching',
     badge: '7 spots left',
     features: [
-      '10 April - 5 May 2023',
-      '4 weeks of focused learning and practicing',
-      'Small group of 10-15 introverts',
+      '6 coaching hours over 12 months',
+      'Meet once/month or once/2months',
+      'Customised coaching plan just for you',
+      'On-demand support over sms/email when you need it',
       '1 year full access to The Quiet Achiever Community'
     ],
     paymentOptions: {
@@ -155,7 +156,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 200,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/aud/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -164,7 +165,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 179.99,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/cad/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -173,7 +174,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 123.99,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/eur/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -182,7 +183,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 99,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/gbp/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -191,7 +192,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 499.99,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/PLN/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -200,7 +201,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 188,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/SGD/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -209,7 +210,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 200,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/mo/USD/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         }
       },
@@ -219,7 +220,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 2200.00,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/aud/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -228,7 +229,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 1999.00,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/cad/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -237,7 +238,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 1333.33,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/eur/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -246,7 +247,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 1099.00,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/gbp/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -255,7 +256,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 5999.99,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/PLN/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -264,7 +265,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 2188.88,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/SGD/29.45'
+            full: 'hhttps://calendly.com/1on1coaching-60min'
           }
         },
 
@@ -273,7 +274,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 2200.00,
           paymentLinks: {
-            full: 'https://buy.stripe.com/full-pay/yr/USD/29.45'
+            full: 'https://calendly.com/1on1coaching-60min'
           }
         }
       }

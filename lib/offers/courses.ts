@@ -77,8 +77,8 @@ const courses: Array<CourseOffer> = [
         currency: 'AUD',
         price: 899,
         paymentLinks: {
-          split: '#OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/dR64jU4GD3rx3FCbKf',
+          full: 'https://buy.stripe.com/cN2dUu6OLe6b4JGaFX'
         }
       },
 
@@ -86,8 +86,8 @@ const courses: Array<CourseOffer> = [
         currency: 'CAD',
         price: 829,
         paymentLinks: {
-          split: '#OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/aEUeYyehd7HN3FC4hO',
+          full: 'https://buy.stripe.com/8wMdUu3Cz3rxgso4hy'
         }
       },
 
@@ -95,8 +95,8 @@ const courses: Array<CourseOffer> = [
         currency: 'EUR',
         price: 579,
         paymentLinks: {
-          split: '#OPEN',
-          full: '##OPEN'
+          split: 'https://buy.stripe.com/cN217Ia0X7HN6RO5lT',
+          full: 'https://buy.stripe.com/eVag2C2yv6DJ4JG6pF'
         }
       },
 
@@ -104,17 +104,17 @@ const courses: Array<CourseOffer> = [
         currency: 'GBP',
         price: 509,
         paymentLinks: {
-          split: '#OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/00geYydd9bY35NKaGe',
+          full: 'https://buy.stripe.com/00gcQq6OLe6bcc8g0e'
         }
       },
 
       PLN: {
         currency: 'PLN',
-        price: 2599,
+        price: 2699,
         paymentLinks: {
-          split: '##OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/9AQcQqgplaTZfok01B',
+          full: 'https://buy.stripe.com/14k3fQ2yv1jp5NKdS5'
         }
       },
 
@@ -122,8 +122,8 @@ const courses: Array<CourseOffer> = [
         currency: 'SGD',
         price: 788,
         paymentLinks: {
-          split: '#OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/cN2bMm3Czd27a4001D',
+          full: 'https://buy.stripe.com/4gw9Eeb51bY32By6pC'
         }
       },
 
@@ -131,85 +131,13 @@ const courses: Array<CourseOffer> = [
         currency: 'USD',
         price: 609,
         paymentLinks: {
-          split: '#OPEN',
-          full: '#OPEN'
+          split: 'https://buy.stripe.com/6oEg2C2yv2nt2By01C',
+          full: 'https://buy.stripe.com/8wMg2C8WTbY3cc801d'
         }
       }
     }
   },
 
-  {
-    name: 'Learn Node',
-    features: [
-      'Learn Node from scratch',
-      'Build a real-world project',
-      'Get a job as a Node developer',
-      'Learn Express'
-    ],
-    paymentOptions: {
-      AUD: {
-        currency: 'AUD',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/aud/19.99',
-          full: 'https://buy.stripe.com/full-pay/aud/19.99'
-        }
-      },
-      CAD: {
-        currency: 'CAD',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/cad/19.99',
-          full: 'https://buy.stripe.com/full-pay/cad/19.99'
-        }
-      },
-
-      EUR: {
-        currency: 'EUR',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/eur/19.99',
-          full: 'https://buy.stripe.com/full-pay/eur/19.99'
-        }
-      },
-
-      GBP: {
-        currency: 'GBP',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/gbp/19.99',
-          full: 'https://buy.stripe.com/full-pay/gbp/19.99'
-        }
-      },
-
-      PLN: {
-        currency: 'PLN',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/pln/19.99',
-          full: 'https://buy.stripe.com/full-pay/pln/19.99'
-        }
-      },
-
-      SGD: {
-        currency: 'SGD',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/sgd/19.99',
-          full: 'https://buy.stripe.com/full-pay/sgd/19.99'
-        }
-      },
-
-      USD: {
-        currency: 'USD',
-        price: 377.12,
-        paymentLinks: {
-          split: 'https://buy.stripe.com/split-pay/usd/19.99',
-          full: 'https://buy.stripe.com/full-pay/usd/19.99'
-        }
-      }
-    }
-  }
 ]
 
 export default courses
