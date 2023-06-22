@@ -41,7 +41,7 @@ export default function IndexPage() {
       <TestimonialLargeAvatar4 />
       <Pricing kind="all">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Next cohort in 3 weeks
+          Next cohort Aug 2023
         </h2>
       </Pricing>
       <Testimonials />
