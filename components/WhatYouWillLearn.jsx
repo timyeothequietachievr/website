@@ -18,17 +18,13 @@ export default function WhatYouWillLearn() {
                 </h2>
                 <div className="mt-5 prose prose-indigo text-gray-500">
                   <ul role="list">
-                    <li>Being more visible in your org</li>
-                    <li>Speaking up in meetings</li>
-                    <li>Introduce yourself confidently</li>
-                    <li>Facilitation</li>
-                    <li>Interviews</li>
-                    <li>Networking - online and in real life</li>
-                    <li>Small talk - build a connection with people you just met</li>
-                    <li>Public speaking - prepare and perform with confidence</li>
-                    <li>How to say no politely</li>
-                    <li>Handle difficult conversations</li>
-                    <li>Leadership, management and working in teams</li>
+                  <li>How to speak up and perform in meetings</li>
+                  <li>Introduce yourself confidently</li>
+                  <li>Networking - online and in real life</li>
+                  <li>Small talk - with people you just met</li>
+                  <li>Public speaking - prepare and perform with confidence</li>
+                  <li>How to say no politely</li>
+                  <li>Handle difficult conversations</li>
                   </ul> 
                   <p>
                   The course is online with a mix of live and async learning.

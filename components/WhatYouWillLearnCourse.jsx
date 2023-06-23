@@ -14,25 +14,24 @@ export default function WhatYouWillLearnCourse() {
                   In 4 weeks, you will learn:
                 </h2>
                 <ul role="list" className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                  <li>How to speak up and perform in meetings</li>
-                  <li>Introduce yourself confidently</li>
-                  <li>Networking - online and in real life</li>
-                  <li>Small talk - with people you just met</li>
-                  <li>
-                    Public speaking - prepare and perform with confidence
-                  </li>
-                  <li>How to say no politely</li>
-                  <li>Handle difficult conversations</li>
+                    <li>Being more visible in your org</li>
+                    <li>Introduce yourself confidently</li>
+                    <li>Facilitation</li>
+                    <li>Interviews</li>
+                    <li>Networking (online and in real life) and Small talk to connect with people you just met</li>
+                    <li>Speaking up in meetings and Public speaking with confidence</li>
+                    <li>Handle difficult conversations and How to say no politely</li>
+                    <li>Leadership, management and working in teams</li>
                 </ul> 
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                  The course is entirely online with a mix of live and async learning.
+                  The course is online with a mix of live and async learning.
                 </p>
                 <div className="mt-6">
                   <a
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Next cohort Jun 2023
+                    See next cohort
                   </a>
                 </div>
               </div>
