@@ -20,6 +20,7 @@ import IntroTQA from '../components/IntroTQA'
 import Gift from '../components/Gift'
 import Gift2 from '../components/Gift2'
 import HowItWorks from '../components/HowItWorks'
+import Video from '../components/Video'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
@@ -46,6 +47,7 @@ export default function IndexPage() {
         </h2>
       </Pricing>
       <Testimonials />
+      <Video />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
