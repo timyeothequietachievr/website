@@ -69,6 +69,75 @@ const courses: Array<CourseOffer> = [
     }
   },
   {
+    name: 'Jul 2023 Interviews for Introverts Cohort',
+    badge: 'Open',
+    features: ['Dates: 13-20 Jul', '3-4hrs of focused learning and practice over 1 week','small group of 10-15 introverts','1 year full access to The Quiet Achiever Community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 199,
+        paymentLinks: {
+          split: '#INSERT',
+          full: 'https://buy.stripe.com/bIY2bM7SPd271xuaGw'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 179,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/00geYyb516DJ3FCg0P'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 129,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/14kcQq8WT4vBgsobKy'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 99,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/14kbMm4GDaTZ6RO7uh'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 555,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/14k4jUc958LRdgc15S'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 188,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/aEUcQqgpl3rx6ROg0K'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 199,
+        paymentLinks: {
+          split: '#NA',
+          full: 'https://buy.stripe.com/00gdUu7SPd273FC29S'
+        }
+      }
+    }
+  },
+  {
     name: 'Aug 2023 Design Leadership Cohort',
     badge: 'Open',
     features: ['Dates: 10Aug - 05Sep', '4 weeks of focused learning and practice, 3-4hrs/week','small group of 10-15 introverts','1 year full access to The Quiet Achiever Community'],
