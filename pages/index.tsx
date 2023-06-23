@@ -47,7 +47,7 @@ export default function IndexPage() {
         </h2>
       </Pricing>
       <Testimonials />
-      <Video />
+      {/* <Video /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
