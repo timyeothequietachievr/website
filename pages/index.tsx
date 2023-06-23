@@ -32,7 +32,7 @@ export default function IndexPage() {
       {/* <WhatYouWillLearn /> */}
       <WhatYouWillLearnCourse />
       <TestimonialLargeAvatar1 />
-      <WhatIsIncluded />
+      <WhatIsATinyHabit />
       <Feature1 />
       <Feature2 />
       <Feature3 />
