@@ -11,7 +11,7 @@ export default function WhatYouWillLearnCourse() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  In 4 weeks, you will learn:
+                  Topics we cover:
                 </h2>
                 <ul role="list" className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                     <li>Being more visible in your org</li>
