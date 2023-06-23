@@ -29,7 +29,7 @@ export default function IndexPage() {
       <IntroTQA />
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
-      <WhatYouWillLearnCourse />
+      <WhatYouWillLearn />
       <TestimonialLargeAvatar1 />
       <WhatIsIncluded />
       <Feature1 />

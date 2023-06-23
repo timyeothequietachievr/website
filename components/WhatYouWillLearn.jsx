@@ -14,22 +14,24 @@ export default function WhatYouWillLearn() {
             <div>
               <div className="mt-6">
                 <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  In 4 weeks, you will learn:
+                  Topics we cover:
                 </h2>
                 <div className="mt-5 prose prose-indigo text-gray-500">
                   <ul role="list">
-                    <li>How to speak up and perform in meetings</li>
+                    <li>Being more visible in your org</li>
+                    <li>Speaking up in meetings</li>
                     <li>Introduce yourself confidently</li>
+                    <li>Facilitation</li>
+                    <li>Interviews</li>
                     <li>Networking - online and in real life</li>
-                    <li>Small talk - with people you just met</li>
-                    <li>
-                      Public speaking - prepare and perform with confidence
-                    </li>
+                    <li>Small talk - build a connection with people you just met</li>
+                    <li>Public speaking - prepare and perform with confidence</li>
                     <li>How to say no politely</li>
                     <li>Handle difficult conversations</li>
+                    <li>Leadership, management and working in teams</li>
                   </ul> 
                   <p>
-                  The course is entirely online with a mix of live and async learning.
+                  The course is online with a mix of live and async learning.
                     </p>
                   {/* <p>
                     Techniques are organised around{' '}
@@ -40,6 +42,14 @@ export default function WhatYouWillLearn() {
                   <p>
                     <strong>Level up</strong> your way.
   </p>*/}
+  <div className="mt-6">
+                  <a
+                    href="#pricing"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Next cohort Jun 2023
+                  </a>
+                </div>
                 </div>
               </div>
             </div>
