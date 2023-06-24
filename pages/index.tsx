@@ -31,7 +31,7 @@ export default function IndexPage() {
       <IntroTQA />
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
-      <WhatYouWillLearnCourse />
+      <WhatYouWillLearn />
       <TestimonialLargeAvatar1 />
       <WhatIsATinyHabit />
       <Feature1 />

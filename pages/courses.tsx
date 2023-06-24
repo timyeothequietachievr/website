@@ -2,6 +2,7 @@ import Pricing from '../components/Pricing'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 import Masthead from '../components/Masthead'
+import MastheadCourses from '../components/MastheadCourses'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
@@ -19,7 +20,7 @@ import IntroTQA from '../components/IntroTQA'
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
-      <Masthead />
+      <MastheadCourses />
       <BeingIntrovertHard />
       <IntroTQA />
       {/* <HowItWorks /> */}
