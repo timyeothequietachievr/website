@@ -11,20 +11,14 @@ export default function WhatYouWillLearnCourse() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  Topics we cover:
+                  Courses include:
                 </h2>
                 <ul role="list" className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                    <li>Being more visible in your org</li>
-                    <li>Introduce yourself confidently</li>
-                    <li>Facilitation</li>
-                    <li>Interviews</li>
-                    <li>Networking (online and in real life) and Small talk to connect with people you just met</li>
-                    <li>Speaking up in meetings and Public speaking with confidence</li>
-                    <li>Handle difficult conversations and How to say no politely</li>
-                    <li>Leadership, management and working in teams</li>
+                    <li>Interviews for introverts (1 week, 3-4hrs/week)</li>
+                    <li>Design leadership for introverts (4 weeks, 3-4hrs/week)</li>
                 </ul> 
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                  The course is online with a mix of live and async learning.
+                  Courses are online with a mix of live and async learning.
                 </p>
                 <div className="mt-6">
                   <a

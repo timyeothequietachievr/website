@@ -6,6 +6,7 @@ import MastheadCourses from '../components/MastheadCourses'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
+import WhatIsACourse from '../components/WhatIsACourse'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
@@ -27,7 +28,7 @@ export default function CoursesPage() {
       {/* <WhatYouWillLearn /> */}
       <WhatYouWillLearnCourse />
       <TestimonialLargeAvatar1 />
-      <WhatIsIncluded />
+      <WhatIsACourse />
       <Feature1 />
       <Feature2 />
       <Feature3 />
