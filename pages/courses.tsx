@@ -7,6 +7,7 @@ import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import WhatIsACourse from '../components/WhatIsACourse'
+import Course1 from '../components/Course1'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
@@ -29,10 +30,10 @@ export default function CoursesPage() {
       <WhatYouWillLearnCourse />
       <TestimonialLargeAvatar1 />
       <WhatIsACourse />
-      <Feature1 />
+      <Course1 />
       <Feature2 />
       <Feature3 />
-      <MonthlyGuestSpeakers />
+      {/* <MonthlyGuestSpeakers /> */}
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
