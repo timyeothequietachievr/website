@@ -20,7 +20,7 @@ export default function Newsletter() {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
           <div className="lg:w-0 lg:flex-1">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl" id="newsletter-headline">
-              Download Design leadership for introverts course curriculum (PDF)
+              Download Leadership for introverts course curriculum (PDF)
             </h2>
             <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
               {/* shortly. */}

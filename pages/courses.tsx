@@ -14,6 +14,7 @@ import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
 import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
 import Testimonials from '../components/Testimonials'
+import TestimonialInterview1 from '..components/TestimonialInterview1'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
@@ -42,11 +43,10 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar4 />
       <Pricing kind="course">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Courses
+          Courses coming soon
         </h2>
 
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
-          Learn to be an introvert with the on-line courses listed below.
         </p>
       </Pricing>
       <Testimonials />
