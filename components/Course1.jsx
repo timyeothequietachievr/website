@@ -11,10 +11,10 @@ export default function Course1() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  Design leadership for introverts
+                  Leadership for introverts
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                4 weeks course, 3-4hrs time commitment per week.<br /><strong>Topics: </strong>Meetings, Pubilc Speaking, Introducing yourself with confidence, Being more visible in your org, Networking, Small talk, Handling difficult conversations<br /><br /><strong>First call:</strong>Wed (US, Canada) & Thu (rest of world) - live presentation of week's lessons. During the week, you prctice the lessons an share your work. <br /><strong>Second call:</strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />
+                <strong>Next cohort: 10Aug - 05 Sep 2023</strong><br /><br />4 weeks course, 3-4hrs time commitment per week.<br /><strong>Topics: </strong>Meetings, Pubilc Speaking, Introducing yourself with confidence, Being more visible in your org, Networking, Small talk, Handling difficult conversations<br /><br /><strong>First call:</strong>Wed (US, Canada) & Thu (rest of world) - live presentation of week's lessons. During the week, you prctice the lessons an share your work. <br /><br /><strong>Second call:</strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -47,7 +47,7 @@ export default function Course1() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
-                  Live video calls
+                  Interviews for introverts
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
                 <strong>First call:</strong> Wed (US, Canada) & Thu (rest of world) - presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> Mon (US, Canada) & Tue (rest of world) - discuss how your practice went.<br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />  

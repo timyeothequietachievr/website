@@ -6,7 +6,8 @@ import MastheadCourses from '../components/MastheadCourses'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
-import WhatIsACourse from '../components/WhatIsACourse'
+import CoursesInclude from '../components/CoursesInclude'
+import HowCoursesWork from '../components/HowCoursesWork'
 import Course1 from '../components/Course1'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -23,14 +24,15 @@ export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadCourses />
-      <BeingIntrovertHard />
-      <IntroTQA />
+      <CoursesInclude />
+      <Course1 />
+      {/* <BeingIntrovertHard /> */}
+      {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
-      <WhatYouWillLearnCourse />
+      {/* <WhatYouWillLearnCourse /> */}
       <TestimonialLargeAvatar1 />
-      <WhatIsACourse />
-      <Course1 />
+      <HowCoursesWork />
       <Feature2 />
       <Feature3 />
       {/* <MonthlyGuestSpeakers /> */}
