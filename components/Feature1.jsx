@@ -11,10 +11,10 @@ export default function Feature1() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  50+ video lessons
+                  Practical video lessons
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                10-15 videos released every week. Learn async in your own time. Videos are short and easy to apply. Lessons leverage your introverted strengths. 
+                Learn and practice async in your own time. Videos are short and easy to apply. 
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -50,7 +50,7 @@ export default function Feature1() {
                   Live video calls
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>First call:</strong> Wed (US, Canada) & Thu (rest of world) - presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> Mon (US, Canada) & Tue (rest of world) - discuss how your practice went.<br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />  
+                  Live presentations and Ask Me Anything sessions every week at timezone-friendly hours around the world. Practice your tiny habits then share your wins or where you got stuck.  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
               </div>

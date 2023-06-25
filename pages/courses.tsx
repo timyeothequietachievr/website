@@ -33,6 +33,7 @@ export default function CoursesPage() {
       {/* <WhatYouWillLearnCourse /> */}
       <TestimonialLargeAvatar1 />
       <HowCoursesWork />
+      <Feature1 />
       <Feature2 />
       <Feature3 />
       {/* <MonthlyGuestSpeakers /> */}

@@ -7,8 +7,8 @@ export default function Course1() {
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-            <div>
-              <div className="mt-6" id="leadership">
+            <div id="leadership">
+              <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
                   Leadership for introverts
@@ -43,8 +43,8 @@ export default function Course1() {
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-            <div>
-              <div className="mt-6" id="interviews">
+            <div id="interviews">
+              <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
                   Interviews for introverts
@@ -58,7 +58,7 @@ export default function Course1() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Starts 13 Jul 2023
+                    Next cohort: 13 Jul 2023
                   </a>
                 </div>
               </div>
