@@ -14,7 +14,7 @@ export default function Course1() {
                   Leadership for introverts
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <strong>Next cohort: 10Aug - 05 Sep 2023</strong><br /><br />4 weeks course, 3-4hrs time commitment per week.<br /><strong>Topics: </strong>Meetings, Pubilc Speaking, Introducing yourself with confidence, Being more visible in your org, Networking, Small talk, Handling difficult conversations<br /><br /><strong>First call:</strong>Wed (US, Canada) & Thu (rest of world) - live presentation of week's lessons. During the week, you prctice the lessons an share your work. <br /><br /><strong>Second call:</strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />
+                <strong>Next cohort: 10Aug - 05 Sep 2023</strong><br /><br />4 weeks course, 3-4hrs time commitment per week.<br /><strong>Topics: </strong>Meetings, Pubilc Speaking, Introducing yourself with confidence, Being more visible in your org, Networking, Small talk, Handling difficult conversations<br /><br /><strong>First call:</strong>Wed (US, Canada) & Thu (rest of world) - live presentation of week's lessons. During the week, you practice the lessons and share your work. <br /><br /><strong>Second call:</strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -33,8 +33,8 @@ export default function Course1() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/videoondemand.gif"
-                alt="Inbox user interface"
+                src="src/Course-Hero-Leadership.jpg"
+                alt="Leadership for introverts"
               />
             </div>
           </div>
@@ -50,9 +50,17 @@ export default function Course1() {
                   Interviews for introverts
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>First call:</strong> Wed (US, Canada) & Thu (rest of world) - presentation of the week's lessons. During the week, you practice the lessons and share your work. <strong>Second call:</strong> Mon (US, Canada) & Tue (rest of world) - discuss how your practice went.<br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />  
+                <strong>Next cohort: 13-20 Jul 2023</strong><br /><br />1 week course, 3-4hrs time commitment.<br /><strong>Topics: </strong>Types of interviews, their purpose and how to prepare; Hard truths about interviews, Shapes of successful interviews, Work and portfolio showcases, Building rapport and connection with your interviewer, Public speaking and conversation techniques.<br /><br /><strong>First call:</strong>Wed (US, Canada) & Thu (rest of world) - live presentation. After, you practice the lessons and share your work. <br /><br /><strong>Second call:</strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
+                <div className="mt-6">
+                  <a
+                    href="#pricing"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    See pricing
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -62,8 +70,8 @@ export default function Course1() {
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
-                src="src/course-livevideocalls.png"
-                alt="2 live video calls every week"
+                src="src/Course-Hero-Interviews.jpg"
+                alt="Interviews for introverts"
               />
             </div>
           </div>
