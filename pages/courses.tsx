@@ -32,7 +32,7 @@ export default function CoursesPage() {
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
       {/* <WhatYouWillLearnCourse /> */}
-      <TestimonialLargeAvatar1 />
+      <TestimonialInterview1 />
       <HowCoursesWork />
       <Feature1 />
       <Feature2 />
