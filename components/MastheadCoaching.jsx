@@ -24,7 +24,7 @@ export default function MastheadCoaching() {
               data-event-action="buy_now_click"
               data-event-label="masthead cta"
             >
-              Book session
+              Book now
             </a>
           </div>
           <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
