@@ -88,8 +88,8 @@ export default function TestimonialInterview2() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Amy Zhu</div>
-                      <div className="text-base font-medium text-indigo-600">Senior Product Designer, Assent, Canada</div>
+                      <div className="text-base font-medium text-gray-900">Evena Wong</div>
+                      <div className="text-base font-medium text-indigo-600">Product Designer, Seer Medical, Australia</div>
                     </div>
                   </div>
                 </footer>
