@@ -14,6 +14,7 @@ import Feature3 from '../components/Feature3'
 import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
 import Testimonials from '../components/Testimonials'
 import TestimonialInterview1 from '../components/TestimonialInterview1'
+import TestimonialInterview2 from '../components/TestimonialInterview2'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
@@ -32,6 +33,7 @@ export default function CoursesPage() {
       {/* <WhatYouWillLearn /> */}
       {/* <WhatYouWillLearnCourse /> */}
       <TestimonialInterview1 />
+      <TestimonialInterview2 />
       <HowCoursesWork />
       <Feature1 />
       <Feature2 />
