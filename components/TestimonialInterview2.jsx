@@ -75,7 +75,7 @@ export default function TestimonialInterview2() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                     
+                  This course came at the perfect time when I needed support with interviews. Tim was empathetic, pragmatic, and calm - and gave me advice and examples that I could quickly apply under pressure. He gave me the space to ask questions specific to my circumstances. I highly recommend.
                   </p>
                 </div>
                 <footer className="mt-8">
