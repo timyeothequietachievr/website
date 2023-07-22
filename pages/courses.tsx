@@ -7,7 +7,8 @@ import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import CoursesInclude from '../components/CoursesInclude'
 import HowCoursesWork from '../components/HowCoursesWork'
-import Course1 from '../components/Course1'
+import CourseLeadership from '../components/CourseLeadership'
+import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
@@ -15,6 +16,8 @@ import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
 import Testimonials from '../components/Testimonials'
 import TestimonialInterview1 from '../components/TestimonialInterview1'
 import TestimonialInterview2 from '../components/TestimonialInterview2'
+import TestimonialLeadership1 from '../components/TestimonialLeadership1'
+import TestimonialLeadership2 from '../components/TestimonialLeadership2'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
@@ -26,7 +29,10 @@ export default function CoursesPage() {
     <PricingContextProvider>
       <MastheadCourses />
       <CoursesInclude />
-      <Course1 />
+      <CourseLeadership />
+      <TestimonialLeadership1 />
+      <TestimonialLeadership2 />
+      <CourseInterviews />
       {/* <BeingIntrovertHard /> */}
       {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
