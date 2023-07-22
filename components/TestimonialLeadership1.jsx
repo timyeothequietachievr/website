@@ -75,7 +75,7 @@ export default function TestimonialLeadership1() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                    I went through so many interviews. I had a lot of anxiety back then. I felt like I was too humble when talking about my accomplishments. Tim really helped me with practical advice - which is not easy to find the more senior you get. 
+                  When I read, "It's hard being an introverted designer in a world that desires extroverts," I knew exactly that this is what I needed. This course covered all the questions I had in my career and provided some useful tips, strategies, and frameworks. Additionally, you get to meet other like-minded introverts who have faced similar problems.
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -88,8 +88,8 @@ export default function TestimonialLeadership1() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Amy Zhu</div>
-                      <div className="text-base font-medium text-indigo-600">Senior Product Designer, Assent, Canada</div>
+                      <div className="text-base font-medium text-gray-900">Eunbi Koh</div>
+                      <div className="text-base font-medium text-indigo-600">Product Designer, Just Eat Takeaway, UK</div>
                     </div>
                   </div>
                 </footer>

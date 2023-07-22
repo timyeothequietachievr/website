@@ -59,7 +59,7 @@ export default function TestimonialLeadership2() {
             </div>
   
             <div className="relative lg:ml-10">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
+            {/* <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br /> */}
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"
@@ -75,7 +75,7 @@ export default function TestimonialLeadership2() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                    I went through so many interviews. I had a lot of anxiety back then. I felt like I was too humble when talking about my accomplishments. Tim really helped me with practical advice - which is not easy to find the more senior you get. 
+                  Tim is fantastic coach. He is thoughtful, engaging and passionate about helping introverts build their confidence as design leaders. The course has helped me to do deal with the common issues I face as a designer and to build a toolkit with actionable insights in how to overcome them. Thanks to Tim I am able to thrive as both an introvert and a design leader.
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -88,8 +88,8 @@ export default function TestimonialLeadership2() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Amy Zhu</div>
-                      <div className="text-base font-medium text-indigo-600">Senior Product Designer, Assent, Canada</div>
+                      <div className="text-base font-medium text-gray-900">Scott Llewellyn</div>
+                      <div className="text-base font-medium text-indigo-600">UX Designer, Give Panel, UK</div>
                     </div>
                   </div>
                 </footer>

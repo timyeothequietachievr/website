@@ -59,7 +59,7 @@ export default function TestimonialInterview2() {
             </div>
   
             <div className="relative lg:ml-10">
-            {/* <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br /> */}
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"
@@ -75,7 +75,7 @@ export default function TestimonialInterview2() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                  This course came at the perfect time when I needed support with interviews. Tim was empathetic, pragmatic, and calm - and gave me advice and examples that I could quickly apply under pressure. He gave me the space to ask questions specific to my circumstances. I highly recommend.
+                  I went through so many interviews. I had a lot of anxiety back then. I felt like I was too humble when talking about my accomplishments. Tim really helped me with practical advice - which is not easy to find the more senior you get. 
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -88,8 +88,8 @@ export default function TestimonialInterview2() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Evena Wong</div>
-                      <div className="text-base font-medium text-indigo-600">Product Designer, Seer Medical, Australia</div>
+                      <div className="text-base font-medium text-gray-900">Amy Zhu</div>
+                      <div className="text-base font-medium text-indigo-600">Senior Product Designer, Assent, Canada</div>
                     </div>
                   </div>
                 </footer>
