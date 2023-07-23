@@ -1,5 +1,5 @@
 const courses: Array<CourseOffer> = [
-  {/*
+  /*{
     name: 'Jun 2023 Design Leadership Cohort',
     badge: 'CLOSED',
     features: ['Dates: 15Jun - 11Jul', '4 weeks of focused learning and practice, 3-4hrs/week','small group of 10-15 introverts','1 year full access to The Quiet Achiever Community'],
@@ -67,8 +67,8 @@ const courses: Array<CourseOffer> = [
         }
       }
     }
-  */},
-  {/*
+  },
+  {
     name: 'Jul 2023 Interviews for Introverts Cohort',
     badge: 'Open',
     features: ['Dates: 13-20 Jul', '3-4hrs of focused learning and practice over 1 week','small group of 10-15 introverts','1 year full access to The Quiet Achiever Community'],
@@ -136,7 +136,7 @@ const courses: Array<CourseOffer> = [
         }
       }
     }
-  */},
+  },*/
   {
     name: 'Aug 2023 Leadership Class',
     badge: 'Open',
