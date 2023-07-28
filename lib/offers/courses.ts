@@ -71,13 +71,13 @@ const courses: Array<CourseOffer> = [
   {
     name: 'Interviews for Introverts',
     badge: 'On-Demand',
-    features: ['40+ video lessons you can start today', '3-4hrs of focused learning and practice','Live 1:1 coaching calls to practice and rehearse','1 year full access to The Quiet Achiever Community'],
+    features: ['40+ video lessons; you can start today', '3-4hrs of focused learning and practice','Live 1:1 coaching to practice and rehearse for interviews','1 year full access to The Quiet Achiever Community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
         price: 199,
         paymentLinks: {
-          split: '#INSERT',
+          split: '#NA',
           full: 'https://buy.stripe.com/bIY2bM7SPd271xuaGw'
         }
       },
