@@ -49,7 +49,7 @@ export default function CourseInterviews() {
                   Interviews for introverts
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                {/* <strong>Next cohort: 13-20 Jul 2023</strong><br />*/}1 week course, 3-4hrs time commitment.<br /><br /><strong>Topics: </strong>Types of interviews, their purpose and how to prepare; Hard truths about interviews, Shapes of successful interviews, Work and portfolio showcases, Building rapport and connection with your interviewer, Public speaking and conversation techniques.<br /><br /><strong>First call: </strong>Wed (US, Canada) & Thu (rest of world) - live presentation. After, you practice the lessons and share your work. <br /><br /><strong>Second call: </strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5am/12am<br />  
+                {/* <strong>Next cohort: 13-20 Jul 2023</strong><br />*/}Videos on-demand, Live 1:1 coaching calls, 3-4hrs time commitment.<br /><br /><strong>Topics: </strong>Types of interviews, their purpose and how to prepare; Hard truths about interviews, Shapes of successful interviews, Work and portfolio showcases, Building rapport and connection with your interviewer, Public speaking and conversation techniques.<br /><br /><strong>Video on-demand: </strong>40+ bite-sized videos so you can jump straight to lessons you want; or binge-watch as a full 1hr presentation. <br /><br /><strong>7 exercises: </strong>Practice and get feedback on things like how to introduce yourself confidently, portfolio walkthroughs, tough questions that put you on the spot.<br /><br /><strong>Live 1:1 coaching calls: </strong><br />Book a time to rehearse before showtime 🤲🏻<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
@@ -57,7 +57,7 @@ export default function CourseInterviews() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Coming soon
+                    Start Now
                   </a>
                 </div>
               </div>
