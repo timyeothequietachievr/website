@@ -16,6 +16,7 @@ import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
 import Testimonials from '../components/Testimonials'
 import TestimonialInterview1 from '../components/TestimonialInterview1'
 import TestimonialInterview2 from '../components/TestimonialInterview2'
+import TestimonialInterview3 from '../components/TestimonialInterview3'
 import TestimonialLeadership1 from '../components/TestimonialLeadership1'
 import TestimonialLeadership2 from '../components/TestimonialLeadership2'
 import TestimonialLeadership3 from '../components/TestimonialLeadership3'
@@ -44,6 +45,7 @@ export default function CoursesPage() {
       {/* <WhatYouWillLearnCourse /> */}
       <TestimonialInterview1 />
       <TestimonialInterview2 />
+      <TestimonialInterview3 />
       <HowCoursesWork />
       <Feature1 />
       <Feature2 />
