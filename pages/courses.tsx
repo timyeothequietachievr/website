@@ -18,6 +18,8 @@ import TestimonialInterview1 from '../components/TestimonialInterview1'
 import TestimonialInterview2 from '../components/TestimonialInterview2'
 import TestimonialLeadership1 from '../components/TestimonialLeadership1'
 import TestimonialLeadership2 from '../components/TestimonialLeadership2'
+import TestimonialLeadership3 from '../components/TestimonialLeadership3'
+import TestimonialLeadership4 from '../components/TestimonialLeadership4'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
@@ -32,6 +34,8 @@ export default function CoursesPage() {
       <CourseLeadership />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
+      <TestimonialLeadership3 />
+      <TestimonialLeadership4 />
       <CourseInterviews />
       {/* <BeingIntrovertHard /> */}
       {/* <IntroTQA /> */}
