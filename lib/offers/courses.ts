@@ -71,7 +71,7 @@ const courses: Array<CourseOffer> = [
   {
     name: 'Interviews for Introverts',
     badge: 'On-Demand',
-    features: ['40+ video lessons; you can start today', '3-4hrs of focused learning and practice','Live 1:1 coaching to practice and rehearse for interviews','1 year full access to The Quiet Achiever Community'],
+    features: ['40+ video lessons; 1hr+ focused learning', 'Online and On-Demand; start learning today','Live coaching to practice and rehearse for interviews','1 year full access to The Quiet Achiever Community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
@@ -138,9 +138,9 @@ const courses: Array<CourseOffer> = [
     }
   },
   {
-    name: 'Aug 2023 Leadership Class',
-    badge: 'Open',
-    features: ['Dates: 10Aug - 05Sep', '4 weeks of focused learning and practice, 3-4hrs/week','small group of 10-15 introverts','1 year full access to The Quiet Achiever Community'],
+    name: 'Quiet Leadership',
+    badge: 'On-Demand',
+    features: ['100+ lessons, 4hrs+ focused learning', 'Online and On-Demand; start learning today','Live weekly coaching','1 year full access to The Quiet Achiever Community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
