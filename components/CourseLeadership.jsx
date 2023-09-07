@@ -11,10 +11,10 @@ export default function CourseLeadership() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  Leadership for introverts
+                  Quiet leadership for introverts
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <strong>Have impact and influence at work without pretending to be an extrovert. </strong>On-Demand. Over 8hrs+ of video content, live weekly coaching, get feedback on exercises you practice. Full access for one year.<br /><br /><strong>Topics: </strong>How to speak up and perform in meetings, public speaking with confidence, Be more visible in your org, Handling difficult conversations, Networking online and in real life, Make small talk with people you just met.<br /><br /><strong>This is for:</strong> Quiet achievers who want to lead and have their views and voices heard.<br /><br /><strong>Second call: </strong>Mon (US, Canada) & Tue (rese of world) - Ask Me Anything to discuss how your practice went.<br /><br /><strong>Session times:</strong><br />SYD 10am/5pm<br />SG 8am/3pm<br />UK 1am/8am<br />EST 8pm/3am<br />PST 5pm/12am<br />
+                <strong>Have impact and influence at work without pretending to be an extrovert.<br /></strong>On-Demand. Over 8hrs+ of video content, live weekly coaching, get feedback on exercises you practice. Full access for one year.<br />This course is the OG (original), and covers all the tiny habits you need to have impact as a quiet leader the very next day.<br /><br /><strong>Topics: </strong>How to speak up and perform in meetings, public speaking with confidence, Be more visible in your org, Handling difficult conversations, Networking online and in real life, Make small talk with people you just met.<br /><br /><strong>This is for:</strong>1️⃣ Introverts who are amazing at their craft but don't know how to people<br />2️⃣ Quiet achievers who are tired of pretending to be extroverts and ready to try something new<br />3️⃣ Individual Contributors, Managers - people who want to lead and have influence in the world while remaining their true authentic selves.<br /><br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -22,7 +22,7 @@ export default function CourseLeadership() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Starts 10 Aug 2023
+                    Start Now 
                   </a>
                 </div>
               </div>
