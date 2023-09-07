@@ -14,7 +14,7 @@ export default function Feature1() {
                   Practical video lessons
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                Learn and practice async in your own time. Videos are short and easy to apply. 
+                Binge-watch or consume bit by bit; learn and practice at your own pace. Videos are short and easy to apply. 
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -50,7 +50,7 @@ export default function Feature1() {
                   Live video calls
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                  Live presentations and Ask Me Anything sessions every week at timezone-friendly hours around the world. Practice your tiny habits then share your wins or where you got stuck.  
+                  2 live sessions every week at timezone-friendly hours. Talk through a challenge you are facing, where you got stuck and share your wins.  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
               </div>

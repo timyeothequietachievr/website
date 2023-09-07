@@ -11,10 +11,10 @@ export default function Feature3() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  After the course, join the community
+                  Join the community
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                Connect with introverts around the world just like you. Share articles, introvert memes, weekly 1:1 coaching. The community is here for you 24/7 when you need us.  
+                Connect with introverts around the world just like you. Share articles, introvert memes, weekly live sessions. The community is here for you 24/7 when you need us.  
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 {/* <div className="mt-6">

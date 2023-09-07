@@ -14,7 +14,7 @@ export default function HowCoursesWork() {
             What is included
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          2 live sessions a week, learn async with short video lessons, practice exercises, 1 year access to community.
+          2 live sessions a week, learn async with short video lessons, practice and get feedback on exercises, 1 year access to community.
           {/* Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. */} 
           </p>
         </div>
