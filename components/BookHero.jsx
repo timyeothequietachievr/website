@@ -18,7 +18,7 @@ export default function CourseLeadership() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#pricing"
+                    href="https://forms.gle/VAN6n5r8qFhFEsKm7"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Be the first to know 

@@ -59,7 +59,7 @@ export default function TestimonialInterview2() {
             </div>
   
             <div className="relative lg:ml-10">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">What people are saying</h2> <br />
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">more reviews and testimonials</h2> <br />
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"

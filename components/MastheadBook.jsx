@@ -18,7 +18,7 @@ export default function MastheadBook() {
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
             <a
-              href="#pricing"
+              href="https://forms.gle/VAN6n5r8qFhFEsKm7"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
               data-event-action="buy_now_click"
