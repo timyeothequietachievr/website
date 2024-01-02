@@ -14,10 +14,10 @@ import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
 import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
 import Testimonials from '../components/Testimonials'
-import TestimonialInterview1 from '../components/TestimonialInterview1'
+import TestimonialBook2 from '../components/TestimonialBook2'
 import TestimonialInterview2 from '../components/TestimonialInterview2'
 import TestimonialInterview3 from '../components/TestimonialInterview3'
-import TestimonialLeadership1 from '../components/TestimonialLeadership1'
+import TestimonialBook1 from '../components/TestimonialBook1'
 import TestimonialLeadership2 from '../components/TestimonialLeadership2'
 import TestimonialLeadership3 from '../components/TestimonialLeadership3'
 import TestimonialLeadership4 from '../components/TestimonialLeadership4'
@@ -32,30 +32,18 @@ export default function CoursesPage() {
     <PricingContextProvider>
       <MastheadBook />
       <BookHero />
-      <TestimonialLeadership1 />
+      <TestimonialBook1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
-      <TestimonialInterview1 />
+      <TestimonialBook2 />
       <TestimonialInterview2 />
       <TestimonialInterview3 />
-      <HowCoursesWork />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
-      {/* <MonthlyGuestSpeakers /> */}
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      <Pricing kind="course">
-        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Start learning  
-        </h2>
-
-        <p className="mt-6 max-w-2xl text-xl text-gray-500">
-        </p>
-      </Pricing>
       <Testimonials />
+      <MastheadBook />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
