@@ -14,7 +14,7 @@ export default function CourseLeadership() {
                   You do not need to pretend to be an extrovert at work
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <strong>INSERT<br /></strong>Use the tiny habits in this book to have impact and influence at work while remaining your true authentic self.<br /><br /><strong>Written by: </strong>Tim Yeo<br /><br /><strong>Launching: </strong><br />Early 2024<br /><br /><strong>Signup to: </strong>Be the first to know when the book is launched<br />Sneak peek of early chapters before they are published<br /><br />
+                <strong>INSERT<br /></strong>Use the tiny habits in this book to have impact and influence at work while remaining your true authentic self.<br /><br /><strong>Written by: </strong>Tim Yeo<br /><br /><strong>Launching: </strong>Early 2024<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -22,7 +22,7 @@ export default function CourseLeadership() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Signup for book updates 
+                    Be the first to know 
                   </a>
                 </div>
               </div>
