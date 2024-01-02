@@ -7,7 +7,7 @@ import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import CoursesInclude from '../components/CoursesInclude'
 import HowCoursesWork from '../components/HowCoursesWork'
-import CourseLeadership from '../components/CourseLeadership'
+import BookHero from '../components/BookHero'
 import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -31,18 +31,11 @@ export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadBook />
-      <CoursesInclude />
-      <CourseLeadership />
+      <BookHero />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
-      <CourseInterviews />
-      {/* <BeingIntrovertHard /> */}
-      {/* <IntroTQA /> */}
-      {/* <HowItWorks /> */}
-      {/* <WhatYouWillLearn /> */}
-      {/* <WhatYouWillLearnCourse /> */}
       <TestimonialInterview1 />
       <TestimonialInterview2 />
       <TestimonialInterview3 />
