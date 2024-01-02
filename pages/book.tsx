@@ -1,7 +1,7 @@
 import Pricing from '../components/Pricing'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import Masthead from '../components/Masthead'
-import MastheadCourses from '../components/MastheadCourses'
+import MastheadBook from '../components/MastheadBook'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
