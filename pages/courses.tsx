@@ -18,10 +18,12 @@ import TestimonialInterview1 from '../components/TestimonialInterview1'
 import TestimonialInterview2 from '../components/TestimonialInterview2'
 import TestimonialInterview3 from '../components/TestimonialInterview3'
 import TestimonialInterview4 from '../components/TestimonialInterview4'
+import TestimonialInterview5 from '../components/TestimonialInterview5'
 import TestimonialLeadership1 from '../components/TestimonialLeadership1'
 import TestimonialLeadership2 from '../components/TestimonialLeadership2'
 import TestimonialLeadership3 from '../components/TestimonialLeadership3'
 import TestimonialLeadership4 from '../components/TestimonialLeadership4'
+import TestimonialLeadership5 from '../components/TestimonialLeadership5'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
@@ -34,6 +36,7 @@ export default function CoursesPage() {
       <MastheadCourses />
       <CoursesInclude />
       <CourseLeadership />
+      <TestimonialLeadership5 />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
@@ -46,6 +49,7 @@ export default function CoursesPage() {
       {/* <WhatYouWillLearnCourse /> */}
       <TestimonialInterview4 />
       <TestimonialInterview1 />
+      <TestimonialInterview5 />
       <TestimonialInterview2 />
       <TestimonialInterview3 />
       <HowCoursesWork />
