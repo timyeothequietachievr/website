@@ -33,8 +33,8 @@ import IntroTQA from '../components/IntroTQA'
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
-      <MastheadBook />
-      <BookHero />
+      <MastheadPodcast />
+      <HeroPodcast />
       <TestimonialBook1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
