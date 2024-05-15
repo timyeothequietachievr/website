@@ -1,6 +1,5 @@
 import Pricing from '../components/Pricing'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
-import Masthead from '../components/Masthead'
 import MastheadPodcast from '../components/MastheadPodcast'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
@@ -49,7 +48,6 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
       <Testimonials />
-      <MastheadBook />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
