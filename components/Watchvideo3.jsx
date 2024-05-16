@@ -54,7 +54,7 @@ export default function Watchvideo3() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://www.youtube.com/watch?v=EPACYLMCdxI"
+                    href="https://youtu.be/LdxDN2xOrEg"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Watch now
