@@ -41,7 +41,7 @@ export default function IndexPage() {
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      <Pricing kind="course">
+      <Pricing kind="all">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Courses and 1:1 coaching
         </h2>
