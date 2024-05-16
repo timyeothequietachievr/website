@@ -46,10 +46,12 @@ export default function CourseInterviews() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
-                  Interviews for introverts
+                  Stratergies for introverts (May 2023) - UX Cake Podcast
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>Show up at interviews as the BEST version of yourself and get the job you deserve</strong><br />Videos on-demand, Live coaching calls, 3-4hrs time commitment.<br /><br /><strong>Topics: </strong>Types of interviews, their purpose and how to prepare; Hard truths about interviews, Shapes of successful interviews, Work and portfolio showcases, Building rapport and connection with your interviewer, Public speaking and conversation techniques.<br /><br /><br /><strong>This is for: </strong>Leaders, Managers and Individual Contributors who want to get interview-ready. The best time to look for a job is when you don't need one. The next best time is now.<br /><br /><strong>Videos on-demand: </strong>40+ bite-sized videos so you can jump straight to lessons you want; or binge-watch as a full 1hr presentation. <br /><br /><strong>Exercises: </strong>Practice and get feedback on things like how to introduce yourself confidently, portfolio walkthroughs, tough questions that put you on the spot.<br /><br /><strong>Live coaching:</strong> Rehearse and get feedback before showtime 🤲🏻<br />  
+                This episode is about quiet leadership - how you can be an authentic leader even if you don’t have the loudest voice in the room. We’re joined by Tim Yeo, a design leader and speaker who helps introverts have an impact and influence without having to pretend to be extroverts. Tim is the brain behind The Quiet Achiever, where he coaches introverts to use their strengths to their advantage.
+Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. Tim identifies as an introvert and shares his journey in discovering more about being one.
+We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
