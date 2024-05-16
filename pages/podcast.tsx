@@ -6,7 +6,8 @@ import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import CoursesInclude from '../components/CoursesInclude'
 import HowCoursesWork from '../components/HowCoursesWork'
-import HeroPodcast from '../components/HeroPodcast'
+import Podcast1 from '../components/Podcast1'
+import Podcast2 from '../components/Podcast2'
 import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -33,7 +34,8 @@ export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadPodcast />
-      <HeroPodcast />
+      <Podcast1 />
+      <Podcast2 />
       <TestimonialBook1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
