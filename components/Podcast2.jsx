@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function CourseInterviews() {
+export default function Podcast2() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       {/* <div className="relative">
@@ -56,10 +56,10 @@ We also discuss the challenges that introverts face in the design industry, wher
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#pricing"
+                    href="https://podcasts.apple.com/au/podcast/the-quiet-leader-strategies-for-introverts-with-tim-yeo/id1350595015?i=1000611676060"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Start right now
+                    Listen now
                   </a>
                 </div>
               </div>

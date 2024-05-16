@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function CourseLeadership() {
+export default function Podcast1() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
@@ -18,10 +18,10 @@ export default function CourseLeadership() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://forms.gle/VAN6n5r8qFhFEsKm7"
+                    href="https://www.youtube.com/watch?v=q7bMuU8aqUY"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Be the first to know 
+                    Listen now 
                   </a>
                 </div>
               </div>
@@ -32,8 +32,8 @@ export default function CourseLeadership() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/bookhero.jpg"
-                alt="Leadership for introverts"
+                src="src/podcast-invinciblecareer.jpeg"
+                alt="Podcast Invincible Career"
               />
             </div>
           </div>
