@@ -2,6 +2,7 @@ export const navigationItems = [
   { name: 'Courses', href: '/courses' },
   { name: 'Coaching', href: '/coaching' },
   { name: 'Book', href: '/book' },
+  { name: 'Podcast', href: '/podcast' },
   { name: 'About', href: '/about' }
 ]
 
