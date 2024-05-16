@@ -14,6 +14,8 @@ import Podcast5 from '../components/Podcast5'
 import Podcast6 from '../components/Podcast6'
 import Podcast7 from '../components/Podcast7'
 import Watchvideo1 from '../components/Watchvideo1'
+import Watchvideo2 from '../components/Watchvideo2'
+import Watchvideo3 from '../components/Watchvideo3'
 import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -48,20 +50,22 @@ export default function CoursesPage() {
       <Podcast6 />
       <Podcast7 />
       <Watchvideo1 />
-      <TestimonialBook1 />
-      <TestimonialLeadership2 />
-      <TestimonialLeadership3 />
-      <TestimonialLeadership4 />
-      <TestimonialLeadership5 />
-      <TestimonialBook2 />
-      <TestimonialInterview2 />
-      <TestimonialInterview3 />
-      <TestimonialInterview4 />
-      <TestimonialInterview5 />
-      <TestimonialLargeAvatar2 />
-      <TestimonialLargeAvatar3 />
-      <TestimonialLargeAvatar4 />
-      <Testimonials />
+      <Watchvideo2 />
+      <Watchvideo3 />
+      {/* <TestimonialBook1 /> */}
+      {/* <TestimonialLeadership2 /> */}
+      {/* <TestimonialLeadership3 /> */}
+      {/* <TestimonialLeadership4 /> */}
+      {/* <TestimonialBook2 /> */}
+      {/* <TestimonialLeadership5 /> */}
+      {/* <TestimonialInterview2 /> */}
+      {/* <TestimonialInterview3 /> */}
+      {/* <TestimonialInterview4 /> */}
+      {/* <TestimonialInterview5 /> */}
+      {/* <TestimonialLargeAvatar2 /> */}
+      {/* <TestimonialLargeAvatar3 /> */}
+      {/* <TestimonialLargeAvatar4 /> */}
+      {/* <Testimonials /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
