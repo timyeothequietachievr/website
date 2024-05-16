@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function Podcast2() {
+export default function Watchvideo1() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       {/* <div className="relative">
@@ -46,20 +46,18 @@ export default function Podcast2() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
-                  Stratergies for introverts (May 2023) - UX Cake Podcast
+                   Scaling Impactful Design Teams (Feb 2022) - Panel Discussion at Scaling Design Conference
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                This episode is about quiet leadership - how you can be an authentic leader even if you don’t have the loudest voice in the room. We’re joined by Tim Yeo, a design leader and speaker who helps introverts have an impact and influence without having to pretend to be extroverts. Tim is the brain behind The Quiet Achiever, where he coaches introverts to use their strengths to their advantage.
-Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. Tim identifies as an introvert and shares his journey in discovering more about being one.
-We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />  
+                Design leaders from Australia top tech companies discuss the rituals, principles and frameworks they have embedded in their teams to scale a culture of creativity, collaboration and growth.<br /><br />Featuring:<br />- Dineth Mapa, Director of Product Design @ Airwallex<br />- Krystalyn De Mesa, Senior Director of Product Design @ CM Group<br />- Sami Sloane, Head of Design @ SafetyCulture<br />- Tim Yeo, Design Director @ IBM & Chief Introvert @ The Quiet Achiever<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://podcasts.apple.com/au/podcast/the-quiet-leader-strategies-for-introverts-with-tim-yeo/id1350595015?i=1000611676060"
+                    href="https://www.youtube.com/watch?v=EPACYLMCdxI"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now
+                    Watch now
                   </a>
                 </div>
               </div>
@@ -71,8 +69,8 @@ We also discuss the challenges that introverts face in the design industry, wher
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
-                src="src/podcast-uxcake.jpeg"
-                alt="Podcast UX Cake"
+                src="src/video-shiftingdesign.jpeg"
+                alt="Video Shifting Design Conference Panel Discussion"
               />
             </div>
           </div>

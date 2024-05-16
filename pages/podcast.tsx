@@ -8,6 +8,12 @@ import CoursesInclude from '../components/CoursesInclude'
 import HowCoursesWork from '../components/HowCoursesWork'
 import Podcast1 from '../components/Podcast1'
 import Podcast2 from '../components/Podcast2'
+import Podcast3 from '../components/Podcast3'
+import Podcast4 from '../components/Podcast4'
+import Podcast5 from '../components/Podcast5'
+import Podcast6 from '../components/Podcast6'
+import Podcast7 from '../components/Podcast7'
+import Watchvideo1 from '../components/Watchvideo1'
 import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -36,6 +42,12 @@ export default function CoursesPage() {
       <MastheadPodcast />
       <Podcast1 />
       <Podcast2 />
+      <Podcast3 />
+      <Podcast4 />
+      <Podcast5 />
+      <Podcast6 />
+      <Podcast7 />
+      <Watchvideo1 />
       <TestimonialBook1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
