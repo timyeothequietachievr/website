@@ -49,7 +49,7 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
       <Testimonials />
-      <Pricing kind="course">
+      <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Start learning  
         </h2>
