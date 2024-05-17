@@ -6,7 +6,7 @@ import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
 import CoursesInclude from '../components/CoursesInclude'
 import HowCoursesWork from '../components/HowCoursesWork'
-import Podcast1 from '../components/Podcast1'
+import Podcasts from '../components/Podcasts'
 import Podcast2 from '../components/Podcast2'
 import Podcast3 from '../components/Podcast3'
 import Podcast4 from '../components/Podcast4'
@@ -42,7 +42,7 @@ export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadPodcast />
-      <Podcast1 />
+      <Podcasts />
       <Podcast2 />
       <Podcast3 />
       <Podcast4 />
