@@ -69,7 +69,7 @@ const books: Array<BookOffer> = [
     }
   },*/
   {
-    name: 'Interviews for Introverts',
+    name: 'Book 1',
     badge: 'On-Demand',
     features: ['30+ video lessons; 1hr+ focused learning', '5+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Live coaching to practice and rehearse for interviews','1 year full access content and The Quiet Achiever Community'],
     paymentOptions: {
@@ -138,7 +138,7 @@ const books: Array<BookOffer> = [
     }
   },
   {
-    name: 'Quiet Leadership',
+    name: 'Book 2',
     badge: 'On-Demand',
     features: ['100+ lessons, 4hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Live weekly coaching','1 year full access to content and The Quiet Achiever Community'],
     paymentOptions: {
