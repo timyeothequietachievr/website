@@ -43,7 +43,7 @@ export default function CoursesPage() {
     <PricingContextProvider>
       <MastheadPodcast />
       <Podcasts />
-      <Watchvideo1 />
+      <Watchvideos />
       <Watchvideo2 />
       <Watchvideo3 />
       {/* <TestimonialBook1 /> */}
