@@ -35,7 +35,7 @@ interface BookOffer extends Offer {
   /*
    * A course has a single price which can be paid either in full or in 4 installments.
    */
-  paymentOptions: Record<Currency, Payment<FullPayment>>
+  paymentOptions: Record<Currency, Payment<SplitPayment & FullPayment>>
 }
 
 type Frequency = 'monthly' | 'yearly'
