@@ -14,8 +14,6 @@ import Podcast5 from '../components/Podcast5'
 import Podcast6 from '../components/Podcast6'
 import Podcast7 from '../components/Podcast7'
 import Watchvideos from '../components/Watchvideos'
-import Watchvideo2 from '../components/Watchvideo2'
-import Watchvideo3 from '../components/Watchvideo3'
 import CourseInterviews from '../components/CourseInterviews'
 import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
@@ -44,8 +42,6 @@ export default function CoursesPage() {
       <MastheadPodcast />
       <Podcasts />
       <Watchvideos />
-      <Watchvideo2 />
-      <Watchvideo3 />
       {/* <TestimonialBook1 /> */}
       {/* <TestimonialLeadership2 /> */}
       {/* <TestimonialLeadership3 /> */}
