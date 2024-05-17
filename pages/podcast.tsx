@@ -43,12 +43,6 @@ export default function CoursesPage() {
     <PricingContextProvider>
       <MastheadPodcast />
       <Podcasts />
-      <Podcast2 />
-      <Podcast3 />
-      <Podcast4 />
-      <Podcast5 />
-      <Podcast6 />
-      <Podcast7 />
       <Watchvideo1 />
       <Watchvideo2 />
       <Watchvideo3 />

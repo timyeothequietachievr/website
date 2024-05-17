@@ -50,8 +50,7 @@ export default function Podcasts() {
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
                 This episode is about quiet leadership - how you can be an authentic leader even if you don’t have the loudest voice in the room. We’re joined by Tim Yeo, a design leader and speaker who helps introverts have an impact and influence without having to pretend to be extroverts. Tim is the brain behind The Quiet Achiever, where he coaches introverts to use their strengths to their advantage.
-Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. Tim identifies as an introvert and shares his journey in discovering more about being one.
-We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />  
+Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />  
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
