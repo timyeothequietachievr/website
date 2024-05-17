@@ -22,10 +22,6 @@ export function listingOffersFromBookOffers(
           label: 'Buy now',
           link: paymentLinks.full,
         },
-        secondary: {
-          label: 'Split payment over 4 months',
-          link: paymentLinks.split,
-        },
       }
     };
   });
