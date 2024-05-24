@@ -10,6 +10,62 @@ const people = [
     xUrl: '#',
     linkedinUrl: '#',
   },
+  {
+    name: '2',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '3',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '4',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '5',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '6',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '7',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: '8',
+    role: 'Front-end Developer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
   // More people...
 ]
 
