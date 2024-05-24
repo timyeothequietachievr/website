@@ -29,6 +29,7 @@ import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
 import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
+import Cloudlogos from '../components/Cloudlogos'
 
 export default function CoursesPage() {
   return (
@@ -49,6 +50,7 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
       <Testimonials />
+      <Cloudlogos />
       {/* <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Start learning  
