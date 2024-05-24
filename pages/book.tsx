@@ -32,6 +32,8 @@ import IntroTQA from '../components/IntroTQA'
 import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
+import TopicsBook from '../components/TopicsBook'
+TopicsBook
 
 export default function CoursesPage() {
   return (
