@@ -31,6 +31,7 @@ import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
 import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
+import AboutBook from '../components/AboutBook'
 
 export default function CoursesPage() {
   return (
@@ -53,6 +54,7 @@ export default function CoursesPage() {
       <Testimonials />
       <Cloudlogos />
       <IntrovertHardBook />
+      <AboutBook />
       {/* <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Start learning  
