@@ -71,7 +71,7 @@ const books: Array<BookOffer> = [
   {
     name: 'Author bundle',
     badge: 'On-Demand',
-    features: ['Read it before launch', 'Hardcover book', 'Signed by the author','Unique serial number','Everything digital (ePub, PDF, Audio book)','video call to meet the author'],
+    features: ['Read it before launch', 'Hardcover book signed by the author (global shipping)','Unique serial number','Download everything digital (ePub, PDF, Audio book)','Video call to meet the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
