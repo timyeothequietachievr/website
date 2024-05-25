@@ -68,10 +68,10 @@ const books: Array<BookOffer> = [
       }
     }
   },*/
-  /* {
-    name: 'Book 1',
+  {
+    name: 'Author bundle',
     badge: 'On-Demand',
-    features: ['30+ video lessons; 1hr+ focused learning', '5+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Live coaching to practice and rehearse for interviews','1 year full access content and The Quiet Achiever Community'],
+    features: ['Read it before launch', 'Hardcover book', 'Signed by the author','Unique serial number','Everything digital (ePub, PDF, Audio book)','video call to meet the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
@@ -136,7 +136,7 @@ const books: Array<BookOffer> = [
         }
       }
     }
-  }, */
+  },
   /* {
     name: 'Book 2',
     badge: 'On-Demand',
