@@ -6,7 +6,7 @@ const people = [
     name: 'Introducing yourself',
     role: 'What makes a good introduction, different types of intros you need and how to structure them for meetings, workshops, interviews and networking.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -14,7 +14,7 @@ const people = [
     name: 'Small talk',
     role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -22,7 +22,7 @@ const people = [
     name: 'Meetings',
     role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for focus-work.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -30,7 +30,7 @@ const people = [
     name: 'Public speaking',
     role: 'Types of public speaking scripts and how to prepare and practice so you communicate with purpose and clarity.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-publicspeaking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -38,7 +38,7 @@ const people = [
     name: 'Handling difficult conversations',
     role: 'Understand why these conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-difficultconversations.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -46,7 +46,7 @@ const people = [
     name: 'How to say no (politely)',
     role: 'Saying Yes when you think No is not sustainable. Try practical tips on how to push back.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-sayingnopolitely.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -54,7 +54,7 @@ const people = [
     name: 'Networking',
     role: 'Understand the true purpose of networking and try practical techniques to network online and in real life.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -92,17 +92,6 @@ export default function TopicsBook() {
           ))}
         </ul>
       </div>
-      <div className="mt-10 flex items-center gap-x-6">
-              <a
-                href="#pricing"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Buy the Book
-              </a>
-              <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
-                More about Tim <span aria-hidden="true">→</span>
-              </a>
-        </div>
     </div>
   )
 }
