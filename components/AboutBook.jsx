@@ -15,14 +15,14 @@ export default function AboutBook() {
             For years, I struggled to manage my own introversion. I thought that if I wanted to be a leader, I needed to be an extrovert all the time. So I faked it, and it worked! But I was tired of pretending to be someone I was not. So I started doing things my own way.<br></br><br></br>
             The Quiet Achiever is a collection of the tiny habits that helped me have impact and influence at work, while remaining my true authentic self. <br></br><br></br>
             I developed, practiced and helped others learn these tiny habits over years of coaching and workshops. <br></br><br></br>
-            Now, I share these tiny habits with you in a book.
+            Now, I share these tiny habits with you in my new book.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="#pricing"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get started
+                Buy the Book
               </a>
               <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
                 More about Tim <span aria-hidden="true">→</span>

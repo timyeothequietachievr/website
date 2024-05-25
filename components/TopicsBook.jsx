@@ -3,63 +3,63 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 const people = [
   {
-    name: 'Lindsay Walton',
-    role: 'Front-end Developer',
+    name: 'Introducing yourself',
+    role: 'What makes a good introduction, different types of intros and how to structure them for meetings, workshops, interviews and neetworking.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '2',
-    role: 'Front-end Developer',
+    name: 'Small talk',
+    role: 'A framework for developing small talk topics authentic to you, how to build a connection with others and how to avoid awkward silences.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '3',
-    role: 'Front-end Developer',
+    name: 'Meetings',
+    role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for work that requires focus.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '4',
-    role: 'Front-end Developer',
+    name: 'Public speaking',
+    role: 'Types of public speaking scripts and how to prepare and practice so you communicate with purpose and clarity.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '5',
-    role: 'Front-end Developer',
+    name: 'Handling difficult conversations',
+    role: 'Understand why difficult conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '6',
-    role: 'Front-end Developer',
+    name: 'How to say no (politely)',
+    role: 'Saying Yes when you think No is not sustainable; I share practical tips on how to push back.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '7',
-    role: 'Front-end Developer',
+    name: 'Networking',
+    role: 'Practical techniques to network online and in real life.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: '8',
+    name: 'Working better together with extroverts and ambiverts',
     role: 'Front-end Developer',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -74,10 +74,9 @@ export default function TopicsBook() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our team</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What's in the book?</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-            best results for our clients.
+            Tiny habits that you put into practice and start having impact at work the very next day. We cover topics like: 
           </p>
         </div>
         <ul

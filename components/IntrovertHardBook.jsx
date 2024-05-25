@@ -37,7 +37,7 @@ export default function IntrovertHardBook() {
                   <li>Have read self help books to improve yourself, but all they did was make you feel good but you don't know what to do next?</li>
                 </ul>
                 <p>
-                If your answer is <strong>YES, this book is for you</strong>.
+                👉🏻 If your answer is <strong>YES, this book is for you</strong>.
                 </p>
               </div>
             </div>
