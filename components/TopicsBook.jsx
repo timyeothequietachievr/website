@@ -4,7 +4,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 const people = [
   {
     name: 'Introducing yourself',
-    role: 'What makes a good introduction, different types of intros and how to structure them for meetings, workshops, interviews and neetworking.',
+    role: 'What makes a good introduction, different types of intros you need and how to structure them for meetings, workshops, interviews and networking.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -12,7 +12,7 @@ const people = [
   },
   {
     name: 'Small talk',
-    role: 'A framework for developing small talk topics authentic to you, how to build a connection with others and how to avoid awkward silences.',
+    role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -20,7 +20,7 @@ const people = [
   },
   {
     name: 'Meetings',
-    role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for work that requires focus.',
+    role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for focus-work.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -36,7 +36,7 @@ const people = [
   },
   {
     name: 'Handling difficult conversations',
-    role: 'Understand why difficult conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
+    role: 'Understand why these conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -44,7 +44,7 @@ const people = [
   },
   {
     name: 'How to say no (politely)',
-    role: 'Saying Yes when you think No is not sustainable; I share practical tips on how to push back.',
+    role: 'Saying Yes when you think No is not sustainable. Try practical tips on how to push back.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -52,7 +52,7 @@ const people = [
   },
   {
     name: 'Networking',
-    role: 'Practical techniques to network online and in real life.',
+    role: 'Understand the true purpose of networking and try practical techniques to network online and in real life.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -60,7 +60,7 @@ const people = [
   },
   {
     name: 'Working better together with extroverts and ambiverts',
-    role: 'Front-end Developer',
+    role: 'Work is a team sport. Learn how extroverts and ambiverts can work better together with you.',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
