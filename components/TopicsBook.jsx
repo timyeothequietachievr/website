@@ -14,7 +14,7 @@ const people = [
     name: 'Small talk',
     role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
     imageUrl:
-      'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -59,10 +59,10 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Working better together with extroverts and ambiverts',
+    name: 'Working together with extroverts and ambiverts',
     role: 'Work is a team sport. Learn how extroverts and ambiverts can work better together with you.',
     imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-extrovert.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },

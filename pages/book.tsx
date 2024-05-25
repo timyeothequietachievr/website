@@ -38,8 +38,11 @@ TopicsBook
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
-      <MastheadBook />
       <BookHero />
+      <Cloudlogos />
+      <IntrovertHardBook />
+      <AboutBook />
+      <TopicsBook />
       <TestimonialBook1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
@@ -54,10 +57,6 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
       <Testimonials />
-      <Cloudlogos />
-      <IntrovertHardBook />
-      <AboutBook />
-      <TopicsBook />
       {/* <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Start learning  
