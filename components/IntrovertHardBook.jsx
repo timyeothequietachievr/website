@@ -36,9 +36,10 @@ export default function IntrovertHardBook() {
                   <li>Do you act like an extrovert at work but you are tired of pretending?</li>
                   <li>Have read self help books to improve yourself, but all they did was make you feel good but you don't know what to do next?</li>
                 </ul>
-                <p>
+                <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 👉🏻 If your answer is <strong>YES, this book is for you</strong>.
-                </p>
+              </h3>
+                <p></p>
               </div>
             </div>
           </div>
