@@ -33,7 +33,6 @@ import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
-import VideoBook from '..components/VideoBook'
 
 export default function CoursesPage() {
   return (
@@ -67,7 +66,6 @@ export default function CoursesPage() {
         </p>
   </Pricing> */ }
       <MastheadBook />
-      <VideoBook />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
