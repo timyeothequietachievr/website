@@ -13,13 +13,16 @@ export default function CourseLeadership() {
                   You do not need to pretend to be an extrovert at work
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <strong></strong>Use the tiny habits in this book to have impact and influence at work while remaining your true authentic self.<br /><br /><strong>Written by: </strong>Tim Yeo<br /><br /><strong>Launching: </strong>Early 2024<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
+                <br /><strong>100+</strong> tiny habits you can practice at work and start having impact while remaining your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://forms.gle/VAN6n5r8qFhFEsKm7"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                    data-event-category="email"
+                    data-event-action="click_signup_now"
+                    data-event-label="cta_book_hero"
                   >
                     Be the first to know 
                   </a>

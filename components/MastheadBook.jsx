@@ -21,24 +21,24 @@ export default function MastheadBook() {
               href="#pricing"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
-              data-event-action="buy_now_click"
-              data-event-label="masthead cta"
+              data-event-action="click_buy_now"
+              data-event-label="cta_book_masthead"
             >
-              Buy now
+              Pre-order Now
             </a>
           </div>
-          <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+          { /* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
             <button
               type="button"
               onClick={open}
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
               data-event-category="education"
-              data-event-action="watch_now_click"
-              data-event-label="masthead cta"
+              data-event-action="click_watch_now"
+              data-event-label="cta_masthead_book"
             >
               ▶️ Watch intro
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
