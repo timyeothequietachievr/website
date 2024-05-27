@@ -24,7 +24,7 @@ export default function MastheadBook() {
               data-event-action="buy_now_click"
               data-event-label="masthead cta"
             >
-              Pre-order now
+              Buy now
             </a>
           </div>
           <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
@@ -36,7 +36,7 @@ export default function MastheadBook() {
               data-event-action="watch_now_click"
               data-event-label="masthead cta"
             >
-              ▶️ Signup for book updates
+              ▶️ Signup for updates
             </button>
           </div>
         </div>
