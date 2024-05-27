@@ -36,7 +36,7 @@ export default function MastheadBook() {
               data-event-action="watch_now_click"
               data-event-label="masthead cta"
             >
-              ▶️ Signup for updates
+              ▶️ Watch intro
             </button>
           </div>
         </div>
