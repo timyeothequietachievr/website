@@ -9,9 +9,9 @@ export default function CourseLeadership() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div id="leadership">
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h1 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   You do not need to pretend to be an extrovert at work
-                </h2>
+                </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <strong></strong>Use the tiny habits in this book to have impact and influence at work while remaining your true authentic self.<br /><br /><strong>Written by: </strong>Tim Yeo<br /><br /><strong>Launching: </strong>Early 2024<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
