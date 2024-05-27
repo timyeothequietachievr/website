@@ -75,7 +75,7 @@ export default function TestimonialBook1() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                  When I read, "It's hard being an introverted designer in a world that desires extroverts," I knew exactly that this is what I needed. This course covered all the questions I had in my career and provided some useful tips, strategies, and frameworks. Additionally, you get to meet other like-minded introverts who have faced similar problems.
+                  Tim sprinkles relatable real-life examples throughout the book. The techniques and frameworks are easy to understand and gave me the confidence and clarity to tackle these situations head-on. If you work in an industry that overlooks your introvert strengths, this book provides down-to-earth insights to excel.
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -88,8 +88,30 @@ export default function TestimonialBook1() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Eunbi Koh</div>
-                      <div className="text-base font-medium text-indigo-600">Product Designer, Just Eat Takeaway, UK</div>
+                      <div className="text-base font-medium text-gray-900">Taryn Ewens</div>
+                      <div className="text-base font-medium text-indigo-600">Software Engineer, Atlassian, Australia</div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+              <blockquote className="relative">
+                <div className="text-2xl leading-9 font-medium text-gray-900">
+                  <p>
+                  Tim sprinkles relatable real-life examples throughout the book. The techniques and frameworks are easy to understand and gave me the confidence and clarity to tackle these situations head-on. If you work in an industry that overlooks your introvert strengths, this book provides down-to-earth insights to excel.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex">
+                    <div className="flex-shrink-0 lg:hidden">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="src/profile-eunbi.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4 lg:ml-0">
+                      <div className="text-base font-medium text-gray-900">Taryn Ewens</div>
+                      <div className="text-base font-medium text-indigo-600">Software Engineer, Atlassian, Australia</div>
                     </div>
                   </div>
                 </footer>
