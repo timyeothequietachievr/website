@@ -9,7 +9,7 @@ export default function CourseLeadership() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div id="leadership">
               <div className="mt-6">
-                <h1 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   You do not need to pretend to be an extrovert at work
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
