@@ -34,7 +34,6 @@ import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
 import VideoBook from '..components/VideoBook'
-TopicsBook
 
 export default function CoursesPage() {
   return (
