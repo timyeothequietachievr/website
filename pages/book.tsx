@@ -38,6 +38,7 @@ TopicsBook
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
+      <MastheadBook />
       <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
