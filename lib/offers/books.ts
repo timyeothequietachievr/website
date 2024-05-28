@@ -1,12 +1,12 @@
 const books: Array<BookOffer> = [
   {
-    name: 'Author bundle',
+    name: 'Special Author Bundle',
     badge: 'On-Demand',
-    features: ['Read it before launch', 'Hardcover book signed by the author (global shipping)','Unique serial number','Download everything digital (ePub, PDF, Audio book)','Video call to meet the author'],
+    features: ['Read it before launch', '2 Books: 1 Hardcover + 1 Paperback signed by the author','have YOUR NAME printed in the Book Acknowledgements','Download everything digital (ePub, PDF, Audio book)','Video call to meet the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 199,
+        price: 99,
         paymentLinks: {
           split: '#NA',
           full: 'https://buy.stripe.com/bIY2bM7SPd271xuaGw'

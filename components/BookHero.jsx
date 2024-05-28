@@ -13,7 +13,7 @@ export default function CourseLeadership() {
                   You do not need to pretend to be an extrovert at work
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong></strong>Tiny habits you can practice and start having impact at work.<br /><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
+                <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
@@ -24,7 +24,7 @@ export default function CourseLeadership() {
                     data-event-action="click_signup_now"
                     data-event-label="cta_book_hero"
                   >
-                    Be the first to know 
+                    Signup for book updates 
                   </a>
                 </div>
               </div>
