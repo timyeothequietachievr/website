@@ -54,7 +54,7 @@ export default function TestimonialBook1() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <img
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="src/profile-eunbi.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="src/profile-tarynewens.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt=""
               />
             </div>
@@ -84,7 +84,7 @@ export default function TestimonialBook1() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="src/profile-eunbi.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="src/profile-tarynewens.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                         alt=""
                       />
                     </div>
@@ -150,13 +150,13 @@ export default function TestimonialBook1() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <img
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="src/profile-eunbi.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="src/profile-juliaracsko.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt=""
               />
             </div>
   
             <div className="relative lg:ml-10">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Praise for the book</h2> <br />
+            {/* <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Praise for the book</h2> <br /> */}
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"
@@ -172,7 +172,7 @@ export default function TestimonialBook1() {
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>
-                  Magic sprinkles
+                  A practical and kind guide to not merely survive work socialization, but get great at it!
                   </p>
                 </div>
                 <footer className="mt-8">
@@ -180,13 +180,13 @@ export default function TestimonialBook1() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="src/profile-eunbi.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="src/profile-juliaracsko.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                         alt=""
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Taryn Ewens</div>
-                      <div className="text-base font-medium text-indigo-600">Software Engineer, Atlassian, Australia</div>
+                      <div className="text-base font-medium text-gray-900">Julia Racsko</div>
+                      <div className="text-base font-medium text-indigo-600">Design Coach, Superbloom, Germany</div>
                     </div>
                   </div>
                 </footer>

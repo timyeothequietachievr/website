@@ -45,7 +45,6 @@ export default function CoursesPage() {
       <TopicsBook />
       <TestimonialBook1 />
       <TestimonialBook2 />
-      { /* 
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
@@ -57,7 +56,6 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      */ }
       <Testimonials />
       { /* <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
