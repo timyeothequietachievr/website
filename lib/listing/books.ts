@@ -22,6 +22,10 @@ export function listingOffersFromBookOffers(
           label: 'Buy now',
           link: paymentLinks.full,
         },
+        secondary: {
+          label: 'Gift it',
+          link: paymentLinks.split,
+        },
       }
     };
   });
