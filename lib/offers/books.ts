@@ -1,5 +1,5 @@
 const books: Array<BookOffer> = [
-  {/*
+  /* {
     name: 'Pre-order edition (Hardcover)',
     badge: 'Limited time only',
     features: ['✍🏻 Hardcover autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
@@ -67,8 +67,8 @@ const books: Array<BookOffer> = [
         }
       }
     }
-  */},
-  {/*
+  },*/
+  /*{
     name: 'Pre-order edition (Paperback)',
     badge: 'Limited time only',
     features: ['✍🏻 Paperback autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
@@ -136,8 +136,8 @@ const books: Array<BookOffer> = [
         }
       }
     }
-  */},
-  {/*
+  },*/
+  {
     name: 'Pre-order edition (Everything digital)',
     badge: 'Limited time only',
     features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
@@ -205,7 +205,7 @@ const books: Array<BookOffer> = [
         }
       }
     }
-  */},
+  },
 
 ]
 
