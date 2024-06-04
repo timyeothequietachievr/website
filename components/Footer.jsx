@@ -128,7 +128,7 @@ export default function Footer() {
               ))}
             </div>
             <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-              &copy; 2021 TQA Pte. Ltd. All rights reserved.
+              &copy; 2021 The Quiet Achiever Pte. Ltd. All rights reserved.
             </p>
           </div>
         </div>
