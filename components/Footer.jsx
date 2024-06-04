@@ -128,11 +128,11 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-4 xl:gap-2">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-2">
           <img
-            className="h-7"
+            className="h-12"
             src="src/logo-tqa.svg"
-            alt="Company name"
+            alt="The Quiet Achiever"
           />
           <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-2">
