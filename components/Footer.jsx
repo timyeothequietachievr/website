@@ -42,7 +42,7 @@ const navigation = {
     { name: 'Newsletter', href: '#' }
   ],
   social: [
-    /*{
+    {
       name: 'Linkedin',
       href: 'https://www.linkedin.com/in/timyeo/',
       icon: (props) => (
@@ -80,7 +80,7 @@ const navigation = {
           />
         </svg>
       )
-    },*/
+    },
     {
       name: 'Twitter',
       href: 'https://twitter.com/timyeo',
@@ -139,7 +139,7 @@ export default function Footer() {
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
+                  {navigation.Book.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                         {item.name}
@@ -151,7 +151,7 @@ export default function Footer() {
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
+                  {navigation.Courses.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                         {item.name}
@@ -165,7 +165,7 @@ export default function Footer() {
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
+                  {navigation.Pricing.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                         {item.name}
@@ -177,7 +177,7 @@ export default function Footer() {
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
+                  {navigation.Content.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                         {item.name}
