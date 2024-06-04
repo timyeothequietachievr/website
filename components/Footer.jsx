@@ -134,8 +134,8 @@ export default function Footer() {
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt="Company name"
           />
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-20">
+          <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
+            <div className="md:grid md:grid-cols-2 md:gap-2">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Book</h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -161,7 +161,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-20">
+            <div className="md:grid md:grid-cols-2 md:gap-2">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Pricing</h3>
                 <ul role="list" className="mt-6 space-y-4">
