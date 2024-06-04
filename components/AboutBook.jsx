@@ -11,10 +11,11 @@ export default function AboutBook() {
               Hi, I'm Tim Yeo
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            I've spent my career as a designer and a leader in tech. I worked in rooms full of people with strong opinions and loud voices.<br></br><br></br>
-            For years, I struggled to manage my own introversion. I thought that if I wanted to be a leader, I needed to be an extrovert all the time. So I faked it, and it worked! But I was tired of pretending to be someone I was not. So I started doing things my own way.<br></br><br></br>
-            The Quiet Achiever is a collection of the tiny habits that helped me have impact and influence at work, while remaining my true authentic self. <br></br><br></br>
-            I developed, practiced and helped others learn these tiny habits over years of coaching and workshops. <br></br><br></br>
+            With nearly twenty years of experience working as designer and a leader in tech, I worked in companies dominated by big personalities with strong opinions and loud voices.<br></br><br></br>
+            In a world that favours the extrovert ideal, I tried to fit into an extroverted mold to succeed. It worked for a while but I was tired of pretending to be someone I was not.<br></br><br></br>
+            I wondered, "What is wrong with me? How do others make it look so easy? Maybe I am just not good enough." I was determined to find a better way.<br></br><br></br>
+            The Quiet Achiever is a collection of the tiny habits I developed that helped me have impact and influence at work, while remaining my true authentic self.<br></br><br></br>
+            Since 2020, I have coached hundreds of quiet achievers to remarkable success. <br></br><br></br>
             Now, I share these tiny habits with you in my new book.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
