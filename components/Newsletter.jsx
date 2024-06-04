@@ -49,6 +49,9 @@ export default function Newsletter() {
                 <a
                   href="https://forms.gle/iz3yG32BFKrGxS4CA"
                   className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+                  data-event-category="download"
+                    data-event-action="click_download_now"
+                    data-event-label="cta_download_newsletter"
                 >
                   Download Now
                 </a>
