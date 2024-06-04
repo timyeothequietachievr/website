@@ -128,7 +128,7 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-2 xl:gap-2">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-2">
           <img
             className="h-7"
             src="src/logo-tqa.svg"
