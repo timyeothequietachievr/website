@@ -131,7 +131,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <img
             className="h-7"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            src="src/logo-tqa.svg"
             alt="Company name"
           />
           <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
@@ -163,19 +163,7 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-2">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Pricing</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.Pricing.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Content</h3>
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">Content</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.Content.map((item) => (
                     <li key={item.name}>
@@ -185,6 +173,19 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">Pricing</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.Pricing.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                
               </div>
             </div>
           </div>
