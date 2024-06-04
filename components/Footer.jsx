@@ -42,7 +42,7 @@ const navigation = {
     { name: 'Newsletter', href: '#' }
   ],
   social: [
-    {
+    /*{
       name: 'Linkedin',
       href: 'https://www.linkedin.com/in/timyeo/',
       icon: (props) => (
@@ -80,7 +80,7 @@ const navigation = {
           />
         </svg>
       )
-    },
+    },*/
     {
       name: 'Twitter',
       href: 'https://twitter.com/timyeo',
