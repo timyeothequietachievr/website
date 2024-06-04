@@ -135,9 +135,9 @@ export default function Footer() {
             alt="Company name"
           />
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="md:grid md:grid-cols-2 md:gap-20">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Book</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.Book.map((item) => (
                     <li key={item.name}>
@@ -149,7 +149,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Courses</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.Courses.map((item) => (
                     <li key={item.name}>
@@ -161,9 +161,9 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="md:grid md:grid-cols-2 md:gap-20">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Pricing</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.Pricing.map((item) => (
                     <li key={item.name}>
@@ -175,7 +175,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Content</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.Content.map((item) => (
                     <li key={item.name}>
