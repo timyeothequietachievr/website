@@ -19,7 +19,7 @@
 const MY_FORM_ID = [
   { MY_FORM_ID: 'a9395221a5'},
 ] */
-import { ConvertKitForm } from 'convertkit-react'
+/* import { ConvertKitForm } from 'convertkit-react' */
 
 export default function Newsletter() {
     return (
