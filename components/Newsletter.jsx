@@ -14,6 +14,12 @@
   }
   ```
 */
+
+import ConvertKitForm from 'convertkit-react'
+const MY_FORM_ID = [
+  { MY_FORM_ID: 'a9395221a5'},
+]
+
 export default function Newsletter() {
     return (
       <div className="bg-gray-800" id="curriculum">
@@ -22,6 +28,7 @@ export default function Newsletter() {
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl" id="newsletter-headline">
               Download Leadership for introverts course curriculum (PDF)
             </h2>
+            <ConvertKitForm formId={MY_FORM_ID} />
             <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
               {/* shortly. */}
             </p>
