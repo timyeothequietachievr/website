@@ -215,7 +215,7 @@ export default function Footer() {
             </p>
           </div>
                 
-          
+          <aside ref={ckFormRef} />
 
           {/* <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
             <label htmlFor="email-address" className="sr-only">
