@@ -215,9 +215,9 @@ export default function Footer() {
             </p>
           </div>
                 
-          <aside ref={ckFormRef} />
+          {/* <aside ref={ckFormRef} /> */}
 
-          {/* <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
+          <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
@@ -238,7 +238,7 @@ export default function Footer() {
                 Subscribe
               </button>
             </div>
-          </form> */}
+          </form>
         </div>
          
         <div className="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
