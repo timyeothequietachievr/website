@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+{/* 1 import { useEffect, useRef } from 'react'; */}
 import Newsletter from './Newsletter';
 /*
   This example requires Tailwind CSS v2.0+ 
@@ -121,6 +121,7 @@ const navigation = {
 }
 
 export default function Footer() {
+{/* 2
   const ckFormRef = useRef();
 
   useEffect(() => {
@@ -135,7 +136,7 @@ export default function Footer() {
       ckFormRef.current.removeChild(script);
     };
   }, []);
-
+*/}
   return (
     <>
       <Newsletter />
@@ -215,7 +216,7 @@ export default function Footer() {
             </p>
           </div>
                 
-          <aside ref={ckFormRef} />
+          {/* 3 <aside ref={ckFormRef} /> */}
 
           {/* <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
             <label htmlFor="email-address" className="sr-only">
