@@ -68,7 +68,7 @@ export default function CoursesPage() {
         </p>
   </Pricing> */ }
       <MastheadBook />
-      {/*<ConvertkitSide /> */}
+      <ConvertkitSide />
       <ConvertkitCenter />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
