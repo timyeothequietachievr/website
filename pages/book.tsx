@@ -41,7 +41,7 @@ import HeroFreeChapter from '../components/HeroFreeChapter'
 export default function BookPage() {
   return (
     <PricingContextProvider>
-      <MastheadBook />
+      {/* <MastheadBook /> */}
       <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
