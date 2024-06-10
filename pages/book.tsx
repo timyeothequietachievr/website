@@ -37,11 +37,12 @@ import ConvertkitSide from '../components/ConvertkitSide'
 import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroFreeChapter from '../components/HeroFreeChapter'
+import NewsletterConvertkit from '../components/NewsletterConvertkit'
 
 export default function BookPage() {
   return (
     <PricingContextProvider>
-      {/* <MastheadBook /> */}
+      <MastheadBook />
       <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
@@ -69,13 +70,14 @@ export default function BookPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
   </Pricing> */ }
-      {/*<MastheadBook />*/}
+      <MastheadBook />
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
       {/* <HeroFreeChapter /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
+      <NewsletterConvertkit />
     </PricingContextProvider>
   )
 }

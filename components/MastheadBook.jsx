@@ -18,6 +18,16 @@ export default function MastheadBook() {
         </p>
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
+          <a              
+              href="https://forms.gle/VAN6n5r8qFhFEsKm7"
+              className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+              data-event-category="email"
+              data-event-action="click_signup_now"
+              data-event-label="cta_book_masthead"
+            >
+              Get notified
+            </a>
+            {/*}
             <a              
               href="#pricing"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
@@ -27,6 +37,7 @@ export default function MastheadBook() {
             >
               Get notified
             </a>
+            */}
           </div>
           { /* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
             <button
