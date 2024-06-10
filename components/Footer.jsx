@@ -1,5 +1,6 @@
 {/* 1 import { useEffect, useRef } from 'react'; */}
 import Newsletter from './Newsletter';
+import NewsletterConvertkit from './NewsletterConvertkit';
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -139,7 +140,7 @@ export default function Footer() {
 */}
   return (
     <>
-      {/* <Newsletter /> */}
+      <NewsletterConvertkit />
       <footer className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer

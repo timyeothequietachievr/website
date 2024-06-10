@@ -77,7 +77,7 @@ export default function BookPage() {
       {/* <HeroFreeChapter /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
-      <NewsletterConvertkit />
+      {/* <NewsletterConvertkit /> */}
     </PricingContextProvider>
   )
 }
