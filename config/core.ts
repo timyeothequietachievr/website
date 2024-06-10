@@ -1,5 +1,5 @@
 export const navigationItems = [
-  { name: 'Courses', href: '/courses' },
+  { name: 'School', href: '/school' },
   { name: 'Coaching', href: '/coaching' },
   { name: 'Book', href: '/book' },
   { name: 'Podcast', href: '/podcast' },

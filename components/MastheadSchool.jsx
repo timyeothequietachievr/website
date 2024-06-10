@@ -12,7 +12,7 @@ export default function MastheadSchool() {
           <span className="block xl:inline">school</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        get impact at work without pretending to be extroverts.
+        learn and practice with others just like you.
         </p>
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
