@@ -25,11 +25,14 @@ export default function ConvertkitSide() {
         <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
         <aside ref={ckFormRef} />
           <p className="mt-4 text-sm leading-6 text-gray-300">
-            We care about your data. Read our{' '}
+            I respect your privacy. No spam.
+            {/*
+            {' '}
             <a href="#" className="font-semibold text-white">
               privacy&nbsp;policy
             </a>
             .
+            */}
           </p>
         </form>
       </div>

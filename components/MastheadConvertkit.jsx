@@ -29,7 +29,7 @@ export default function MastheadConvertkit() {
           {/* <span className="block text-indigo-600 xl:inline">impact at work</span> */}
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        coming 2024
+        Coming 2024
         </p>
         <div className="mt-5 px-4 max-w-md mx-auto sm:justify-center md:mt-8">
         <aside ref={ckFormRef} />
