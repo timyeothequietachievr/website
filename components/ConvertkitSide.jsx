@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-export default function ConvertkitNewsletter() {
+export default function ConvertkitSide() {
   const ckFormRef = useRef();
 
   useEffect(() => {
