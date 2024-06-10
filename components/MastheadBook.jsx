@@ -1,4 +1,5 @@
 import ReactPlayer from "react-player/lazy";
+import { useEffect, useRef } from 'react';
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
 export default function MastheadBook() {
