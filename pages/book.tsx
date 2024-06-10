@@ -35,6 +35,7 @@ import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
 import ConvertkitSide from '../components/ConvertkitSide'
 import ConvertkitCenter from '../components/ConvertkitCenter'
+import MastheadConvertkit from '../components/MastheadConvertkit'
 
 export default function CoursesPage() {
   return (
@@ -70,6 +71,7 @@ export default function CoursesPage() {
       <MastheadBook />
       <ConvertkitSide />
       <ConvertkitCenter />
+      <MastheadConvertkit />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
