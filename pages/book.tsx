@@ -71,9 +71,9 @@ export default function BookPage() {
   </Pricing> */ }
       <MastheadBook />
       <ConvertkitSide />
-      <ConvertkitCenter />
-      <MastheadConvertkit />
-      <HeroFreeChapter />
+      {/* <ConvertkitCenter /> */}
+      {/* <MastheadConvertkit /> */}
+      {/* <HeroFreeChapter /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>

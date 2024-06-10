@@ -32,9 +32,8 @@ export default function BookHero() {
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <div className="mt-6">
-                <aside ref={ckFormRef} />
-                  {/* 
-                  <a
+                {/* <aside ref={ckFormRef} /> */}
+                   <a
                     href="https://forms.gle/VAN6n5r8qFhFEsKm7"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                     data-event-category="email"
@@ -43,7 +42,6 @@ export default function BookHero() {
                   >
                     Signup for book updates 
                   </a>
-                  */}
                 </div>
               </div>
             </div>
