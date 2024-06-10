@@ -1,6 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import { useEffect, useRef } from 'react';
 
 export default function HeroDark() {
@@ -68,10 +67,12 @@ export default function HeroDark() {
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
                 FREE DOWNLOAD
               </span>
+              {/*}
               <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
                 <span>Just shipped v1.0</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
               </span>
+              */}
             </a>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">

@@ -38,7 +38,7 @@ import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroDark from '../components/HeroDark'
 
-export default function CoursesPage() {
+export default function BookPage() {
   return (
     <PricingContextProvider>
       <MastheadBook />
