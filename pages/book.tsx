@@ -33,6 +33,7 @@ import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
+import ConvertkitNewsletter from '../components/ConvertkitNewsletter'
 
 export default function CoursesPage() {
   return (
@@ -66,6 +67,7 @@ export default function CoursesPage() {
         </p>
   </Pricing> */ }
       <MastheadBook />
+      <ConvertkitNewsletter />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>

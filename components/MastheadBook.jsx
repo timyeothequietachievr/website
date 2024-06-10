@@ -25,7 +25,7 @@ export default function MastheadBook() {
               data-event-action="click_buy_now"
               data-event-label="cta_book_masthead"
             >
-              Pre-order Now
+              Pre-order 23 June 2024
             </a>
           </div>
           { /* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">

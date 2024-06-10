@@ -139,7 +139,7 @@ export default function Footer() {
 */}
   return (
     <>
-      <Newsletter />
+      {/* <Newsletter /> */}
       <footer className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
