@@ -42,8 +42,8 @@ export default function BookPage2() {
   return (
     <PricingContextProvider>
       {/* <MastheadBook />
-      <BookHero />
       */}
+      <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
       <AboutBook />
