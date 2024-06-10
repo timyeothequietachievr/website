@@ -26,9 +26,9 @@ export default function ConvertkitCenter() {
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
             Reprehenderit ad esse et non officia in nulla. Id proident tempor incididunt nostrud nulla et culpa.
           </p>
-          <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
           <aside ref={ckFormRef} />
-          </h2>
+          </p>
           {/* <form className="mx-auto mt-10 flex max-w-md gap-x-4">
           <aside ref={ckFormRef} />
           </form> */}
