@@ -23,9 +23,14 @@ export default function ConvertkitSide() {
           <p className="inline sm:block lg:inline xl:block">Sign up for our newsletter.</p>
         </div>        
         <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
-          <div className="flex gap-x-4">
-            <aside ref={ckFormRef} />
-          </div>
+        <aside ref={ckFormRef} />
+          <p className="mt-4 text-sm leading-6 text-gray-300">
+            We care about your data. Read our{' '}
+            <a href="#" className="font-semibold text-white">
+              privacy&nbsp;policy
+            </a>
+            .
+          </p>
         </form>
       </div>
     </div>
