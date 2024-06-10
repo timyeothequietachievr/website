@@ -34,7 +34,7 @@ import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
 import ConvertkitSide from '../components/ConvertkitSide'
-import MastheadConvertkit from '../components/MastheadConvertkit'
+import ConvertkitCenter from '../components/ConvertkitCenter'
 
 export default function CoursesPage() {
   return (
