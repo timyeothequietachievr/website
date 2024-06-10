@@ -1,7 +1,6 @@
 import Pricing from '../components/Pricing'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import Masthead from '../components/Masthead'
-import MastheadBook from '../components/MastheadBook'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
 import WhatIsIncluded from '../components/WhatIsIncluded'
@@ -33,6 +32,7 @@ import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
+import MastheadBook from '../components/MastheadBook'
 import ConvertkitSide from '../components/ConvertkitSide'
 import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
@@ -69,8 +69,8 @@ export default function BookPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
   </Pricing> */ }
-      <MastheadBook />
-      <ConvertkitSide />
+      {/*<MastheadBook />*/}
+      {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
       {/* <HeroFreeChapter /> */}
