@@ -1,6 +1,6 @@
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
-export default function Masthead() {
+export default function MastheadHomepage() {
   const { open, close, isOpened } = useModal();
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">
@@ -8,7 +8,7 @@ export default function Masthead() {
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">tiny habits for</span>{' '}
           {/* <span className="block xl:inline">4-week course for</span>{' '} */}
-          <span className="block text-indigo-600 xl:inline">introverts</span>{' '}
+          <span className="block text-indigo-600 xl:inline">quiet achievers</span>{' '}
           <span className="block xl:inline">to have</span>{' '}
           <span className="block text-indigo-600 xl:inline">impact at work</span>
         </h1>

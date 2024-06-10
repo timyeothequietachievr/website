@@ -1,4 +1,4 @@
-import Masthead from '../components/Masthead'
+import MastheadHomepage from '../components/MastheadHomepage'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearn from '../components/WhatYouWillLearn'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
@@ -21,21 +21,22 @@ import Gift from '../components/Gift'
 import Gift2 from '../components/Gift2'
 import HowItWorks from '../components/HowItWorks'
 import Video from '../components/Video'
+import TopicsHomepage from '../components/TopicsHomepage'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 
 export default function IndexPage() {
   return (
     <PricingContextProvider>
-      <Masthead />
+      <MastheadHomepage />
       <BeingIntrovertHard />
       <IntroTQA />
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
-      <WhatYouWillLearn />
+      <TopicsHomepage />
       <TestimonialLargeAvatar1 />
-      <WhatIsATinyHabit />
-      <Feature1 />
-      <Feature2 />
+      {/*<WhatIsATinyHabit /> */}
+      {/*<Feature1 /> */}
+      {/*<Feature2 /> */}
       <Feature3 />
       <MonthlyGuestSpeakers />
       <TestimonialLargeAvatar2 />
