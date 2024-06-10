@@ -59,10 +59,34 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Working together with extroverts and ambiverts',
-    role: 'Work is a team sport. Learn how extroverts and ambiverts can work better together with you.',
+    name: 'Interviews',
+    role: 'Show up as the BEST version of yourself and get the job you deserve',
     imageUrl:
-      'src/topic-extrovert.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/topic-interviews.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Facilitation',
+    role: 'Lead effective workshops that run on-time, on-topic and in-control',
+    imageUrl:
+      'src/topic-facilitation.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Being more visible in your org',
+    role: 'Be seen and be heard for the great work that you do',
+    imageUrl:
+      'src/topic-beingmorevisible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Management and Leadership',
+    role: 'How to lead as a quiet achiever and how to manage a quiet team',
+    imageUrl:
+      'src/topic-mgt.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
