@@ -36,6 +36,7 @@ import TopicsBook from '../components/TopicsBook'
 import ConvertkitSide from '../components/ConvertkitSide'
 import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
+import HeroDark from '../components/HeroDark'
 
 export default function CoursesPage() {
   return (
@@ -72,6 +73,7 @@ export default function CoursesPage() {
       <ConvertkitSide />
       <ConvertkitCenter />
       <MastheadConvertkit />
+      <HeroDark />
       {/* <Gift /> */}
       {/*<Gift2 /> */}
     </PricingContextProvider>
