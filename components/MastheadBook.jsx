@@ -3,6 +3,20 @@ import { useEffect, useRef } from 'react';
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
 
 export default function MastheadBook() {
+  const ckFormRef = useRef();
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', '24658419fb');
+    ckFormRef.current.appendChild(script);
+
+    return () => {
+      ckFormRef.current.removeChild(script);
+    };
+  }, []);
   const { open, close, isOpened } = useModal();
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">
