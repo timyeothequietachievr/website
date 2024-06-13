@@ -32,15 +32,16 @@ export default function HeroGiftBook() {
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
                 <aside ref={ckFormRef} />
+                <a data-formkit-toggle="0bcd1dda08" href="https://thequietachievr.ck.page/0bcd1dda08">Show me the gift modal</a>
                 <div className="mt-6">
                    <a
-                    href="https://forms.gle/VAN6n5r8qFhFEsKm7"
+                    href="https://thequietachievr.ck.page/0bcd1dda08"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                    data-event-category="email"
-                    data-event-action="click_signup_now"
-                    data-event-label="cta_book_hero"
+                    data-event-category="gift"
+                    data-event-action="click_gift_now"
+                    data-event-label="cta_gift_hero"
                   >
-                    Signup for book updates 
+                    Send a gift
                   </a>
                 </div>
               </div>
