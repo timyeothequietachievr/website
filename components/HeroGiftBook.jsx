@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function BookHero() {
+export default function HeroGiftBook() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">

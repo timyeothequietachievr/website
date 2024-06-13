@@ -37,14 +37,14 @@ import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
-import HeroGift from '../components/HeroGift'
+import HeroGiftBook from '../components/HeroGiftBook'
 import HeroDark from '../components/HeroDark'
 
 export default function GiftPage() {
   return (
     <PricingContextProvider>
       <MastheadGift />
-      <HeroGift />
+      <HeroGiftBook />
       <HeroDark />
       <Cloudlogos />
       <IntrovertHardBook />
