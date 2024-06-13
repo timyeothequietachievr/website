@@ -40,7 +40,6 @@ import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import HeroGiftBook from '../components/HeroGiftBook'
 import HeroDark from '../components/HeroDark'
 import Gift from '../components/Gift'
-import Gift2 from '../components/Gift2'
 
 export default function GiftPage() {
   return (
@@ -80,7 +79,6 @@ export default function GiftPage() {
       <MastheadConvertkit />
       <HeroFreeChapter />
       <Gift />
-      <Gift2 />
       <NewsletterConvertkit />
     </PricingContextProvider>
   )

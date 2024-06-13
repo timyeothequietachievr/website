@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
+import { useEffect, useRef } from 'react';
 
 export default function HeroGiftBook() {
   return (
