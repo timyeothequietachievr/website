@@ -34,7 +34,7 @@ export default function HeroGiftBook() {
                 <aside ref={ckFormRef} />
                 <a data-formkit-toggle="0bcd1dda08" href="https://thequietachievr.ck.page/0bcd1dda08">Show me the gift modal</a>
                 <div className="mt-6">
-                   <a
+                   <a data-formkit-toggle="0bcd1dda08"
                     href="https://thequietachievr.ck.page/0bcd1dda08"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                     data-event-category="gift"
