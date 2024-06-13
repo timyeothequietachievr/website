@@ -3,6 +3,20 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 import { useEffect, useRef } from 'react';
 
 export default function HeroGiftBook() {
+  const ckFormRef = useRef();
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://thequietachievr.ck.page/1ee45f29b8/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', '1ee45f29b8');
+    ckFormRef.current.appendChild(script);
+
+    return () => {
+      ckFormRef.current.removeChild(script);
+    };
+  }, []);
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
@@ -17,6 +31,7 @@ export default function HeroGiftBook() {
                 <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
+                <aside ref={ckFormRef} />
                 <div className="mt-6">
                    <a
                     href="https://forms.gle/VAN6n5r8qFhFEsKm7"
