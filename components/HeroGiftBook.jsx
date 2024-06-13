@@ -8,9 +8,9 @@ export default function HeroGiftBook() {
   useEffect(() => {
     const script = document.createElement('script');
 
-    script.src = 'https://thequietachievr.ck.page/1ee45f29b8/index.js';
+    script.src = 'https://thequietachievr.ck.page/0bcd1dda08/index.js';
     script.async = true;
-    script.setAttribute('data-uid', '1ee45f29b8');
+    script.setAttribute('data-uid', '0bcd1dda08');
     ckFormRef.current.appendChild(script);
 
     return () => {
@@ -25,7 +25,7 @@ export default function HeroGiftBook() {
             <div id="leadership">
               <div className="mt-6">
                 <h1 id="bookupdates" className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  You do not need to pretend to be an extrovert at work
+                  HeroGiftBook
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
