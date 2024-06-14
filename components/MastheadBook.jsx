@@ -1,23 +1,8 @@
 import ReactPlayer from "react-player/lazy";
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
-import { useEffect, useRef } from 'react';
 
 export default function MastheadBook() {
   const { open, close, isOpened } = useModal();
-  const ckFormRef = useRef();
-
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
-    script.async = true;
-    script.setAttribute('data-uid', '24658419fb');
-    ckFormRef.current.appendChild(script);
-
-    return () => {
-      ckFormRef.current.removeChild(script);
-    };
-  }, []);
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">

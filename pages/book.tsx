@@ -31,12 +31,12 @@ import Cloudlogos from '../components/Cloudlogos'
 import IntrovertHardBook from '../components/IntrovertHardBook'
 import AboutBook from '../components/AboutBook'
 import TopicsBook from '../components/TopicsBook'
-import MastheadBook from '../components/MastheadBook'
 import ConvertkitSide from '../components/ConvertkitSide'
 import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
+import MastheadBook from '../components/MastheadBook'
 
 export default function BookPage() {
   return (
