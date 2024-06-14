@@ -215,7 +215,7 @@ const books: Array<BookOffer> = [
         currency: 'AUD',
         price: 99,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA',
           full: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA'
         }
       },
@@ -224,7 +224,7 @@ const books: Array<BookOffer> = [
         currency: 'CAD',
         price: 89,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/6oE17Igpld27ekg6qn',
           full: 'https://buy.stripe.com/6oE17Igpld27ekg6qn'
         }
       },
@@ -233,7 +233,7 @@ const books: Array<BookOffer> = [
         currency: 'EUR',
         price: 59,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/3cs8Aa8WTgejb84dSO',
           full: 'https://buy.stripe.com/3cs8Aa8WTgejb84dSO'
         }
       },
@@ -242,7 +242,7 @@ const books: Array<BookOffer> = [
         currency: 'GBP',
         price: 49,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/cN22bM5KH7HN2BycOJ',
           full: 'https://buy.stripe.com/cN22bM5KH7HN2BycOJ'
         }
       },
@@ -251,7 +251,7 @@ const books: Array<BookOffer> = [
         currency: 'PLN',
         price: 249,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/fZe03Eehd7HNb84160',
           full: 'https://buy.stripe.com/fZe03Eehd7HNb84160'
         }
       },
@@ -260,7 +260,7 @@ const books: Array<BookOffer> = [
         currency: 'SGD',
         price: 88,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/aEU9Eec957HN5NKbKC',
           full: 'https://buy.stripe.com/aEU9Eec957HN5NKbKC'
         }
       },
@@ -269,7 +269,7 @@ const books: Array<BookOffer> = [
         currency: 'USD',
         price: 69,
         paymentLinks: {
-          split: '#NA',
+          split: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD',
           full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
         }
       }
