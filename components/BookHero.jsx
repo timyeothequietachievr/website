@@ -31,20 +31,7 @@ export default function BookHero() {
                 <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br /><strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
-                <div className="mt-6">
-                  <aside ref={ckFormRef} />
-                  {/*
-                   <a
-                    href="https://forms.gle/VAN6n5r8qFhFEsKm7"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                    data-event-category="email"
-                    data-event-action="click_signup_now"
-                    data-event-label="cta_book_hero"
-                  >
-                    Signup for book updates 
-                  </a>
-                  */}
-                </div>
+                <aside ref={ckFormRef} />
               </div>
             </div>
           </div>
