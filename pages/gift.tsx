@@ -39,6 +39,9 @@ import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import HeroGiftBook from '../components/HeroGiftBook'
 import HeroDark from '../components/HeroDark'
+import HeroBookTellYourFriends from '../components/HeroBookTellYourFriends'
+import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
+
 
 export default function GiftPage() {
   return (
@@ -78,6 +81,8 @@ export default function GiftPage() {
       <MastheadConvertkit />
       <HeroFreeChapter />
       <NewsletterConvertkit />
+      <HeroBookTellYourFriends />
+      <SignupBookTellYourFriends />
     </PricingContextProvider>
   )
 }
