@@ -8,9 +8,9 @@ export default function BookHero() {
   useEffect(() => {
     const script = document.createElement('script');
 
-    script.src = 'https://thequietachievr.ck.page/a9395221a5/index.js';
+    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
     script.async = true;
-    script.setAttribute('data-uid', 'a9395221a5');
+    script.setAttribute('data-uid', '24658419fb');
     ckFormRef.current.appendChild(script);
 
     return () => {

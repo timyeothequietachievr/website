@@ -37,6 +37,7 @@ import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import MastheadBook from '../components/MastheadBook'
+import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 
 export default function BookPage() {
   return (
@@ -76,6 +77,7 @@ export default function BookPage() {
       {/* <Gift /> */}
       {/*<Gift2 /> */}
       {/* <NewsletterConvertkit /> */}
+      <SignupBookTellYourFriends />
     </PricingContextProvider>
   )
 }

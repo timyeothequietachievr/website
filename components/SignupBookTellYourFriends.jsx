@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-export default function ConvertkitSide() {
+export default function SignupBookTellYourFriends() {
   const ckFormRef = useRef();
 
   useEffect(() => {
