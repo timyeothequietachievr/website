@@ -206,14 +206,14 @@ const books: Array<BookOffer> = [
       }
     }
   },*/
-  /*{
-    name: 'Everything Digital',
-    badge: 'Download now',
-    features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+  {
+    name: 'Author Edition',
+    badge: 'Limited Time',
+    features: ['✍🏻 Hardcopy autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 16.99,
+        price: 99,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -222,7 +222,7 @@ const books: Array<BookOffer> = [
 
       CAD: {
         currency: 'CAD',
-        price: 15.88,
+        price: 89,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -231,7 +231,7 @@ const books: Array<BookOffer> = [
 
       EUR: {
         currency: 'EUR',
-        price: 9.99,
+        price: 59,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -240,7 +240,7 @@ const books: Array<BookOffer> = [
 
       GBP: {
         currency: 'GBP',
-        price: 8.88,
+        price: 49,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -249,7 +249,7 @@ const books: Array<BookOffer> = [
 
       PLN: {
         currency: 'PLN',
-        price: 39.99,
+        price: 249,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -258,7 +258,7 @@ const books: Array<BookOffer> = [
 
       SGD: {
         currency: 'SGD',
-        price: 15.88,
+        price: 88,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -267,14 +267,14 @@ const books: Array<BookOffer> = [
 
       USD: {
         currency: 'USD',
-        price: 11.99,
+        price: 69,
         paymentLinks: {
           split: '#NA',
           full: 'h#NA'
         }
       }
     }
-  },*/
+  },
   /*{
     name: 'Everything Digital',
     badge: 'Download now',

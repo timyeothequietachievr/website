@@ -62,14 +62,14 @@ export default function BookPage() {
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
       <Testimonials />
-      { /* <Pricing kind="book">
+      <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Start learning  
+          Read it before anyone else  
         </h2>
 
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
-  </Pricing> */ }
+  </Pricing>
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
