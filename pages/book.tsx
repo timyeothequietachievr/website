@@ -37,7 +37,6 @@ import ConvertkitCenter from '../components/ConvertkitCenter'
 import MastheadConvertkit from '../components/MastheadConvertkit'
 import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
-import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 
 export default function BookPage() {
   return (
@@ -50,7 +49,6 @@ export default function BookPage() {
       <TopicsBook />
       <TestimonialBook1 />
       <TestimonialBook2 />
-      <SignupBookTellYourFriends />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
@@ -71,7 +69,6 @@ export default function BookPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
   </Pricing> */ }
-      <SignupBookTellYourFriends />
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
