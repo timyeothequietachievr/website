@@ -1,8 +1,23 @@
 import ReactPlayer from "react-player/lazy";
 import { useModal, Modal, IntroVideoModalContents } from "./modal";
+import { useEffect, useRef } from 'react';
 
 export default function MastheadBook() {
   const { open, close, isOpened } = useModal();
+  const ckFormRef = useRef();
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', '24658419fb');
+    ckFormRef.current.appendChild(script);
+
+    return () => {
+      ckFormRef.current.removeChild(script);
+    };
+  }, []);
   return (
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">
@@ -18,7 +33,8 @@ export default function MastheadBook() {
         </p>
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div>
-          <a              
+            <aside ref={ckFormRef} />
+          {/*}<a              
               href="https://forms.gle/VAN6n5r8qFhFEsKm7"
               className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
               data-event-category="email"
