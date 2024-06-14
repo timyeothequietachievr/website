@@ -16,7 +16,9 @@ export default function MastheadBook() {
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         Pre-order starts June2024
         </p>
-        <a              
+        <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+          <div>
+            <a              
               href="#pricing"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
@@ -25,6 +27,8 @@ export default function MastheadBook() {
             >
               Buy Now
             </a>
+          </div>
+        </div>
         {/*}
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div>

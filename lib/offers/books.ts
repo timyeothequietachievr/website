@@ -216,7 +216,7 @@ const books: Array<BookOffer> = [
         price: 99,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA'
         }
       },
 
@@ -225,7 +225,7 @@ const books: Array<BookOffer> = [
         price: 89,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/6oE17Igpld27ekg6qn'
         }
       },
 
@@ -234,7 +234,7 @@ const books: Array<BookOffer> = [
         price: 59,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/3cs8Aa8WTgejb84dSO'
         }
       },
 
@@ -243,7 +243,7 @@ const books: Array<BookOffer> = [
         price: 49,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/cN22bM5KH7HN2BycOJ'
         }
       },
 
@@ -252,7 +252,7 @@ const books: Array<BookOffer> = [
         price: 249,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/fZe03Eehd7HNb84160'
         }
       },
 
@@ -261,7 +261,7 @@ const books: Array<BookOffer> = [
         price: 88,
         paymentLinks: {
           split: '#NA',
-          full: '#NA'
+          full: 'https://buy.stripe.com/aEU9Eec957HN5NKbKC'
         }
       },
 
@@ -270,7 +270,7 @@ const books: Array<BookOffer> = [
         price: 69,
         paymentLinks: {
           split: '#NA',
-          full: 'h#NA'
+          full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
         }
       }
     }
