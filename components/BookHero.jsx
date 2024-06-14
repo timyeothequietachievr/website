@@ -1,22 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
-import { useEffect, useRef } from 'react';
 
 export default function BookHero() {
-  const ckFormRef = useRef();
-
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
-    script.async = true;
-    script.setAttribute('data-uid', '24658419fb');
-    ckFormRef.current.appendChild(script);
-
-    return () => {
-      ckFormRef.current.removeChild(script);
-    };
-  }, []);
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
