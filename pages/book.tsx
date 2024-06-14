@@ -41,7 +41,6 @@ import NewsletterConvertkit from '../components/NewsletterConvertkit'
 export default function BookPage() {
   return (
     <PricingContextProvider>
-      <MastheadBook />
       <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
