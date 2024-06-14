@@ -41,6 +41,7 @@ import MastheadBook from '../components/MastheadBook'
 export default function BookPage() {
   return (
     <PricingContextProvider>
+      <MastheadBook />
       <BookHero />
       <Cloudlogos />
       <IntrovertHardBook />
