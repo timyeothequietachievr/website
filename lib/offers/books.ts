@@ -215,7 +215,7 @@ const books: Array<BookOffer> = [
         currency: 'AUD',
         price: 69,
         paymentLinks: {
-          split: 'https://thequietachievr.ck.page/0bcd1dda08',
+          split: '#comingsoon',
           full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
         }
       },
