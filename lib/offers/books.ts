@@ -213,10 +213,10 @@ const books: Array<BookOffer> = [
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 99,
+        price: 69,
         paymentLinks: {
-          split: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA',
-          full: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA'
+          split: 'https://thequietachievr.ck.page/0bcd1dda08',
+          full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
         }
       },
 

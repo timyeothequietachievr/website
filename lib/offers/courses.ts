@@ -78,7 +78,7 @@ const courses: Array<CourseOffer> = [
         price: 199,
         paymentLinks: {
           split: '#NA',
-          full: 'https://buy.stripe.com/bIY2bM7SPd271xuaGw'
+          full: 'https://buy.stripe.com/00gdUu7SPd273FC29S'
         }
       },
 
