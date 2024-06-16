@@ -14,7 +14,7 @@ export const siteMetaData = {
 }
 
 export const listingMetaData = {
-  currency: 'USD',
+  currency: 'AUD',
   frequency: 'yearly',
   get userLocale() {
     return typeof navigator !== 'undefined' ? navigator.language : 'en'
