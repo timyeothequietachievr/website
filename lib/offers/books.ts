@@ -213,10 +213,10 @@ const books: Array<BookOffer> = [
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 69,
+        price: 99,
         paymentLinks: {
-          split: '#comingsoon',
-          full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
+          split: 'https://buy.stripe.com/bIY8Aa1ur2nt4JGdSX',
+          full: 'https://buy.stripe.com/9AQ5nYdd90fl6RO9CA'
         }
       },
 
@@ -224,7 +224,7 @@ const books: Array<BookOffer> = [
         currency: 'CAD',
         price: 89,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oE17Igpld27ekg6qn',
+          split: 'https://buy.stripe.com/14k03E7SPfafcc8g14',
           full: 'https://buy.stripe.com/6oE17Igpld27ekg6qn'
         }
       },
@@ -233,7 +233,7 @@ const books: Array<BookOffer> = [
         currency: 'EUR',
         price: 59,
         paymentLinks: {
-          split: 'https://buy.stripe.com/3cs8Aa8WTgejb84dSO',
+          split: 'https://buy.stripe.com/3csdUugpl3rxfokbKN',
           full: 'https://buy.stripe.com/3cs8Aa8WTgejb84dSO'
         }
       },
@@ -242,7 +242,7 @@ const books: Array<BookOffer> = [
         currency: 'GBP',
         price: 49,
         paymentLinks: {
-          split: 'https://buy.stripe.com/cN22bM5KH7HN2BycOJ',
+          split: 'https://buy.stripe.com/4gw3fQ5KHd274JG3eg',
           full: 'https://buy.stripe.com/cN22bM5KH7HN2BycOJ'
         }
       },
@@ -251,7 +251,7 @@ const books: Array<BookOffer> = [
         currency: 'PLN',
         price: 249,
         paymentLinks: {
-          split: 'https://buy.stripe.com/fZe03Eehd7HNb84160',
+          split: 'https://buy.stripe.com/4gw5nYdd91jpb84g11',
           full: 'https://buy.stripe.com/fZe03Eehd7HNb84160'
         }
       },
@@ -260,7 +260,7 @@ const books: Array<BookOffer> = [
         currency: 'SGD',
         price: 88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/aEU9Eec957HN5NKbKC',
+          split: 'https://buy.stripe.com/6oE6s2gpl3rx3FCdSR',
           full: 'https://buy.stripe.com/aEU9Eec957HN5NKbKC'
         }
       },
@@ -269,7 +269,7 @@ const books: Array<BookOffer> = [
         currency: 'USD',
         price: 69,
         paymentLinks: {
-          split: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD',
+          split: 'https://buy.stripe.com/cN2cQq2yvd275NK2aa',
           full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
         }
       }
