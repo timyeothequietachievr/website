@@ -336,7 +336,7 @@ const books: Array<BookOffer> = [
 
       USD: {
         currency: 'USD',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
