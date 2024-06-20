@@ -275,14 +275,14 @@ const books: Array<BookOffer> = [
       }
     }
   },
-  /*{
+  {
     name: 'Everything Digital',
-    badge: 'Download now',
-    features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+    badge: '9Aug',
+    features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 16.99,
+        price: 39.99,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -291,7 +291,7 @@ const books: Array<BookOffer> = [
 
       CAD: {
         currency: 'CAD',
-        price: 15.88,
+        price: 35.88,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -300,7 +300,7 @@ const books: Array<BookOffer> = [
 
       EUR: {
         currency: 'EUR',
-        price: 9.99,
+        price: 23.88,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -309,7 +309,7 @@ const books: Array<BookOffer> = [
 
       GBP: {
         currency: 'GBP',
-        price: 8.88,
+        price: 19,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -318,7 +318,7 @@ const books: Array<BookOffer> = [
 
       PLN: {
         currency: 'PLN',
-        price: 39.99,
+        price: 99,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -327,7 +327,7 @@ const books: Array<BookOffer> = [
 
       SGD: {
         currency: 'SGD',
-        price: 15.88,
+        price: 28,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -336,7 +336,214 @@ const books: Array<BookOffer> = [
 
       USD: {
         currency: 'USD',
-        price: 11.99,
+        price: 25,
+        paymentLinks: {
+          split: '#NA',
+          full: 'h#NA'
+        }
+      }
+    }
+  },
+  /*{
+    name: 'Author Edition (Everything Digital)',
+    badge: 'Read it 2Aug',
+    features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 39.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 35.88,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 23.88,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 19,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 28,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 25,
+        paymentLinks: {
+          split: '#NA',
+          full: 'h#NA'
+        }
+      }
+    }
+  },*/
+  /*{
+    name: 'eBook only',
+    badge: 'Download now',
+    features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 9.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 8.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 5.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 4.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 25.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 8.88,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 6.99,
+        paymentLinks: {
+          split: '#NA',
+          full: 'h#NA'
+        }
+      }
+    }
+  },*/
+  /*{
+    name: 'eBook only',
+    badge: 'Download now',
+    features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 9.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 8.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 5.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 4.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 25.99,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 8.88,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 6.99,
         paymentLinks: {
           split: '#NA',
           full: 'h#NA'
