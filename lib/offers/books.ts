@@ -282,6 +282,75 @@ const books: Array<BookOffer> = [
     paymentOptions: {
       AUD: {
         currency: 'AUD',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: $,
+        paymentLinks: {
+          split: '#NA',
+          full: '#NA'
+        }
+      }
+    }
+  },
+  /*{ This includes the prices of everything digital after 9Aug
+    name: 'Everything Digital',
+    badge: '9Aug',
+    features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
         price: 39.99,
         paymentLinks: {
           split: '#NA',
@@ -344,6 +413,7 @@ const books: Array<BookOffer> = [
       }
     }
   },
+  */
   /*{
     name: 'Author Edition (Everything Digital)',
     badge: 'Read it 2Aug',
