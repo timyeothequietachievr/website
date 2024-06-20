@@ -278,7 +278,7 @@ const books: Array<BookOffer> = [
   {
     name: 'Everything Digital',
     badge: '9 Aug',
-    features: ['Prices coming soon', '📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
+    features: ['Prices coming soon', '📲 ePub, PDF','🎤 Audiobook narrated by the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
