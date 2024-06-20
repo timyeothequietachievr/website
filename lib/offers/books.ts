@@ -277,12 +277,12 @@ const books: Array<BookOffer> = [
   },
   {
     name: 'Everything Digital',
-    badge: '9Aug',
-    features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
+    badge: '9 Aug',
+    features: ['Prices coming soon', '📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -291,7 +291,7 @@ const books: Array<BookOffer> = [
 
       CAD: {
         currency: 'CAD',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -300,7 +300,7 @@ const books: Array<BookOffer> = [
 
       EUR: {
         currency: 'EUR',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -309,7 +309,7 @@ const books: Array<BookOffer> = [
 
       GBP: {
         currency: 'GBP',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -318,7 +318,7 @@ const books: Array<BookOffer> = [
 
       PLN: {
         currency: 'PLN',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
@@ -327,7 +327,7 @@ const books: Array<BookOffer> = [
 
       SGD: {
         currency: 'SGD',
-        price: $,
+        price: 0,
         paymentLinks: {
           split: '#NA',
           full: '#NA'
