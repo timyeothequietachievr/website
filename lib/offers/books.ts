@@ -209,7 +209,7 @@ const books: Array<BookOffer> = [
   {
     name: 'Author Edition',
     badge: 'Limited Time',
-    features: ['✍🏻 Hardcopy autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
+    features: ['✍🏻 Physical book autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
