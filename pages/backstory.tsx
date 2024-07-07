@@ -36,14 +36,16 @@ import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
 import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
+import BackstoryBookcover from '../components/BackstoryBookcover'
 
 export default function BackstoryPage() {
   return (
     <PricingContextProvider>
       <MastheadBackstory />
       <HeroBackstory />
-      <Podcasts />
-      <Watchvideos />
+      <BackstoryBookcover /}
+      {/* <Podcasts /> */}
+      {/* <Watchvideos /> */}
       {/* <TestimonialBook1 /> */}
       {/* <TestimonialLeadership2 /> */}
       {/* <TestimonialLeadership3 /> */}
