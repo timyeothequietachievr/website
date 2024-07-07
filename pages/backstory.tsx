@@ -43,7 +43,7 @@ export default function BackstoryPage() {
     <PricingContextProvider>
       <MastheadBackstory />
       <HeroBackstory />
-      <BackstoryBookcover /}
+      <BackstoryBookcover />
       {/* <Podcasts /> */}
       {/* <Watchvideos /> */}
       {/* <TestimonialBook1 /> */}
