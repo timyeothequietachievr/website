@@ -42,7 +42,7 @@ export default function MastheadBook() {
             </button>
           </div> 
         </div> */}
-      
+      </div>
       <div className="text-center">
       <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
