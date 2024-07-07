@@ -17,7 +17,6 @@ export default function MastheadBook() {
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         How did we design the book cover? Why the headphones? And what went into designing the eyes 👀  
         </p>
-        <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
         { /* <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
             <a
@@ -43,6 +42,9 @@ export default function MastheadBook() {
             </button>
           </div> 
         </div> */}
+      
+      <div className="text-center">
+      <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
         <IntroVideoModalContents ytLink="https://www.youtube.com/embed/_ZUbIJcvTlM?controls=0" />
