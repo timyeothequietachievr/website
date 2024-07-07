@@ -58,7 +58,7 @@ export default function MastheadBook() {
           </div> 
         </div>
         */}
-        { /* <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} /> */}
+        <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
 
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
