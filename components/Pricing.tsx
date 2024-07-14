@@ -24,14 +24,22 @@ export default function Pricing({ kind, children }: PricingProps) {
       <div className="mb-6">{children}</div>
       
       <fieldset className="flex gap-5 items-center">
-        <label className="max-w-2xl text-xl text-gray-500">
+      <h2>
+          Choose currency:
+        </h2>
+
+        <PaymentOptions
+          onCurrencyChanged={onCurrencyChanged}
+          currency={currency}
+        />
+        {/* <label className="max-w-2xl text-xl text-gray-500">
           Choose currency:
         </label>
 
         <PaymentOptions
           onCurrencyChanged={onCurrencyChanged}
           currency={currency}
-        />
+        /> */}
       </fieldset>
         
       <Listing>
