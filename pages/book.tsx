@@ -64,7 +64,7 @@ export default function BookPage() {
       <Testimonials />
       <Pricing kind="book">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Read it before anyone else  
+          Choose your currency 
         </h2>
 
         <p className="mt-6 max-w-2xl text-xl text-gray-500">

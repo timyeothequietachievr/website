@@ -25,7 +25,7 @@ export default function MastheadBook() {
               data-event-action="click_buy_now"
               data-event-label="cta_book_masthead"
             >
-              Pre-order Author Edition Now
+              Pre-order Now
             </a>
           </div>
         </div>
