@@ -205,7 +205,7 @@ const books: Array<BookOffer> = [
         }
       }
     }
-  },*/
+  },
   {
     name: 'Author Edition',
     badge: 'Limited Time',
@@ -271,6 +271,76 @@ const books: Array<BookOffer> = [
         paymentLinks: {
           split: 'https://buy.stripe.com/cN2cQq2yvd275NK2aa',
           full: 'https://buy.stripe.com/7sI7w63Czd27dgcbKD'
+        }
+      }
+    }
+  },
+  */
+  {
+    name: 'Autograph Edition',
+    badge: 'Special',
+    features: ['✍🏻 Physical book autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','👋 Meet the author via video call'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 88,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/8wM3fQ0qn2nt8ZW8zA',
+          full: 'https://buy.stripe.com/fZedUu0qnd275NKaHw'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 79,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/bIY17I5KH1jpa40cPP',
+          full: 'https://buy.stripe.com/9AQcQqgpl5zF2By2aZ'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 55,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/cN25nYgpl5zF6RO2ba',
+          full: 'https://buy.stripe.com/8wM2bM5KH3rxgso5nd'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 45,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/8wM6s2flh9PV8ZW3fd',
+          full: 'https://buy.stripe.com/aEUdUuehd3rx4JG7vm'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 234,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/00g03Ec955zF8ZW7vs',
+          full: 'https://buy.stripe.com/3csbMm8WTgejfok7vn'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 74,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/00g03Eehd2nt6ROeXS',
+      full: 'https://buy.stripe.com/6oE17Idd9e6bekgdTN'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 56,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/00gg2C3Czfafdgc173',
+          full: 'https://buy.stripe.com/14k6s22yv9PVekgbLE'
         }
       }
     }
