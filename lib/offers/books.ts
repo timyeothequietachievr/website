@@ -556,7 +556,7 @@ const books: Array<BookOffer> = [
   {
     name: 'eBook only',
     badge: '9Aug',
-    features: ['📲 ePub, PDF','💾 Download now'],
+    features: ['📲 ePub, PDF'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
@@ -607,7 +607,7 @@ const books: Array<BookOffer> = [
         currency: 'SGD',
         price: 12.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oE8Aa5KH9PVfok4ju',
+          split: 'https://buy.stripe.com/4gwcQq8WTaTZekg7wd',
           full: 'https://buy.stripe.com/6oE03EflhbY34JG17d'
         }
       },
@@ -625,7 +625,7 @@ const books: Array<BookOffer> = [
   { 
     name: 'Audiobook only',
     badge: '9Aug',
-    features: ['🎤 Audiobook narrated by the author','💾 Download now'],
+    features: ['🎤 Audiobook narrated by the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
