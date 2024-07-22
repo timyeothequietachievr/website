@@ -348,68 +348,68 @@ const books: Array<BookOffer> = [
   {
     name: 'Everything Digital',
     badge: '9 Aug',
-    features: ['Prices coming soon', '📲 ePub, PDF','🎤 Audiobook narrated by the author'],
+    features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 0,
+        price: 24.99,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/8wM6s2a0XaTZ1xu4jV',
+          full: 'https://buy.stripe.com/14k8Aaa0X1jpcc84jl'
         }
       },
 
       CAD: {
         currency: 'CAD',
-        price: 0,
+        price: 23.88,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/cN2eYy7SP6DJ8ZW6s4',
+          full: 'https://buy.stripe.com/14kcQq3Cz2nt0tq9E8'
         }
       },
 
       EUR: {
         currency: 'EUR',
-        price: 0,
+        price: 15.99,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/cN28Aagpl1jp3FC03H',
+          full: 'https://buy.stripe.com/6oE7w63Cz4vBa406rX'
         }
       },
 
       GBP: {
         currency: 'GBP',
-        price: 0,
+        price: 12.99,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/5kA6s2flhe6b5NK03I',
+          full: 'https://buy.stripe.com/aEUeYy4GD1jpb848A6'
         }
       },
 
       PLN: {
         currency: 'PLN',
-        price: 0,
+        price: 65.88,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/14k6s2c95e6b7VS4jZ',
+          full: 'https://buy.stripe.com/fZe5nYb514vBa40g2z'
         }
       },
 
       SGD: {
         currency: 'SGD',
-        price: 0,
+        price: 22.88,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/aEUbMmb51fafa403fW',
+          full: 'https://buy.stripe.com/4gw03E4GD9PV5NK8A9'
         }
       },
 
       USD: {
         currency: 'USD',
-        price: 0,
+        price: 16.99,
         paymentLinks: {
-          split: '#NA',
-          full: '#NA'
+          split: 'https://buy.stripe.com/fZebMmgpl4vB0tq5nY',
+          full: 'https://buy.stripe.com/00g3fQdd99PV5NK9Ec'
         }
       }
     }
@@ -553,144 +553,144 @@ const books: Array<BookOffer> = [
       }
     }
   },*/
-  /*{ This includes the prices of everything digital after 9Aug
+  {
     name: 'eBook only',
-    badge: 'Download now',
+    badge: '9Aug',
     features: ['📲 ePub, PDF','💾 Download now'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 9.99,
+        price: 14.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/dR67w6b515zFdgc8z9',
-          full: 'https://buy.stripe.com/3csbMm4GDbY36RO02p'
+          split: 'https://buy.stripe.com/28obMm6OL5zF6RO9DT',
+          full: 'https://buy.stripe.com/8wMaIi7SP1jpfokaHM'
         }
       },
 
       CAD: {
         currency: 'CAD',
-        price: 8.99,
+        price: 12.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/eVa03E2yvaTZ3FC2aM',
-          full: 'https://buy.stripe.com/28o9Ee5KHfafgso4iG'
+          split: 'https://buy.stripe.com/3cseYy7SPd272BybLX',
+          full: 'https://buy.stripe.com/14k03Eb518LR1xu5nu'
         }
       },
 
       EUR: {
         currency: 'EUR',
-        price: 5.99,
+        price: 8.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/00g5nYdd9faf2BydTv',
-          full: 'https://buy.stripe.com/00g4jU1urbY36RO3eD'
+          split: 'https://buy.stripe.com/eVaaIic957HNa405nA',
+          full: 'https://buy.stripe.com/3cs3fQc953rx2ByaHP'
         }
       },
 
       GBP: {
         currency: 'GBP',
-        price: 4.99,
+        price: 7.77,
         paymentLinks: {
-          split: 'https://buy.stripe.com/9AQdUugplgejgso5n0',
-          full: 'https://buy.stripe.com/dR68Aaehd4vB7VS5mM'
+          split: 'https://buy.stripe.com/aEUdUu8WT2ntekg8zN',
+          full: 'https://buy.stripe.com/6oEg2Cdd9d27dgc03c'
         }
       },
 
       PLN: {
         currency: 'PLN',
-        price: 25.99,
+        price: 38.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/5kA17Ib51d271xu4iX',
-          full: 'https://buy.stripe.com/8wM8Aa6OLaTZdgc5mN'
+          split: 'https://buy.stripe.com/dR67w6gplfaf1xu17m',
+          full: 'https://buy.stripe.com/dR6bMmgpl3rx7VS17a'
         }
       },
 
       SGD: {
         currency: 'SGD',
-        price: 8.88,
+        price: 12.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oEaIi3Cz9PV5NK9Dc',
-          full: 'https://buy.stripe.com/cN2aIi0qnaTZekgaH2'
+          split: 'https://buy.stripe.com/6oE8Aa5KH9PVfok4ju',
+          full: 'https://buy.stripe.com/6oE03EflhbY34JG17d'
         }
       },
 
       USD: {
         currency: 'USD',
-        price: 6.99,
+        price: 9.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oE2bMdd92nt5NKg1G',
-          full: 'https://buy.stripe.com/14k17Iflhd27dgc02u'
+          split: 'https://buy.stripe.com/8wM2bMa0X3rx5NKcPZ',
+          full: 'https://buy.stripe.com/3csdUu3CzaTZ0tq7vz'
         }
       }
     }
-  },*/
-  /*{ This includes the prices of everything digital after 9Aug
+  },
+  { 
     name: 'Audiobook only',
-    badge: 'Download now',
+    badge: '9Aug',
     features: ['🎤 Audiobook narrated by the author','💾 Download now'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 9.99,
+        price: 14.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/eVa8Aaflh0flfokg1u',
-          full: 'https://buy.stripe.com/cN203E4GDd274JG5mC'
+          split: 'https://buy.stripe.com/9AQ7w6a0X5zF6RO5nM',
+          full: 'https://buy.stripe.com/6oE8Aa5KH9PVfok4ju'
         }
       },
 
       CAD: {
         currency: 'CAD',
-        price: 8.99,
+        price: 12.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/28ocQq5KHgejfok9D7',
-          full: 'https://buy.stripe.com/8wMeYya0XaTZb84aGX'
+          split: 'https://buy.stripe.com/7sIdUu4GD8LRcc83fF',
+          full: 'https://buy.stripe.com/3cs17I3Cz8LR8ZWg2k'
         }
       },
 
       EUR: {
         currency: 'EUR',
-        price: 5.99,
+        price: 8.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/4gw5nY5KH1jpa408z4',
-          full: 'https://buy.stripe.com/14k4jU6OL5zF1xu9CU'
+          split: 'https://buy.stripe.com/eVa17Ic959PV3FC5nO',
+          full: 'https://buy.stripe.com/5kAbMm5KHd276RO8zT'
         }
       },
 
       GBP: {
         currency: 'GBP',
-        price: 4.99,
+        price: 7.77,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oE3fQ6OL9PV7VS5mT',
-          full: 'https://buy.stripe.com/28odUu6OLe6b7VS02l'
+          split: 'https://buy.stripe.com/fZe17Ic957HN4JGg2t',
+          full: 'https://buy.stripe.com/fZe7w64GDgejfok5nI'
         }
       },
 
       PLN: {
         currency: 'PLN',
-        price: 25.99,
+        price: 38.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/bIYg2Cflh5zFcc8dTq',
-          full: 'https://buy.stripe.com/7sIaIia0XbY3ekg3ey'
+          split: 'https://buy.stripe.com/8wM17I0qn4vB8ZWeYq',
+          full: 'https://buy.stripe.com/fZecQqehdfaf0tq03p'
         }
       },
 
       SGD: {
         currency: 'SGD',
-        price: 8.88,
+        price: 12.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/6oEaIi3Cz1jp8ZW5mP',
-          full: 'https://buy.stripe.com/8wM9Ee3Cz1jp2By4ix'
+          split: 'https://buy.stripe.com/fZe8Aa0qn8LR6RO8A3',
+          full: 'https://buy.stripe.com/28odUuehd5zF4JG9E0'
         }
       },
 
       USD: {
         currency: 'USD',
-        price: 6.99,
+        price: 9.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/eVag2C8WTaTZ6RO4iR',
-          full: 'https://buy.stripe.com/aEU8Aa0qn2nt7VSaH1'
+          split: 'https://buy.stripe.com/9AQ4jU5KH6DJ0tq6rP',
+          full: 'https://buy.stripe.com/8wM8Aa1ur2ntb844jA'
         }
       }
     }
-  },*/
+  },
   /*{ TEMPLATE
     name: 'eBook only',
     badge: 'Download now',
