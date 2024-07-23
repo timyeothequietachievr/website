@@ -66,7 +66,6 @@ export default function BookPage() {
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           eBook and Audiobook
         </h2>
-
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
@@ -74,7 +73,6 @@ export default function BookPage() {
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Hardcover and Paperback
         </h2>
-
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
