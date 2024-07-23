@@ -105,11 +105,11 @@ export function usePaymentOptions({ kind }: UsePaymentOptionsProps) {
     },
 
     get bookdigital() {
-      return listingOffersFromBookOffers(bookdigitalOffers, currency, userLocale)
+      return listingOffersFromBookDigitalOffers(bookdigitalOffers, currency, userLocale)
     },
 
     get bookphysical() {
-      return listingOffersFromBookOffers(bookphysicalOffers, currency, userLocale)
+      return listingOffersFromBookPhysicalOffers(bookphysicalOffers, currency, userLocale)
     },
 
     get coaching() {
