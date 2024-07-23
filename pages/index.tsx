@@ -42,7 +42,7 @@ export default function IndexPage() {
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      <Pricing kind="book">
+      <Pricing kind="bookdigital">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Choose your currency
         </h2>
