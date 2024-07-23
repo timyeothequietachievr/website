@@ -69,7 +69,15 @@ export default function BookPage() {
 
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
-  </Pricing>
+      </Pricing>
+      <Pricing kind="bookphysical">
+        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+          bookphysical
+        </h2>
+
+        <p className="mt-6 max-w-2xl text-xl text-gray-500">
+        </p>
+      </Pricing>
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
