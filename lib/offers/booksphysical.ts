@@ -390,7 +390,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'PLN',
         price: 99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/dR64jU4GDbY35NK2c1,
+          split: 'https://buy.stripe.com/dR64jU4GDbY35NK2c1',
           full: 'https://buy.stripe.com/bIY3fQ1ur2ntdgc4k6'
         }
       },
