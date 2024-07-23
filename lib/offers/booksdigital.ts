@@ -1,4 +1,4 @@
-const booksdigital: Array<BookOffer> = [
+const booksdigital: Array<BookdigitalOffer> = [
   /* {
     name: 'Pre-order edition (Hardcover)',
     badge: 'Limited time only',
