@@ -12,6 +12,9 @@ import { listingOffersFromCourseOffers } from '../../lib/listing/courses'
 import bookdigitalOffers from '../../lib/offers/booksdigital'
 import { listingOffersFromBookOffers } from '../../lib/listing/booksdigital'
 
+import bookphysicalOffers from '../../lib/offers/booksphysical'
+import { listingOffersFromBookOffers } from '../../lib/listing/booksphysical'
+
 localforage.config({
   name: 'thequietachivr',
   description: 'User settings for thequietachivr.com'
@@ -81,7 +84,7 @@ export function PricingContextConsumer({ children }) {
   )
 }
 
-export type OfferKind = 'course' | 'coaching' | 'one-each' | 'all' | 'bookdigital'
+export type OfferKind = 'course' | 'coaching' | 'one-each' | 'all' | 'bookdigital' | 'bookphysical'
 
 interface UsePaymentOptionsProps {
   kind: OfferKind
@@ -105,6 +108,10 @@ export function usePaymentOptions({ kind }: UsePaymentOptionsProps) {
       return listingOffersFromBookOffers(bookdigitalOffers, currency, userLocale)
     },
 
+    get bookphysical() {
+      return listingOffersFromBookOffers(bookphysicalOffers, currency, userLocale)
+    },
+
     get coaching() {
       return listingOffersFromCoachingOffers(
         coachingOffers,
@@ -125,12 +132,15 @@ export function usePaymentOptions({ kind }: UsePaymentOptionsProps) {
         case 'bookdigital':
           return offers.bookdigital
 
+          case 'bookphysical':
+            return offers.bookphysical
+
         case 'one-each':
           return [offers.coaching[0], offers.course[0]]
 
         case 'all':
         default:
-          return [...offers.coaching, ...offers.course, ...offers.bookdigital]
+          return [...offers.coaching, ...offers.course, ...offers.bookdigital, , ...offers.bookphysical]
       }
     }
   }
