@@ -44,8 +44,17 @@ export default function IndexPage() {
       <TestimonialLargeAvatar4 />
       <Pricing kind="bookdigital">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Choose your currency
+          eBook and Audiobook
         </h2>
+        <p className="mt-6 max-w-2xl text-xl text-gray-500">
+        </p>
+      </Pricing>
+      <Pricing kind="bookphysical">
+        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+          Hardcover and Paperback
+        </h2>
+        <p className="mt-6 max-w-2xl text-xl text-gray-500">
+        </p>
       </Pricing>
       <Testimonials />
       {/* <Video /> */}
