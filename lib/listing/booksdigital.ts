@@ -1,5 +1,5 @@
 export function listingOffersFromBookOffers(
-  booksdigital: Array<BookOffer>,
+  booksdigital: Array<BookdigitalOffer>,
   currency: Currency,
   userLocale: string,
 ): Array<ListingOffer> {
