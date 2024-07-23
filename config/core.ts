@@ -12,7 +12,7 @@ export const siteMetaData = {
     'tiny habits for quiet achievers to have impact at work without pretending to be extroverts',
   image: 'src/logo-tqa/svg'
 }
-
+/* Below is where you change the default currency dropdown menu for the whole website */
 export const listingMetaData = {
   currency: 'USD',
   frequency: 'yearly',

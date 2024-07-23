@@ -1,10 +1,10 @@
 export function listingOffersFromBookOffers(
-  books: Array<BookOffer>,
+  booksdigital: Array<BookOffer>,
   currency: Currency,
   userLocale: string,
 ): Array<ListingOffer> {
-  return books.map((bookOffer) => {
-    const { paymentLinks, price } = bookOffer.paymentOptions[currency];
+  return booksdigital.map((bookdigitalOffer) => {
+    const { paymentLinks, price } = bookdigitalOffer.paymentOptions[currency];
     const formattedPrice = new Intl.NumberFormat(
       userLocale,
       { style: 'currency', currency }
@@ -14,9 +14,9 @@ export function listingOffersFromBookOffers(
       heading: {
         title: formattedPrice,
       },
-      subheading: bookOffer.name,
-      features: bookOffer.features,
-      badge: bookOffer.badge,
+      subheading: bookdigitalOffer.name,
+      features: bookdigitalOffer.features,
+      badge: bookdigitalOffer.badge,
       cta: {
         primary: {
           label: 'Buy now',

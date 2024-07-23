@@ -31,7 +31,7 @@ interface CourseOffer extends Offer {
   paymentOptions: Record<Currency, Payment<SplitPayment & FullPayment>>
 }
 
-interface BookOffer extends Offer {
+interface BookdigitalOffer extends Offer {
   /*
    * A course has a single price which can be paid either in full or in 4 installments.
    */

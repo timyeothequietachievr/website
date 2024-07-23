@@ -1,4 +1,4 @@
-const books: Array<BookOffer> = [
+const booksdigital: Array<BookOffer> = [
   /* {
     name: 'Pre-order edition (Hardcover)',
     badge: 'Limited time only',
@@ -832,4 +832,4 @@ const books: Array<BookOffer> = [
 
 ]
 
-export default books
+export default booksdigital
