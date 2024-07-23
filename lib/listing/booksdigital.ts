@@ -1,4 +1,4 @@
-export function listingOffersFromBookOffers(
+export function listingOffersFromBookDigitalOffers(
   booksdigital: Array<BookdigitalOffer>,
   currency: Currency,
   userLocale: string,

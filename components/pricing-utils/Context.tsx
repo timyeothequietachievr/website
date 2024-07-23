@@ -10,10 +10,10 @@ import courseOffers from '../../lib/offers/courses'
 import { listingOffersFromCourseOffers } from '../../lib/listing/courses'
 
 import bookdigitalOffers from '../../lib/offers/booksdigital'
-import { listingOffersFromBookOffers } from '../../lib/listing/booksdigital'
+import { listingOffersFromBookDigitalOffers } from '../../lib/listing/booksdigital'
 
 import bookphysicalOffers from '../../lib/offers/booksphysical'
-import { listingOffersFromBookOffers } from '../../lib/listing/booksphysical'
+import { listingOffersFromBookPhysicalOffers } from '../../lib/listing/booksphysical'
 
 localforage.config({
   name: 'thequietachivr',

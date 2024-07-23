@@ -1,4 +1,4 @@
-export function listingOffersFromBookOffers(
+export function listingOffersFromBookPhysicalOffers(
   booksphysical: Array<BookphysicalOffer>,
   currency: Currency,
   userLocale: string,
