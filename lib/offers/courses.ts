@@ -146,6 +146,75 @@ const courses: Array<CourseOffer> = [
         currency: 'AUD',
         price: 899,
         paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 829,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 579,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 509,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 2699,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 788,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 609,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      }
+    }
+  },/* 20240724 removed payment links in preparation of reducing prices to USD199 - below is a backup
+  {
+    name: 'Quiet Leadership',
+    badge: 'On-Demand',
+    features: ['100+ lessons, 4hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Live weekly coaching','1 year full access to content and The Quiet Achiever Community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 899,
+        paymentLinks: {
           split: 'https://buy.stripe.com/dR64jU4GD3rx3FCbKf',
           full: 'https://buy.stripe.com/cN2dUu6OLe6b4JGaFX'
         }
@@ -205,7 +274,7 @@ const courses: Array<CourseOffer> = [
         }
       }
     }
-  },
+  },*/
 
 ]
 
