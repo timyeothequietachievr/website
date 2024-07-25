@@ -363,7 +363,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 36.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/dR6g2Cehd4vB7VSeYQ',
+          split: '#',
           full: 'https://buy.stripe.com/fZe17Ic95e6b4JG17R'
         }
       },
