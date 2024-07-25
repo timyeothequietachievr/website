@@ -345,7 +345,7 @@ const booksphysical: Array<BookphysicalOffer> = [
       }
     }
   },
-  {
+  /*{
     name: 'Hardcover',
     badge: '9 Aug',
     features: ['Hardcover book'],
@@ -482,7 +482,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         }
       }
     }
-  },
+  },*/
 
 ]
 
