@@ -7,6 +7,16 @@ export default function Backstories() {
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <span id="bookcover" className="block xl:inline">Backstory</span>{' '}
+          {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
+        </h1>        
+        <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        The story behind the story from The Quiet Achiever book
+        </p>
+      <ReactPlayer url="https://youtu.be/PWeOu_67do4" className="w-full h-auto my-8 mx-auto" controls={true} />
+      </div>
+      <div className="text-center">
+        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span id="bookcover" className="block xl:inline">Book cover</span>{' '}
           {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
         </h1>        
