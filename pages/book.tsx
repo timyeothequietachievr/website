@@ -1,3 +1,4 @@
+import ReactPlayer from "react-player/lazy";
 import Pricing from '../components/Pricing'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
