@@ -345,7 +345,7 @@ const booksphysical: Array<BookphysicalOffer> = [
       }
     }
   },
-  /*{
+  {
     name: 'Hardcover',
     badge: '9 Aug',
     features: ['Hardcover book'],
@@ -432,8 +432,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 23.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/14kcQqa0X6DJ0tq2ch',
-          full: 'https://buy.stripe.com/dR6bMm3Cze6b5NK9EF'
+          split: '#',
+          full: '#'
         }
       },
 
@@ -482,7 +482,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         }
       }
     }
-  },*/
+  },
 
 ]
 
