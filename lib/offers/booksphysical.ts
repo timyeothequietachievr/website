@@ -451,7 +451,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         price: 12.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/bIYeYygpl3rxdgc3gn',
-          full: 'https://buy.stripe.com/00gcQq1ur3rx2By187'
+          full: ''
         }
       },
 
