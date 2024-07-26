@@ -35,7 +35,7 @@ export default function HeroBackstory() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/bookhero.jpg"
+                src="src/backstory.jpg"
                 alt="Leadership for introverts"
               />
             </div>
