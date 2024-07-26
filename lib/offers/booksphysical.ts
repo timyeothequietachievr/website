@@ -399,7 +399,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'SGD',
         price: 36.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/00g03E7SP3rxa40dUO',
+          split: '#',
           full: 'https://buy.stripe.com/8wM2bM2yv3rx3FCbMA'
         }
       },
