@@ -78,7 +78,7 @@ export default function Backstories() {
           {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
         </h1>        
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Dark hairy ball??
+        Dark hairy ball, anyone?
         </p>
       <ReactPlayer url="https://youtu.be/6R_sFqSDf4g" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
@@ -100,7 +100,7 @@ export default function Backstories() {
           {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
         </h1>        
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Just because we are different doesn't mean we are not the same
+        Just because we are different doesn't mean we can't be friends
         </p>
       <ReactPlayer url="https://youtu.be/qDeKz9K-Zh0" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
