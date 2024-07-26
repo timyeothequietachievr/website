@@ -563,7 +563,7 @@ const booksdigital: Array<BookdigitalOffer> = [
         price: 14.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/9AQ7w6a0X5zF6RO5nM',
-          full: 'https://buy.stripe.com/6oE8Aa5KH9PVfok4ju'
+          full: 'https://buy.stripe.com/5kA17Ia0XaTZ3FC8zR'
         }
       },
 

@@ -363,7 +363,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 36.88,
         paymentLinks: {
-          split: '#',
+          split: 'https://buy.stripe.com/dR6g2Cehd4vB7VSeYQ',
           full: 'https://buy.stripe.com/fZe17Ic95e6b4JG17R'
         }
       },
@@ -399,7 +399,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'SGD',
         price: 36.88,
         paymentLinks: {
-          split: '#',
+          split: 'https://buy.stripe.com/00g03E7SP3rxa40dUO',
           full: 'https://buy.stripe.com/8wM2bM2yv3rx3FCbMA'
         }
       },
@@ -432,8 +432,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 23.88,
         paymentLinks: {
-          split: '#',
-          full: '#'
+          split: 'https://buy.stripe.com/14kcQqa0X6DJ0tq2ch',
+          full: 'https://buy.stripe.com/dR6bMm3Cze6b5NK9EF'
         }
       },
 
@@ -451,7 +451,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         price: 12.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/bIYeYygpl3rxdgc3gn',
-          full: '#'
+          full: 'https://buy.stripe.com/00gcQq1ur3rx2By187'
         }
       },
 
@@ -460,7 +460,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         price: 65.88,
         paymentLinks: {
           split: 'https://buy.stripe.com/00g9Eea0Xe6b4JGaIR',
-          full: '#'
+          full: 'https://buy.stripe.com/00gcQqdd90flekg042'
         }
       },
 
