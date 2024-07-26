@@ -20,9 +20,9 @@ export default function HeroBackstory() {
                   <a
                     href="https://www.youtube.com/playlist?list=PLpKJ7XXPJpNDAiek9auGYO_lhyHk0rpxh"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                    data-event-category="email"
-                    data-event-action="click_signup_now"
-                    data-event-label="cta_book_hero"
+                    data-event-category="content"
+                    data-event-action="click_backstory"
+                    data-event-label="cta_backstory_hero"
                   >
                     Listen to podcast 
                   </a>
