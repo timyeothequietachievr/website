@@ -41,13 +41,24 @@ export default function Backstories() {
       {/* Backstory 4 */}
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span id="bookbinding" className="block xl:inline">Chapter 3: Small talk</span>{' '}
+          <span id="smalltalk" className="block xl:inline">Chapter 3: Small talk</span>{' '}
           {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
         </h1>        
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         Why is food and the weather my go-to topics for small talk?
         </p>
       <ReactPlayer url="https://youtu.be/_ae6iQMrOYk" className="w-full h-auto my-8 mx-auto" controls={true} />
+      </div>
+      {/* Backstory x */}
+      <div className="text-center">
+        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <span id="meetings" className="block xl:inline">Chapter 4: Meetings</span>{' '}
+          {/* <span className="block text-indigo-600 xl:inline">backstory</span>{' '} */}
+        </h1>        
+        <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        no backstory to share here...yet.
+        </p>
+      <ReactPlayer url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
       {/* Backstory 5 */}
       <div className="text-center">
