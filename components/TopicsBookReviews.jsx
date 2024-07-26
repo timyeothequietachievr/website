@@ -7,62 +7,22 @@ const people = [
     role: '',
     imageUrl:
       'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '"https://www.amazon.com"',
+    xUrl: 'https://www.amazon.com',
     linkedinUrl: '#',
   },
   {
-    name: 'Small talk',
-    role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
+    name: 'review site 2',
+    role: '',
     imageUrl:
       'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'Meetings',
-    role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for focus-work.',
+    name: 'review site 3',
+    role: '',
     imageUrl:
       'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Public speaking',
-    role: 'Types of public speaking scripts and how to prepare and practice so you communicate with purpose and clarity.',
-    imageUrl:
-      'src/topic-publicspeaking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Handling difficult conversations',
-    role: 'Understand why these conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
-    imageUrl:
-      'src/topic-difficultconversations.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'How to say no (politely)',
-    role: 'Saying Yes when you think No is not sustainable. Try practical tips on how to push back.',
-    imageUrl:
-      'src/topic-sayingnopolitely.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Networking',
-    role: 'Understand the true purpose of networking and try practical techniques to network online and in real life.',
-    imageUrl:
-      'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Working together with extroverts and ambiverts',
-    role: 'Work is a team sport. Learn how extroverts and ambiverts can work better together with you.',
-    imageUrl:
-      'src/topic-extrovert.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
