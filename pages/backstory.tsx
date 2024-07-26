@@ -43,7 +43,6 @@ export default function BackstoryPage() {
   return (
     <PricingContextProvider>
       <MastheadBackstory />
-      <ReactPlayer id="backstory" url="https://youtu.be/PWeOu_67do4" className="w-full h-auto my-8 mx-auto" controls={true} />
       <HeroBackstory />
       <Backstories />
       {/* <Podcasts /> */}
