@@ -6,7 +6,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/bookreviews',
+        source: '/bookreview',
         destination: amazonBookReviewsUrl.toString(),
         permanent: true,
       },
