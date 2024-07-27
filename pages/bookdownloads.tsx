@@ -40,7 +40,7 @@ import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import MastheadBook from '../components/MastheadBook'
 import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 import MastheadBookDownloads from '../components/MastheadBookDownloads'
-import TopicsBookReviews from '../components/TopicsBookReviews'
+import TopicsBookDownloads from '../components/TopicsBookDownloads'
 import FormBookReviews from '../components/FormBookReviews'
 
 export default function BookPage() {
