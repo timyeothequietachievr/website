@@ -40,14 +40,13 @@ import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import MastheadBook from '../components/MastheadBook'
 import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 import MastheadBookDownloads from '../components/MastheadBookDownloads'
-import TopicsBookDownloads from '../components/TopicsBookDownloads'
+import HeroBookDownloads from '../components/HeroBookDownloads'
 import FormBookReviews from '../components/FormBookReviews'
 
 export default function BookPage() {
   return (
     <PricingContextProvider>
-      <MastheadBookDownloads />
-      <TopicsBookDownloads />
+      <HeroBookDownloads />
     </PricingContextProvider>
   )
 }
