@@ -39,6 +39,7 @@ import HeroFreeChapter from '../components/HeroFreeChapter'
 import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import MastheadBook from '../components/MastheadBook'
 import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
+import HeroBookDownloads from '../components/HeroBookDownloads'
 
 export default function BookPage() {
   return (
@@ -51,6 +52,7 @@ export default function BookPage() {
       <TopicsBook />
       <TestimonialBook1 />
       <TestimonialBook2 />
+      <HeroBookDownloads />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />

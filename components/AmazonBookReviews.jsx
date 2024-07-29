@@ -1,37 +1,46 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { useEffect, useRef } from 'react';
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function BookHero() {
-  const ckFormRef = useRef();
-
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
-    script.async = true;
-    script.setAttribute('data-uid', '24658419fb');
-    ckFormRef.current.appendChild(script);
-
-    return () => {
-      ckFormRef.current.removeChild(script);
-    };
-  }, []);
+export default function CourseLeadership() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-            <div id="bookupdates">
+            <div id="leadership">
               <div className="mt-6">
-                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  You do not need to pretend to be an extrovert at work
-                </h1>
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {/* Videos on-demand */}
+                  Leave a review on Amazon
+                </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br />{/*<strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br /> */}
-                {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
+                <strong>Choose your country where Amazon operates:</strong>
+                <ul>                 
+                  <li><a href="#">Amazon Australia</a></li>
+                  <li><a href="#">Amazon Canada</a></li>
+                  <li><a href="#">Amazon France</a></li>
+                  <li><a href="#">Amazon Germany</a></li>
+                  <li><a href="#">Amazon India</a></li>
+                  <li><a href="#">Amazon Italy</a></li>
+                  <li><a href="#">Amazon Mexico</a></li>
+                  <li><a href="#">Amazon Netherlands</a></li>
+                  <li><a href="#">Amazon Poland</a></li>
+                  <li><a href="#">Amazon Singapore</a></li>
+                  <li><a href="#">Amazon Spain</a></li>
+                  <li><a href="#">Amazon USA</a></li>
+                  <li><a href="#">Amazon UK</a></li>
+                </ul>
                 </p>
-                {/* <aside ref={ckFormRef} /> */}
+                {/*
+                <div className="mt-6">
+                  <a
+                    href="#pricing"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Start Now 
+                  </a>
+                </div>
+                */}
               </div>
             </div>
           </div>
@@ -40,8 +49,8 @@ export default function BookHero() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/bookhero.jpg"
-                alt="Signup for book updaates"
+                src="src/Course-Hero-Leadership.jpg"
+                alt="Leadership for introverts"
               />
             </div>
           </div>
