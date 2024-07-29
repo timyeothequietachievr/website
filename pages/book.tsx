@@ -80,7 +80,7 @@ export default function BookPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
-      <TopicsGoodBookStores />
+      {/*<TopicsGoodBookStores />*/}
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
