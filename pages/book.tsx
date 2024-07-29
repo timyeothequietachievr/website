@@ -50,9 +50,9 @@ export default function BookPage() {
       <IntrovertHardBook />
       <AboutBook />
       <TopicsBook />
+      <HeroBookDownloads />
       <TestimonialBook1 />
       <TestimonialBook2 />
-      <HeroBookDownloads />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
