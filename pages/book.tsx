@@ -40,6 +40,7 @@ import NewsletterConvertkit from '../components/NewsletterConvertkit'
 import MastheadBook from '../components/MastheadBook'
 import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 import HeroBookDownloads from '../components/HeroBookDownloads'
+import TopicsGoodBookStores from '../components/TopicsGoodBookStores'
 
 export default function BookPage() {
   return (
@@ -79,6 +80,7 @@ export default function BookPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
+      <TopicsGoodBookStores />
       {/*<ConvertkitSide />*/}
       {/* <ConvertkitCenter /> */}
       {/* <MastheadConvertkit /> */}
