@@ -1,33 +1,92 @@
-export default function Example() {
+/* This example requires Tailwind CSS v2.0+ */
+export default function TestimonialBook1() {
   return (
-    <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
-      <div className="mx-auto max-w-2xl lg:max-w-4xl">
-        <img alt="" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" className="mx-auto h-12" />
-        <figure className="mt-10">
-          <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>
-              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-              molestiae. Numquam corrupti in laborum sed rerum et corporis.”
-            </p>
-          </blockquote>
-          <figcaption className="mt-10">
+    <section className="bg-white overflow-hidden">
+      {/* ---Book review 1--- */ }
+      <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20" id="praise">
+        <svg
+          className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
+          width={784}
+          height={404}
+          fill="none"
+          viewBox="0 0 784 404"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32"
+              x={0}
+              y={0}
+              width={20}
+              height={20}
+              patternUnits="userSpaceOnUse"
+            >
+              <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width={784} height={404} fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)" />
+        </svg>
+
+        <svg
+          className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
+          width={404}
+          height={784}
+          fill="none"
+          viewBox="0 0 404 784"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="56409614-3d62-4985-9a10-7ca758a8f4f0"
+              x={0}
+              y={0}
+              width={20}
+              height={20}
+              patternUnits="userSpaceOnUse"
+            >
+              <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width={404} height={784} fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)" />
+        </svg>
+
+        <div className="relative lg:flex lg:items-center">
+          <div className="hidden lg:block lg:flex-shrink-0">
             <img
+              className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
+              src="src/profile-tarynewens.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt=""
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="mx-auto h-10 w-10 rounded-full"
             />
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">Judith Black</div>
-              <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
-                <circle r={1} cx={1} cy={1} />
-              </svg>
-              <div className="text-gray-600">CEO of Workcation</div>
-            </div>
-          </figcaption>
-        </figure>
+          </div>
+
+          <div className="relative lg:ml-10">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">just because I'm quiet doesn't mean I have nothing to say</h2> <br />
+            <svg
+              className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
+              stroke="currentColor"
+              fill="none"
+              viewBox="0 0 144 144"
+              aria-hidden="true"
+            >
+              <path
+                strokeWidth={2}
+                d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
+              />
+            </svg>
+            <blockquote className="relative">
+              <footer className="mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0 lg:hidden">
+                    
+                  </div>
+                
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </section>
+    
   )
 }
