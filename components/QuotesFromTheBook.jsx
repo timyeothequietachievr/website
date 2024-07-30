@@ -114,7 +114,6 @@ const featuredTestimonial = {
         ],
       ],
     ]
-  ],
 
   
   function classNames(...classes) {
