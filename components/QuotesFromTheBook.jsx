@@ -1,5 +1,5 @@
 const featuredTestimonial = {
-    body: 'just because I'm quiet doesn't mean I have nothing to say.',
+    body: 'just because I am quiet does not mean I have nothing to say.',
     author: {
       name: 'The Quiet Achiever',
       handle: '',
@@ -24,7 +24,7 @@ const featuredTestimonial = {
       ],
       [
         {
-          body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+          body: '"Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence."',
           author: {
             name: 'Handling difficult conversations',
             handle: 'Chapter 1',
