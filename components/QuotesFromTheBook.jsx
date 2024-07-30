@@ -104,9 +104,9 @@ const featuredTestimonial = {
       ],
       [
         {
-          body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
+          body: 'You are not changing who you are; you are showing up as the best version of yourself.',
           author: {
-            name: 'Leonard Krasner',
+            name: 'Chapter: Meetings',
             handle: 'leonardkrasner',
             imageUrl:
               'src/profile-TQABook.jpg',
@@ -122,9 +122,9 @@ const featuredTestimonial = {
             },
           },
           {
-            body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
+            body: 'Your team exhibits the worst behaviour you choose to accept or leave unaddressed. Choosing not to address a bad behaviour is a slippery slope to even worse behaviour later.',
             author: {
-              name: 'Leonard Krasner',
+              name: 'Chapter: Handling difficult conversations',
               handle: 'leonardkrasner',
               imageUrl:
                 'src/profile-TQABook.jpg',
@@ -188,7 +188,7 @@ const featuredTestimonial = {
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                  {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
+                  <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
                 </div>
                 <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
               </figcaption>
@@ -218,7 +218,7 @@ const featuredTestimonial = {
                           <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                           <div>
                             <div className="font-semibold">{testimonial.author.name}</div>
-                            {/*<div className="text-gray-600">{`@${testimonial.author.handle}`}</div>*/}
+                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
                           </div>
                         </figcaption>
                       </figure>
