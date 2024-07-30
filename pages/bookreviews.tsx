@@ -53,7 +53,6 @@ export default function BookPage() {
       <MastheadBookReviews />
       <AmazonBookReviews />
       <FormBookReviews />
-      <QuoteJustQuiet />
       <QuotesFromTheBook />
     </PricingContextProvider>
   )
