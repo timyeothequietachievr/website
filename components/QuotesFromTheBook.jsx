@@ -14,78 +14,127 @@ const featuredTestimonial = {
         {
           body: 'Every day, I felt like I was putting on a mask 🎭, pretending to be someone else. But with each passing day, that mask got heavier and heavier, until I could not lift and put on that mask anymore. I was pretending to be someone I was not.',
           author: {
-            name: 'Chapter: Introduction',
-            handle: '',
+            name: 'Leslie Alexander',
+            handle: 'lesliealexander',
             imageUrl:
-              'src/profile-TQAbook.jpg',
+              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
-        // More testimonials...
-      ],
-      [
         {
-          body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
-          author: {
-            name: 'Chapter: Handling difficult conversations',
-            handle: 'Chapter 1',
-            imageUrl:
-              'src/profile-TQAbook.jpg',
+            body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
+            author: {
+              name: 'Leslie Alexander',
+              handle: 'lesliealexander',
+              imageUrl:
+                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
           },
-        },
-        // More testimonials...
-      ],
-      [
-        {
-          body: 'Placeholder1',
-          author: {
-            name: 'Chapter: Handling difficult conversations',
-            handle: 'Chapter 1',
-            imageUrl:
-              'src/profile-TQAbook.jpg',
+          {
+            body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
+            author: {
+              name: 'Leslie Alexander',
+              handle: 'lesliealexander',
+              imageUrl:
+                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
           },
-        },
-        // More testimonials...
-      ],
-    ],
-    [
-      [
-        {
-          body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
-          author: {
-            name: 'Chapter: Small talk',
-            handle: 'Chapter 1',
-            imageUrl:
-              'src/profile-TQAbook.jpg',
-          },
-        },
         // More testimonials...
       ],
       [
         {
           body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
           author: {
-            name: 'Chapter: Meetings',
-            handle: 'Introduction',
+            name: 'Lindsay Walton',
+            handle: 'lindsaywalton',
             imageUrl:
-              'src/profile-TQAbook.jpg',
+              'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
+        {
+            body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
+            author: {
+              name: 'Lindsay Walton',
+              handle: 'lindsaywalton',
+              imageUrl:
+                'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
+          {
+            body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
+            author: {
+              name: 'Lindsay Walton',
+              handle: 'lindsaywalton',
+              imageUrl:
+                'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
+        // More testimonials...
+      ],
+    ],
+    [
+      [
+        {
+          body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+          author: {
+            name: 'Tom Cook',
+            handle: 'tomcook',
+            imageUrl:
+              'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          },
+        },
+        {
+            body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+            author: {
+              name: 'Tom Cook',
+              handle: 'tomcook',
+              imageUrl:
+                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
+          {
+            body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+            author: {
+              name: 'Tom Cook',
+              handle: 'tomcook',
+              imageUrl:
+                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
         // More testimonials...
       ],
       [
         {
-          body: 'Placeholder3',
+          body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
           author: {
-            name: 'Chapter: Handling difficult conversations',
-            handle: 'Chapter 1',
+            name: 'Leonard Krasner',
+            handle: 'leonardkrasner',
             imageUrl:
-              'src/profile-TQAbook.jpg',
+              'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
+        {
+            body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
+            author: {
+              name: 'Leonard Krasner',
+              handle: 'leonardkrasner',
+              imageUrl:
+                'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
+          {
+            body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
+            author: {
+              name: 'Leonard Krasner',
+              handle: 'leonardkrasner',
+              imageUrl:
+                'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            },
+          },
         // More testimonials...
       ],
     ],
-]
+  ]
+    
 
   
   function classNames(...classes) {
