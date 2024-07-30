@@ -17,7 +17,7 @@ const featuredTestimonial = {
             name: 'Chapter: Introduction',
             handle: 'lesliealexander',
             imageUrl:
-              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?',
           },
         },
         {
@@ -26,16 +26,16 @@ const featuredTestimonial = {
               name: 'Chapter: Networking in-person',
               handle: 'lesliealexander',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
           {
             body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
             author: {
-              name: 'Leslie Alexander',
+              name: 'Chapter: Saying no (politely)',
               handle: 'lesliealexander',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
         // More testimonials...
@@ -44,10 +44,10 @@ const featuredTestimonial = {
         {
           body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
           author: {
-            name: 'Lindsay Walton',
+            name: 'Chapter: Meetings',
             handle: 'lindsaywalton',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
         {
@@ -56,7 +56,7 @@ const featuredTestimonial = {
               name: 'Chapter: Public speaking',
               handle: 'lindsaywalton',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
           {
@@ -65,7 +65,7 @@ const featuredTestimonial = {
               name: 'Chapter: Networking remotely',
               handle: 'tomcook',
               imageUrl:
-               'src/profile-TQABook.jpg', 
+               'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
             },
           },
         // More testimonials...
@@ -79,7 +79,7 @@ const featuredTestimonial = {
             name: 'Chapter: Networking',
             handle: 'tomcook',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
         {
@@ -88,7 +88,7 @@ const featuredTestimonial = {
               name: 'Chapter: Giving hard feedback',
               handle: 'lindsaywalton',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
           {
@@ -97,7 +97,7 @@ const featuredTestimonial = {
               name: 'Chapter: Introduction',
               handle: 'tomcook',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
         // More testimonials...
@@ -109,16 +109,16 @@ const featuredTestimonial = {
             name: 'Chapter: Meetings',
             handle: 'leonardkrasner',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
           },
         },
         {
             body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
             author: {
-              name: 'Leonard Krasner',
+              name: 'Chapter: Small talk',
               handle: 'leonardkrasner',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
           {
@@ -127,7 +127,7 @@ const featuredTestimonial = {
               name: 'Chapter: Handling difficult conversations',
               handle: 'leonardkrasner',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             },
           },
         // More testimonials...
@@ -188,7 +188,7 @@ const featuredTestimonial = {
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                  <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                  {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
                 </div>
                 <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
               </figcaption>
@@ -218,7 +218,7 @@ const featuredTestimonial = {
                           <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                           <div>
                             <div className="font-semibold">{testimonial.author.name}</div>
-                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                            <{/*div className="text-gray-600">{`@${testimonial.author.handle}`}</div>*/}
                           </div>
                         </figcaption>
                       </figure>
