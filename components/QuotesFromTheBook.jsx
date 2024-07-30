@@ -4,7 +4,7 @@ const featuredTestimonial = {
       name: 'The Quiet Achiever',
       handle: '',
       imageUrl:
-        'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'src/profile-TQABook.jpg',
       logoUrl: '',
     },
   }
@@ -17,7 +17,7 @@ const featuredTestimonial = {
             name: 'Chapter: Introduction',
             handle: 'lesliealexander',
             imageUrl:
-              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
@@ -26,7 +26,7 @@ const featuredTestimonial = {
               name: 'Chapter: Networking in-person',
               handle: 'lesliealexander',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -35,7 +35,7 @@ const featuredTestimonial = {
               name: 'Chapter: Saying no (politely)',
               handle: 'lesliealexander',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
@@ -47,7 +47,7 @@ const featuredTestimonial = {
             name: 'Chapter: Meetings',
             handle: 'lindsaywalton',
             imageUrl:
-              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
@@ -56,7 +56,7 @@ const featuredTestimonial = {
               name: 'Chapter: Public speaking',
               handle: 'lindsaywalton',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -65,7 +65,7 @@ const featuredTestimonial = {
               name: 'Chapter: Networking remotely',
               handle: 'tomcook',
               imageUrl:
-               'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
+               'src/profile-TQABook.jpg', 
             },
           },
         // More testimonials...
@@ -79,7 +79,7 @@ const featuredTestimonial = {
             name: 'Chapter: Networking',
             handle: 'tomcook',
             imageUrl:
-              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
@@ -88,7 +88,7 @@ const featuredTestimonial = {
               name: 'Chapter: Giving hard feedback',
               handle: 'lindsaywalton',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -97,7 +97,7 @@ const featuredTestimonial = {
               name: 'Chapter: Introduction',
               handle: 'tomcook',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
@@ -109,7 +109,7 @@ const featuredTestimonial = {
             name: 'Chapter: Meetings',
             handle: 'leonardkrasner',
             imageUrl:
-              'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
@@ -118,7 +118,7 @@ const featuredTestimonial = {
               name: 'Chapter: Small talk',
               handle: 'leonardkrasner',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -127,7 +127,7 @@ const featuredTestimonial = {
               name: 'Chapter: Handling difficult conversations',
               handle: 'leonardkrasner',
               imageUrl:
-                'src/profile-TQABook.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
