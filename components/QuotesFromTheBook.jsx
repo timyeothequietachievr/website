@@ -24,7 +24,7 @@ const featuredTestimonial = {
       ],
       [
         {
-          body: '"Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence."',
+          body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
           author: {
             name: 'Chapter: Handling difficult conversations',
             handle: 'Chapter 1',
@@ -76,7 +76,7 @@ const featuredTestimonial = {
         ],
         [
           {
-            body: '"""The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
+            body: 'The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
             author: {
               name: 'Chapter: Giving hard feedback',
               handle: 'Introduction',
