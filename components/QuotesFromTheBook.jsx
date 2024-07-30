@@ -12,10 +12,10 @@ const featuredTestimonial = {
     [
       [
         {
-          body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+          body: 'Every day, I felt like I was putting on a mask 🎭, pretending to be someone else. But with each passing day, that mask got heavier and heavier, until I could not lift and put on that mask anymore. I was pretending to be someone I was not.',
           author: {
-            name: 'Networking',
-            handle: 'Chapter 1',
+            name: 'Chapter: Introduction',
+            handle: '',
             imageUrl:
               'src/profile-TQAbook.jpg',
           },
@@ -26,7 +26,7 @@ const featuredTestimonial = {
         {
           body: '"Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence."',
           author: {
-            name: 'Handling difficult conversations',
+            name: 'Chapter: Handling difficult conversations',
             handle: 'Chapter 1',
             imageUrl:
               'src/profile-TQAbook.jpg',
@@ -38,9 +38,9 @@ const featuredTestimonial = {
     [
       [
         {
-          body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
+          body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
           author: {
-            name: 'Saying no (politely)',
+            name: 'Chapter: Small talk',
             handle: 'Chapter 1',
             imageUrl:
               'src/profile-TQAbook.jpg',
@@ -50,9 +50,9 @@ const featuredTestimonial = {
       ],
       [
         {
-          body: 'Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.',
+          body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
           author: {
-            name: 'Introduction',
+            name: 'Chapter: Meetings',
             handle: 'Introduction',
             imageUrl:
               'src/profile-TQAbook.jpg',
@@ -61,7 +61,35 @@ const featuredTestimonial = {
         // More testimonials...
       ],
     ],
-  ]
+    [
+        [
+          {
+            body: 'Constantly comparing myself to others and living someone else"'"s version of success was my recipe for misery.',
+            author: {
+              name: 'Chapter: Networking',
+              handle: 'Chapter 1',
+              imageUrl:
+                'src/profile-TQAbook.jpg',
+            },
+          },
+          // More testimonials...
+        ],
+        [
+          {
+            body: '"""The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
+            author: {
+              name: 'Chapter: Giving hard feedback',
+              handle: 'Introduction',
+              imageUrl:
+                'src/profile-TQAbook.jpg',
+            },
+          },
+          // More testimonials...
+        ],
+      ],
+    ]
+  ],
+
   
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -96,10 +124,10 @@ const featuredTestimonial = {
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-xl text-center">
-            <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Quotes</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600 sm:text-5xl">Quotes from the book</h2>
+            {/*<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               from the book
-            </p>
+            </p> */}
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
@@ -114,7 +142,7 @@ const featuredTestimonial = {
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                  <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                  {/* <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div> */}
                 </div>
                 <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
               </figcaption>
