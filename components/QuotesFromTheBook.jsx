@@ -34,6 +34,30 @@ const featuredTestimonial = {
         },
         // More testimonials...
       ],
+      [
+        {
+          body: 'Placeholder1',
+          author: {
+            name: 'Chapter: Handling difficult conversations',
+            handle: 'Chapter 1',
+            imageUrl:
+              'src/profile-TQAbook.jpg',
+          },
+        },
+        // More testimonials...
+      ],
+      [
+        {
+          body: 'Placeholder2',
+          author: {
+            name: 'Chapter: Handling difficult conversations',
+            handle: 'Chapter 1',
+            imageUrl:
+              'src/profile-TQAbook.jpg',
+          },
+        },
+        // More testimonials...
+      ],
     ],
     [
       [
@@ -60,8 +84,32 @@ const featuredTestimonial = {
         },
         // More testimonials...
       ],
+      [
+        {
+          body: 'Placeholder3',
+          author: {
+            name: 'Chapter: Handling difficult conversations',
+            handle: 'Chapter 1',
+            imageUrl:
+              'src/profile-TQAbook.jpg',
+          },
+        },
+        // More testimonials...
+      ],
+      [
+        {
+          body: 'Placeholder4',
+          author: {
+            name: 'Chapter: Handling difficult conversations',
+            handle: 'Chapter 1',
+            imageUrl:
+              'src/profile-TQAbook.jpg',
+          },
+        },
+        // More testimonials...
+      ],
     ],
-    ]
+]
 
   
   function classNames(...classes) {
