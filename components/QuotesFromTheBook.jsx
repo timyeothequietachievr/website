@@ -61,58 +61,6 @@ const featuredTestimonial = {
         // More testimonials...
       ],
     ],
-    [
-        [
-          {
-            body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
-            author: {
-              name: 'Chapter: Networking',
-              handle: 'Chapter 1',
-              imageUrl:
-                'src/profile-TQAbook.jpg',
-            },
-          },
-          // More testimonials...
-        ],
-        [
-          {
-            body: 'The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
-            author: {
-              name: 'Chapter: Giving hard feedback',
-              handle: 'Introduction',
-              imageUrl:
-                'src/profile-TQAbook.jpg',
-            },
-          },
-          // More testimonials...
-        ],
-      ],
-      [
-        [
-          {
-            body: 'For years, I struggled to manage my introversion. I received feedback from my bosses like “You should speak up more in meetings,” but I did not know how. I found myself in rooms full of people with strong opinions and loud voices, and I did not know how to be heard.',
-            author: {
-              name: 'Chapter: Introduction',
-              handle: '',
-              imageUrl:
-                'src/profile-TQAbook.jpg',
-            },
-          },
-          // More testimonials...
-        ],
-        [
-          {
-            body: 'If a tree falls in a forest and no one hears it, does it exist? 🤔 If a quiet achiever sits in a meeting with an idea in his head but does not share it, does it exist? 🧐',
-            author: {
-              name: 'Chapter: Public speaking',
-              handle: 'Chapter 1',
-              imageUrl:
-                'src/profile-TQAbook.jpg',
-            },
-          },
-          // More testimonials...
-        ],
-      ],
     ]
 
   
