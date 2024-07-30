@@ -49,7 +49,7 @@ export default function CourseLeadership() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/Course-Hero-Leadership.jpg"
+                src="src/profile-amazon.jpg"
                 alt="Leadership for introverts"
               />
             </div>
