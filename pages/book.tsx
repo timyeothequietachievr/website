@@ -41,6 +41,7 @@ import MastheadBook from '../components/MastheadBook'
 import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 import HeroBookDownloads from '../components/HeroBookDownloads'
 import TopicsGoodBookStores from '../components/TopicsGoodBookStores'
+import QuotesFromTheBook from '../components/QuotesFromTheBook'
 
 export default function BookPage() {
   return (
@@ -65,7 +66,8 @@ export default function BookPage() {
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
       <TestimonialLargeAvatar4 />
-      <Testimonials />
+      <QuotesFromTheBook />
+      {/*<Testimonials />*/}
       <Pricing kind="bookdigital">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           eBook and Audiobook

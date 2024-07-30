@@ -44,7 +44,6 @@ import AmazonBookReviews from '../components/AmazonBookReviews'
 import TopicsBookReviews from '../components/TopicsBookReviews'
 import FormBookReviews from '../components/FormBookReviews'
 import QuoteJustQuiet from '../components/QuoteJustQuiet'
-import QuotesFromTheBook from '../components/QuotesFromTheBook'
 
 
 export default function BookPage() {
@@ -53,7 +52,6 @@ export default function BookPage() {
       <MastheadBookReviews />
       <AmazonBookReviews />
       <FormBookReviews />
-      <QuotesFromTheBook />
     </PricingContextProvider>
   )
 }
