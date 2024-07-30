@@ -167,7 +167,7 @@ const featuredTestimonial = {
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                  {/* <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div> */}
+                  <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
                 </div>
                 <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
               </figcaption>
