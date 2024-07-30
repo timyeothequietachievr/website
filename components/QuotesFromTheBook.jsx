@@ -14,19 +14,19 @@ const featuredTestimonial = {
         {
           body: 'Every day, I felt like I was putting on a mask 🎭, pretending to be someone else. But with each passing day, that mask got heavier and heavier, until I could not lift and put on that mask anymore. I was pretending to be someone I was not.',
           author: {
-            name: 'Leslie Alexander',
+            name: 'Chapter: Introduction',
             handle: 'lesliealexander',
             imageUrl:
-              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
-            body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
+            body: 'Walk the room - do not just stand at one spot and stare at your phone. Walk and room and increase your surface area to increase your chances of interesting people you could meet. ',
             author: {
-              name: 'Leslie Alexander',
+              name: 'Chapter: Networking in-person',
               handle: 'lesliealexander',
               imageUrl:
-                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -35,7 +35,7 @@ const featuredTestimonial = {
               name: 'Leslie Alexander',
               handle: 'lesliealexander',
               imageUrl:
-                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
@@ -47,25 +47,25 @@ const featuredTestimonial = {
             name: 'Lindsay Walton',
             handle: 'lindsaywalton',
             imageUrl:
-              'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
-            body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
+            body: 'If a tree falls in a forest and no one hears it, does it exist? 🤔 If a quiet achiever sits in a meeting with an idea in his head but does not share it, does it exist? 🧐',
             author: {
-              name: 'Lindsay Walton',
+              name: 'Chapter: Public speaking',
               handle: 'lindsaywalton',
               imageUrl:
-                'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
-            body: 'The louder voices in the room seemed to say the most 😲, but did not always have the most to say. 🫤',
+            body: '"The best time to look for a job is when you do not need one. The second best time is now.',
             author: {
-              name: 'Lindsay Walton',
-              handle: 'lindsaywalton',
+              name: 'Chapter: Networking remotely',
+              handle: 'tomcook',
               imageUrl:
-                'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+               'src/profile-TQABook.jpg', 
             },
           },
         // More testimonials...
@@ -76,28 +76,28 @@ const featuredTestimonial = {
         {
           body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
           author: {
-            name: 'Tom Cook',
+            name: 'Chapter: Networking',
             handle: 'tomcook',
             imageUrl:
-              'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
-            body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+            body: 'The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
             author: {
-              name: 'Tom Cook',
-              handle: 'tomcook',
+              name: 'Chapter: Giving hard feedback',
+              handle: 'lindsaywalton',
               imageUrl:
-                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
-            body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+            body: 'For years, I struggled to manage my introversion. I received feedback from my bosses like “You should speak up more in meetings,” but I did not know how. I found myself in rooms full of people with strong opinions and loud voices, and I did not know how to be heard.',
             author: {
-              name: 'Tom Cook',
+              name: 'Chapter: Introduction',
               handle: 'tomcook',
               imageUrl:
-                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
@@ -109,7 +109,7 @@ const featuredTestimonial = {
             name: 'Leonard Krasner',
             handle: 'leonardkrasner',
             imageUrl:
-              'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+              'src/profile-TQABook.jpg',
           },
         },
         {
@@ -118,7 +118,7 @@ const featuredTestimonial = {
               name: 'Leonard Krasner',
               handle: 'leonardkrasner',
               imageUrl:
-                'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
           {
@@ -127,7 +127,7 @@ const featuredTestimonial = {
               name: 'Leonard Krasner',
               handle: 'leonardkrasner',
               imageUrl:
-                'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'src/profile-TQABook.jpg',
             },
           },
         // More testimonials...
@@ -170,10 +170,10 @@ const featuredTestimonial = {
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-xl text-center">
-            <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600 sm:text-5xl">Quotes from the book</h2>
+            {/*<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               We have worked with thousands of amazing people
-            </p>
+            </p>*/}
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
@@ -188,7 +188,7 @@ const featuredTestimonial = {
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                  <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                  {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
                 </div>
                 <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
               </figcaption>
