@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
 export default function BookHero() {
-{/*}
+
   const ckFormRef = useRef();
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function BookHero() {
       ckFormRef.current.removeChild(script);
     };
   }, []);
-  */}
+  
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
@@ -31,10 +31,10 @@ export default function BookHero() {
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <br /><strong></strong><br />Life is too short to be living someone else's version of success.<br /><br />Stop pretending.<br /><br />Start practicing.<br /><br />Remain your true authentic self.<br /><br />
-                {/*<strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />*/}
+                <strong>Signup to: </strong><br />- Be the first to know when the book is launched<br />- Sneak peek of early chapters before they are published<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
-                {/*<aside ref={ckFormRef} />*/}
+                <aside ref={ckFormRef} />
               </div>
             </div>
           </div>
