@@ -25,7 +25,7 @@ export default function Backstories() {
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         How did we design the book cover? Why the headphones? And what went into designing the eyes 👀  
         </p>
-      <ReactPlayer url="https://youtu.be/ETWrZxsU5Gg" className="w-full h-auto my-8 mx-auto" controls={true} />
+      <ReactPlayer url="https://youtu.be/efkZcu2Ihpc" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
       {/* Backstory 3 */}
       <div className="text-center">
