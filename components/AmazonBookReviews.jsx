@@ -16,19 +16,19 @@ export default function CourseLeadership() {
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <strong>Choose your country where Amazon operates:</strong>
                 <ul>                 
-                  <li><a href="#">Amazon Australia</a></li>
-                  <li><a href="#">Amazon Canada</a></li>
-                  <li><a href="#">Amazon France</a></li>
-                  <li><a href="#">Amazon Germany</a></li>
-                  <li><a href="#">Amazon India</a></li>
-                  <li><a href="#">Amazon Italy</a></li>
-                  <li><a href="#">Amazon Mexico</a></li>
-                  <li><a href="#">Amazon Netherlands</a></li>
-                  <li><a href="#">Amazon Poland</a></li>
-                  <li><a href="#">Amazon Singapore</a></li>
-                  <li><a href="#">Amazon Spain</a></li>
-                  <li><a href="#">Amazon USA</a></li>
-                  <li><a href="#">Amazon UK</a></li>
+                  <li><a href="https://amazon.com/review/create-review?&asin=9819402212">Amazon USA</a></li>
+                  <li><a href="https://amazon.com.au/review/create-review?&asin=9819402212">Amazon Australia</a></li>
+                  <li><a href="https://amazon.ca/review/create-review?&asin=9819402212">Amazon Canada</a></li>
+                  <li><a href="https://amazon.fr/review/create-review?&asin=9819402212">Amazon France</a></li>
+                  <li><a href="https://amazon.de/review/create-review?&asin=9819402212">Amazon Germany</a></li>
+                  <li><a href="https://amazon.in/review/create-review?&asin=9819402212">Amazon India</a></li>
+                  <li><a href="https://amazon.it/review/create-review?&asin=9819402212">Amazon Italy</a></li>
+                  <li><a href="https://amazon.com.mx/review/create-review?&asin=9819402212">Amazon Mexico</a></li>
+                  <li><a href="https://amazon.nl/review/create-review?&asin=9819402212">Amazon Netherlands</a></li>
+                  <li><a href="https://amazon.pl/review/create-review?&asin=9819402212">Amazon Poland</a></li>
+                  <li><a href="https://amazon.sg/review/create-review?&asin=9819402212">Amazon Singapore</a></li>
+                  <li><a href="https://amazon.es/review/create-review?&asin=9819402212">Amazon Spain</a></li>                
+                  <li><a href="https://amazon.co.uk/review/create-review?&asin=9819402212">Amazon UK</a></li>
                 </ul>
                 </p>
                 {/*
