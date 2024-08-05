@@ -11,7 +11,7 @@ export default function CourseLeadership() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Videos on-demand */}
-                  Leave a review on Amazons
+                  Leave a review on Amazon
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <strong>Choose your country where Amazon operates:</strong>
