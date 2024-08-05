@@ -12,7 +12,8 @@ export default function MastheadSchool() {
           <span className="block xl:inline">school</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        learn and practice with others just like you.
+        {/*learn and practice with others just like you.*/}
+        for quiet achievers just like you 
         </p>
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
@@ -21,7 +22,7 @@ export default function MastheadSchool() {
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
               data-event-action="buy_now_click"
-              data-event-label="masthead cta"
+              data-event-label="masthead cta school"
             >
               Buy Now
             </a>
@@ -41,7 +42,8 @@ export default function MastheadSchool() {
         </div>
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
-        <IntroVideoModalContents ytLink="https://www.youtube.com/embed/_ZUbIJcvTlM?controls=0" />
+        {/* <IntroVideoModalContents ytLink="https://www.youtube.com/embed/_ZUbIJcvTlM?controls=0" /> */}
+        <IntroVideoModalContents ytLink="#" />
       </Modal>
     </section>
   )

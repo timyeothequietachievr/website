@@ -28,13 +28,14 @@ import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
 import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
 import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
+import HeroSchool from '../components/HeroSchool'
 
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadSchool />
-      <CoursesInclude />
-      <CourseLeadership />
+      {/* <CoursesInclude /> */}
+      <HeroSchool />
       <TestimonialLeadership5 />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
