@@ -34,6 +34,8 @@ import Hero2Coaching from '../components/Hero2Coaching'
 import TopicsSchool from '../components/TopicsSchool'
 import HeroInterviews from '../components/HeroInterviews'
 import HeroFacilitation from '../components/HeroFacilitation'
+import TitleBonusCourses from '../components/TitleBonusCourses'
+import TitleSampleCourseVideos from '../components/TitleSampleCourseVideos'
 
 export default function CoursesPage() {
   return (
@@ -44,14 +46,16 @@ export default function CoursesPage() {
       <HeroPractice />
       <Hero2Coaching />
       <TopicsSchool />
+      <TitleBonusCourses />
       <HeroInterviews />
       <HeroFacilitation />
+      <TitleBonusCourses />
+      <TitleSampleCourseVideos />
       <TestimonialLeadership5 />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
-      <CourseInterviews />
       {/* <BeingIntrovertHard /> */}
       {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
@@ -62,10 +66,10 @@ export default function CoursesPage() {
       <TestimonialInterview5 />
       <TestimonialInterview2 />
       <TestimonialInterview3 />
-      <HowCoursesWork />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
+      {/* <HowCoursesWork /> */}
+      {/* <Feature1 /> */}
+      {/* <Feature2 /> */}
+      {/* <Feature3 /> */}
       {/* <MonthlyGuestSpeakers /> */}
       <TestimonialLargeAvatar2 />
       <TestimonialLargeAvatar3 />
