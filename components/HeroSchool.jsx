@@ -16,7 +16,7 @@ export default function BookHero() {
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <br /><strong>The School's courses</strong> offer a structured, step-by-step guide on how to practise all the tiny habits from the book, and more. We dive deep into even more real-life scenarios in greater detail not possible in a book.<br /><br />
-                Binge watch all the videos or skip around and watch a video you want to practise right now. You choose how you want to learn and I will show you how to put every single tiny habit into practise.<br /><br />Start practicing.<br /><br />
+                Binge watch all the videos or skip around and watch a video you want to practise right now. You choose how you want to learn and I will show you how to put every single tiny habit into practise.<br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
               </div>
@@ -27,7 +27,7 @@ export default function BookHero() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/bookhero.jpg"
+                src="src/Course-Hero-Leadership.jpg"
                 alt="Signup for book updaates"
               />
             </div>
