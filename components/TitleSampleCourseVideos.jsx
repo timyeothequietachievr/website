@@ -1,4 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
+import ReactPlayer from "react-player/lazy";
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon, AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [
@@ -11,8 +11,11 @@ export default function CoursesInclude() {
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase"></h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-           Sample videos:  
+           Sample videos:
           </p>
+      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
+      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
+      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
           {/* 3-4hrs of learning, video lessons, weekly video calls, 1 year access to community. */}
           {/* Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. */} 

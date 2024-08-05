@@ -58,39 +58,6 @@ const people = [
     xUrl: '#',
     linkedinUrl: '#',
   },
-  {
-    name: 'Interviews',
-    role: 'Show up as the BEST version of yourself and get the job you deserve',
-    imageUrl:
-      'src/topic-interviews.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Facilitation',
-    role: 'Lead effective workshops that run on-time, on-topic and in-control',
-    imageUrl:
-      'src/topic-facilitation.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Being more visible in your org',
-    role: 'Be seen and be heard for the great work that you do',
-    imageUrl:
-      'src/topic-beingmorevisible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Management and Leadership',
-    role: 'How to lead as a quiet achiever and how to manage a quiet team',
-    imageUrl:
-      'src/topic-mgt.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  // More people...
 ]
 
 export default function TopicsHomepage() {
@@ -100,7 +67,7 @@ export default function TopicsHomepage() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Topics we cover</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We cover every topic in the book, and more. Topics include: 
+            We cover every topic in the book and more, including: 
           </p>
         </div>
         <ul

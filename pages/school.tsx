@@ -49,7 +49,6 @@ export default function CoursesPage() {
       <TitleBonusCourses />
       <HeroInterviews />
       <HeroFacilitation />
-      <TitleBonusCourses />
       <TitleSampleCourseVideos />
       <TestimonialLeadership5 />
       <TestimonialLeadership1 />

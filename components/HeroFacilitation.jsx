@@ -12,11 +12,11 @@ export default function BookHero() {
             <div id="bookupdates">
               <div className="mt-6">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  Learn and practise all the tiny habits from the book 
+                  Facilitation 
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong>The School's courses</strong> offer a structured, step-by-step guide on how to practise all the tiny habits from the book, and more. We dive deep into even more real-life scenarios in greater detail not possible in a book.<br /><br />
-                Binge watch all the videos or skip around and watch a video you want to practise right now. You choose how you want to learn and I will show you how to put every single tiny habit into practise.<br />
+                <br /><strong>Lead effective workshops that run on-time, on-topic and in-control</strong>
+                Facilitation has been THE skill that has allowed me to be seen as a leader. Whether you are facilitating sessions in-person or virtually, I'll show you the shape of a successful workshop, how to timebox your agenda, crowd control - polite ways to manage participants and the conversation.<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
               </div>
