@@ -74,7 +74,7 @@ export default function CourseInterviews() {
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
-                src="src/Course-Hero-Interviews.jpg"
+                src="src/topic-interviews.jpg"
                 alt="Interviews for introverts"
               />
             </div>

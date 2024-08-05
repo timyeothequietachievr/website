@@ -15,7 +15,7 @@ export default function BookHero() {
                   Facilitation 
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong>Lead effective workshops that run on-time, on-topic and in-control</strong>
+                <br /><strong>Lead effective workshops that run on-time, on-agenda and in-control</strong><br />
                 Facilitation has been THE skill that has allowed me to be seen as a leader. Whether you are facilitating sessions in-person or virtually, I'll show you the shape of a successful workshop, how to timebox your agenda, crowd control - polite ways to manage participants and the conversation.<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
@@ -27,8 +27,8 @@ export default function BookHero() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/Course-Hero-Leadership.jpg"
-                alt="Signup for book updaates"
+                src="src/topic-facilitation.jpg"
+                alt="Signup for book updates"
               />
             </div>
           </div>

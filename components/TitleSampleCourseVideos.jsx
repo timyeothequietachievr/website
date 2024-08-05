@@ -13,9 +13,8 @@ export default function CoursesInclude() {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
            Sample videos:
           </p>
-      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
-      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
-      <ReactPlayer url="https://youtu.be/EssO-JQZU9Q" className="w-full h-auto my-8 mx-auto" controls={true} />
+      <ReactPlayer url="https://youtu.be/s2b4jc0ay4A" className="w-full h-auto my-8 mx-auto" controls={true} />
+      <ReactPlayer url="https://youtu.be/Fwrc7yanflc" className="w-full h-auto my-8 mx-auto" controls={true} />
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
           {/* 3-4hrs of learning, video lessons, weekly video calls, 1 year access to community. */}
           {/* Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. */} 
