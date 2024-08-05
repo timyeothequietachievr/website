@@ -30,6 +30,10 @@ import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
 import HeroSchool from '../components/HeroSchool'
 import HeroPractice from '../components/HeroPractice'
+import Hero2Coaching from '../components/Hero2Coaching'
+import TopicsSchool from '../components/TopicsSchool'
+import HeroInterviews from '../components/HeroInterviews'
+import HeroFacilitation from '../components/HeroFacilitation'
 
 export default function CoursesPage() {
   return (
@@ -38,6 +42,10 @@ export default function CoursesPage() {
       {/* <CoursesInclude /> */}
       <HeroSchool />
       <HeroPractice />
+      <Hero2Coaching />
+      <TopicsSchool />
+      <HeroInterviews />
+      <HeroFacilitation />
       <TestimonialLeadership5 />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
