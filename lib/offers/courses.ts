@@ -68,6 +68,7 @@ const courses: Array<CourseOffer> = [
       }
     }
   },*/
+  /*
   {
     name: 'Interviews for Introverts',
     badge: 'On-Demand',
@@ -137,6 +138,146 @@ const courses: Array<CourseOffer> = [
       }
     }
   },
+  */
+  {
+    name: '1 year access',
+    badge: 'On-Demand',
+    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','1 year full access to content and The Quiet Achiever Community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 249,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 229,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 149,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 129,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 649,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 222,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 159,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      }
+    }
+  },
+  {
+    name: 'Lifetime Access',
+    badge: 'On-Demand',
+    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','1 year full access to content and The Quiet Achiever Community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 299,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 275,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 179,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 149,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 749,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 268,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 199,
+        paymentLinks: {
+          split: '#',
+          full: '#'
+        }
+      }
+    }
+  },
+  /*
   {
     name: 'Quiet Leadership',
     badge: 'On-Demand',
@@ -205,7 +346,8 @@ const courses: Array<CourseOffer> = [
         }
       }
     }
-  },/* 20240724 removed payment links in preparation of reducing prices to USD199 - below is a backup
+  },*/
+  /* 20240724 removed payment links in preparation of reducing prices to USD199 - below is a backup
   {
     name: 'Quiet Leadership',
     badge: 'On-Demand',

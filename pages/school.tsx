@@ -75,7 +75,7 @@ export default function CoursesPage() {
       <TestimonialLargeAvatar4 />
       <Pricing kind="course">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Start learning  
+          Start practicing
         </h2>
 
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
