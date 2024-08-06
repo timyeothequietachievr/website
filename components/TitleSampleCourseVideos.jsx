@@ -20,10 +20,12 @@ export default function CoursesInclude() {
           {/* Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. */} 
           </p>
         </div>
+        {/*
         <div className="text-center">    
           <ReactPlayer url="https://youtu.be/s2b4jc0ay4A" className="w-full h-auto my-8 mx-auto" controls={true} />
           <ReactPlayer url="https://youtu.be/Fwrc7yanflc" className="w-full h-auto my-8 mx-auto" controls={true} />
       </div>
+      */}
     </div>
     </div>
   )
