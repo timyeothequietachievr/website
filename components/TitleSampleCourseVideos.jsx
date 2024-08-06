@@ -15,12 +15,15 @@ export default function CoursesInclude() {
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
           {/* 3-4hrs of learning, video lessons, weekly video calls, 1 year access to community.
-          <ReactPlayer url="https://youtu.be/s2b4jc0ay4A" className="w-full h-auto my-8 mx-auto" controls={true} />
-          <ReactPlayer url="https://youtu.be/Fwrc7yanflc" className="w-full h-auto my-8 mx-auto" controls={true} />
+          
           */}
           {/* Videos on-demand, weekly office hours, monthly guest speakers, 24/7 community. */} 
           </p>
         </div>
+        <div className="text-center">    
+          <ReactPlayer url="https://youtu.be/s2b4jc0ay4A" className="w-full h-auto my-8 mx-auto" controls={true} />
+          <ReactPlayer url="https://youtu.be/Fwrc7yanflc" className="w-full h-auto my-8 mx-auto" controls={true} />
+      </div>
     </div>
     </div>
   )

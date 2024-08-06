@@ -12,14 +12,14 @@ export default function HeroCoaching() {
             <div id="bookupdates">
               <div className="mt-6">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  Two 1:1 coaching sessions included
+                  1:1 coaching session included
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong>These 30-minute sessions are surgical:</strong> we go in, tackle a very specific problem you are facing and we work on your problem together.<br /><br />
+                <br /><strong>This 30-minute session is surgical:</strong> we go in, tackle a very specific problem you are facing and we work on your problem together.<br /><br />
                 Maybe you have an interview coming up for your dream job but you are nervous.<br /><br />
                 Perhaps you have a big presentation coming up and you don't want to fail.<br /><br />
-                Or maybe its performance review season and you want to ask for a raise but you don't know how.<br /><br />
-                Think of these sessions as an opportunity to call Batman when you need help the most.<br /><br />
+                Or maybe you have a performance review coming up and you want to ask for a raise but you don't know how.<br /><br />
+                Think of this as an opportunity to call Batman when you need help the most.<br /><br />
                 <strong>No expiry, use anytime.</strong><br /><br /> 
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
