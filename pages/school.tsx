@@ -36,12 +36,14 @@ import HeroInterviews from '../components/HeroInterviews'
 import HeroFacilitation from '../components/HeroFacilitation'
 import TitleBonusCourses from '../components/TitleBonusCourses'
 import TitleSampleCourseVideos from '../components/TitleSampleCourseVideos'
+import Cloudlogos from '../components/Cloudlogos'
 
 export default function CoursesPage() {
   return (
     <PricingContextProvider>
       <MastheadSchool />
       {/* <CoursesInclude /> */}
+      <Cloudlogos />
       <HeroSchool />
       <HeroPractice />
       <Hero2Coaching />

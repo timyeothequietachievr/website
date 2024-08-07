@@ -140,6 +140,75 @@ const courses: Array<CourseOffer> = [
   },
   */
   {
+    name: 'Lifetime Access',
+    badge: 'On-Demand',
+    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Lifetime access to content and The Quiet Achiever Community'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 299,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/bIYdUu8WT4vB0tq8AL'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 275,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/7sIcQqflh6DJcc8g3f'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 179,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/7sI4jU8WTd272BycR4'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 149,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/7sI4jU8WTd272BycR4'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 749,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/00gaIi8WT1jpgso6sI'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 268,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/eVa4jU5KH3rx0tq9EQ'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 199,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/14kaIic95gej4JG4ku'
+        }
+      }
+    }
+  },
+  {
     name: '1 year access',
     badge: 'On-Demand',
     features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','1 year full access to content and The Quiet Achiever Community'],
@@ -204,75 +273,6 @@ const courses: Array<CourseOffer> = [
         paymentLinks: {
           split: '#',
           full: 'https://buy.stripe.com/8wM8Aa4GDgej2ByeZf'
-        }
-      }
-    }
-  },
-  {
-    name: 'Lifetime Access',
-    badge: 'On-Demand',
-    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','1 year full access to content and The Quiet Achiever Community'],
-    paymentOptions: {
-      AUD: {
-        currency: 'AUD',
-        price: 299,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/bIYdUu8WT4vB0tq8AL'
-        }
-      },
-
-      CAD: {
-        currency: 'CAD',
-        price: 275,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/7sIcQqflh6DJcc8g3f'
-        }
-      },
-
-      EUR: {
-        currency: 'EUR',
-        price: 179,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/7sI4jU8WTd272BycR4'
-        }
-      },
-
-      GBP: {
-        currency: 'GBP',
-        price: 149,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/7sI4jU8WTd272BycR4'
-        }
-      },
-
-      PLN: {
-        currency: 'PLN',
-        price: 749,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/00gaIi8WT1jpgso6sI'
-        }
-      },
-
-      SGD: {
-        currency: 'SGD',
-        price: 268,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/eVa4jU5KH3rx0tq9EQ'
-        }
-      },
-
-      USD: {
-        currency: 'USD',
-        price: 199,
-        paymentLinks: {
-          split: '#',
-          full: 'https://buy.stripe.com/14kaIic95gej4JG4ku'
         }
       }
     }
