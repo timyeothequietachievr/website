@@ -23,12 +23,14 @@ import HowItWorks from '../components/HowItWorks'
 import Video from '../components/Video'
 import TopicsHomepage from '../components/TopicsHomepage'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
+import HeroBook from '../components/HeroBook'
 
 export default function IndexPage() {
   return (
     <PricingContextProvider>
       <MastheadHomepage />
-      <BeingIntrovertHard />
+      <HeroBook />
+      {/* <BeingIntrovertHard /> */}
       <IntroTQA />
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
