@@ -43,7 +43,6 @@ export default function CoursesPage() {
     <PricingContextProvider>
       <MastheadSchool />
       {/* <CoursesInclude /> */}
-      <Cloudlogos />
       <HeroSchool />
       <HeroPractice />
       <Hero2Coaching />
@@ -52,6 +51,7 @@ export default function CoursesPage() {
       <HeroInterviews />
       <HeroFacilitation />
       {/* <TitleSampleCourseVideos /> */}
+      <Cloudlogos />
       <TestimonialLeadership5 />
       <TestimonialLeadership1 />
       <TestimonialLeadership2 />
