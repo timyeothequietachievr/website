@@ -3,15 +3,15 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 const people = [
   {
-    name: 'Amazon.com →',
+    name: 'Amazon →',
     role: '',
     imageUrl:
       'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://www.amazon.com',
+    xUrl: 'https://amzn.to/3SFqtEn',
     linkedinUrl: '#',
   },
   {
-    name: 'Book store 2 →',
+    name: 'Audible (audiobook) →',
     role: '',
     imageUrl:
       'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -34,9 +34,9 @@ export default function TopicsBook() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Also available at all good book stores</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Also available at the following book stores</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Yup; buying a physical book direct from my website is expensive right now because of costly shipping charges from Australia. No worries; try any of the following good book stores:   
+            Shipping charges can be costly if you buy a physical book from my website and you are outside of Australia. That's OK; if you can't buy direct from my website, try any of the following book stores:   
           </p>
         </div>
         <ul
