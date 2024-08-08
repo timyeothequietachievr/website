@@ -51,11 +51,11 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Barnes & Noble (soon) →',
+    name: 'Barnes & Noble →',
     role: '',
     imageUrl:
       'src/profile-barnesnoble.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://www.barnesandnoble.com/w/the-quiet-achiever-tim-yeo/1146139287?ean=2940179843696',
     linkedinUrl: '#',
   },
   {
