@@ -6,7 +6,7 @@ const people = [
     name: 'Amazon →',
     role: '',
     imageUrl:
-      'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/profile-amazon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: 'https://amzn.to/3SFqtEn',
     linkedinUrl: '#',
   },
@@ -14,18 +14,59 @@ const people = [
     name: 'Audible (audiobook) →',
     role: '',
     imageUrl:
-      'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/profile-audible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'Book store 3 →',
+    name: 'Spotify (audiobook) →',
     role: '',
     imageUrl:
-      'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/profile-spotify.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
+  {
+    name: 'Kobo →',
+    role: '',
+    imageUrl:
+      'src/profile-kobo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Apple Books →',
+    role: '',
+    imageUrl:
+      'src/profile-applebooks.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Google Play Books →',
+    role: '',
+    imageUrl:
+      'src/profile-googleplay.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Barnes & Noble →',
+    role: '',
+    imageUrl:
+      'src/profile-barnesnoble.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Smashwords →',
+    role: '',
+    imageUrl:
+      'src/profile-smashwords.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+
   // More people...
 ]
 
