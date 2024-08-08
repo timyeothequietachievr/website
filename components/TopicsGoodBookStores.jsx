@@ -11,7 +11,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Audible (audiobook) →',
+    name: 'Audible (audiobook; soon) →',
     role: '',
     imageUrl:
       'src/profile-audible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -19,7 +19,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Spotify (audiobook) →',
+    name: 'Spotify (audiobook; soon) →',
     role: '',
     imageUrl:
       'src/profile-spotify.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -31,7 +31,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-kobo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://www.kobo.com/au/en/ebook/the-quiet-achiever',
     linkedinUrl: '#',
   },
   {
@@ -39,11 +39,11 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-applebooks.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://books.apple.com/au/book/the-quiet-achiever/id6615084088',
     linkedinUrl: '#',
   },
   {
-    name: 'Google Play Books →',
+    name: 'Google Play Books (soon) →',
     role: '',
     imageUrl:
       'src/profile-googleplay.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -51,7 +51,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Barnes & Noble →',
+    name: 'Barnes & Noble (soon) →',
     role: '',
     imageUrl:
       'src/profile-barnesnoble.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -63,7 +63,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-smashwords.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://www.smashwords.com/books/view/1600748',
     linkedinUrl: '#',
   },
 

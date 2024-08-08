@@ -52,7 +52,7 @@ export default function BookPage() {
       <MastheadBookReviews />
       <AmazonBookReviews />
       <FormBookReviews />
-      <TopicsGoodBookStores />
+      {/* <TopicsGoodBookStores /> */}
     </PricingContextProvider>
   )
 }
