@@ -3,7 +3,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 const people = [
   {
-    name: 'Amazon →',
+    name: 'Amazon (kindle soon) →',
     role: '',
     imageUrl:
       'src/profile-amazon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
