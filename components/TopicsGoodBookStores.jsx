@@ -14,7 +14,7 @@ const people = [
     name: 'Kindle →',
     role: '',
     imageUrl:
-      'src/profile-audible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'src/profile-kindle.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: 'https://www.amazon.com/dp/B0DCRZ4M5H',
     linkedinUrl: '#',
   },
@@ -94,7 +94,7 @@ export default function TopicsBook() {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
+              <a href={person.xUrl}><img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" /></a>
               <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
                 <a 
                 href={person.xUrl}
