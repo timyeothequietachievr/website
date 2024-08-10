@@ -7,7 +7,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-amazon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://amzn.to/3SFqtEn',
+    xUrl: 'https://amzn.to/3WFgArl',
     linkedinUrl: '#',
   },
   {
