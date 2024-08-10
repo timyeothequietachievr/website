@@ -94,10 +94,10 @@ export default function TopicsBook() {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <a href={person.xUrl}><img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" /></a>
+              <a href={person.xUrl} target="_blank"><img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" /></a>
               <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
                 <a 
-                href={person.xUrl}
+                href={person.xUrl} target="_blank"
                 data-event-category="purchase"
                 data-event-action="click_buy_elsewhere"
                 data-event-label="cta_book_goodbookstore"
