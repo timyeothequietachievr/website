@@ -83,7 +83,7 @@ export default function TopicsBook() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Also available at the following book stores</h2>
+          <h2 id="goodbookstores" className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Also available at the following book stores</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Shipping charges can be costly if you buy a physical book from my website and you are outside of Australia. That's OK; if you can't buy direct from my website, try any of the following book stores:   
           </p>
