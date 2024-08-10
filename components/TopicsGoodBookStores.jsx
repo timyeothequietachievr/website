@@ -3,11 +3,19 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 const people = [
   {
-    name: 'Amazon (kindle soon) →',
+    name: 'Amazon →',
     role: '',
     imageUrl:
       'src/profile-amazon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: 'https://amzn.to/3SFqtEn',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Kindle →',
+    role: '',
+    imageUrl:
+      'src/profile-audible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    xUrl: 'https://www.amazon.com/dp/B0DCRZ4M5H',
     linkedinUrl: '#',
   },
   {
@@ -87,7 +95,14 @@ export default function TopicsBook() {
           {people.map((person) => (
             <li key={person.name}>
               <img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
-              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900"><a href={person.xUrl}>{person.name}</a></h3>
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                <a 
+                href={person.xUrl}
+                data-event-category="purchase"
+                data-event-action="click_buy_elsewhere"
+                data-event-label="cta_book_goodbookstore"
+                >{person.name}</a>
+              </h3>
               <p className="text-base leading-7 text-gray-600">{person.role}</p>
             </li>
           ))}
