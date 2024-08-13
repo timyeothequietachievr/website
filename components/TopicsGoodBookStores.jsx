@@ -51,11 +51,11 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Google Play Books (soon) →',
+    name: 'Google Play Books →',
     role: '',
     imageUrl:
       'src/profile-googleplay.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://play.google.com/store/books/details?id=Q4QYEQAAQBAJ',
     linkedinUrl: '#',
   },
   {
