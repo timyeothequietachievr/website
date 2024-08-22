@@ -7,7 +7,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-amazon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://amzn.to/3WFgArl',
+    xUrl: 'https://mybook.to/thequietachiever/opt/1?iguid=xN_KmD0QiEGxK5EeEzqvUg',
     linkedinUrl: '#',
   },
   {
@@ -15,15 +15,15 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-kindle.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://www.amazon.com/dp/B0DCRZ4M5H',
+    xUrl: 'https://mybook.to/thequietachieverebook/opt/1?iguid=_6mWD2GAuE2wTkgBzKepQg&ireferrer=https%3a%2f%2fbooklinker.com%2f',
     linkedinUrl: '#',
   },
   {
-    name: 'Audible (audiobook; soon) →',
+    name: 'Audible (audiobook) →',
     role: '',
     imageUrl:
       'src/profile-audible.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://www.amazon.com/dp/B0DDW8NKL9',
     linkedinUrl: '#',
   },
   {
@@ -39,7 +39,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-kobo.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://www.kobo.com/au/en/ebook/the-quiet-achiever',
+    xUrl: 'https://mybook.to/thequietachieverebook/opt/2?iguid=_6mWD2GAuE2wTkgBzKepQg&ireferrer=https%3a%2f%2fbooklinker.com%2f',
     linkedinUrl: '#',
   },
   {
@@ -47,7 +47,7 @@ const people = [
     role: '',
     imageUrl:
       'src/profile-applebooks.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: 'https://books.apple.com/au/book/the-quiet-achiever/id6615084088',
+    xUrl: 'https://mybook.to/thequietachieverebook/opt/0?iguid=_6mWD2GAuE2wTkgBzKepQg&ireferrer=https%3a%2f%2fbooklinker.com%2f',
     linkedinUrl: '#',
   },
   {
