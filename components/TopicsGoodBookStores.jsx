@@ -27,11 +27,11 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Spotify (audiobook; soon) →',
+    name: 'Spotify (audiobook) →',
     role: '',
     imageUrl:
       'src/profile-spotify.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
+    xUrl: 'https://open.spotify.com/show/6019twEqqip4JAu4H0tAnd',
     linkedinUrl: '#',
   },
   {
