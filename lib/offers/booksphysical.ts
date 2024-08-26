@@ -277,9 +277,9 @@ const booksphysical: Array<BookphysicalOffer> = [
   },
   */
   {
-    name: 'Autograph Edition',
+    name: 'Meet the author + Autograph',
     badge: 'Special',
-    features: ['✍🏻 Hardcover book autographed by the author', '📲 Everything digital (ePub, PDF, Audiobook)','👋 Meet the author via video call'],
+    features: ['✍🏻 Hardcover book autographed by the author','👋 Meet the author via video call', '📲 Everything digital (ePub, PDF, Audiobook)'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
