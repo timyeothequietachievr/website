@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function CourseInterviews() {
+export default function HeroPractice() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       {/* <div className="relative">
@@ -42,7 +42,7 @@ export default function CourseInterviews() {
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-            <div id="interviews">
+            <div id="practiceexercises">
               <div className="mt-6">
                 <h2 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   {/* Weekly office hours */}
@@ -76,7 +76,7 @@ export default function CourseInterviews() {
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
                 src="src/topic-exercises-maddie.jpg"
-                alt="Interviews for introverts"
+                alt="Practice before trying in real life"
               />
             </div>
           </div>
