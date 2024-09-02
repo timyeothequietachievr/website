@@ -24,6 +24,7 @@ import Video from '../components/Video'
 import TopicsHomepage from '../components/TopicsHomepage'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import HeroBook from '../components/HeroBook'
+import TopicsGoodBookStores from '../components/TopicsGoodBookStores'
 
 export default function IndexPage() {
   return (
@@ -58,6 +59,7 @@ export default function IndexPage() {
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
+      <TopicsGoodBookStores />
       <Testimonials />
       {/* <Video /> */}
       {/* <Gift /> */}
