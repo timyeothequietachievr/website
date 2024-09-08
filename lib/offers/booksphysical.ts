@@ -275,6 +275,75 @@ const booksphysical: Array<BookphysicalOffer> = [
       }
     }
   },
+  {
+    name: 'Paperback',
+    badge: '9 Aug',
+    features: ['Paperback book'],
+    paymentOptions: {
+      AUD: {
+        currency: 'AUD',
+        price: 24.99,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/00g2bM5KH5zF8ZWaIQ',
+          full: 'https://buy.stripe.com/28odUuc950flekgg34'
+        }
+      },
+
+      CAD: {
+        currency: 'CAD',
+        price: 23.88,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/14kcQqa0X6DJ0tq2ch',
+          full: 'https://buy.stripe.com/dR6bMm3Cze6b5NK9EF'
+        }
+      },
+
+      EUR: {
+        currency: 'EUR',
+        price: 15.99,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/5kA03Eehd7HN8ZW5ou',
+          full: 'https://buy.stripe.com/cN2cQq7SPaTZ5NK4kk'
+        }
+      },
+
+      GBP: {
+        currency: 'GBP',
+        price: 12.99,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/bIYeYygpl3rxdgc3gn',
+          full: 'https://buy.stripe.com/00gcQq1ur3rx2By187'
+        }
+      },
+
+      PLN: {
+        currency: 'PLN',
+        price: 65.88,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/00g9Eea0Xe6b4JGaIR',
+          full: 'https://buy.stripe.com/00gcQqdd90flekg042'
+        }
+      },
+
+      SGD: {
+        currency: 'SGD',
+        price: 22.88,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/eVabMmflh5zF8ZW7wA',
+          full: 'https://buy.stripe.com/aEUdUu7SP5zFcc89EB'
+        }
+      },
+
+      USD: {
+        currency: 'USD',
+        price: 16.99,
+        paymentLinks: {
+          split: 'https://buy.stripe.com/dR69Ee6OLd277VS3gj',
+          full: 'https://buy.stripe.com/00geYyb51d271xu9EA'
+        }
+      }
+    }
+  },
   */
   {
     name: 'Meet the author + Autograph',
@@ -347,7 +416,7 @@ const booksphysical: Array<BookphysicalOffer> = [
   },
   {
     name: 'Hardcover',
-    badge: '9 Aug',
+    badge: 'Direct from me',
     features: ['Hardcover book'],
     paymentOptions: {
       AUD: {
@@ -416,15 +485,15 @@ const booksphysical: Array<BookphysicalOffer> = [
   },
   {
     name: 'Paperback',
-    badge: '9 Aug',
+    badge: 'via Amazon',
     features: ['Paperback book'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
         price: 24.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/00g2bM5KH5zF8ZWaIQ',
-          full: 'https://buy.stripe.com/28odUuc950flekgg34'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -432,8 +501,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 23.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/14kcQqa0X6DJ0tq2ch',
-          full: 'https://buy.stripe.com/dR6bMm3Cze6b5NK9EF'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -441,8 +510,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'EUR',
         price: 15.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/5kA03Eehd7HN8ZW5ou',
-          full: 'https://buy.stripe.com/cN2cQq7SPaTZ5NK4kk'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -450,8 +519,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'GBP',
         price: 12.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/bIYeYygpl3rxdgc3gn',
-          full: 'https://buy.stripe.com/00gcQq1ur3rx2By187'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -459,8 +528,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'PLN',
         price: 65.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/00g9Eea0Xe6b4JGaIR',
-          full: 'https://buy.stripe.com/00gcQqdd90flekg042'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -468,8 +537,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'SGD',
         price: 22.88,
         paymentLinks: {
-          split: 'https://buy.stripe.com/eVabMmflh5zF8ZW7wA',
-          full: 'https://buy.stripe.com/aEUdUu7SP5zFcc89EB'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
 
@@ -477,8 +546,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'USD',
         price: 16.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/dR69Ee6OLd277VS3gj',
-          full: 'https://buy.stripe.com/00geYyb51d271xu9EA'
+          split: '#',
+          full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       }
     }
