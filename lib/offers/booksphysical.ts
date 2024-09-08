@@ -492,7 +492,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'AUD',
         price: 24.99,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -501,7 +501,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'CAD',
         price: 23.88,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -510,7 +510,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'EUR',
         price: 15.99,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -519,7 +519,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'GBP',
         price: 12.99,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -528,7 +528,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'PLN',
         price: 65.88,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -537,7 +537,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'SGD',
         price: 22.88,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       },
@@ -546,7 +546,7 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'USD',
         price: 16.99,
         paymentLinks: {
-          split: '#',
+          split: '#goodbookstores',
           full: 'https://mybook.to/thequietachiever/opt/1?iguid=NNU0BGQrgkOx4Axf4kU0NQ'
         }
       }
