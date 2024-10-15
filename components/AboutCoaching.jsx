@@ -13,7 +13,7 @@ export default function AboutCoaching() {
         Coaching helps you level up faster. The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
-        <p cclassName="mt-5 prose prose-indigo text-gray-500">
+        <p className="mt-5 prose prose-indigo text-gray-500">
         <ul role="list">
           <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
           <li><strong> Get promoted: </strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
