@@ -13,10 +13,10 @@ export default function AboutCoaching() {
         Coaching helps you level up faster. The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
-        <p className="mt-5 prose prose-indigo text-gray-500">
+        <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
           <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
-          <li><strong> Get promoted: </strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
+          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
           <li><strong>Be more visible:</strong> You do great work but wish you were more seen and visible in your organisation and industry</li>
           <li><strong>Public speaking:</strong> You have just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
           <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
@@ -24,7 +24,7 @@ export default function AboutCoaching() {
         </ul>
         <br></br><br></br>
         <strong>Leadership and Team management</strong><br></br>
-        <ul>
+        <ul role="list">
         <li>You are leading/managing a team for the first time and not sure what to do</li>
         <li>You have been promoted to a player-coach role but never managed people before</li>
         <li>You started as the first designer in your startup/org and suddenly need to hire a team quickly</li>
