@@ -24,15 +24,15 @@ export default function AboutBook() {
                   <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
                   <li><strong> Get promoted: </strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
                   <li><strong>Be more visible:</strong> You do great work but wish you were more seen and visible in your organisation and industry</li>
-                  <li><strong>Public speaking:</strong> You've just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
+                  <li><strong>Public speaking:</strong> You have just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
                   <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
                   <li><strong>Interview preparation:</strong> You are interviewing for roles, you've done good work but somehow you never get picked</li>
                 </ul>
                 <strong>Leadership and Team management?</strong><br></br><br></br>
             <ul role="list">
                   <li>You are leading/managing a team for the first time and not sure what to do</li>
-                  <li><You've been promoted to a player-coach role but never managed people before</li>
-                  <li>You started as the first designer in your startup/org and suddenly need to hire a team (quickly)</li>
+                  <li>You have been promoted to a player-coach role but never managed people before</li>
+                  <li>You started as the first designer in your startup/org and suddenly need to hire a team quickly</li>
                   <li>You are a leader/manager and want an advisor who's walked a similar path before</li>
                   <li>You are quiet but work with a team with loud voices and you want to learn how to be heard and push back</li>
                   <li>The team you manage are so quiet and you don't know how to get the best out of them</li>
