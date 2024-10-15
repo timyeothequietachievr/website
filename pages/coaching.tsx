@@ -23,13 +23,15 @@ import Gift from '../components/Gift'
 import Gift2 from '../components/Gift2'
 import HowItWorks from '../components/HowItWorks'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
+import AboutCoaching from '../components/AboutCoaching'
 
 export default function CoachingPage() {
   return (    
     <PricingContextProvider>
       <MastheadCoaching />
-      <BeingIntrovertHard />
-      <IntroTQA />
+      <AboutCoaching />
+      {/* <BeingIntrovertHard /> */}
+      {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
       <TestimonialCoaching1 />
