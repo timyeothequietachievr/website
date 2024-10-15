@@ -5,7 +5,7 @@ export default function AboutCoaching() {
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (just like you)</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
         I'm your coach. Over live video calls, we talk through the challenges you are facing and what you want help with right now.<br></br><br></br>
@@ -13,7 +13,6 @@ export default function AboutCoaching() {
         Coaching helps you level up faster. The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
-        <p className="mt-6 text-xl leading-8">
         <ul role="list">
                   <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
                   <li><strong> Get promoted: </strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
@@ -22,7 +21,7 @@ export default function AboutCoaching() {
                   <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
                   <li><strong>Interview preparation:</strong> You are interviewing for roles, you've done good work but somehow you never get picked</li>
                 </ul>
-                <strong>Leadership and Team management?</strong><br></br><br></br>
+                <strong>Leadership and Team management</strong><br></br><br></br>
             <ul role="list">
                   <li>You are leading/managing a team for the first time and not sure what to do</li>
                   <li>You have been promoted to a player-coach role but never managed people before</li>
@@ -31,8 +30,7 @@ export default function AboutCoaching() {
                   <li>You are quiet but work with a team with loud voices and you want to learn how to be heard and push back</li>
                   <li>The team you manage are so quiet and you don't know how to get the best out of them</li>
                 </ul>
-        </p>
-        
+        {/*
         <div className="mt-10 max-w-2xl">
           <p>
             Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
@@ -100,8 +98,8 @@ export default function AboutCoaching() {
             sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
           </p>
         </div>
-        
-        
+        */}
+        {/*}
         <figure className="mt-16">
           <img
             alt=""
@@ -126,7 +124,7 @@ export default function AboutCoaching() {
             sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
           </p>
         </div>
-        
+        */}
       </div>
     </div>
   )
