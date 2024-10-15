@@ -1,4 +1,4 @@
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/outline'
 
 export default function AboutCoaching() {
   return (
