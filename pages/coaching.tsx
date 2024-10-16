@@ -43,7 +43,7 @@ export default function CoachingPage() {
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
-      </Pricing>
+      </PricingCoaching>
       <Testimonials />
     </PricingContextProvider>
   )
