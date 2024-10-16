@@ -7,7 +7,7 @@ import Feature1 from '../components/Feature1'
 import Feature2 from '../components/Feature2'
 import Feature3 from '../components/Feature3'
 import MonthlyGuestSpeakers from '../components/MonthlyGuestSpeakers'
-import Pricing from '../components/Pricing'
+import PricingCoaching from '../components/PricingCoaching'
 import WhatDoYouGet from '../components/WhatDoYouGet'
 import Testimonials from '../components/Testimonials'
 import TestimonialCoaching1 from '../components/TestimonialCoaching1'
@@ -37,11 +37,10 @@ export default function CoachingPage() {
       <TestimonialCoaching1 />
       <TestimonialCoaching2 />
       <TestimonialCoaching3 />
-      <Pricing kind="coaching">
+      <PricingCoaching kind="coaching">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Coaching
         </h2>
-
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
       </Pricing>
