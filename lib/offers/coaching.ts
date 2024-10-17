@@ -1,5 +1,5 @@
 const coaching: Array<CoachingOffer> = [
-  {
+  /*{
     name: 'Free Discovery Coaching',
     features: [
       'Book a free 30min 1:1 session',
@@ -138,16 +138,157 @@ const coaching: Array<CoachingOffer> = [
       }
     }
   },
-
+  */
   {
-    name: '1:1 Coaching',
-    badge: '7 spots left',
+    name: 'Call Package',
     features: [
-      '6 coaching hours over 12 months',
-      'Meet once/month or once/2months',
-      'Customised coaching plan just for you',
-      'On-demand support over sms/email when you need it',
-      '1 year full access to The Quiet Achiever Community'
+      '4 x 1:1 sessions',
+      'Book a session when you need it; no expiry',
+      'WhatsApp direct message when you need help urgently',
+      'Digital copy of The Quiet Achiever book included',
+    ],
+    paymentOptions: {
+      monthly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'monthly',
+          price: 800,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'monthly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'monthly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'monthly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'monthly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'monthly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'monthly',
+          price: 800,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        }
+      },
+      
+      yearly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'yearly',
+          price: 800,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'yearly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'yearly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'yearly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'yearly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'yearly',
+          price: 0,
+          paymentLinks: {
+            full: 'https://calendly.com/thequietachievr/'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'yearly',
+          price:800,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        }
+      }
+    }
+  },
+  {
+    name: 'Monthly coaching',
+    badge: '5 spots left',
+    features: [
+      '12 x 1:1 sessions',
+      'Meet monthly',
+      '12-month customised plan to achieve your career goals',
+      'WhatsApp direct message when you need help urgently',
+      'Full access to all courses and content on The Quiet Achiever',
+      'Physical + Digital copies of The Quiet Achiever book included',
     ],
     paymentOptions: {
       monthly: {
@@ -156,7 +297,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 200,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -210,7 +351,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 200,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         }
       },
@@ -220,7 +361,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 2200.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -274,7 +415,7 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'yearly',
           price: 2200.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         }
       }

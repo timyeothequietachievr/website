@@ -8,9 +8,10 @@ export default function AboutCoaching() {
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
-        I'm your coach. Over live video calls, we talk through the challenges you are facing and what you want help with right now.<br></br><br></br>
-        Coaching requires chemistry. I can help may people, but I can't help everyone. so we start with a free discovery call to see if we are a good fit.<br></br><br></br>
-        Coaching helps you level up faster. The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
+        I'm your coach. Over live video calls, we talk through the challenges you are facing and where you want help right now.<br></br><br></br>
+        Coaching requires chemistry. I can help may people, but I can't help everyone. so we start with a <a href="#pricing">free discovery call</a> to see if we are a good fit.<br></br><br></br>
+        Coaching helps you level up faster. How fast depends on you.<br></br><br></br>
+        The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
         <p className="mt-6 prose prose-indigo text-xl">
@@ -32,6 +33,17 @@ export default function AboutCoaching() {
         <li>You are quiet but work with a team with loud voices and you want to learn how to be heard and push back</li>
         <li>The team you manage are so quiet and you don't know how to get the best out of them</li>
         </ul>
+        </p>
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's it like having me as your coach?</h2>
+        <p className="mt-6 prose prose-indigo text-xl">
+        <ul role="list">
+          <li><strong>I'm an introverted leader</strong> I get what it's like to be quiet by nature and your peers in the room are loud and extroverted</li>
+          <li><strong>I'm not your boss</strong> Your boss has many priorities and you are simply one of them. As your coach, you are my only priority</li>
+          <li><strong>This hasn't happened before! Is this normal?</strong> I've coached 300+ people worldwide. I also have 20 years experience in tech and consulting. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
+          <li><strong>Limiting beliefs and norms</strong> Within your bubble, your way has been the only way you know. We sometimes lie to ourselves too to have an easy out. Where I see you do this, I'll point it out and we'll talk about it</li>
+          <li><strong>Tough love</strong> You must know I'm pretty direct, low bs and I will tell you the things you need to hear to level up. I will do it with kindness and good humour</li>
+        </ul>
+        <br></br><br></br>
         </p>
         {/*
         <div className="mt-10 max-w-2xl">
