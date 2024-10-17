@@ -5,12 +5,12 @@ export default function AboutCoaching() {
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My speciality is coaching quiet achievers and introverted leaders to have impact at work while remaining their true authentic selves</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My speciality is coaching quiet achievers & introverted leaders to have impact at work while remaining their true authentic selves</h1>
         {/*<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>*/}
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
         I'm your coach. Over live video calls, we talk through the challenges you are facing and where you want help right now.<br></br><br></br>
-        Coaching requires chemistry. I can help may people, but I can't help everyone. so we start with a <a href="#pricing" className="text-indigo-600">free discovery call</a> to see if we are a good fit.<br></br><br></br>
+        Coaching requires chemistry. I can help many people, but I can't help everyone. So we start with a <a href="#pricing" className="text-indigo-600">free discovery call</a> to see if you & I are a good fit.<br></br><br></br>
         Coaching helps you level up faster. How fast depends on you.<br></br><br></br>
         The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
@@ -18,11 +18,12 @@ export default function AboutCoaching() {
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
           <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
-          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role but you feel stuck and don't know what to do to get there</li>
+          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role but you feel stuck, your boss says "you are not ready" but you don't know what to do to get there</li>
           <li><strong>Be more visible:</strong> You do great work but wish you were more seen and visible in your organisation and industry</li>
           <li><strong>Public speaking:</strong> You have just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
           <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
           <li><strong>Interview preparation:</strong> You are interviewing for roles, you've done good work but somehow you never get picked</li>
+          <li><strong>Grow your network:</strong> As a quiet person, I hate networking events. I'll show you how to grow your network in less painful ways</li>
         </ul>
         <br></br><br></br>
         <strong>Leadership and Team management</strong><br></br>
@@ -40,7 +41,7 @@ export default function AboutCoaching() {
         <ul role="list">
           <li><strong>I'm an introverted leader</strong> I get what it's like to be quiet by nature and your peers in the room are loud and extroverted</li>
           <li><strong>I'm not your boss</strong> Your boss has many priorities and you are simply one of them. As your coach, you are my only priority</li>
-          <li><strong>This hasn't happened before! Is this normal?</strong> I've coached 300+ people worldwide. I also have 20 years experience in tech, startups and consulting in Asia and Australia. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
+          <li><strong>This hasn't happened before! Is this normal?</strong> I've coached 300+ people worldwide. I also have 20 years experience in tech, startups and consulting. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
           <li><strong>Limiting beliefs and norms</strong> Within your bubble, your way has been the only way you know. We sometimes lie to ourselves too to have an easy out. Where I see you do this, I'll point it out and we'll talk about it</li>
           <li><strong>Tough love</strong> You must know I'm pretty direct, low bs and I will tell you the things you need to hear to level up. I will do it with kindness and good humour</li>
           <li><strong>Private and confidential</strong> Everything you tell me stays with me. You will never hear your name on YouTube, your boss and peers will never know</li>
