@@ -144,7 +144,7 @@ const coaching: Array<CoachingOffer> = [
     features: [
       '4 x 1:1 sessions',
       'Book a session when you need it; no expiry',
-      'WhatsApp direct message when you need help urgently',
+      'WhatsApp direct message when you need help urgently (like calling Batman on the BatPhone)',
       'Digital copy of The Quiet Achiever book included',
     ],
     paymentOptions: {
@@ -286,7 +286,7 @@ const coaching: Array<CoachingOffer> = [
       '12 x 1:1 sessions',
       'Meet monthly',
       '12-month customised plan to achieve your career goals',
-      'WhatsApp direct message when you need help urgently',
+      'WhatsApp direct message when you need help urgently (like calling Batman on the BatPhone)',
       'Full access to all courses and content on The Quiet Achiever',
       'Physical + Digital copies of The Quiet Achiever book included',
     ],

@@ -10,7 +10,7 @@ export default function AboutCoaching() {
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
         I'm your coach. Over live video calls, we talk through the challenges you are facing and where you want help right now.<br></br><br></br>
-        Coaching requires chemistry. I can help may people, but I can't help everyone. so we start with a <a href="#pricing">free discovery call</a> to see if we are a good fit.<br></br><br></br>
+        Coaching requires chemistry. I can help may people, but I can't help everyone. so we start with a <a href="#pricing" className="text-indigo-600">free discovery call</a> to see if we are a good fit.<br></br><br></br>
         Coaching helps you level up faster. How fast depends on you.<br></br><br></br>
         The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
         </p>
