@@ -18,7 +18,7 @@ export default function AboutCoaching() {
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
           <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
-          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role but you feel stuck, your boss says "you are not ready" but you don't know what to do to get there</li>
+          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role your boss says "you are not ready", you feel stuck and you don't know what to do to get there</li>
           <li><strong>Be more visible:</strong> You do great work but wish you were more seen and visible in your organisation and industry</li>
           <li><strong>Public speaking:</strong> You have just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
           <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
@@ -39,10 +39,10 @@ export default function AboutCoaching() {
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's it like having me as your coach?</h2>
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
-          <li><strong>I'm an introverted leader</strong> I get what it's like to be quiet by nature and your peers in the room are loud and extroverted</li>
+          <li><strong>I'm an introverted leader</strong> I understand what it's like to be quiet by nature and your peers in the room are loud and extroverted</li>
           <li><strong>I'm not your boss</strong> Your boss has many priorities and you are simply one of them. As your coach, you are my only priority</li>
           <li><strong>This hasn't happened before! Is this normal?</strong> I've coached 300+ people worldwide. I also have 20 years experience in tech, startups and consulting. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
-          <li><strong>Limiting beliefs and norms</strong> Within your bubble, your way has been the only way you know. We sometimes lie to ourselves too to have an easy out. Where I see you do this, I'll point it out and we'll talk about it</li>
+          <li><strong>Limiting beliefs and norms</strong> In your bubble, your way has been the only way you know. We sometimes lie to ourselves too to have an easy out. Where I see you do this, I'll point it out and we'll talk about it</li>
           <li><strong>Tough love</strong> You must know I'm pretty direct, low bs and I will tell you the things you need to hear to level up. I will do it with kindness and good humour</li>
           <li><strong>Private and confidential</strong> Everything you tell me stays with me. You will never hear your name on YouTube, your boss and peers will never know</li>
         </ul>

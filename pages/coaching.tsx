@@ -13,6 +13,10 @@ import Testimonials from '../components/Testimonials'
 import TestimonialCoaching1 from '../components/TestimonialCoaching1'
 import TestimonialCoaching2 from '../components/TestimonialCoaching2'
 import TestimonialCoaching3 from '../components/TestimonialCoaching3'
+import TestimonialLeadership2 from '../components/TestimonialLeadership2'
+import TestimonialLeadership3 from '../components/TestimonialLeadership3'
+import TestimonialLeadership4 from '../components/TestimonialLeadership4'
+import TestimonialLeadership5 from '../components/TestimonialLeadership5'
 import TestimonialCentered from '../components/TestimonialCentered'
 import TestimonialLargeAvatar1 from '../components/TestimonialLargeAvatar1'
 import TestimonialLargeAvatar2 from '../components/TestimonialLargeAvatar2'
@@ -34,9 +38,13 @@ export default function CoachingPage() {
       {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
+      <TestimonialCoaching3 />
+      <TestimonialLeadership2 />
+      <TestimonialLeadership3 />
+      <TestimonialLeadership4 />
+      <TestimonialLeadership5 /> 
       <TestimonialCoaching1 />
       <TestimonialCoaching2 />
-      <TestimonialCoaching3 />
       <PricingCoaching kind="coaching">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Coaching

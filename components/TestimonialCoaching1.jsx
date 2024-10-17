@@ -89,7 +89,7 @@ export default function TestimonialCoaching1() {
                     </div>
                     <div className="ml-4 lg:ml-0">
                       <div className="text-base font-medium text-gray-900">Eunbi Koh</div>
-                      <div className="text-base font-medium text-indigo-600">Product Designer, Nationwide Building Society, UK</div>
+                      <div className="text-base font-medium text-indigo-600">Product Designer, Just Eat Takeaway, UK</div>
                     </div>
                   </div>
                 </footer>
