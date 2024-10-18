@@ -161,45 +161,45 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'monthly',
-          price: 0,
+          price: 800,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         EUR: {
           currency: 'EUR',
           frequency: 'monthly',
-          price: 0,
+          price: 500,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         GBP: {
           currency: 'GBP',
           frequency: 'monthly',
-          price: 0,
+          price: 400,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         PLN: {
           currency: 'PLN',
           frequency: 'monthly',
-          price: 0,
+          price: 2000,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         SGD: {
           currency: 'SGD',
           frequency: 'monthly',
-          price: 0,
+          price: 800,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -226,45 +226,45 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'yearly',
-          price: 0,
+          price: 800,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         EUR: {
           currency: 'EUR',
           frequency: 'yearly',
-          price: 0,
+          price: 500,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         GBP: {
           currency: 'GBP',
           frequency: 'yearly',
-          price: 0,
+          price: 400,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         PLN: {
           currency: 'PLN',
           frequency: 'yearly',
-          price: 0,
+          price: 2000,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         SGD: {
           currency: 'SGD',
           frequency: 'yearly',
-          price: 0,
+          price: 800,
           paymentLinks: {
-            full: 'https://calendly.com/thequietachievr/'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -304,18 +304,18 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'monthly',
-          price: 179.99,
+          price: 200,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         EUR: {
           currency: 'EUR',
           frequency: 'monthly',
-          price: 123.99,
+          price: 125,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -324,25 +324,25 @@ const coaching: Array<CoachingOffer> = [
           frequency: 'monthly',
           price: 99,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         PLN: {
           currency: 'PLN',
           frequency: 'monthly',
-          price: 499.99,
+          price: 500,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         SGD: {
           currency: 'SGD',
           frequency: 'monthly',
-          price: 188,
+          price: 200,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
@@ -368,45 +368,45 @@ const coaching: Array<CoachingOffer> = [
         CAD: {
           currency: 'CAD',
           frequency: 'yearly',
-          price: 1999.00,
+          price: 2200.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         EUR: {
           currency: 'EUR',
           frequency: 'yearly',
-          price: 1333.33,
+          price: 1400.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         GBP: {
           currency: 'GBP',
           frequency: 'yearly',
-          price: 1099.00,
+          price: 1100.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         PLN: {
           currency: 'PLN',
           frequency: 'yearly',
-          price: 5999.99,
+          price: 5500.00,
           paymentLinks: {
-            full: 'https://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
         SGD: {
           currency: 'SGD',
           frequency: 'yearly',
-          price: 2188.88,
+          price: 2200.00,
           paymentLinks: {
-            full: 'hhttps://calendly.com/1on1coaching-60min'
+            full: 'https://calendly.com/coaching-discovery'
           }
         },
 
