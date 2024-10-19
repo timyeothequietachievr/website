@@ -15,6 +15,7 @@ export default function MastheadCoaching() {
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         without pretending to be extroverts.
         </p>
+        {/*}
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div className="rounded-md shadow">
             <a
@@ -40,10 +41,13 @@ export default function MastheadCoaching() {
             </button>
           </div>
         </div>
+        */}
       </div>
+      {/*}
       <Modal open={open} close={close} isOpened={isOpened}>
         <IntroVideoModalContents ytLink="https://www.youtube.com/embed/_ZUbIJcvTlM?controls=0" />
       </Modal>
+      */}
     </section>
   )
 }
