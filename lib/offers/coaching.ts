@@ -142,6 +142,146 @@ const coaching: Array<CoachingOffer> = [
   {
     name: 'Call Package',
     features: [
+      '2 x 1:1 sessions',
+      'Book a session when you need it; no expiry',
+      'WhatsApp direct message when you need help urgently (like calling Batman on the BatPhone)',
+      'Digital copy of The Quiet Achiever book included',
+    ],
+    paymentOptions: {
+      monthly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'monthly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'monthly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'monthly',
+          price: 250,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'monthly',
+          price: 200,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'monthly',
+          price: 1000,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'monthly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'monthly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        }
+      },
+      
+      yearly: {
+        AUD: {
+          currency: 'AUD',
+          frequency: 'yearly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        CAD: {
+          currency: 'CAD',
+          frequency: 'yearly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        EUR: {
+          currency: 'EUR',
+          frequency: 'yearly',
+          price: 250,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        GBP: {
+          currency: 'GBP',
+          frequency: 'yearly',
+          price: 200,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        PLN: {
+          currency: 'PLN',
+          frequency: 'yearly',
+          price: 1000,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        SGD: {
+          currency: 'SGD',
+          frequency: 'yearly',
+          price: 400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        },
+
+        USD: {
+          currency: 'USD',
+          frequency: 'yearly',
+          price:400,
+          paymentLinks: {
+            full: 'https://calendly.com/coaching-discovery'
+          }
+        }
+      }
+    }
+  },
+  {
+    name: 'Call Package',
+    features: [
       '4 x 1:1 sessions',
       'Book a session when you need it; no expiry',
       'WhatsApp direct message when you need help urgently (like calling Batman on the BatPhone)',
