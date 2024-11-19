@@ -7,11 +7,11 @@ export default function MastheadBook() {
     <section className="py-16 bg-white overflow-hidden lg:py-24">
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span className="block xl:inline">the quiet achiever</span>{' '}
+          <span className="block xl:inline">30 habits in</span>{' '}
           {/* <span className="block xl:inline">4-week course for</span>{' '} */}
-          <span className="block text-indigo-600 xl:inline">book</span>{' '}
+          <span className="block text-indigo-600 xl:inline">30 days</span>{' '}
           {/* <span className="block xl:inline">to have</span>{' '} */}
-          {/* <span className="block text-indigo-600 xl:inline">impact at work</span> */}
+          <span className="block text-indigo-600 xl:inline">master people skills with confidence, one tiny habit at a time</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         </p>
@@ -22,7 +22,7 @@ export default function MastheadBook() {
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
               data-event-action="click_buy_now"
-              data-event-label="cta_book_masthead"
+              data-event-label="cta_30_masthead"
             >
               Buy Now
             </a>
@@ -57,7 +57,7 @@ export default function MastheadBook() {
           </div> 
         </div>
         */}
-        {/* <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} /> */}
+        <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
 
       </div>
       <Modal open={open} close={close} isOpened={isOpened}>
