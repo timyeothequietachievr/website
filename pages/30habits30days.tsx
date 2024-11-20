@@ -43,6 +43,7 @@ import Benefits30 from '../components/Benefits30'
 import Topics30 from '../components/Topics30'
 import Testimonials30 from '../components/Testimonials30'
 import Reviews30 from '../components/Reviews30'
+import FAQ30 from '../components/FAQ30'
 
 export default function BookPage() {
   return (
