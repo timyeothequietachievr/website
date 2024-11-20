@@ -4,20 +4,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 
 export default function BookHero() {
 
-  const ckFormRef = useRef();
-
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = 'https://thequietachievr.ck.page/24658419fb/index.js';
-    script.async = true;
-    script.setAttribute('data-uid', '24658419fb');
-    ckFormRef.current.appendChild(script);
-
-    return () => {
-      ckFormRef.current.removeChild(script);
-    };
-  }, []);
+  
   
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
@@ -34,7 +21,7 @@ export default function BookHero() {
                 <strong>➡️Signup for book updates</strong><br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
-                <aside ref={ckFormRef} />
+                {/* <aside ref={ckFormRef} /> */}
               </div>
             </div>
           </div>
