@@ -18,10 +18,11 @@ export default function IntrovertHardBook() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Being a quiet achiever in a loud, noisy world is hard
+                Remarkable change in just 7 days
               </h3>
-
-
+              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+               Benefits:
+              </h3>
               <p className="mt-8 text-lg text-gray-500">
               
               </p>
@@ -39,6 +40,17 @@ export default function IntrovertHardBook() {
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 👉🏻 If your answer is <strong>YES, this book is for you</strong>.
               </h3>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Benefits:</h2>
+        <p className="mt-6 prose prose-indigo text-xl">
+        <ul role="list">
+          <li><strong>Daily practice:</strong> INSERT</li>
+          <li><strong>Get promoted:</strong> INSERT</li>
+          <li><strong>INSERT:</strong> INSERT</li>
+          <li><strong>INSERT:</strong> INSERT</li>
+          <li><strong>INSERT:</strong> INSERT</li>
+          <li><strong>INSERT:</strong> INSERT</li>
+        </ul>
+        </p>
                 <p></p>
               </div>
             </div>

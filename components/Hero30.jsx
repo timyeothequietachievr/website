@@ -27,10 +27,10 @@ export default function BookHero() {
             <div id="bookupdates">
               <div className="mt-6">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  No change happens until you practice these habits for real
+                  Real change happens when you practice these habits for real
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong></strong><br />Life is busy. Trying but failing is hard.<br /><br />Stop procrestinating.<br /><br />Start practicing.<br /><br />Do it for you.<br /><br />
+                <br /><br />The Quiet Achiever book provides simple, easy to apply tiny habits to have impact at work.<br /><br />But life gets busy. More important things come up; and practicing on your own isn't very motivating and feels kinda meh.<br /><br /><strong>Here's a better way to practice👇🏻</strong><br /><br />
                 <strong>➡️Signup for book updates</strong><br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
