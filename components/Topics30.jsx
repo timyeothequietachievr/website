@@ -68,7 +68,7 @@ export default function Topics30() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Topics covered</h2>
           <p className="mt-6 text-xl leading-8 text-gray-900">
-            In 30 days, you will practice: 
+            {/* In 30 days, you will practice: */}
           </p>
         </div>
         <ul

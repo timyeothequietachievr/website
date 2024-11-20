@@ -60,7 +60,7 @@ export default function TestimonialBook1() {
             </div>
   
             <div className="relative lg:ml-10">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Remarkable change even after the first 7 days</h2> <br />
+            <h2 className="text-4xl font-extrabold tracking-tight text-gray-900">Remarkable change even after the first 7 days</h2> <br />
               <svg
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-28 w-28 text-indigo-200 opacity-50"
                 stroke="currentColor"

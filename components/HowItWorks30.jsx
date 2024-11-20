@@ -16,13 +16,13 @@ export default function IntrovertHardBook() {
         </div>
         <div className="relative pt-2 pb-16 px-4 sm:pt-2 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
           <div className="lg:col-start-2 lg:pl-8">
-            <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <div className="mt-6">
+              <h1 className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                In our 30 days together:
-              </h3>            
+              </h1>            
               <p className="mt-8 text-xl text-gray-900">
               </p>
-              <div className="mt-5 prose prose-indigo text-gray-900">
+              <div className="mt-5 prose prose-indigo text-xl text-gray-900">
                 <ul role="list">
                   <li>Each day, you will receive 1 email</li>
                   <li>In that email is a tiny habit you practice for the day</li>

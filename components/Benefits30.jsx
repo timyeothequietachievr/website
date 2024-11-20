@@ -18,39 +18,22 @@ export default function IntrovertHardBook() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Remarkable change even after the first 7 days
-              </h3>
-              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-               Benefits:
+                Why join? 
               </h3>
               <p className="mt-8 text-lg text-gray-500">
               
               </p>
-              <div className="mt-5 prose prose-indigo text-gray-500">
+              <div className="mt-6 prose prose-indigo text-xl">
                 <ul role="list">
-                  <li>Do people say "you are too quiet" or "you should speak up more", but you don't know how?</li>
-                  <li>Is small talk and networking awkward for you?</li>
-                  <li>In meetings, do you keep quiet even though you have something to say?</li>
-                  <li>Do you avoid public speaking and give away opportunities to present your work? </li>
-                  <li>Do you say "yes" to unreasonable requests even though, in your head, you think "no"?</li>
-                  <li>Do you shy away from difficult conversations but later wish you spoke up?</li>
-                  <li>Do you act like an extrovert at work but you are tired of pretending?</li>
-                  <li>Have read self help books to improve yourself, but all they did was make you feel good but you don't know what to do next?</li>
-                </ul>
+                  <li><strong>Daily practice:</strong> Receive 1 habit per day, directly in your inbox</li>
+                  <li><strong>Bite-sized and actionable:</strong> Each habit takes less than 5 minutes to practice, making it easy to fit into your day</li>
+                  <li><strong>Support and accountability:</strong> Practice alongside others who understand your challenges.</li>
+                  <li><strong>Proven results:</strong> Watch how others have practiced and improved over time.</li>
+                  <li><strong>Practice at a time that suits you:</strong> Morning, afternoon or night; the programme is online 24/7</li>
+              </ul>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 👉🏻 If your answer is <strong>YES, this book is for you</strong>.
               </h3>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Benefits:</h2>
-        <p className="mt-6 prose prose-indigo text-xl">
-        <ul role="list">
-          <li><strong>Daily practice:</strong> INSERT</li>
-          <li><strong>Get promoted:</strong> INSERT</li>
-          <li><strong>INSERT:</strong> INSERT</li>
-          <li><strong>INSERT:</strong> INSERT</li>
-          <li><strong>INSERT:</strong> INSERT</li>
-          <li><strong>INSERT:</strong> INSERT</li>
-        </ul>
-        </p>
                 <p></p>
               </div>
             </div>

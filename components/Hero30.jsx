@@ -2,10 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroicons/react/outline'
 
-export default function BookHero() {
-
-  
-  
+export default function BookHero() {  
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
       <div className="relative">
@@ -18,10 +15,7 @@ export default function BookHero() {
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-xl text-gray-900">
                 <br /><br />The Quiet Achiever book provides simple, easy to apply tiny habits to have impact at work.<br /><br />But life gets busy. More important things come up; and practicing on your own isn't very motivating and feels kinda meh.<br /><br /><strong>Here's a better way to practice👇🏻</strong><br /><br />
-                <strong>➡️Signup for book updates</strong><br /><br />
-                {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
-                {/* <aside ref={ckFormRef} /> */}
               </div>
             </div>
           </div>
