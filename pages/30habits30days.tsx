@@ -53,7 +53,7 @@ export default function BookPage() {
       <HowItWorks30 />
       <Testimonials30 />
       <Topics30 />
-      <Reviews30 />
+      {/* <Reviews30 /> */}
       <Benefits30 />
       <FAQ30 />
       <Pricing kind="bookdigital">

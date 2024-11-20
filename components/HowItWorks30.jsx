@@ -9,7 +9,7 @@ export default function IntrovertHardBook() {
               /* className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" */
               className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src={"src/TQA-meme-moneypay.svg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"}
+              src={"src/30habits-howitworks.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"}
               alt=""
             />
           </div>
@@ -39,7 +39,7 @@ export default function IntrovertHardBook() {
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Start right now
+                    Buy now
                   </a>
                 </div>
             </div>

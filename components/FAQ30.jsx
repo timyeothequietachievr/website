@@ -78,7 +78,7 @@ export default function Example() {
             <div key={faq.id} className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
               <dt className="text-xl font-semibold text-gray-900 lg:col-span-5">{faq.question}</dt>
               <dd className="mt-4 lg:col-span-7 lg:mt-0">
-                <p className="text--xl text-gray-600">{faq.answer}</p>
+                <p className="text-xl text-gray-800">{faq.answer}</p>
               </dd>
             </div>
           ))}
