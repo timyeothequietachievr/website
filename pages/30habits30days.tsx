@@ -55,7 +55,7 @@ export default function BookPage() {
       <Topics30 />
       <Reviews30 />
       <Benefits30 />
-      {/* <FAQ30 /> */}
+      <FAQ30 />
       <Pricing kind="bookdigital">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           eBook and Audiobook

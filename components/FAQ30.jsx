@@ -3,9 +3,59 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "When does the programme start?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "You can start as soon as buy it. An invitation will be sent via email. Then, sign up and click Start to begin: https://members.thequietachievr.com/c/30/",
+  },
+  {
+    question: "Can I buy it and start later?",
+    answer:
+      "Yes.",
+  },
+  {
+    question: "Does it expire?",
+    answer:
+      "No.",
+  },
+  {
+    question: "Can I come back and re-practice the habits?",
+    answer:
+      "Yes.",
+  },
+  {
+    question: "I have not finished reading the book. Can I start?",
+    answer:
+      "Yes. Every exercise comes with a short explanation of the habit before you practice. If you need more context, read the relevant chapter for the day.",
+  },
+  {
+    question: "I do not have the book. Can I start?",
+    answer:
+      "Yes. Every exercise comes with a short explanation of the habit before you practice. If you need more context, read the book.",
+  },
+  {
+    question: "Where can I buy The Quiet Achiever book?",
+    answer:
+      "You can buy it on our website or good booksstores everywhere: https://www.thequietachievr.com/book",
+  },
+  {
+    question: "I'm very busy. Does this take a lot of time?",
+    answer:
+      "No. Each daily habit is bite-sized should not take more than 5 minutes to complete.",
+  },
+  {
+    question: "What happens if I miss a day?",
+    answer:
+      "The content will still be accessible online. Come back and practice another day.",
+  },
+  {
+    question: "Can I buy this for a friend?",
+    answer:
+      "Yes. Use [Gift It] to include a gift message sent via email to the recipient. Alternatively, [Buy it] and use the gift recipient's email address instead.",
+  },
+  {
+    question: "I'm nervous about practicing these habits in front of other people. Should I still join?",
+    answer:
+      "Yes, I understand. I was nervous too. You just have to realise that no one ever sees your bad takes; they only see your best take; and the more you practice, the better you will get. You just have to trust the process, embrace the challenge and keep on practicing. You don't have to do it all on your own.",
   },
   // More questions...
 ]
