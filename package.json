@@ -9,8 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.2",
-    "@heroicons/react": "^1.0.4",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "localforage": "^1.10.0",
     "next": "^13",
     "react": "^18.0.2",
