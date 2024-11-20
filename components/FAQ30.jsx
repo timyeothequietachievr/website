@@ -3,7 +3,7 @@ const faqs = [
     id: 1,
     question: "When does the programme start?",
     answer:
-      "You can start as soon as buy it. An invitation will be sent via email. Then, sign up and click Start to begin: https://members.thequietachievr.com/c/30/",
+      "You can start as soon as buy it. An invitation will be sent via email. Then, sign up and click Start to begin.",
   },
   {
     id: 2,
@@ -76,9 +76,9 @@ export default function Example() {
         <dl className="mt-10 space-y-8 divide-y divide-gray-900/10">
           {faqs.map((faq) => (
             <div key={faq.id} className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt className="text-base/7 font-semibold text-gray-900 lg:col-span-5">{faq.question}</dt>
+              <dt className="text-xl font-semibold text-gray-900 lg:col-span-5">{faq.question}</dt>
               <dd className="mt-4 lg:col-span-7 lg:mt-0">
-                <p className="text-base/7 text-gray-600">{faq.answer}</p>
+                <p className="text--xl text-gray-600">{faq.answer}</p>
               </dd>
             </div>
           ))}

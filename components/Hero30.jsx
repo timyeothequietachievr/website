@@ -29,7 +29,7 @@ export default function BookHero() {
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   Real change happens when you practice these habits for real
                 </h1>
-                <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
+                <p className="mt-mt-5 prose prose-indigo text-xl text-gray-900">
                 <br /><br />The Quiet Achiever book provides simple, easy to apply tiny habits to have impact at work.<br /><br />But life gets busy. More important things come up; and practicing on your own isn't very motivating and feels kinda meh.<br /><br /><strong>Here's a better way to practice👇🏻</strong><br /><br />
                 <strong>➡️Signup for book updates</strong><br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
