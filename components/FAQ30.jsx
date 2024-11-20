@@ -1,5 +1,5 @@
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@heroicons/react/outline'
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/outline'
 
 const faqs = [
   {
