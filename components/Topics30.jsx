@@ -4,14 +4,14 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 const people = [
   {
     name: 'Introducing yourself',
-    role: 'What makes a good introduction, different types of intros you need and how to structure them for meetings, workshops, interviews and networking.',
+    role: 'Create a small introduction',
     imageUrl:
       'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'Small talk',
+    name: 'Making small talk in real life',
     role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
     imageUrl:
       'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -19,7 +19,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Meetings',
+    name: 'Tactics when you are put on the spot in meetings and have nothing to say',
     role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for focus-work.',
     imageUrl:
       'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -27,7 +27,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Public speaking',
+    name: 'Public speaking confidently',
     role: 'Types of public speaking scripts and how to prepare and practice so you communicate with purpose and clarity.',
     imageUrl:
       'src/topic-publicspeaking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -36,14 +36,14 @@ const people = [
   },
   {
     name: 'Handling difficult conversations',
-    role: 'Understand why these conversations are especially hard for quiet achievers, how to give feedback and what to do when you receive feedback you do not like.',
+    role: 'Roleplay giving difficult feedback and what to do when you receive feedback that is unclear',
     imageUrl:
       'src/topic-difficultconversations.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'How to say no (politely)',
+    name: 'Network online for real',
     role: 'Saying Yes when you think No is not sustainable. Try practical tips on how to push back.',
     imageUrl:
       'src/topic-sayingnopolitely.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -51,18 +51,10 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Networking',
+    name: 'Make yourself more visible',
     role: 'Understand the true purpose of networking and try practical techniques to network online and in real life.',
     imageUrl:
       'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Working together with extroverts and ambiverts',
-    role: 'Work is a team sport. Learn how extroverts and ambiverts can work better together with you.',
-    imageUrl:
-      'src/topic-extrovert.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -74,9 +66,9 @@ export default function TopicsBook() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What's in the book?</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Topics covered</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Tiny habits that you put into practice and start having impact at work the very next day. We cover topics like: 
+            In 30 days, you will practice: 
           </p>
         </div>
         <ul
