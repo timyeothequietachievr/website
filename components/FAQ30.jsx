@@ -39,13 +39,13 @@ const faqs = [
     id: 7,
     question: "Where can I buy The Quiet Achiever book?",
     answer:
-      "You can buy it on our website or good booksstores everywhere: https://www.thequietachievr.com/book",
+      "You can buy it on our website or good bookstores everywhere",
   },
   {
     id: 8,
     question: "I'm very busy. Does this take a lot of time?",
     answer:
-      "No. Each daily habit is bite-sized should not take more than 5 minutes to complete.",
+      "No. Each daily habit is bite-sized takes no more than 5 minutes to complete.",
   },
   {
     id: 9,
