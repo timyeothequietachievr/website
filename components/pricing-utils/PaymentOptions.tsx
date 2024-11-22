@@ -2,7 +2,7 @@ import { Switch } from '@headlessui/react'
 
 interface PaymentOptionsProps {
   onCurrencyChanged: (currency: Currency) => void
-  currency: Currency
+  currency: "PLN"
 }
 
 export function PaymentOptions({
