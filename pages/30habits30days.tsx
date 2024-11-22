@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player/lazy";
-import Pricing from '../components/Pricing'
+import Pricing30Habits30days from '../components/Pricing30Habits30days'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import BeingIntrovertHard from '../components/BeingIntrovertHard'
 import WhatYouWillLearnCourse from '../components/WhatYouWillLearnCourse'
@@ -56,14 +56,14 @@ export default function BookPage() {
       {/* <Reviews30 /> */}
       <Benefits30 />
       <FAQ30 />
-      <Pricing kind="Habits30days30">
+      <Pricing30Habits30days kind="Habits30days30">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           For less than a dollar a day
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-900">
         🔥 <strong>Black Friday</strong>: Buy before 2Dec & get The Quiet Achiever eBook for free
         </p>
-      </Pricing>
+      </Pricing30Habits30days>
       <SignupBookTellYourFriends />
     </PricingContextProvider>
   )
