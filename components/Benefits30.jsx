@@ -30,17 +30,13 @@ export default function IntrovertHardBook() {
                   <li><strong>Proven results:</strong> Watch how others have practiced and improved over time.</li>
                   <li><strong>Practice at a time that suits you:</strong> Morning, afternoon or night; the programme is online 24/7</li>
                 </ul>
-                {/* <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                👉🏻 If your answer is <strong>YES, this book is for you</strong>.
-                </h3> */}
-                <div className="mt-6">
+              </div>
+              <div className="mt-6">
                   <a
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
                     Buy now
                   </a>
-                </div>
-                <p></p>
               </div>
             </div>
           </div>
