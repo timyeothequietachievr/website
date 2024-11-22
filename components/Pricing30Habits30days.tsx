@@ -14,8 +14,10 @@ interface PricingProps
 
 export default function Pricing({ kind, children }: PricingProps) {
   
-  const { onCurrencyChanged, onFrequencyChanged, currency ='PLN', frequency, offers } =
+  const { onCurrencyChanged, onFrequencyChanged, currency: propCurrency, frequency, offers } =
     usePaymentOptions({ kind })
+
+    const currency = kind === 'Habits30days30' ? 'PLN' : propCurrency
 
   return (
     <div
