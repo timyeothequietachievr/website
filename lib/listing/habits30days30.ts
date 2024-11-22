@@ -5,14 +5,25 @@ export function listingOffersFromHabits30days30Offers(
 ): Array<ListingOffer> {
   return Habits30days30.map((Habits30days30Offer) => {
     const { paymentLinks, price } = Habits30days30Offer.paymentOptions[currency];
-    const formattedPrice = new Intl.NumberFormat(
-      userLocale,
-      { 
-        style: 'currency', 
-        currency,
-        currencyDisplay: 'symbol' // Add this line to show only the symbol
-      }
-    ).format(price)
+    // Get just the symbol mapping
+    const symbols = {
+      'USD': '$',
+      'AUD': '$',
+      'CAD': '$',
+      'GBP': '£',
+      'EUR': '€',
+      'SGD': '$',
+      'PLN': 'zł'
+    };
+    
+    // Format the number without currency
+    const numberFormat = new Intl.NumberFormat(userLocale, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    }).format(price);
+    
+    // Combine symbol and number
+    const formattedPrice = `${symbols[currency]}${numberFormat}`;
 
     return {
       heading: {
