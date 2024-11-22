@@ -6,10 +6,25 @@ export function listingOffersFromCoachingOffers(
 ): Array<ListingOffer> {
   return coaching.map((coachingOffer) => {
     const { paymentLinks, price } = coachingOffer.paymentOptions[frequency][currency];
-    const formattedPrice = new Intl.NumberFormat(
-      userLocale,
-      { style: 'currency', currency }
-    ).format(price)
+    // Add currency symbols mapping
+    const symbols = {
+      'USD': '$',
+      'AUD': '$',
+      'CAD': '$',
+      'GBP': '£',
+      'EUR': '€',
+      'SGD': '$',
+      'PLN': 'zł'
+    };
+    
+    // Format the number without currency
+    const numberFormat = new Intl.NumberFormat(userLocale, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    }).format(price);
+    
+    // Combine symbol and number
+    const formattedPrice = `${symbols[currency]}${numberFormat}`;
     const formattedFrequency = formatFrequency(frequency);
 
     return {
