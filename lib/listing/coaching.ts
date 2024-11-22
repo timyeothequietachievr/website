@@ -6,7 +6,7 @@ export function listingOffersFromCoachingOffers(
 ): Array<ListingOffer> {
   return coaching.map((coachingOffer) => {
     const { paymentLinks, price } = coachingOffer.paymentOptions[frequency][currency];
-    // Add currency symbols mapping
+    // Add currency symbols mapping START
     const symbols = {
       'USD': '$',
       'AUD': '$',
@@ -23,9 +23,17 @@ export function listingOffersFromCoachingOffers(
       maximumFractionDigits: 2
     }).format(price);
     
-    // Combine symbol and number
+    // Combine symbol and number END
     const formattedPrice = `${symbols[currency]}${numberFormat}`;
     const formattedFrequency = formatFrequency(frequency);
+
+    /* START // This is formerly what it used to be with currency code in front
+    const formattedPrice = new Intl.NumberFormat(
+      userLocale,
+      { style: 'currency', currency }
+    ).format(price)
+    const formattedFrequency = formatFrequency(frequency);
+    END */
 
     return {
       heading: {
