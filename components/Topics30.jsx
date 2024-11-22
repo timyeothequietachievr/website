@@ -43,8 +43,8 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Network online for real',
-    role: 'Make',
+    name: 'Networking',
+    role: 'Make genuine connections and grow your network in real life',
     imageUrl:
       'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',

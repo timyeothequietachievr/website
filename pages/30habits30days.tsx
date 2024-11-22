@@ -61,7 +61,7 @@ export default function BookPage() {
           For less than a dollar a day
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-900">
-          🔥 Special offer: Buy before 25Dec & get The Quiet Achiever eBook for free
+        🔥 <strong>Black Friday</strong>: Buy before 2Dec & get The Quiet Achiever eBook for free
         </p>
       </Pricing>
       <SignupBookTellYourFriends />

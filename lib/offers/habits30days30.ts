@@ -277,13 +277,13 @@ const Habits30days30: Array<Habits30days30Offer> = [
   },
   */
   {
-    name: '123',
-    badge: '25 Dec',
-    features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author'],
+    name: '30 Days, 30 Habits',
+    badge: 'black friday',
+    features: ['1 email/day for 30 days','Practice in less than 5 minutes a day', 'Available online 24/7', 'No expiry','🔥Free Quiet Achiever eBook'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
-        price: 24.99,
+        price: 29.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/8wM6s2a0XaTZ1xu4jV',
           full: 'https://buy.stripe.com/14k8Aaa0X1jpcc84jl'
@@ -292,7 +292,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
 
       CAD: {
         currency: 'CAD',
-        price: 23.88,
+        price: 29.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/cN2eYy7SP6DJ8ZW6s4',
           full: 'https://buy.stripe.com/14kcQq3Cz2nt0tq9E8'
@@ -310,7 +310,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
 
       GBP: {
         currency: 'GBP',
-        price: 12.99,
+        price: 14.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/5kA6s2flhe6b5NK03I',
           full: 'https://buy.stripe.com/aEUeYy4GD1jpb848A6'
@@ -328,7 +328,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
 
       SGD: {
         currency: 'SGD',
-        price: 22.88,
+        price: 29.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/aEUbMmb51fafa403fW',
           full: 'https://buy.stripe.com/4gw03E4GD9PV5NK8A9'
@@ -337,7 +337,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
 
       USD: {
         currency: 'USD',
-        price: 16.99,
+        price: 29.99,
         paymentLinks: {
           split: 'https://buy.stripe.com/fZebMmgpl4vB0tq5nY',
           full: 'https://buy.stripe.com/00g3fQdd99PV5NK9Ec'

@@ -38,7 +38,7 @@ export default function IntrovertHardBook() {
                   <a
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
-                    Buy now
+                    Less than $1/day
                   </a>
               </div>
             </div>
