@@ -7,7 +7,11 @@ export function listingOffersFromHabits30days30Offers(
     const { paymentLinks, price } = Habits30days30Offer.paymentOptions[currency];
     const formattedPrice = new Intl.NumberFormat(
       userLocale,
-      { style: 'currency', currency }
+      { 
+        style: 'currency', 
+        currency,
+        currencyDisplay: 'symbol' // Add this line to show only the symbol
+      }
     ).format(price)
 
     return {
