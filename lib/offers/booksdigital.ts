@@ -278,7 +278,7 @@ const booksdigital: Array<BookdigitalOffer> = [
   */
   {
     name: 'Everything Digital',
-    badge: '9 Aug',
+    badge: 'Download',
     features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author'],
     paymentOptions: {
       AUD: {
@@ -486,7 +486,7 @@ const booksdigital: Array<BookdigitalOffer> = [
   },*/
   {
     name: 'eBook only',
-    badge: '9Aug',
+    badge: 'Download',
     features: ['📲 ePub, PDF'],
     paymentOptions: {
       AUD: {
@@ -555,7 +555,7 @@ const booksdigital: Array<BookdigitalOffer> = [
   },
   { 
     name: 'Audiobook only',
-    badge: '9Aug',
+    badge: 'Download',
     features: ['🎤 Audiobook narrated by the author'],
     paymentOptions: {
       AUD: {
