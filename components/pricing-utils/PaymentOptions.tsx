@@ -16,8 +16,8 @@ export function PaymentOptions({
         onChange={(event) => onCurrencyChanged(event.target.value as Currency)}
         value={currency}
       >
-        <option value="AUD">Australian Dollar (AUD)</option>
         <option value="USD">US Dollar (USD)</option>
+        <option value="AUD">Australian Dollar (AUD)</option>
         <option value="CAD">Canadian Dollar (CAD)</option>
         <option value="GBP">British Pound (GBP)</option>
         <option value="EUR">Euro (EUR)</option>
