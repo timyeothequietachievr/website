@@ -27,8 +27,8 @@ export default function Pricing({ kind, children }: PricingProps) {
       <div className="mb-6">{children}</div>
       {/*
       <fieldset className="flex gap-5 items-center">
-      <label className="max-w-2xl text-xl text-gray-500">
       
+      <label className="max-w-2xl text-xl text-gray-500">
       <strong>Choose currency:</strong>
         </label>
 
@@ -36,8 +36,9 @@ export default function Pricing({ kind, children }: PricingProps) {
           onCurrencyChanged={onCurrencyChanged}
           currency={currency}
         />
-      </fieldset>
         
+      </fieldset>
+      */}  
       <Listing>
         {offers.map((offer, idx) => (
           <Listing.Offer
@@ -54,7 +55,7 @@ export default function Pricing({ kind, children }: PricingProps) {
           />
         ))}
       </Listing>
-      */}
+      
     </div>
   )
 }
