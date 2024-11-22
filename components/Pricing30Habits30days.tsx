@@ -25,9 +25,10 @@ export default function Pricing({ kind, children }: PricingProps) {
       id="pricing"
     >
       <div className="mb-6">{children}</div>
-      
+      {/*
       <fieldset className="flex gap-5 items-center">
       <label className="max-w-2xl text-xl text-gray-500">
+      
       <strong>Choose currency:</strong>
         </label>
 
@@ -53,6 +54,7 @@ export default function Pricing({ kind, children }: PricingProps) {
           />
         ))}
       </Listing>
+      */}
     </div>
   )
 }
