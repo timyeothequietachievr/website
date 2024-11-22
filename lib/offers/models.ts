@@ -57,6 +57,13 @@ interface CoachingOffer extends Offer {
   >
 }
 
+interface Habits30days30Offer extends Offer {
+  /*
+   * A course has a single price which can be paid either in full or in 4 installments.
+   */
+  paymentOptions: Record<Currency, Payment<SplitPayment & FullPayment>>
+}
+
 interface CallToAction {
   label: string
   link: string

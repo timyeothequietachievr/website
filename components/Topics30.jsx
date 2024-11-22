@@ -4,7 +4,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 const people = [
   {
     name: 'Introducing yourself',
-    role: 'Create a small introduction',
+    role: 'Craft and practice a small introduction you can use for work confidently',
     imageUrl:
       'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -12,15 +12,15 @@ const people = [
   },
   {
     name: 'Making small talk in real life',
-    role: 'A framework for developing small talk topics that feel natural to you, how to build a connection with others and how to avoid awkward silences.',
+    role: 'Avoid awkward silences and build connections in real life by making small talk on the spot using topics that come naturally to you',
     imageUrl:
       'src/topic-smalltalk.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'Tactics when you are put on the spot in meetings and have nothing to say',
-    role: 'How to speak up before you are ready, be more visible in your organisation and make space in your day for focus-work.',
+    name: 'Tactics when you are put on the spot in meetings (and have nothing to say)',
+    role: 'Practice speaking up before you are ready, be more visible in meetings so your team benefits from your ideas',
     imageUrl:
       'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -28,7 +28,7 @@ const people = [
   },
   {
     name: 'Public speaking confidently',
-    role: 'Types of public speaking scripts and how to prepare and practice so you communicate with purpose and clarity.',
+    role: 'Prepare and practice a script so you communicate with purpose and clarity',
     imageUrl:
       'src/topic-publicspeaking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -44,15 +44,7 @@ const people = [
   },
   {
     name: 'Network online for real',
-    role: 'Saying Yes when you think No is not sustainable. Try practical tips on how to push back.',
-    imageUrl:
-      'src/topic-sayingnopolitely.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    xUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Make yourself more visible',
-    role: 'Understand the true purpose of networking and try practical techniques to network online and in real life.',
+    role: 'Make',
     imageUrl:
       'src/topic-networking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',

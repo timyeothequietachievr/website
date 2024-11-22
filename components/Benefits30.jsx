@@ -21,7 +21,6 @@ export default function IntrovertHardBook() {
                 Why join? 
               </h3>
               <p className="mt-8 text-lg text-gray-500">
-              
               </p>
               <div className="mt-6 prose prose-indigo text-xl">
                 <ul role="list">
@@ -30,15 +29,14 @@ export default function IntrovertHardBook() {
                   <li><strong>Support and accountability:</strong> Practice alongside others who understand your challenges.</li>
                   <li><strong>Proven results:</strong> Watch how others have practiced and improved over time.</li>
                   <li><strong>Practice at a time that suits you:</strong> Morning, afternoon or night; the programme is online 24/7</li>
-              </ul>
+                </ul>
                 {/* <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 👉🏻 If your answer is <strong>YES, this book is for you</strong>.
-              </h3> */}
-              <div className="mt-6">
+                </h3> */}
+                <div className="mt-6">
                   <a
                     href="#pricing"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
                     Buy now
                   </a>
                 </div>

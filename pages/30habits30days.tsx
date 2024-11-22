@@ -51,23 +51,17 @@ export default function BookPage() {
       <Masthead30 />
       <Hero30 />
       <HowItWorks30 />
-      <Testimonials30 />
+      {/* <Testimonials30 /> */}
       <Topics30 />
       {/* <Reviews30 /> */}
       <Benefits30 />
       <FAQ30 />
       <Pricing kind="bookdigital">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          eBook and Audiobook
+          For less than a dollar a day
         </h2>
-        <p className="mt-6 max-w-2xl text-xl text-gray-500">
-        </p>
-      </Pricing>
-      <Pricing kind="bookphysical">
-        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Hardcover and Paperback
-        </h2>
-        <p className="mt-6 max-w-2xl text-xl text-gray-500">
+        <p className="mt-6 max-w-2xl text-xl text-gray-900">
+          🔥 Special offer: Buy before 25Dec and get The Quiet Achiever eBook for free
         </p>
       </Pricing>
       <SignupBookTellYourFriends />

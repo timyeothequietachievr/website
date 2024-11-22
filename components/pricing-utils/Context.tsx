@@ -15,6 +15,9 @@ import { listingOffersFromBookDigitalOffers } from '../../lib/listing/booksdigit
 import bookphysicalOffers from '../../lib/offers/booksphysical'
 import { listingOffersFromBookPhysicalOffers } from '../../lib/listing/booksphysical'
 
+import Habits30days30Offers from '../../lib/offers/habits30days30'
+import { listingOffersFromHabits30days30Offers } from '../../lib/listing/habits30days30'
+
 localforage.config({
   name: 'thequietachivr',
   description: 'User settings for thequietachivr.com'

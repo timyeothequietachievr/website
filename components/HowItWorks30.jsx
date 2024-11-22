@@ -30,18 +30,17 @@ export default function IntrovertHardBook() {
                   <li>At the end of the 30 days, you’d have practiced 30 tiny habits from the book</li>
                 </ul>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Practice along with other quiet achievers in the programme; you don't have to do this own your own. 
+                You don't have to do this own your own. 
                 </h3>
                 <p></p>
               </div>
               <div className="mt-6">
                   <a
                     href="#pricing"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
                     Buy now
                   </a>
-                </div>
+              </div>
             </div>
           </div>
         </div>
