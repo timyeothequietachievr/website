@@ -56,12 +56,12 @@ export default function BookPage() {
       {/* <Reviews30 /> */}
       <Benefits30 />
       <FAQ30 />
-      <Pricing kind="bookdigital">
+      <Pricing kind="Habits30days30">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           For less than a dollar a day
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-900">
-          🔥 Special offer: Buy before 25Dec and get The Quiet Achiever eBook for free
+          🔥 Special offer: Buy before 25Dec & get The Quiet Achiever eBook for free
         </p>
       </Pricing>
       <SignupBookTellYourFriends />

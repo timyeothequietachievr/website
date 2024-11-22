@@ -87,7 +87,7 @@ export function PricingContextConsumer({ children }) {
   )
 }
 
-export type OfferKind = 'course' | 'coaching' | 'one-each' | 'all' | 'bookdigital' | 'bookphysical'
+export type OfferKind = 'course' | 'coaching' | 'one-each' | 'all' | 'bookdigital' | 'bookphysical' | 'Habits30days30'
 
 interface UsePaymentOptionsProps {
   kind: OfferKind
@@ -113,6 +113,10 @@ export function usePaymentOptions({ kind }: UsePaymentOptionsProps) {
 
     get bookphysical() {
       return listingOffersFromBookPhysicalOffers(bookphysicalOffers, currency, userLocale)
+    },
+
+    get Habits30days30() {
+      return listingOffersFromHabits30days30Offers(Habits30days30Offers, currency, userLocale)
     },
 
     get coaching() {
@@ -141,9 +145,12 @@ export function usePaymentOptions({ kind }: UsePaymentOptionsProps) {
         case 'one-each':
           return [offers.coaching[0], offers.course[0]]
 
+          case 'Habits30days30':
+            return offers.Habits30days30
+
         case 'all':
         default:
-          return [...offers.coaching, ...offers.course, ...offers.bookdigital, , ...offers.bookphysical]
+          return [...offers.coaching, ...offers.course, ...offers.Habits30days30, ...offers.bookdigital, , ...offers.bookphysical]
       }
     }
   }
