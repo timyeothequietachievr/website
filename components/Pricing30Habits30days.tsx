@@ -14,7 +14,7 @@ interface PricingProps
 
 export default function Pricing({ kind, children }: PricingProps) {
   
-  const { onCurrencyChanged, onFrequencyChanged, currency = 'PLN', frequency, offers } =
+  const { onCurrencyChanged, onFrequencyChanged, currency, frequency, offers } =
     usePaymentOptions({ kind })
 
   return (

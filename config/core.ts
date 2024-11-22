@@ -14,7 +14,7 @@ export const siteMetaData = {
 }
 /* Below is where you change the default currency dropdown menu for the whole website */
 export const listingMetaData = {
-  currency: 'USD',
+  currency: 'PLN',
   frequency: 'yearly',
   get userLocale() {
     return typeof navigator !== 'undefined' ? navigator.language : 'en'
