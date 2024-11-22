@@ -5,11 +5,32 @@ export function listingOffersFromBookPhysicalOffers(
 ): Array<ListingOffer> {
   return booksphysical.map((bookphysicalOffer) => {
     const { paymentLinks, price } = bookphysicalOffer.paymentOptions[currency];
+    // Get just the symbol mapping
+    const symbols = {
+      'USD': '$',
+      'AUD': '$',
+      'CAD': '$',
+      'GBP': '£',
+      'EUR': '€',
+      'SGD': '$',
+      'PLN': 'zł'
+    };
+    
+    // Format the number without currency
+    const numberFormat = new Intl.NumberFormat(userLocale, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    }).format(price);
+    
+    // Combine symbol and number
+    const formattedPrice = `${symbols[currency]}${numberFormat}`;
+    
+    /* START
     const formattedPrice = new Intl.NumberFormat(
       userLocale,
       { style: 'currency', currency }
     ).format(price)
-
+    END */
     return {
       heading: {
         title: formattedPrice,
