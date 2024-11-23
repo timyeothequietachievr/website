@@ -16,12 +16,11 @@ export default function MastheadBook() {
         master people skills with confidence, one tiny habit at a time
         </p>
         {/*// Suggested code */}
-        <div className="w-full max-w-3xl mx-auto aspect-video relative">
+        <div className="w-full max-w-3xl mx-auto">
           <ReactPlayer 
             url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" 
-            className="absolute top-0 left-0"
             width="100%"
-            height="100%"
+            height="360px"
             controls={true}
           />
         </div>
