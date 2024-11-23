@@ -14,7 +14,7 @@ export default function Toaster() {
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
               <a href="https://www.thequietachievr.com/30habits30days" className="text-white font-bold underline">
                 {' '}
-                Buy 30 habits, 30 days - Get eBook for free<span aria-hidden="true">&rarr;</span>
+                Buy 30 habits in 30 days - Get The Quiet Achiever eBook for free<span aria-hidden="true">&rarr;</span>
               </a>
             </span>
             {/* gift it
