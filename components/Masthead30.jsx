@@ -15,7 +15,19 @@ export default function MastheadBook() {
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         master people skills with confidence, one tiny habit at a time
         </p>
+        {/*// Suggested code */}
+        <div className="relative pt-[56.25%] w-full max-w-3xl mx-auto">
+          <ReactPlayer 
+          url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" 
+          className="absolute top-0 left-0" 
+          width="100%"
+          height="100%"
+          controls={true}
+          />
+        </div>
+        {/* BEFORE
         <ReactPlayer url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" className="w-full h-auto my-8 mx-auto" controls={true} />
+        */}
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div>
             <a              

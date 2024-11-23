@@ -64,7 +64,7 @@ export default function BackstoryPage() {
       {/* <Testimonials /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
-      <TitleSampleCourseVideos />
+      {/* <TitleSampleCourseVideos /> */}
     </PricingContextProvider>
   )
 }
