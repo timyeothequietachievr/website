@@ -95,7 +95,7 @@ export default function App({ Component, pageProps }) {
         }}
       />
       
-      {/*  <Toaster /> */}
+      <Toaster />
       <Navigation items={navigationItems} />
       <Component {...pageProps} />
       <Footer />

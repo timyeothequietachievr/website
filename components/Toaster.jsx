@@ -8,13 +8,13 @@ export default function Toaster() {
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">
             {/* Black Friday 30 Habits 30 Days*/}
-            <span className="md:hidden">🔥Black Friday: Buy 30 habits, 30 days - Get eBook for free</span>
-            <span className="hidden md:inline">🗣 1:1 coaching </span>
+            <span className="md:hidden">🔥Black Friday: </span>
+            <span className="hidden md:inline">🔥Black Friday: </span>
             <span className="block sm:ml-2 sm:inline-block">
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline">
+              <a href="https://www.thequietachievr.com/30habits30days" className="text-white font-bold underline">
                 {' '}
-                free signup<span aria-hidden="true">&rarr;</span>
+                Buy 30 habits, 30 days - Get eBook for free<span aria-hidden="true">&rarr;</span>
               </a>
             </span>
             {/* gift it
