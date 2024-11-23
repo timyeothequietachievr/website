@@ -14,12 +14,12 @@ export default function BookHero() {
                   Introducing<br />30 habits in 30 days
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-xl text-gray-900">
-                <br /><br />Practise together.<br />1 habit a day. <br />Less than a dollar a day.<br /><br />
+                <br /><br />Practise 30 habits from the book.<br />1 habit a day. <br />Less than a dollar a day.<br /><br />
                 </p>
               </div>
               <div className="mt-6">
                 <a
-                  href="pages/30habits30days"
+                  href="30habits30days"
                   className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Learn more

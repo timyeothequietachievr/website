@@ -19,7 +19,7 @@ export default function MastheadBook() {
         {/*// Suggested code */}
         <div className="w-full max-w-3xl mx-auto">
           <ReactPlayer 
-            url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" 
+            url="https://youtu.be/ZrtWg7pUZuc" 
             width="100%"
             height="480px"
             controls={true}
