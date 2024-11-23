@@ -17,25 +17,24 @@ export default function BookHero() {
                 <br /><br />Practice habits from the book for less than a dollar a day<br /><br />
                 </p>
               </div>
+              <div className="mt-6">
+                <a
+                  href="#pricing"
+                  className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                >
+                  Check it out
+                </a>
+              </div> 
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="https://www.youtube.com/embed/QRn5SFM97pA"
+                src="src/30habits-hero.jpg"
                 alt="Learn more about 30 habits in 30 days"
               />
-            </div>
-            <div className="mt-6">
-              <a
-                href="#pricing"
-                className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
-              >
-                Check it out
-              </a>
-            </div>  
+            </div> 
           </div>
         </div>
       </div>
