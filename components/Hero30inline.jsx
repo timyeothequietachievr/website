@@ -11,7 +11,7 @@ export default function BookHero() {
             <div id="bookupdates">
               <div className="mt-6">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  Introducing 30 habits in 30 days
+                  Introducing<br /><br />30 habits in 30 days
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-xl text-gray-900">
                 <br /><br />Practice habits from the book for less than a dollar a day<br /><br />
