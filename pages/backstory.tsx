@@ -38,6 +38,7 @@ import TestimonialLargeAvatar3 from '../components/TestimonialLargeAvatar3'
 import TestimonialLargeAvatar4 from '../components/TestimonialLargeAvatar4'
 import IntroTQA from '../components/IntroTQA'
 import Backstories from '../components/Backstories'
+import TitleSampleCourseVideos from '../components/TitleSampleCourseVideos'
 
 export default function BackstoryPage() {
   return (
@@ -63,6 +64,7 @@ export default function BackstoryPage() {
       {/* <Testimonials /> */}
       {/* <Gift /> */}
       {/*<Gift2 /> */}
+      <TitleSampleCourseVideos />
     </PricingContextProvider>
   )
 }
