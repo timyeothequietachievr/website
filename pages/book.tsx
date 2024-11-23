@@ -42,6 +42,7 @@ import SignupBookTellYourFriends from '../components/SignupBookTellYourFriends'
 import HeroBookDownloads from '../components/HeroBookDownloads'
 import TopicsGoodBookStores from '../components/TopicsGoodBookStores'
 import QuotesFromTheBook from '../components/QuotesFromTheBook'
+import Hero30inline from '../components/Hero30inline'
 
 export default function BookPage() {
   return (
@@ -90,6 +91,7 @@ export default function BookPage() {
       {/* <Gift /> */}
       {/*<Gift2 /> */}
       {/* <NewsletterConvertkit /> */}
+      <Hero30inline /> 
       <SignupBookTellYourFriends />
     </PricingContextProvider>
   )

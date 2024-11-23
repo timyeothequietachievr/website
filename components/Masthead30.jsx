@@ -12,7 +12,8 @@ export default function MastheadBook() {
           <span className="block text-indigo-600 xl:inline">30 days</span>{' '}
           {/* <span className="block xl:inline">to have</span>{' '} */}
         </h1>
-        <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        {/*// BEFORE <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"> */}
+        <p className="mt-3 mx-auto px-4 text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl max-w-[280px] sm:max-w-3xl">    
         master people skills with confidence, one tiny habit at a time
         </p>
         {/*// Suggested code */}
@@ -20,7 +21,7 @@ export default function MastheadBook() {
           <ReactPlayer 
             url="https://www.youtube.com/watch?v=_ZUbIJcvTlM" 
             width="100%"
-            height="360px"
+            height="480px"
             controls={true}
           />
         </div>
