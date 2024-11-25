@@ -12,7 +12,7 @@ export default function Toaster() {
             <span className="hidden md:inline">🔥Black Friday: </span>
             <span className="block sm:ml-2 sm:inline-block">
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
-              <a href="https://www.thequietachievr.com/30habits30days" className="text-white font-bold underline">
+              <a href="30habits30days" className="text-white font-bold underline">
                 {' '}
                 Buy 30 habits in 30 days - Get The Quiet Achiever eBook for free<span aria-hidden="true">&rarr;</span>
               </a>

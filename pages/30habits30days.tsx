@@ -64,7 +64,7 @@ export default function BookPage() {
         🔥 <strong>Black Friday</strong>: Buy before 2Dec & get The Quiet Achiever eBook for free
         </p>
       </Pricing30Habits30days>
-      <SignupBookTellYourFriends />
+      {/* <SignupBookTellYourFriends /> */}
     </PricingContextProvider>
   )
 }
