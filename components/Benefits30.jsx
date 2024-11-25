@@ -4,11 +4,11 @@ export default function IntrovertHardBook() {
     return (
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
-          <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+          <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
             <img
               /* className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" */
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
+              className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src={"src/30habits-whyjoin.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"}
               alt=""
             />
@@ -24,18 +24,18 @@ export default function IntrovertHardBook() {
               </p>
               <div className="mt-6 prose prose-indigo text-xl">
                 <ul role="list">
-                  <li><strong>Daily practice:</strong> Receive 1 habit per day, directly in your inbox</li>
-                  <li><strong>Bite-sized and actionable:</strong> Each habit takes less than 5 minutes to practice, making it easy to fit into your day</li>
-                  <li><strong>Support and accountability:</strong> Practice alongside others who understand your challenges.</li>
-                  <li><strong>Proven results:</strong> Watch how others have practiced and improved over time.</li>
-                  <li><strong>Practice at a time that suits you:</strong> Morning, afternoon or night; the programme is online 24/7</li>
+                  <li><strong>Daily practise:</strong> Receive 1 habit per day, directly in your inbox</li>
+                  <li><strong>Bite-sized and actionable:</strong> Each habit takes less than 5 minutes to practise, making it easy to fit into your day</li>
+                  <li><strong>Support and accountability:</strong> Practise alongside others who understand your challenges.</li>
+                  <li><strong>Proven results:</strong> Watch how others have practised and improved over time.</li>
+                  <li><strong>Practise at a time that suits you:</strong> Morning, afternoon or night; the programme is online 24/7</li>
                 </ul>
               </div>
               <div className="mt-6">
                   <a
                     href="#pricing"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
-                    Buy now
+                    Start practising today
                   </a>
               </div>
             </div>

@@ -4,7 +4,7 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 const people = [
   {
     name: 'Introducing yourself',
-    role: 'Craft and practice a small introduction you can use for work confidently',
+    role: 'Craft and practise a small introduction you can use for work confidently',
     imageUrl:
       'src/topic-introducingyourself.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -20,7 +20,7 @@ const people = [
   },
   {
     name: 'Tactics when you are put on the spot in meetings (and have nothing to say)',
-    role: 'Practice speaking up before you are ready, be more visible in meetings so your team benefits from your ideas',
+    role: 'Practise speaking up before you are ready, be more visible in meetings so your team benefits from your ideas',
     imageUrl:
       'src/topic-meetings.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',
@@ -28,7 +28,7 @@ const people = [
   },
   {
     name: 'Public speaking confidently',
-    role: 'Prepare and practice a script so you communicate with purpose and clarity',
+    role: 'Prepare and practise a script so you communicate with purpose and clarity',
     imageUrl:
       'src/topic-publicspeaking.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     xUrl: '#',

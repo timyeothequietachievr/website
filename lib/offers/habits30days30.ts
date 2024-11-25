@@ -2,7 +2,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
   {
     name: '30 Habits in 30 Days',
     badge: 'Black Friday',
-    features: ['1 email/day for 30 days','Practice in less than 5 minutes a day', 'Available online 24/7', 'No expiry','🔥Free Quiet Achiever eBook'],
+    features: ['1 email/day for 30 days','Practise in less than 5 minutes/day', 'Available online 24/7', 'No expiry','🔥Free Quiet Achiever eBook'],
     paymentOptions: {
       AUD: {
         currency: 'USD',

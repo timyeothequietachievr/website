@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     id: 4,
-    question: "Can I come back and re-practice the habits?",
+    question: "Can I come back and re-practise the habits?",
     answer:
       "Yes.",
   },
@@ -27,13 +27,13 @@ const faqs = [
     id: 5,
     question: "I have not finished reading the book. Can I start?",
     answer:
-      "Yes. Every exercise comes with a short explanation of the habit before you practice. If you need more context, read the relevant chapter for the day.",
+      "Yes. Every exercise comes with a short explanation of the habit before you practise. If you need more context, read the relevant chapter for the day.",
   },
   {
     id: 6,
     question: "I do not have the book. Can I start?",
     answer:
-      "Yes. Every exercise comes with a short explanation of the habit before you practice. If you need more context, read the book.",
+      "Yes. Every exercise comes with a short explanation of the habit before you practise. If you need more context, read the book.",
   },
   {
     id: 7,
@@ -51,7 +51,7 @@ const faqs = [
     id: 9,
     question: "What happens if I miss a day?",
     answer:
-      "The content will still be accessible online. Come back and practice another day.",
+      "The content will still be accessible online. Come back and practise another day.",
   },
   {
     id: 10,
