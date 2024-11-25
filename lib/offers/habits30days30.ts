@@ -53,7 +53,7 @@ const Habits30days30: Array<Habits30days30Offer> = [
         currency: 'USD',
         price: 29.99,
         paymentLinks: {
-          split: https://buy.stripe.com/7sIcQq1urfafekgbNe',
+          split: 'https://buy.stripe.com/7sIcQq1urfafekgbNe',
           full: 'https://buy.stripe.com/eVa2bMc959PV7VS6sT'
         }
       },
