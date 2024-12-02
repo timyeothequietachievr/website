@@ -21,8 +21,8 @@ export default function MastheadCourses() {
               href="#pricing"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               data-event-category="purchase"
-              data-event-action="buy_now_click"
-              data-event-label="masthead cta"
+              data-event-action="click_buy_now"
+              data-event-label="cta_courses_masthead"
             >
               Buy Now
             </a>

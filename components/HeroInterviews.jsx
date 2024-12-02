@@ -60,6 +60,9 @@ export default function CourseInterviews() {
                 <div className="mt-6">
                   <a
                     href="#pricing"
+                    data-event-category="purchase"
+                    data-event-action="click_buy_now"
+                    data-event-label="cta_school_interviews"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Start right now

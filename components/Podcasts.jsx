@@ -19,6 +19,9 @@ export default function Podcasts() {
                 <div className="mt-6">
                   <a
                     href="https://www.youtube.com/watch?v=q7bMuU8aqUY"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_larry"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now 
@@ -56,6 +59,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://podcasts.apple.com/au/podcast/the-quiet-leader-strategies-for-introverts-with-tim-yeo/id1350595015?i=1000611676060"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_uxcake"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -92,6 +98,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://uxpodcast.com/296-introverts-tim-yeo/"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_uxpodcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now 
@@ -128,6 +137,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://www.designfeeling.co/design-leadership-for-introverts-with-tim-yeo/"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_designfeeling"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -164,6 +176,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://podcasts.apple.com/ph/podcast/14-the-remote-conference-keynote-speakers-ucd/id1591604213?i=1000564673772"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_understandingusers"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now 
@@ -200,6 +215,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://open.spotify.com/episode/2Ds4joYDHHqPyEi53lQFd2"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_ixdasydney"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -236,6 +254,9 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://open.spotify.com/episode/5mSLWrX174tx47ICfepU1r"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_uxmaturity"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now 
