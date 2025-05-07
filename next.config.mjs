@@ -3,8 +3,13 @@ const amazonBookReviewsUrl = new URL(
 );
 const tipJarUrl = new URL(
   'https://thequietachievr.kit.com/products/tip-jar'
+);
+const BuyBookOnAmazonUrl = new URL(
+  'https://mybook.to/thequietachiever/opt/1?iguid=xLjtcoXHrU-ZJo3Vz-0k1Q'
+);
+const newsletterUrl = new URL(
+  'https://www.thequietachievr.com/book#newsletter'
 )
-
 
 const nextConfig = {
   async redirects() {
@@ -17,6 +22,16 @@ const nextConfig = {
       {
         source: '/tipjar',
         destination: tipJarUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/amazon',
+        destination: BuyBookOnAmazonUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/newsletter',
+        destination: newsletterUrl.toString(),
         permanent: true,
       },
     ]
