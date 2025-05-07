@@ -9,6 +9,12 @@ const BuyBookOnAmazonUrl = new URL(
 );
 const newsletterUrl = new URL(
   'https://www.thequietachievr.com/book#newsletter'
+);
+const ConvinceYourBossUrl = new URL(
+  'https://www.convinceyourboss.com/'
+);
+const TooValuableToLoseUrl = new URL(
+  'https://www.toovaluabletolose.com/'
 )
 
 const nextConfig = {
@@ -32,6 +38,16 @@ const nextConfig = {
       {
         source: '/newsletter',
         destination: newsletterUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/convinceyourboss',
+        destination: ConvinceYourBossUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/toovaluabletolose',
+        destination: TooValuableToLoseUrl.toString(),
         permanent: true,
       },
     ]
