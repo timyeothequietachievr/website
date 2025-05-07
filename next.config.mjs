@@ -16,6 +16,16 @@ const ConvinceYourBossUrl = new URL(
 const TooValuableToLoseUrl = new URL(
   'https://www.toovaluabletolose.com/'
 )
+const MeetTheTrainerConvinceUrl = new URL(
+  'https://calendar.app.google/YGkqSkuNjCGKhic5A'
+);
+const MeetTheTrainerTooValuableUrl = new URL(
+  'https://calendar.app.google/G43SJXZsECYMP8xaA'
+);
+const MeetFreestUrl = new URL(
+  'https://calendar.app.google/aqqqYLnrq8vePFnz7'
+);
+
 
 const nextConfig = {
   async redirects() {
@@ -48,6 +58,21 @@ const nextConfig = {
       {
         source: '/toovaluabletolose',
         destination: TooValuableToLoseUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/meetconvince',
+        destination: MeetTheTrainerConvinceUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/meettoovaluable',
+        destination: MeetTheTrainerTooValuableUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/freest',
+        destination: MeetFreestUrl.toString(),
         permanent: true,
       },
     ]
