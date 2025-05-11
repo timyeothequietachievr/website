@@ -25,6 +25,12 @@ const MeetTheTrainerTooValuableUrl = new URL(
 const MeetFreestUrl = new URL(
   'https://calendar.app.google/aqqqYLnrq8vePFnz7'
 );
+const FollowOnLinkedinUrl = new URL(
+  'https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=timyeo'
+);
+const SubscribeOnYouTubeUrl = new URL(
+  'https://www.youtube.com/@thequietachievr?sub_confirmation=1'
+);
 
 
 const nextConfig = {
@@ -75,8 +81,19 @@ const nextConfig = {
         destination: MeetFreestUrl.toString(),
         permanent: true,
       },
+      {
+        source: '/followonlinkedin',
+        destination: FollowOnLinkedinUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/youtube',
+        destination: SubscribeOnYouTubeUrl.toString(),
+        permanent: true,
+      },
+      
     ]
   }
 }
 
-export default nextConfig
+export default nextConfig 
