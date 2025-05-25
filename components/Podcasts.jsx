@@ -20,7 +20,7 @@ export default function Podcasts() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://www.thisishcd.com/episode/unlocking-the-power-of-introversion-in-leadership-workplaces"
                     data-event-category="explore"
                     data-event-action="click_learn_more"
                     data-event-label="cta_podcast_HCDpodcast"
