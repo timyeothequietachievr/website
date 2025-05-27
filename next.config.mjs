@@ -31,6 +31,9 @@ const FollowOnLinkedinUrl = new URL(
 const SubscribeOnYouTubeUrl = new URL(
   'https://www.youtube.com/@thequietachievr?sub_confirmation=1'
 );
+const SpeakBioUrl = new URL(
+  'https://docs.google.com/document/d/1Fr3IjH0RIn8YzR8MWHUT-ZyLlACqhGTg6sn1GLBSSD0/edit?usp=sharing'
+);
 
 
 const nextConfig = {
@@ -89,6 +92,11 @@ const nextConfig = {
       {
         source: '/youtube',
         destination: SubscribeOnYouTubeUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/speakerbio',
+        destination: SpeakBioUrl.toString(),
         permanent: true,
       },
       
