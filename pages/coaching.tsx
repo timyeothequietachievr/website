@@ -36,7 +36,7 @@ export default function CoachingPage() {
       {/* <BeingIntrovertHard /> */}
       {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
-       <WhatYouWillLearn /> */}
+      {/* <WhatYouWillLearn /> */}
       <TestimonialCoaching3 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
