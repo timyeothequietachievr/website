@@ -27,7 +27,7 @@ import Gift2 from '../components/Gift2'
 import HowItWorks from '../components/HowItWorks'
 import { PricingContextProvider } from '../components/pricing-utils/Context'
 import AboutCoaching from '../components/AboutCoaching'
-
+import HeroCoaching from '../components/HeroCoaching'
 export default function CoachingPage() {
   return (    
     <PricingContextProvider>
@@ -36,20 +36,23 @@ export default function CoachingPage() {
       {/* <BeingIntrovertHard /> */}
       {/* <IntroTQA /> */}
       {/* <HowItWorks /> */}
-      {/* <WhatYouWillLearn /> */}
+       <WhatYouWillLearn /> */}
       <TestimonialCoaching3 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />
       <TestimonialCoaching1 />
       <TestimonialCoaching2 />
+      <HeroCoaching />
+      {/*
       <PricingCoaching kind="coaching">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Coaching
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
         </p>
-      </PricingCoaching>
+      </PricingCoaching>  
+      */}
       <Testimonials />
     </PricingContextProvider>
   )

@@ -25,6 +25,12 @@ const MeetTheTrainerTooValuableUrl = new URL(
 const MeetFreestUrl = new URL(
   'https://calendar.app.google/aqqqYLnrq8vePFnz7'
 );
+const MeetCoachingChemistryCall20minUrl = new URL(
+  'https://calendar.app.google/g3oUK69XeEQ5ao4o6'
+);
+const MeetCoachingDeepDiveCallUrl = new URL(
+  'https://calendar.app.google/chzxSEei1ANTBm5X6'
+);
 const FollowOnLinkedinUrl = new URL(
   'https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=timyeo'
 );
@@ -82,6 +88,16 @@ const nextConfig = {
       {
         source: '/freest',
         destination: MeetFreestUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/chemistrycall',
+        destination: MeetCoachingChemistryCall20minUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/deepdive',
+        destination: MeetCoachingDeepDiveCallUrl.toString(),
         permanent: true,
       },
       {
