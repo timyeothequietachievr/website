@@ -16,7 +16,7 @@ export default function MastheadCoaching() {
         who want to be leaders, be seen, be heard
         </p>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-800 font-bold sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        but work in places with strong opinions and loud voices.
+        but work in places with strong opinions & loud voices.
         </p>
         {/*}
         <div className="mt-5 px-4 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
