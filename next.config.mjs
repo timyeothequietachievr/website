@@ -46,7 +46,9 @@ const ProposalUrl = new URL(
 const StoryOfYouUrl = new URL(
   'https://youtu.be/g7L9x1J8SI4'
 );
-
+const MeetCoachingLarryTimUrl = new URL(
+  'https://calendar.app.google/ChY14tzQHX6Btvik7'
+);
 
 const nextConfig = {
   async redirects() {
@@ -131,6 +133,12 @@ const nextConfig = {
         destination: StoryOfYouUrl.toString(),
         permanent: true,
       },
+      {
+        source: '/coachinglarryandtim',
+        destination: MeetCoachingLarryTimUrl.toString(),
+        permanent: true,
+      },
+
 
     ]
   }
