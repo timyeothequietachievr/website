@@ -40,6 +40,12 @@ const SubscribeOnYouTubeUrl = new URL(
 const SpeakBioUrl = new URL(
   'https://docs.google.com/document/d/1Fr3IjH0RIn8YzR8MWHUT-ZyLlACqhGTg6sn1GLBSSD0/edit?usp=sharing'
 );
+const ProposalUrl = new URL(
+  'https://youtu.be/ACvWsSzJ3ns'
+);
+const StoryOfYouUrl = new URL(
+  'https://youtu.be/g7L9x1J8SI4'
+);
 
 
 const nextConfig = {
@@ -115,7 +121,17 @@ const nextConfig = {
         destination: SpeakBioUrl.toString(),
         permanent: true,
       },
-      
+      {
+        source: '/proposal',
+        destination: ProposalUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/storyofyou',
+        destination: StoryOfYouUrl.toString(),
+        permanent: true,
+      },
+
     ]
   }
 }
