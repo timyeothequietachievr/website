@@ -49,6 +49,12 @@ const StoryOfYouUrl = new URL(
 const MeetCoachingLarryTimUrl = new URL(
   'https://calendar.app.google/ChY14tzQHX6Btvik7'
 );
+const ApplyCoachingLarryTimUrl = new URL(
+  'https://docs.google.com/forms/d/e/1FAIpQLSdfZ9iDHi22mNxI2vh1KwinaqgGJCuKtflCGhNAncaVz3sBnw/viewform?usp=sharing&ouid=113998785391257342366'
+);
+const ApplyCoachingUrl = new URL(
+  'https://forms.gle/3NDnX989HwCbMeLQA'
+);
 
 const nextConfig = {
   async redirects() {
@@ -134,11 +140,21 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/coachinglarryandtim',
+        source: '/meetlarryandtim',
         destination: MeetCoachingLarryTimUrl.toString(),
         permanent: true,
       },
-
+      {
+        source: '/applylarryandtim',
+        destination: ApplyCoachingLarryTimUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/applyforcoaching',
+        destination: ApplyCoachingUrl.toString(),
+        permanent: true,
+      },
+      
 
     ]
   }
