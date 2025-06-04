@@ -17,13 +17,14 @@ export default function AboutCoaching() {
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
-          <li><strong>Quiet leadership:</strong> You are quiet by nature and identify as an introvert; you are not quite sure how to lead when every other leader around you behaves like an extrovert</li>
-          <li><strong> Get promoted:</strong> You want to be promoted to a leadership role your boss says "you are not ready", you feel stuck and you don't know what to do to get there</li>
-          <li><strong>Be more visible:</strong> You do great work but wish you were more seen and visible in your organisation and industry</li>
-          <li><strong>Public speaking:</strong> You have just said yes to a major public talk/event/podcast, it's coming soon and you don't know what to do next</li>
-          <li><strong>Interview rehearsal:</strong> You are interviewing for a job you really like and want to show up as the best version of yourself</li>
-          <li><strong>Interview preparation:</strong> You are interviewing for roles, you've done good work but somehow you never get picked</li>
-          <li><strong>Grow your network:</strong> As a quiet person, I hate networking events. I'll show you how to grow your network in less painful ways</li>
+          <li><strong>New quiet leader:</strong> You are quiet by nature. You've been made a leader. You're feeling strong imposter syndrome. Every other leader around you is loud and has strong opinions. Your team is looking to you for answers, but you're unsure of what you are doing</li>
+          <li><strong>Self promotion:</strong> You do great work and have huge successes but wish you could be more visible and talk about your wins without feeling like you're bragging</li>
+          <li><strong>Talk like a leader:</strong> You have the technical skills and the great ideas but you're not confident in convincing others and public speaking</li>
+          <li><strong>Friction with strong opinions:</strong> They talk louder, got strong points of view and you don't know how to say no or handle their difficult conversations</li>
+          <li><strong>Thought leader:</strong> A major presentation/public talk/event/podcast is coming; you're nervous about speaking in front of a big group and being put on the spot</li>
+          <li><strong>Interview preparation and rehearsal:</strong> You got the skills, you got the experience for the job you really want but somehow you never get picked</li>
+          <li><strong>Get promoted:</strong> You want to be promoted to a leadership role but your boss says "you are not ready", you feel stuck and you don't know what to do to get there</li>
+          <li><strong>Networking:</strong> Meet new people, grow your network, make small talk, introduce yourself with confidence without the icky feeling</li>
         </ul>
         <br></br><br></br>
         <strong>Leadership and Team management</strong><br></br>
