@@ -149,6 +149,15 @@
                 'src/profile-allisonlei.jpg',
             },
           },
+          {
+            body: 'Chatting with Tim is inspiring. It is so great to see there is an introverted designer who speak publicly that he is an introvert and share his lived experience with us, many other introverted designers, on how might we navigate skilfully in a world that flavours extroverted people. Thank you Tim for sharing so many useful tips!',
+            author: {
+              name: 'Vicky Chiu',
+              handle: 'Senior Product Designer, Service NSW, Australia',
+              imageUrl:
+                'src/profile-vickychiu.jpg',
+            },
+          },
         // second column
       ],
     ],
