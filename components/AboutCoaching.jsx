@@ -13,10 +13,12 @@ export default function AboutCoaching() {
           <strong>I thought:</strong> if I tried hard enough, I could be just like them.<br></br><br></br>
           <strong>And it worked!</strong> But I was exhausted pretending to be someone else. It always felt unnatural. It felt like I was wearing a mask; and with each passing day, that mask grew heavier and heavier, until I could not put it on anymore.<br></br><br></br>
           <strong>I thought:</strong> maybe there was something wrong with me. Maybe I wasn't good enough. But there was a voice inside of me that refused to give up. There had to be a better way.<br></br><br></br>
-          So I stopped pretending. I took the best of what I learned and started practising. I kept what worked and made those skills my own. Today, I am no longer faking it. I am no longer pretending to be someone else. I no longer wear an extrovert mask.<br></br><br></br>
-          It's a different path to success, but it is a path I walk very comfortably in my own skin.<br></br><br></br>
-          My coaching draws upon my decades of experience working in tech startups surrounded by people with strong opinions and loud voices. I've made plenty of mistakes along the way; I will help you avoid them.<br></br><br></br>
-          Life is too short to be living someone else's version of success. Introversion is not a flaw; it's a superpower. My coaching will help you show up as the best version of yourself.<br></br><br></br>
+          <strong>So I stopped pretending.</strong> I took the best of what I learned and started practising. I kept what worked and made those skills my own.<br></br><br></br>
+          Since this change, I've been a leader and manager at tech startups. I've been a keynote speaker at conferences and podcasts. I even wrote a book about how I did it.<br></br><br></br>
+          Today, I am no longer faking it. I am no longer pretending to be someone else. I no longer wear an extrovert mask; and I've coached hundreds of people to do the same.<br></br><br></br>
+          It's a different path to success, but <strong>it is a path I walk very comfortably in my own skin.</strong><br></br><br></br>
+          My coaching draws upon my decades of experience surrounded by people at work with strong opinions and loud voices. I've made plenty of mistakes along the way; I will help you avoid them.<br></br><br></br>
+          <strong>Life is too short to be living someone else's version of success.</strong> Introversion is not a flaw; it's a superpower. My coaching will help you show up as the best version of yourself.<br></br><br></br>
         </p>
         {/*<h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
