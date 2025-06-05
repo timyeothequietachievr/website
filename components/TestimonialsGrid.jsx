@@ -261,7 +261,7 @@
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-xl text-center">
-              <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600 sm:text-5xl">Quotes from the book</h2>
+              <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600 sm:text-5xl">Reviews and Testimonials</h2>
               {/*<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 We have worked with thousands of amazing people
               </p>*/}
@@ -279,7 +279,7 @@
                   />*/}
                   <div className="flex-auto">
                     <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                    {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
+                    <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
                   </div>
                   <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
                 </figcaption>
@@ -306,10 +306,10 @@
                             <p>{`“${testimonial.body}”`}</p>
                           </blockquote>
                           <figcaption className="mt-6 flex items-center gap-x-4">
-                            {/*<img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />*/}
+                            <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                             <div>
                               <div className="font-semibold">{testimonial.author.name}</div>
-                              {/*<div className="text-gray-600">{`@${testimonial.author.handle}`}</div>*/}
+                              <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
                             </div>
                           </figcaption>
                         </figure>
