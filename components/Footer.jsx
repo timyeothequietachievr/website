@@ -19,13 +19,15 @@ import NewsletterConvertkit from './NewsletterConvertkit';
 */
 const navigation = {
   Book: [
-    { name: 'eBook', href: '#' },
-    { name: 'Hardcover', href: '#' },
-    { name: 'Paperback', href: '#' },
-    { name: 'Backstory', href: '#' },
-    { name: 'Download free chapter', href: '#' }
+    { name: 'eBook', href: '/book#pricing' },
+    { name: 'Hardcover', href: '/book#pricing' },
+    { name: 'Paperback', href: '/book#pricing' },
+    { name: 'Backstory', href: '/backstory' },
+    { name: 'Download free chapter', href: '/book#freechapter' }
   ],
   Courses: [
+    { name: 'Convince Your Boss', href: 'https://www.thequietachievr.com/convinceyourboss' },
+    { name: 'Too Valuable to Lose', href: 'https://www.thequietachievr.com/toovaluabletolose' },
     { name: 'Being more visible in your org', href: '#' },
     { name: 'Facilitation', href: '#' },
     { name: 'Handling difficult conversations and saying no (politely)', href: '#' },
@@ -35,24 +37,37 @@ const navigation = {
     { name: 'Public speaking', href: '#' }
   ],
   Pricing: [
-    { name: 'Books', href: '#' },
+    { name: 'Books', href: '/book#pricing' },
     { name: 'Courses', href: '#' },
-    { name: 'Coaching', href: '#' }
+    { name: 'Coaching', href: '/coaching#bookacall' }
   ],
   Content: [
-    { name: 'Testimonials', href: '/Testimonials' },
-    { name: 'Podcast', href: '#' },
-    { name: 'Newsletter', href: '#' }
+    { name: 'Testimonials', href: '/testimonials' },
+    { name: 'Podcast', href: '/podcast' },
+    { name: 'Newsletter', href: '#newsletter' }
   ],
   social: [
     {
       name: 'Linkedin',
-      href: 'https://www.linkedin.com/in/timyeo/',
+      href: 'https://www.thequietachievr.com/followonlinkedin',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
             d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+            clipRule="evenodd"
+          />
+        </svg>
+      )
+    },
+    {
+      name: 'YouTube',
+      href: 'https://www.thequietachievr.com/youtube',
+      icon: (props) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path
+            fillRule="evenodd"
+            d="M20.5949 4.45999C21.5421 4.71353 22.2865 5.45785 22.54 6.40501C22.9982 8.12002 23 11.7004 23 11.7004C23 11.7004 23 15.2807 22.54 16.9957C22.2865 17.9429 21.5421 18.6872 20.5949 18.9407C18.88 19.4007 12 19.4007 12 19.4007C12 19.4007 5.12002 19.4007 3.405 18.9407C2.45785 18.6872 1.71353 17.9429 1.45999 16.9957C1 15.2807 1 11.7004 1 11.7004C1 11.7004 1 8.12002 1.45999 6.40501C1.71353 5.45785 2.45785 4.71353 3.405 4.45999C5.12002 4 12 4 12 4C12 4 18.88 4 20.5949 4.45999ZM15.5134 11.7007L9.79788 15.0003V8.40101L15.5134 11.7007Z"
             clipRule="evenodd"
           />
         </svg>
