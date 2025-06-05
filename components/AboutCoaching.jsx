@@ -9,7 +9,7 @@ export default function AboutCoaching() {
         {/*<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>*/}
         <img
             alt="coaching profile"
-            src="coaching-profile-coach.jpg"
+            src="src/coaching-profile-coach.jpg"
           />
         <p className="mt-6 text-xl leading-8">
           Being an introvert in a world that desires the extrovert ideal is hard.<br></br><br></br>
