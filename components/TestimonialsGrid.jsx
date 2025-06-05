@@ -30,7 +30,7 @@ const featuredTestimonial = {
           },
         },
         {
-            body: 'The course’s impact has been nothing short of transformative, especially for an executive like myself. Tim's expertise and clear communication style made the learning experience concise yet comprehensive, focusing on practical skills and a mindset shift tailored for introverts. One standout aspect was the innovative approach to the "tell me about yourself" question. Tim's visual strategy was a breath of fresh air. As an executive, this approach not only enhanced my interview performance but re-framed how I thought about and communicate my career journey.',
+            body: 'The course’s impact has been nothing short of transformative, especially for an executive like myself. His expertise and clear communication style made the learning experience concise yet comprehensive, focusing on practical skills and a mindset shift tailored for introverts. One standout aspect was the innovative approach to the "tell me about yourself" question. His visual strategy was a breath of fresh air. As an executive, this approach not only enhanced my interview performance but re-framed how I thought about and communicate my career journey.',
             author: {
               name: 'Claire Erickson',
               handle: 'VP, Product & Tech Strategy & Operations, Blackhawk Network, USA',
