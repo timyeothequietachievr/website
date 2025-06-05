@@ -38,7 +38,16 @@
                 'src/profile-claire.jpg',
             },
           },
-        // first
+          {
+            body: '1',
+            author: {
+              name: '1',
+              handle: '1',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
+        // first column
       ],
       [
         {
@@ -68,7 +77,16 @@
                'src/profile-evenawong.jpg',  
             },
           },
-        // second
+          {
+            body: '2',
+            author: {
+              name: '2',
+              handle: '2',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
+        // second column
       ],
     ],
     [
@@ -100,7 +118,16 @@
                 'src/profile-maddie.jpg',
             },
           },
-        // third
+          {
+            body: '3',
+            author: {
+              name: '3',
+              handle: '3',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
+        // third column
       ],
       [
         {
@@ -130,7 +157,16 @@
                 'src/profile-erinyeh.jpg',
             },
           },
-        // forth
+          {
+            body: '4',
+            author: {
+              name: '4',
+              handle: '4',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
+        // forth column
       ],
     ],
     
