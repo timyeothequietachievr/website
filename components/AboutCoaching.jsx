@@ -85,10 +85,10 @@ export default function AboutCoaching() {
         <ul role="list">
           <li><strong>I'm an introverted leader</strong> I understand what it's like to be quiet by nature and your peers in the room are loud and extroverted</li>
           <li><strong>I'm not your boss</strong> Your boss has many priorities and you are simply one of them. As your coach, you are my only priority</li>
-          <li><strong>This hasn't happened before! Is this normal?</strong> I've coached 300+ people worldwide. I also have 20 years experience in tech, startups and consulting. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
+          <li><strong>Drawing from experience</strong> I've coached hundreds of people worldwide. I also have 20 years experience in tech, startups and consulting. I've seen and heard a lot. I can help you navigate scenarios you are experiencing for the first time</li>
           <li><strong>Limiting beliefs and norms</strong> In your bubble, your way has been the only way you know. We sometimes lie to ourselves too to have an easy out. Where I see you do this, I'll point it out and we'll talk about it</li>
           <li><strong>Tough love</strong> You must know I'm pretty direct, low bs and I will tell you the things you need to hear to level up. I will do it with kindness and good humour</li>
-          <li><strong>Private and confidential</strong> Everything you tell me stays with me. You will never hear your name on YouTube, your boss and peers will never know</li>
+          <li><strong>Private and confidential</strong> Everything you tell me stays with me. You will never hear your name online, your boss and peers will never know</li>
         </ul>
         <br></br><br></br>
         </p>
