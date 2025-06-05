@@ -1,5 +1,5 @@
   const featuredTestimonial = {
-      body: 'Tim is extremely approachable with practical tactics to drive success. Most importantly, I got the feeling Tim has been in my shoes before many times as a designer.',
+      body: 'It was such a breath of fresh air to work with a coach that understands me. Tim was always able to relate to my situation and often felt like he had been there himself. I left our sessions with many take-aways but also with many practical tips and strategies I could utilize the very next day.',
       author: {
         name: 'Rod Naber',
         handle: 'Lead Product Designer, Stripe, USA',
@@ -48,12 +48,21 @@
             },
           },
           {
-            body: 'I attended Tim’s course on Quiet Leadership. I found the course extremely informative and beneficial in helping me understand myself better as an introvert. He provided strategies and techniques that I can use in everyday situations as a UX leader in a tech environment where loud voices often dominate conversations. I took away several learnings that I use today in my career. Thank you, Tim! ',
+            body: 'I attended the ourse on Quiet Leadership. I found the course extremely informative and beneficial in helping me understand myself better as an introvert. He provided strategies and techniques that I can use in everyday situations as a UX leader in a tech environment where loud voices often dominate conversations. I took away several learnings that I use today in my career. Thank you, Tim! ',
             author: {
               name: 'Dawn Ta',
               handle: 'Director, Research and Design, Ascension, US',
               imageUrl:
                 'src/profile-dawnta.jpg',
+            },
+          },
+          {
+            body: 'A practical and kind guide to not merely survive work socialization, but get great at it!',
+            author: {
+              name: 'Julia Racsko',
+              handle: 'Design Coach, Superbloom, Germany',
+              imageUrl:
+                'src/profile-juliaracsko.jpg',
             },
           },
         // first column
@@ -218,6 +227,15 @@
               handle: 'UX/UI Designer',
               imageUrl:
                 'src/profile-wilson.jpg',
+            },
+          },
+          {
+            body: 'Tim dishes out practical advice tailored for introverts navigating the tech and corporate sectors. Drawing from personal experiences, the book serves up strategies for success in key areas like networking, public speaking, and feedback. What really makes it stand out is the relatable real-life examples sprinkled throughout, which not only make the techniques and frameworks more understandable but also give readers the confidence and clarity to tackle these situations head-on. It is a go-to resource for introverts looking to thrive in industries that often overlook their strengths, providing down-to-earth insights to excel in environments not always tuned to their needs.',
+            author: {
+              name: 'Taryn Ewens',
+              handle: 'Software Engineer, Atlassian, Australia',
+              imageUrl:
+                'src/profile-tarynewens.jpg',
             },
           },
         // forth column
