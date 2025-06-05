@@ -48,12 +48,12 @@
             },
           },
           {
-            body: '1',
+            body: 'I attended Tim’s course on Quiet Leadership. I found the course extremely informative and beneficial in helping me understand myself better as an introvert. He provided strategies and techniques that I can use in everyday situations as a UX leader in a tech environment where loud voices often dominate conversations. I took away several learnings that I use today in my career. Thank you, Tim! ',
             author: {
-              name: '1',
-              handle: '1',
+              name: 'Dawn Ta',
+              handle: 'Director, Research and Design, Ascension, US',
               imageUrl:
-                'src/profile-claire.jpg',
+                'src/profile-dawnta.jpg',
             },
           },
         // first column
@@ -105,12 +105,12 @@
             },
           },
           {
-            body: '2',
+            body: 'Tim went the extra mile. He showered us with resources and patiently answered every question, making the course not only informative but also truly personalised to our needs.',
             author: {
-              name: '2',
-              handle: '2',
+              name: 'Bethany Moran',
+              handle: 'Principal Digital User Experience Designer, NSW Govt, Australia',
               imageUrl:
-                'src/profile-claire.jpg',
+                'src/profile-bethanymoran.jpg',
             },
           },
         // second column
