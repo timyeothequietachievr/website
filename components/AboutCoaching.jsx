@@ -7,6 +7,10 @@ export default function AboutCoaching() {
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My speciality is coaching introverts & quiet achievers who want to be seen and heard at work without pretending to be extroverts</h1>
         {/*<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>*/}
+        <img
+            alt="coaching profile"
+            src="coaching-profile-coach.jpg"
+          />
         <p className="mt-6 text-xl leading-8">
           Being an introvert in a world that desires the extrovert ideal is hard.<br></br><br></br>
           For years, I struggled to manage my own introversion. I loved my craft. I had high ambitions. I wanted to excel. So I voraciously read self-help books on leadership. I watched every great TED Talk. I modelled social butterflies at networking events. I watched in awe as company leaders delivered speeches effortlessly.<br></br><br></br>
