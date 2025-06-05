@@ -230,9 +230,7 @@ const featuredTestimonial = {
       ],
     ],
   ]
-    
 
-  
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
@@ -277,11 +275,11 @@ const featuredTestimonial = {
                 <p>{`“${featuredTestimonial.body}”`}</p>
               </blockquote>
               <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
-                <img
+                {/*<img
                   alt=""
                   src={featuredTestimonial.author.imageUrl}
                   className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                />
+                />*/}
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
                   {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
@@ -311,10 +309,10 @@ const featuredTestimonial = {
                           <p>{`“${testimonial.body}”`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
-                          <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
+                          {/*<img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />*/}
                           <div>
                             <div className="font-semibold">{testimonial.author.name}</div>
-                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                            {/*<div className="text-gray-600">{`@${testimonial.author.handle}`}</div>*/}
                           </div>
                         </figcaption>
                       </figure>
