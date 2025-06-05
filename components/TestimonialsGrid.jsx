@@ -1,10 +1,10 @@
 const featuredTestimonial = {
-    body: 'just because I am quiet does not mean I have nothing to say.',
+    body: 'Tim is extremely approachable with practical tactics to drive success. Most importantly, I got the feeling Tim has been in my shoes before many times as a designer.',
     author: {
-      name: 'The Quiet Achiever',
-      handle: '',
+      name: 'Rod Naber',
+      handle: 'Lead Product Designer, Stripe, USA',
       imageUrl:
-        'src/profile-TQABook.jpg',
+        'src/profile-rod.jpg',
       logoUrl: '',
     },
   }
@@ -12,30 +12,39 @@ const featuredTestimonial = {
     [
       [
         {
-          body: 'Every day, I felt like I was putting on a mask 🎭, pretending to be someone else. But with each passing day, that mask got heavier and heavier, until I could not lift and put on that mask anymore. I was pretending to be someone I was not.',
+          body: 'The Leadership for Introverts course provided me with easy-to-apply tools to boost my confidence and increase my visibility in my org. The bite-sized video format fit perfectly into my hectic schedule.',
           author: {
-            name: 'Chapter: Introduction',
-            handle: 'lesliealexander',
+            name: 'Patricia Avila',
+            handle: 'Senior Director Product Design, Artera, USA',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-patricia.jpg',
           },
         },
         {
-            body: 'Walk the room - do not just stand at one spot and stare at your phone. Walk and room and increase your surface area to increase your chances of interesting people you could meet. ',
+          body: 'Watching Tim on video is like listening to a supportive, knowledgeable, empathetic friend. Tim gave me incredible advice and methods I could use in real-life scenarios. I highly recommend.',
+          author: {
+            name: 'Leonardo Mattei',
+            handle: 'Senior Product Designer, Apple, UK',
+            imageUrl:
+              'src/profile-leonardo.jpg',
+          },
+        },
+        {
+            body: 'The course’s impact has been nothing short of transformative, especially for an executive like myself. Tim's expertise and clear communication style made the learning experience concise yet comprehensive, focusing on practical skills and a mindset shift tailored for introverts. One standout aspect was the innovative approach to the "tell me about yourself" question. Tim's visual strategy was a breath of fresh air. As an executive, this approach not only enhanced my interview performance but re-framed how I thought about and communicate my career journey.',
             author: {
-              name: 'Chapter: Networking in-person',
-              handle: 'lesliealexander',
+              name: 'Claire Erickson',
+              handle: 'VP, Product & Tech Strategy & Operations, Blackhawk Network, USA',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-claire.jpg',
             },
           },
           {
-            body: 'Saying no is hard, but saying no serves you. If everything else fails, no is a complete sentence.',
+            body: 'I went through so many interviews. I had a lot of anxiety back then. I felt like I was too humble when talking about my accomplishments. Tim really helped me with practical advice - which is not easy to find the more senior you get.',
             author: {
-              name: 'Chapter: Saying no (politely)',
-              handle: 'lesliealexander',
+              name: 'Amy Zhu',
+              handle: 'Senior Product Designer, Assent, Canada',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-amyzhu.jpg',
             },
           },
         // More testimonials...
@@ -51,21 +60,21 @@ const featuredTestimonial = {
           },
         },
         {
-            body: 'If a tree falls in a forest and no one hears it, does it exist? 🤔 If a quiet achiever sits in a meeting with an idea in his head but does not share it, does it exist? 🧐',
+            body: 'I extended my intro based on the course and I could see by the reactions of the interview panel how effectively it communicated my experience and capabilities and set the stage for the rest of the conversation. This was the single most valuable feedback on presenting work. It challenged me to assess other areas in the workplace where I may be minimizing important context.',
             author: {
-              name: 'Chapter: Public speaking',
-              handle: 'lindsaywalton',
+              name: 'Jennifer O',
+              handle: 'Staff Product Designer, Buoy Software, USA',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-jenno.jpg',
             },
           },
           {
-            body: '"The best time to look for a job is when you do not need one. The second best time is now.',
+            body: 'This course came at the perfect time when I needed support with interviews. Tim was empathetic, pragmatic, and calm - and gave me advice and examples that I could quickly apply under pressure. He gave me the space to ask questions specific to my circumstances. I highly recommend.',
             author: {
-              name: 'Chapter: Networking remotely',
-              handle: 'tomcook',
+              name: 'Evena Wong',
+              handle: 'Product Designer, Seer Medical, Australia',
               imageUrl:
-               'src/profile-TQABook.jpg', 
+               'src/profile-evenawong.jpg', 
             },
           },
         // More testimonials...
@@ -74,60 +83,147 @@ const featuredTestimonial = {
     [
       [
         {
-          body: 'Constantly comparing myself to others and living someone elses version of success was my recipe for misery.',
+          body: 'The course gave me confidence to present myself and my work to others. The exercises he designed are really helpful tools that I will continue using to prepare for challenging situations in and outside of work.',
           author: {
-            name: 'Chapter: Networking',
-            handle: 'tomcook',
+            name: 'Plamena Doncheva',
+            handle: 'Senior Product Designer, Glovo, Spain',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-plamena.jpg',
           },
         },
         {
-            body: 'The truth is most people are terrible at giving feedback. If you truly believe that feedback is a gift, then most people give terrible gifts.',
+            body: 'Tim is fantastic coach. He is thoughtful, engaging and passionate about helping introverts build their confidence as design leaders. The course has helped me to do deal with the common issues I face as a designer and to build a toolkit with actionable insights in how to overcome them. Thanks to Tim I am able to thrive as both an introvert and a design leader.',
             author: {
-              name: 'Chapter: Giving hard feedback',
-              handle: 'lindsaywalton',
+              name: 'Scott Llewellyn',
+              handle: 'UX Designer, Give Panel, UK',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-scottl.jpg',
             },
           },
           {
-            body: 'For years, I struggled to manage my introversion. I received feedback from my bosses like “You should speak up more in meetings,” but I did not know how. I found myself in rooms full of people with strong opinions and loud voices, and I did not know how to be heard.',
+            body: 'The methods and constructive feedback provided by Tim have been invaluable. Many of the techniques are directly effecting my day-to-day way of working, like my conduct in meetings and confidence approaching new situations.',
             author: {
-              name: 'Chapter: Introduction',
-              handle: 'tomcook',
+              name: 'Madeleine van Dam',
+              handle: 'Product Designer, Ofload, Australia',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-maddie.jpg',
             },
           },
         // More testimonials...
       ],
       [
         {
-          body: 'You are not changing who you are; you are showing up as the best version of yourself.',
+          body: 'In just the first week, I was able to put my learnings from this course into practice. Genuinely practical advice.',
           author: {
-            name: 'Chapter: Meetings',
-            handle: 'leonardkrasner',
+            name: 'Raemarie Lee',
+            handle: 'Product Designer, Learnerbly, UK',
             imageUrl:
-              'src/profile-TQABook.jpg',
+              'src/profile-rae.jpg',
           },
         },
         {
-            body: 'When making small talk, I realised I did not need to be interesting, I needed to be relatable. To be relatable, I needed to have things in common with my audience.',
+            body: 'Tim quickly identified my main problem area and suggested a few tips I could just apply straight away. He made me so comfortable talking about myself and my experience. I highly recommend this to everyone!!',
             author: {
-              name: 'Chapter: Small talk',
-              handle: 'leonardkrasner',
+              name: 'Eunbi Koh',
+              handle: 'Product Designer, Just Eat Takeaway, UK',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-eunbi.jpg',
             },
           },
           {
-            body: 'Your team exhibits the worst behaviour you choose to accept or leave unaddressed. Choosing not to address a bad behaviour is a slippery slope to even worse behaviour later.',
+            body: 'Tim provided invaluable insights into the challenges faced by introverts, particularly the impact of cultural differences in Western and Asian workplaces.',
             author: {
-              name: 'Chapter: Handling difficult conversations',
-              handle: 'leonardkrasner',
+              name: 'Erin Yeh',
+              handle: 'UX/UI Design, Australia',
               imageUrl:
-                'src/profile-TQABook.jpg',
+                'src/profile-erinyeh.jpg',
+            },
+          },
+        // More testimonials...
+        [
+        {
+          body: 'Tim gave me a lot of space to unpack what I struggle with as an introvert, and then tackled each part with an actionable tip. I think the actionable nature of the conversation was what really helped. The professional "advice" I have gotten about introversion in the past has always been too abstract or philosophical to be truly helpful.',
+          author: {
+            name: 'Kumari Pacheco',
+            handle: 'Content Designer, A Book Apart',
+            imageUrl:
+              'src/profile-kumari.jpg',
+          },
+        },
+        {
+            body: 'I love how much your work is about allowing introverts to unlock their full super power rather than feeling like this is something they need to adjust/ work around. The tools you suggested does exactly that-- allows introverts to own, celebrate, and understand who they are.',
+            author: {
+              name: 'Nada Salem',
+              handle: 'Design Strategist, McKinsey & Company',
+              imageUrl:
+                'src/profile-nada.jpg',
+            },
+          },
+          {
+            body: 'Tim gave me valuable feedback and insights that I have not even though of. The way he shared strategies and experience positioned me better on the market and get my first job. Thank you!',
+            author: {
+              name: 'Sophie Matrai',
+              handle: 'Senior Product Designer, Atlassian, Australia',
+              imageUrl:
+                'src/profile-sophiematrai.jpg',
+            },
+          },
+        // More testimonials...
+        [
+        {
+          body: 'Tim was filled with great advices on how to navigate my workspace and start to be more active at my own pace and by my own meaning. He made me feel comfortable and gave me motivation to start working on my communication skills, step by step, without rushing.',
+            author: {
+              name: 'Daniela Montanez',
+              handle: 'Visual Designer, Huge, Colombia',
+              imageUrl:
+                'src/profile-daniela.jpg',
+          },
+        },
+        {
+            body: 'Tim is such as an inspiration. He was very approachable, made me feel comfortable and I can see his passion on helping others that are introverted. The biggest message for me was to embrace and respect myself.',
+            author: {
+              name: 'Melanie Owubokiri',
+              handle: 'UX Designer, Pushpay',
+              imageUrl:
+                'src/profile-melanie.jpg',
+            },
+          },
+          {
+            body: 'Tim went above and beyond. He did not just help me get unstuck with all the surrounding problems I was facing, but he reminded me that I was taking the right steps. He shared some actionable tips, was a great listener, patient, observative, and clever. I highly recommend; our session was therapeutic!',
+            author: {
+              name: 'Wilson Thai',
+              handle: 'UX/UI Designer',
+              imageUrl:
+                'src/profile-wilson.jpg',
+            },
+          },
+        // More testimonials...
+        [
+        {
+          body: 'Tim is great; we covered every query I got and I left having closure, rare find! His experience resonated with mine, having gone through what I am currently going through.',
+            author: {
+              name: 'Lewis Kangethe Ngugi',
+              handle: 'Senior Product Designer, HubSpot',
+              imageUrl:
+                'src/profile-lewis.jpg',
+          },
+        },
+        {
+            body: 'I highly recommend Tim. He provided tactics and strategies I can use as an introverted designer. He listened very attentively and asked me to describe work scenarios so that he could give advice appropriate to them. He also provided some handy questions that I can use for my 1:1 conversations and meetings.',
+            author: {
+              name: 'Andrew Cuevas',
+              handle: 'UX Designer',
+              imageUrl:
+                'src/profile-andrew.jpg',
+            },
+          },
+          {
+            body: 'and',
+            author: {
+              name: 'many',
+              handle: 'more',
+              imageUrl:
+                'src/profile-timyeo.jpg',
             },
           },
         // More testimonials...
@@ -181,11 +277,11 @@ const featuredTestimonial = {
                 <p>{`“${featuredTestimonial.body}”`}</p>
               </blockquote>
               <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
-                {/*<img
+                <img
                   alt=""
                   src={featuredTestimonial.author.imageUrl}
                   className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                />*/}
+                />
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
                   {/*<div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>*/}
@@ -215,10 +311,10 @@ const featuredTestimonial = {
                           <p>{`“${testimonial.body}”`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
-                          {/*<img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />*/}
+                          <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                           <div>
                             <div className="font-semibold">{testimonial.author.name}</div>
-                            {/*<div className="text-gray-600">{`@${testimonial.author.handle}`}</div>*/}
+                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
                           </div>
                         </figcaption>
                       </figure>
