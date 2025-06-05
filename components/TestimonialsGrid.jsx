@@ -65,6 +65,24 @@
                 'src/profile-juliaracsko.jpg',
             },
           },
+          {
+            body: 'Tim has simple and actionable frameworks to navigate overwhelming situations. His methods are baked in psychology and his personal experience. He patiently listened to my questions and provided me with simple tools that I can easily remember and apply in next meetup.',
+            author: {
+              name: 'Twisha Mistry',
+              handle: '',
+              imageUrl:
+                'src/profile-TQAbook.jpg',
+            },
+          },
+          {
+            body: 'Tim was very approachable and genuine to speak with. He also gave me some great food thought that I intend to action. ',
+            author: {
+              name: 'Kate Frappell',
+              handle: 'Design Manager, Ofload',
+              imageUrl:
+                'src/profile-TQAbook.jpg',
+            },
+          },
         // first column
       ],
       [
@@ -122,6 +140,15 @@
                 'src/profile-bethanymoran.jpg',
             },
           },
+          {
+            body: 'Tim is amazing and clearly doing this work to help others. He offered his time and advice freely in spite of being on the other side of the world from myself. It’s inspiring to see what another introvert has accomplished! I hope to take his course soon!',
+            author: {
+              name: 'Allison Lei',
+              handle: 'Senior Product Designer, Seismic, USA',
+              imageUrl:
+                'src/profile-allisonlei.jpg',
+            },
+          },
         // second column
       ],
     ],
@@ -170,6 +197,15 @@
               handle: 'UX Designer',
               imageUrl:
                 'src/profile-andrew.jpg',
+            },
+          },
+          {
+            body: 'I highly recommend Tim. He provided tactics and strategies I can use as an introverted designer. He listened very attentively and asked me to describe work scenarios so that he could give advice appropriate to them. He also provided some handy questions that I can use for my 1:1 conversations and meetings.',
+            author: {
+              name: 'Beth Bridges',
+              handle: 'UX Product Designer, Moshtix, Australia',
+              imageUrl:
+                'src/profile-bethbridges.jpg',
             },
           },
         // third column
@@ -236,6 +272,15 @@
               handle: 'Software Engineer, Atlassian, Australia',
               imageUrl:
                 'src/profile-tarynewens.jpg',
+            },
+          },
+          {
+            body: 'Tim is a great mentor for those that want genuine and authentic conversations. He was an attentive listener and offered invaluable advice. His was empathetic and understanding of my concerns as a career switcher. No matter what type of mentorship you seek, His wealth of experience and background will enable him to connect with you on a profound level.',
+            author: {
+              name: 'Gloria Wang',
+              handle: 'Product Designer, Systems Engineer, Australia',
+              imageUrl:
+                'src/profile-TQAbook.jpg',
             },
           },
         // forth column
