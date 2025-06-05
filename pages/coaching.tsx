@@ -38,6 +38,12 @@ export default function CoachingPage() {
       {/* <HowItWorks /> */}
       {/* <WhatYouWillLearn /> */}
       <TestimonialCoaching3 />
+      <TestimonialLeadership5 />
+      <TestimonialInterview4 />
+      <TestimonialInterview1 />
+      <TestimonialInterview5 />
+      <TestimonialInterview2 />
+      <TestimonialInterview3 />
       <TestimonialLeadership2 />
       <TestimonialLeadership3 />
       <TestimonialLeadership4 />

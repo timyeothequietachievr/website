@@ -16,7 +16,7 @@ export default function AboutCoaching() {
           So I stopped pretending. I took the best of what I learned and started practising. I kept what worked and made those skills my own. Today, I am no longer faking it. I am no longer pretending to be someone else. I no longer wear an extrovert mask.<br></br><br></br>
           It's a different path to success, but it is a path I walk very comfortably in my own skin.<br></br><br></br>
           My coaching draws upon my decades of experience working in tech startups surrounded by people with strong opinions and loud voices. I've made plenty of mistakes along the way; I will help you avoid them.<br></br><br></br>
-          Your life is too short to be living someone else's version of success. Show up as the best version of yourself, and I can coach you on how to do it.<br></br><br></br>
+          Life is too short to be living someone else's version of success. Introversion is not a flaw; it's a superpower. My coaching will help you show up as the best version of yourself.<br></br><br></br>
         </p>
         {/*<h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
@@ -74,8 +74,8 @@ export default function AboutCoaching() {
           <li>You are a leader/manager. You are also an introvert and quiet by nature, and want an advisor who's walked a similar path before</li>
           <li>The team you manage are so quiet. You wish they spoke up more and you don't know how to get the best out of them</li>
         </ul>
-          <br></br><br></br>
-          I have experienced every position in this list. I can show you how to navigate each challenge.
+          <br></br>
+          I have experienced every one of these in my career. I can show you how to over come them.
           <br></br><br></br>
         </p>  
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's it like having me as your coach?</h2>
@@ -90,7 +90,7 @@ export default function AboutCoaching() {
         </ul>
         <br></br><br></br>
         </p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Testimonaials from people I've coached</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Testimonials from people I've coached</h1>
         {/*
         <div className="mt-10 max-w-2xl">
           <p>

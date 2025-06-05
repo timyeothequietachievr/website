@@ -88,7 +88,7 @@ export default function TestimonialLeadership4() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">Paricia Avila</div>
+                      <div className="text-base font-medium text-gray-900">Patricia Avila</div>
                       <div className="text-base font-medium text-indigo-600">Senior Director Product Design, Artera, USA</div>
                     </div>
                   </div>
