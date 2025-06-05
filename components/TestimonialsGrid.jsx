@@ -200,12 +200,21 @@
             },
           },
           {
-            body: 'I highly recommend Tim. He provided tactics and strategies I can use as an introverted designer. He listened very attentively and asked me to describe work scenarios so that he could give advice appropriate to them. He also provided some handy questions that I can use for my 1:1 conversations and meetings.',
+            body: 'It was a pleasure being able to spend time chatting with Tim - he was extremely engaging and I took away the feeling that he was focussed on helping me specifically (stopping to take notes and targeting key growth areas I had addressed). I would not hesitate to book in a follow up session! I plan on first implementing feedback real time as I continue to build out my design career. Thank you Tim!',
             author: {
               name: 'Beth Bridges',
               handle: 'UX Product Designer, Moshtix, Australia',
               imageUrl:
                 'src/profile-bethbridges.jpg',
+            },
+          },
+          {
+            body: 'Tim is a generous resource for introverted designers and those who want to lead them successfully.',
+            author: {
+              name: 'Capra Jneva',
+              handle: 'Senior Manager, Platform Research and Architecture, AUtodesk, USA',
+              imageUrl:
+                'src/profile-capra.jpg',
             },
           },
         // third column
