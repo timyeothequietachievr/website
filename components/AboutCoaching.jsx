@@ -5,15 +5,26 @@ export default function AboutCoaching() {
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My speciality is coaching quiet achievers & introverted leaders to have impact at work while remaining their true authentic selves</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My speciality is coaching introverts & quiet achievers who want to be seen and heard at work without pretending to be extroverts</h1>
         {/*<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be coached by someone who is quiet (like you)</h1>*/}
-        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
+        <p className="mt-6 text-xl leading-8">
+          Being an introvert in a world that desires the extrovert ideal is hard.<br></br><br></br>
+          For years, I struggled to manage my own introversion. I loved my craft. I had high ambitions. I wanted to excel. So I voraciously read self-help books on leadership. I watched every great TED Talk. I modelled social butterflies at networking events. I watched in awe as company leaders delivered speeches effortlessly.<br></br><br></br>
+          <strong>I thought:</strong> if I tried hard enough, I could be just like them.<br></br><br></br>
+          <strong>And it worked!</strong> But I was exhausted pretending to be someone else. It always felt unnatural. It felt like I was wearing a mask; and with each passing day, that mask grew heavier and heavier, until I could not put it on anymore.<br></br><br></br>
+          <strong>I thought:</strong> maybe there was something wrong with me. Maybe I wasn't good enough. But there was a voice inside of me that refused to give up. There had to be a better way.<br></br><br></br>
+          So I stopped pretending. I took the best of what I learned and started practising. I kept what worked and made those skills my own. Today, I am no longer faking it. I am no longer pretending to be someone else. I no longer wear an extrovert mask.<br></br><br></br>
+          It's a different path to success, but it is a path I walk very comfortably in my own skin.<br></br><br></br>
+          My coaching draws upon my decades of experience working in tech startups surrounded by people with strong opinions and loud voices. I've made plenty of mistakes along the way; I will help you avoid them.<br></br><br></br>
+          Your life is too short to be living someone else's version of success. Show up as the best version of yourself, and I can coach you on how to do it.<br></br><br></br>
+        </p>
+        {/*<h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">How does it work?</h2>
         <p className="mt-6 text-xl leading-8">
         I'm your coach. Over live video calls, we talk through the challenges you are facing and where you want help right now.<br></br><br></br>
         Coaching requires chemistry. I can help many people, but I can't help everyone. So we start with a <a href="#pricing" className="text-indigo-600">free discovery call</a> to see if you & I are a good fit.<br></br><br></br>
         Coaching helps you level up faster. How fast depends on you.<br></br><br></br>
         The quiet achievers I can help achieve their goals in days and weeks with my assistance—goals which would normally take them months or years to accomplish on their own.<br></br><br></br>
-        </p>
+        </p>*/}
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I help you with?</h2>
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
@@ -27,6 +38,18 @@ export default function AboutCoaching() {
           <li><strong>Networking:</strong> Meet new people, grow your network, make small talk, introduce yourself with confidence without the icky feeling</li>
         </ul>
         <br></br><br></br>
+        {/*
+        <strong>Who is this for?</strong><br></br>
+        <ul role="list">
+        <li>You struggle to be seen and heard in a team with loud voices</li>
+        <li>You want to share your great work but talking about them feels dirty and ick. Meanwhile, others who do less and brag more get all the credit</li>
+        <li>You want to be a thought leader but nothing you are trying is working or you don't know where to start</li>
+        <li>You want to move into a leadership role but they keep telling you "you are not ready" and you don't know what to do to level up</li>
+        <li>You are in a player-coach role but struggle to balance both</li>
+        <li>You are a leader/manager for the first time and not sure if you're doing it right</li>
+        <li>You are a leader/manager. You are also an introvert and quiet by nature, and want an advisor who's walked a similar path before </li>
+        <li>The team you manage are so quiet. You wish they spoke up more and you don't know how to get the best out of them</li>
+        </ul>
         <strong>Leadership and Team management</strong><br></br>
         <ul role="list">
         <li>You are leading/managing a team for the first time and not sure what to do</li>
@@ -36,7 +59,25 @@ export default function AboutCoaching() {
         <li>You are quiet but work with a team with loud voices and you want to learn how to be heard and push back</li>
         <li>The team you manage are so quiet and you don't know how to get the best out of them</li>
         </ul>
+        */}
         </p>
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Who is this for?</h2>
+        <p className="mt-6 prose prose-indigo text-xl">
+        <ul role="list">
+          <li>You struggle to be seen and heard in a team with loud voices</li>
+          <li>You want to share your great work but talking about them feels dirty and ick. Meanwhile, others who do less and brag more get all the credit</li>
+          <li>You want to be a thought leader but nothing you are trying is working or you don't know where to start</li>
+          <li>You want to move into a leadership role but they keep telling you "you are not ready" and you don't know what to do to level up</li>
+          <li>You want to influence your leaders and peers but don't know align competing interests</li>
+          <li>You are in a player-coach role but struggle to balance both</li>
+          <li>You are a leader/manager for the first time and not sure if you're doing it right</li>
+          <li>You are a leader/manager. You are also an introvert and quiet by nature, and want an advisor who's walked a similar path before</li>
+          <li>The team you manage are so quiet. You wish they spoke up more and you don't know how to get the best out of them</li>
+        </ul>
+          <br></br><br></br>
+          I have experienced every position in this list. I can show you how to navigate each challenge.
+          <br></br><br></br>
+        </p>  
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's it like having me as your coach?</h2>
         <p className="mt-6 prose prose-indigo text-xl">
         <ul role="list">
@@ -49,6 +90,7 @@ export default function AboutCoaching() {
         </ul>
         <br></br><br></br>
         </p>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Testimonaials from people I've coached</h1>
         {/*
         <div className="mt-10 max-w-2xl">
           <p>

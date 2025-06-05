@@ -15,7 +15,7 @@ export default function BookHero() {
                   Want to explore coaching with me?
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><br />Book a chemistry call. 20 minutes. See if we are a fit. Free.<br /><br />
+                <br /><br />Fill out this form. Tell me where you'd like help and I'll be in touch via email with a booking link to schedule a 20min Chemistry Call. Free.<br /><br />
                 {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
                 </p>
               </div>
@@ -24,7 +24,7 @@ export default function BookHero() {
                     href="https://www.thequietachievr.com/chemistrycall"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Book a Chemistry Call
+                    Free 20min Chemistry Call
                   </a>
                 </div>
             </div>
