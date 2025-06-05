@@ -43,8 +43,8 @@ export default function MastheadCoaching() {
               ▶️ Watch Intro
             </button>
           </div>
-        </div>
         */}
+        </div>
       </div>
       {/*}
       <Modal open={open} close={close} isOpened={isOpened}>
