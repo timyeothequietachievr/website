@@ -69,7 +69,7 @@
             body: 'Tim has simple and actionable frameworks to navigate overwhelming situations. His methods are baked in psychology and his personal experience. He patiently listened to my questions and provided me with simple tools that I can easily remember and apply in next meetup.',
             author: {
               name: 'Twisha Mistry',
-              handle: '',
+              handle: 'Designer',
               imageUrl:
                 'src/profile-TQAbook.jpg',
             },
@@ -381,7 +381,7 @@
                             <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                             <div>
                               <div className="font-semibold">{testimonial.author.name}</div>
-                              <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                              <div className="text-gray-600">{`${testimonial.author.handle}`}</div>
                             </div>
                           </figcaption>
                         </figure>
