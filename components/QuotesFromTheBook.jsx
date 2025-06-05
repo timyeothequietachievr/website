@@ -1,10 +1,10 @@
 const featuredTestimonial = {
-    body: 'Tim is extremely approachable with practical tactics to drive success. Most importantly, I got the feeling Tim has been in my shoes before many times as a designer.',
+    body: 'just because I am quiet does not mean I have nothing to say.',
     author: {
-      name: 'Rod Naber',
-      handle: 'Lead Product Designer, Stripe, USA',
+      name: 'The Quiet Achiever',
+      handle: '',
       imageUrl:
-        'src/profile-rod.jpg',
+        'src/profile-TQABook.jpg',
       logoUrl: '',
     },
   }
