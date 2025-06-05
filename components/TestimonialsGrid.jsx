@@ -39,21 +39,30 @@
             },
           },
           {
-            body: '1',
-            author: {
-              name: '1',
-              handle: '1',
-              imageUrl:
-                'src/profile-claire.jpg',
+            body: 'Tim gave me a lot of space to unpack what I struggle with as an introvert, and then tackled each part with an actionable tip. I think the actionable nature of the conversation was what really helped. The professional "advice" I have gotten about introversion in the past has always been too abstract or philosophical to be truly helpful.',
+          author: {
+            name: 'Kumari Pacheco',
+            handle: 'Content Designer, A Book Apart',
+            imageUrl:
+              'src/profile-kumari.jpg',
             },
           },
           {
-            body: '1',
+            body: 'I love how much your work is about allowing introverts to unlock their full super power rather than feeling like this is something they need to adjust/ work around. The tools you suggested does exactly that-- allows introverts to own, celebrate, and understand who they are.',
             author: {
-              name: '1',
-              handle: '1',
+              name: 'Nada Salem',
+              handle: 'Design Strategist, McKinsey & Company',
               imageUrl:
-                'src/profile-claire.jpg',
+                'src/profile-nada.jpg',
+            },
+          },
+          {
+            body: 'Tim went above and beyond. He did not just help me get unstuck with all the surrounding problems I was facing, but he reminded me that I was taking the right steps. He shared some actionable tips, was a great listener, patient, observative, and clever. I highly recommend; our session was therapeutic!',
+            author: {
+              name: 'Wilson Thai',
+              handle: 'UX/UI Designer',
+              imageUrl:
+                'src/profile-wilson.jpg',
             },
           },
           {
@@ -93,6 +102,24 @@
               handle: 'Product Designer, Seer Medical, Australia',
               imageUrl:
                'src/profile-evenawong.jpg',  
+            },
+          },
+          {
+            body: 'Tim gave me valuable feedback and insights that I have not even though of. The way he shared strategies and experience positioned me better on the market and get my first job. Thank you!',
+            author: {
+              name: 'Sophie Matrai',
+              handle: 'Senior Product Designer, Atlassian, Australia',
+              imageUrl:
+                'src/profile-sophiematrai.jpg',
+            },
+          },
+          {
+            body: 'Tim is great; we covered every query I got and I left having closure, rare find! His experience resonated with mine, having gone through what I am currently going through.',
+            author: {
+              name: 'Lewis Kangethe Ngugi',
+              handle: 'Senior Product Designer, HubSpot',
+              imageUrl:
+                'src/profile-lewis.jpg',
             },
           },
           {
@@ -137,12 +164,21 @@
             },
           },
           {
-            body: '3',
+            body: 'Tim was filled with great advices on how to navigate my workspace and start to be more active at my own pace and by my own meaning. He made me feel comfortable and gave me motivation to start working on my communication skills, step by step, without rushing.',
             author: {
-              name: '3',
-              handle: '3',
+              name: 'Daniela Montanez',
+              handle: 'Visual Designer, Huge, Colombia',
               imageUrl:
-                'src/profile-claire.jpg',
+                'src/profile-daniela.jpg',
+            },
+          },
+          {
+            body: 'I highly recommend Tim. He provided tactics and strategies I can use as an introverted designer. He listened very attentively and asked me to describe work scenarios so that he could give advice appropriate to them. He also provided some handy questions that I can use for my 1:1 conversations and meetings.',
+            author: {
+              name: 'Andrew Cuevas',
+              handle: 'UX Designer',
+              imageUrl:
+                'src/profile-andrew.jpg',
             },
           },
         // third column
@@ -173,6 +209,15 @@
               handle: 'UX/UI Design, Australia',
               imageUrl:
                 'src/profile-erinyeh.jpg',
+            },
+          },
+          {
+            body: 'Tim is such as an inspiration. He was very approachable, made me feel comfortable and I can see his passion on helping others that are introverted. The biggest message for me was to embrace and respect myself.',
+            author: {
+              name: 'Melanie Owubokiri',
+              handle: 'UX Designer, Pushpay',
+              imageUrl:
+                'src/profile-melanie.jpg',
             },
           },
           {
