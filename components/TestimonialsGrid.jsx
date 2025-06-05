@@ -48,24 +48,6 @@
             },
           },
           {
-            body: 'I love how much your work is about allowing introverts to unlock their full super power rather than feeling like this is something they need to adjust/ work around. The tools you suggested does exactly that-- allows introverts to own, celebrate, and understand who they are.',
-            author: {
-              name: 'Nada Salem',
-              handle: 'Design Strategist, McKinsey & Company',
-              imageUrl:
-                'src/profile-nada.jpg',
-            },
-          },
-          {
-            body: 'Tim went above and beyond. He did not just help me get unstuck with all the surrounding problems I was facing, but he reminded me that I was taking the right steps. He shared some actionable tips, was a great listener, patient, observative, and clever. I highly recommend; our session was therapeutic!',
-            author: {
-              name: 'Wilson Thai',
-              handle: 'UX/UI Designer',
-              imageUrl:
-                'src/profile-wilson.jpg',
-            },
-          },
-          {
             body: '1',
             author: {
               name: '1',
@@ -221,12 +203,21 @@
             },
           },
           {
-            body: '4',
+            body: 'I love how much your work is about allowing introverts to unlock their full super power rather than feeling like this is something they need to adjust/ work around. The tools you suggested does exactly that-- allows introverts to own, celebrate, and understand who they are.',
             author: {
-              name: '4',
-              handle: '4',
+              name: 'Nada Salem',
+              handle: 'Design Strategist, McKinsey & Company',
               imageUrl:
-                'src/profile-claire.jpg',
+                'src/profile-nada.jpg',
+            },
+          },
+          {
+            body: 'Tim went above and beyond. He did not just help me get unstuck with all the surrounding problems I was facing, but he reminded me that I was taking the right steps. He shared some actionable tips, was a great listener, patient, observative, and clever. I highly recommend; our session was therapeutic!',
+            author: {
+              name: 'Wilson Thai',
+              handle: 'UX/UI Designer',
+              imageUrl:
+                'src/profile-wilson.jpg',
             },
           },
         // forth column
