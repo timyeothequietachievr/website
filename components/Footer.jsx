@@ -40,6 +40,7 @@ const navigation = {
     { name: 'Coaching', href: '#' }
   ],
   Content: [
+    { name: 'Testimonials', href: '/Testimonials' },
     { name: 'Podcast', href: '#' },
     { name: 'Newsletter', href: '#' }
   ],
