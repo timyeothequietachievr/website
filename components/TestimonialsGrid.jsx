@@ -47,6 +47,24 @@
                 'src/profile-claire.jpg',
             },
           },
+          {
+            body: '1',
+            author: {
+              name: '1',
+              handle: '1',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
+          {
+            body: '1',
+            author: {
+              name: '1',
+              handle: '1',
+              imageUrl:
+                'src/profile-claire.jpg',
+            },
+          },
         // first column
       ],
       [
