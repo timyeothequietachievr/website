@@ -55,6 +55,9 @@ const ApplyCoachingLarryTimUrl = new URL(
 const ApplyCoachingUrl = new URL(
   'https://forms.gle/3NDnX989HwCbMeLQA'
 );
+const MeetCoachingSessionTimUrl = new URL(
+  'https://calendar.app.google/WykZ1uk3QumuK5BU8'
+);
 
 const nextConfig = {
   async redirects() {
@@ -112,6 +115,11 @@ const nextConfig = {
       {
         source: '/deepdive',
         destination: MeetCoachingDeepDiveCallUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/coachingsession',
+        destination: MeetCoachingSessionTimUrl.toString(),
         permanent: true,
       },
       {
