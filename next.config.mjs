@@ -58,6 +58,10 @@ const ApplyCoachingUrl = new URL(
 const MeetCoachingSessionTimUrl = new URL(
   'https://calendar.app.google/WykZ1uk3QumuK5BU8'
 );
+const WriteAReviewUrl = new URL(
+  'https://forms.gle/P3q28mSRBCz5ttMYA'
+);
+
 
 const nextConfig = {
   async redirects() {
@@ -160,6 +164,11 @@ const nextConfig = {
       {
         source: '/applyforcoaching',
         destination: ApplyCoachingUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/write-a-review',
+        destination: WriteAReviewUrl.toString(),
         permanent: true,
       },
       
