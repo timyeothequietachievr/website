@@ -416,7 +416,7 @@ const booksphysical: Array<BookphysicalOffer> = [
   },
   {
     name: 'Hardcover',
-    badge: 'Direct from me',
+    badge: 'Amazon',
     features: ['Hardcover book'],
     paymentOptions: {
       AUD: {
@@ -477,8 +477,8 @@ const booksphysical: Array<BookphysicalOffer> = [
         currency: 'USD',
         price: 26.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/aEU03E6OLbY3fok6sn',
-          full: 'https://buy.stripe.com/bIYbMm1ur5zF6RO6sf'
+          split: 'https://mybook.to/TheQuietAchieverHardCo',
+          full: 'https://mybook.to/TheQuietAchieverHardCo'
         }
       }
     }
