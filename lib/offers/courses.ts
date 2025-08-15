@@ -200,14 +200,15 @@ const courses: Array<CourseOffer> = [
 
       USD: {
         currency: 'USD',
-        price: 199,
+        price: 299,
         paymentLinks: {
           split: '#',
-          full: 'https://buy.stripe.com/14kaIic95gej4JG4ku'
+          full: 'https://buy.stripe.com/5kQ9AM81UapX6bS1P03Rv0N'
         }
       }
     }
   },
+  /*
   {
     name: '1 year access',
     badge: 'On-Demand',
@@ -277,6 +278,7 @@ const courses: Array<CourseOffer> = [
       }
     }
   },
+  */
   /*
   {
     name: 'Quiet Leadership',
