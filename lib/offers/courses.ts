@@ -140,9 +140,9 @@ const courses: Array<CourseOffer> = [
   },
   */
   {
-    name: 'Lifetime Access',
+    name: 'All Access',
     badge: 'On-Demand',
-    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','Lifetime access to content and The Quiet Achiever Community'],
+    features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','All access to content and The Quiet Achiever Community'],
     paymentOptions: {
       AUD: {
         currency: 'AUD',
