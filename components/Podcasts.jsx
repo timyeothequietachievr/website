@@ -16,6 +16,17 @@ export default function Podcasts() {
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
                 <strong>Who says quiet leaders cannot lead loud rooms?</strong><br />In this episode, Greg Weinger and Tim Yeo unpack what it really takes for introverts to lead powerfully in a noisy world.<br />From navigating small talk to commanding conference stages, his story is packed with frameworks, mindset shifts, and hard-won insights to help introverted professionals lead with clarity, presence, and calm power.<br />💡 Key Takeaways:<br />
+                <ul>                 
+                  <li>Quiet ≠ shy—introversion is about stimulation, not fear</li>
+                  <li>Small talk and networking are learnable skills, not personality traits</li>
+                  <li>Influence does not require dominance—it requires alignment and trust</li>
+                  <li>The 4 Ps of introverted leadership: Prepare, Practice, Push, and Presence</li>
+                  <li>Why one-on-one conversations often beat group meetings for real connection</li>
+                  <li>Visibility does not have to be live—async video updates can boost your impact</li>
+                  <li>Leadership is a role, not a personality</li>
+                  <li>Feedback frameworks help you speak up without conflict</li>
+                  <li>You do not have to fake extroversion to be heard</li>
+                </ul>
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
@@ -38,8 +49,8 @@ export default function Podcasts() {
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
-                src="src/podcast-rantalksdesign.jpeg"
-                alt="Podcast Design Feeling"
+                src="src/podcast-powerfulintrovertgregweinger.jpg"
+                alt="Podcast Powerful Introvert"
               />
             </div>
           </div>
@@ -121,7 +132,7 @@ export default function Podcasts() {
                 /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
                 /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
                 src="src/podcast-rantalksdesign.jpeg"
-                alt="Podcast Design Feeling"
+                alt="Podcast Ran Talks Design"
               />
             </div>
           </div>
