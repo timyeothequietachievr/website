@@ -4,7 +4,49 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 export default function Podcasts() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
-      {/* text left, image right */}
+      {/* START text right, image left */}
+      <div className="mt-24">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div id="interviews">
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {/* Weekly office hours */}
+                  Powerful Introvert podcast with Greg Weinger 
+                </h2>
+                <p className="mt-5 prose prose-indigo text-gray-500">
+                <strong>Who says quiet leaders cannot lead loud rooms?</strong><br />In this episode, Greg Weinger and Tim Yeo unpack what it really takes for introverts to lead powerfully in a noisy world.<br />From navigating small talk to commanding conference stages, his story is packed with frameworks, mindset shifts, and hard-won insights to help introverted professionals lead with clarity, presence, and calm power.<br />💡 Key Takeaways:<br />
+                  {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="https://www.powerfulintrovertpodcast.com/p/tim-yeo-on-redefining-leadership"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_gregweinger"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Listen now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
+                /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
+                src="src/podcast-rantalksdesign.jpeg"
+                alt="Podcast Design Feeling"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*END text right, image left */}
+      {/* START text left, image right */}
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -44,7 +86,7 @@ export default function Podcasts() {
           </div>
         </div>
       </div>
-      {/* text right, image left */}
+      {/* START text right, image left */}
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
@@ -85,7 +127,8 @@ export default function Podcasts() {
           </div>
         </div>
       </div>
-      {/*END */}
+      {/*END text right, image left */}
+      {/*START text left, image right */}
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -124,6 +167,7 @@ export default function Podcasts() {
           </div>
         </div>
       </div>
+      {/*END text left, image right */}
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
