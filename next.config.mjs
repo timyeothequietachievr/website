@@ -179,7 +179,7 @@ const nextConfig = {
         destination: MeetResearchSessionUrl.toString(),
         permanent: true,
       },
-      
+       
 
     ]
   }
