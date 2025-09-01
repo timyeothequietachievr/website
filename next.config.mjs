@@ -58,6 +58,9 @@ const ApplyCoachingUrl = new URL(
 const MeetCoachingSessionTimUrl = new URL(
   'https://calendar.app.google/WykZ1uk3QumuK5BU8'
 );
+const MeetResearchSessionUrl = new URL(
+  'https://calendar.app.google/zpVsNckekLmVE3uX7'
+);
 const WriteAReviewUrl = new URL(
   'https://forms.gle/P3q28mSRBCz5ttMYA'
 );
@@ -169,6 +172,11 @@ const nextConfig = {
       {
         source: '/write-a-review',
         destination: WriteAReviewUrl.toString(),
+        permanent: true,
+      },
+      {
+        source: '/research',
+        destination: MeetResearchSessionUrl.toString(),
         permanent: true,
       },
       
