@@ -4,6 +4,48 @@ import { VideoCameraIcon, CalendarIcon, UserCircleIcon, ClockIcon } from '@heroi
 export default function Podcasts() {
   return (
     <div className="relative bg-white pt-2 pb-32 overflow-hidden">
+      {/* START text left, image right */}
+      <div className="relative">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div id="leadership">
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  The Quiet and Strong Podcast | David Hall (Aug 2025) 
+                </h2>
+                <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
+                <br /><br /> 
+                <strong>The Quiet Achiever's Guide to Authentic Introverted Leadership</strong><br /><br /> 
+                Have you ever wondered what authentic leadership looks like for introverts—and how you can harness your natural strengths to create real impact without pretending to be someone you are not?<br /><br /> 
+                Join David and Tim as they explore how introverts can become powerful leaders by embracing, rather than hiding, their quiet strengths. You will learn why introversion is never a weakness and how society misconceptions can actually help you discover your unique path to leadership. Tim shares his journey from feeling like he had to wear a mask at work to finding confidence and success on his own terms—and he offers practical strategies for thriving as an introvert in the workplace.
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="https://www.thisishcd.com/episode/unlocking-the-power-of-introversion-in-leadership-workplaces"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_HCDpodcast"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Listen now 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
+                src="src/podcast-HCDgerryscullion.jpeg"
+                alt="Podcast UX Podcast"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*END text left, image right */}
       {/* START text right, image left */}
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -67,9 +109,8 @@ export default function Podcasts() {
                   The Human Centered Design Podcast | Gerry Scullion (May 2025) 
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><br />
-                
-                {/* Binge watch or practice as you go. Videos are bite-sized, easy to apply and leverage your introverted strengths. Learn the way that suits you. */}
+                <br /><br /> 
+                🎙️ Dive into an insightful episode with Gerry Scullion as he discusses leadership, introversion, and the invisible emotional toll of workplace dynamics with Tim Yeo, the author of 'The Quiet Achiever'.<br />👥 Tim shares his journey of self-discovery and challenges the extroverted ideal in leadership, paving the way for more inclusive and diverse workplace environments.
                 </p>
                 <div className="mt-6">
                   <a
@@ -97,6 +138,7 @@ export default function Podcasts() {
           </div>
         </div>
       </div>
+      {/*END text left, image right */}
       {/* START text right, image left */}
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
