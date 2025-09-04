@@ -21,10 +21,10 @@ export default function Podcasts() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://www.thisishcd.com/episode/unlocking-the-power-of-introversion-in-leadership-workplaces"
+                    href="https://thequietandstrongpodcast.buzzsprout.com/1572478/episodes/17765722-ep-239-the-quiet-achiever-s-guide-to-authentic-introverted-leadership-with-tim-yeo"
                     data-event-category="explore"
                     data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_HCDpodcast"
+                    data-event-label="cta_podcast_QuietStrongPodcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now 
@@ -38,8 +38,8 @@ export default function Podcasts() {
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
-                src="src/podcast-HCDgerryscullion.jpeg"
-                alt="Podcast UX Podcast"
+                src="src/podcast-quietstrong.png"
+                alt="Quiet and Strong Podcast"
               />
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Podcasts() {
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
                 <br /><br /> 
-                🎙️ Dive into an insightful episode with Gerry Scullion as he discusses leadership, introversion, and the invisible emotional toll of workplace dynamics with Tim Yeo, the author of 'The Quiet Achiever'.<br />👥 Tim shares his journey of self-discovery and challenges the extroverted ideal in leadership, paving the way for more inclusive and diverse workplace environments.
+                🎙️ Dive into an insightful episode with Gerry Scullion as he discusses leadership, introversion, and the invisible emotional toll of workplace dynamics with Tim Yeo, the author of 'The Quiet Achiever'.<br /><br />👥 Tim shares his journey of self-discovery and challenges the extroverted ideal in leadership, paving the way for more inclusive and diverse workplace environments.
                 </p>
                 <div className="mt-6">
                   <a
