@@ -15,7 +15,7 @@ export default function HeroCoaching() {
                   1:1 coaching session included
                 </h1>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><strong>This 30-minute session is surgical:</strong> we go in, tackle a very specific problem you are facing and we work on your problem together.<br /><br />
+                <br /><strong>This 1:1 session is surgical:</strong> we go in, tackle a very specific problem you are facing and we work on your problem together.<br /><br />
                 Maybe you have an interview coming up for your dream job but you are nervous.<br /><br />
                 Perhaps you have a big presentation coming up and you don't want to fail.<br /><br />
                 Or maybe you have a performance review coming up and you want to ask for a raise but you don't know how.<br /><br />
