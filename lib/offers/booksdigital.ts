@@ -339,13 +339,18 @@ const booksdigital: Array<BookdigitalOffer> = [
         currency: 'USD',
         price: 16.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/fZebMmgpl4vB0tq5nY',
-          full: 'https://buy.stripe.com/00g3fQdd99PV5NK9Ec'
+          split: '',
+          full: 'https://payhip.com/b/fBES9'
         }
       }
     }
   },
-  /*{ This includes the prices of everything digital after 9Aug
+  /*
+          //Buy links for circle stripe USD buy and gift it everything digital
+          split: 'https://buy.stripe.com/fZebMmgpl4vB0tq5nY',
+          full: 'https://buy.stripe.com/00g3fQdd99PV5NK9Ec'
+  
+  { This includes the prices of everything digital after 9Aug
     name: 'Everything Digital',
     badge: 'Download Now',
     features: ['📲 ePub, PDF','🎤 Audiobook narrated by the author','Join the Quiet Achiever community'],
@@ -547,8 +552,8 @@ const booksdigital: Array<BookdigitalOffer> = [
         currency: 'USD',
         price: 9.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/8wM2bMa0X3rx5NKcPZ',
-          full: 'https://buy.stripe.com/3csdUu3CzaTZ0tq7vz'
+          split: '',
+          full: 'https://payhip.com/b/Y5Jh2'
         }
       }
     }
@@ -616,13 +621,23 @@ const booksdigital: Array<BookdigitalOffer> = [
         currency: 'USD',
         price: 9.99,
         paymentLinks: {
-          split: 'https://buy.stripe.com/9AQ4jU5KH6DJ0tq6rP',
-          full: 'https://buy.stripe.com/8wM8Aa1ur2ntb844jA'
+          split: '',
+          full: 'https://payhip.com/b/1ncdC'
         }
       }
     }
   },
-  /*{ TEMPLATE
+  /*
+  // ebook only
+            split: 'https://buy.stripe.com/8wM2bMa0X3rx5NKcPZ',
+          full: 'https://buy.stripe.com/3csdUu3CzaTZ0tq7vz' 
+  
+  
+    audiobook only
+            split: 'https://buy.stripe.com/9AQ4jU5KH6DJ0tq6rP',
+          full: 'https://buy.stripe.com/8wM8Aa1ur2ntb844jA'
+  
+  { TEMPLATE
     name: 'eBook only',
     badge: 'Download now',
     features: ['📲 Everything digital (ePub, PDF, Audiobook)','🤩 Your name printed in the Book Acknowledgements','👩🏻‍🏫 Read it before everyone else','👋 Meet the author via video call'],
