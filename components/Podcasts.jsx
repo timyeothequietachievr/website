@@ -11,6 +11,99 @@ export default function Podcasts() {
             <div id="leadership">
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  The Quiet Warrior Podcast | Serena Low 
+                </h2>
+                <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
+                <br /><br /> 
+                <strong>The Quiet Warrior Podcast</strong><br /><br /> 
+                {/*INSERT COPY */}<br /><br /> 
+                {/*INSERT COPY */}
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="#"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_QuietWarriorPodcast"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Listen now 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                /* src="https://www.youtube.com/embed/QRn5SFM97pA" */
+                src="src/podcast-quietwarrior.jpg"
+  id="topicsxxx"              alt="Quiet Warrior Podcast"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*END text left, image right */}
+      {/* START text right, image left */}
+      <div className="mt-24">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div id="interviews">
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {/* Weekly office hours */}
+                  The Belonging Project Podcast with Fiorenza Rossini 
+                </h2>
+                <p className="mt-5 prose prose-indigo text-gray-500">
+                <strong>Quiet Leadership: Tim Yeo on Empowering Introverts</strong><br />In this episode of the Belonging Project Podcast, host Fiorenza Rossini sits down with Tim Yeo, chief introvert of the Quiet Achiever. Tim shares insights on how introverts can have an impact at work without pretending to be extroverts. “Reframe introversion as a strength”, says Tim Yeo. In this conversation with Fiorenza, Tim opens up on his journey from Singapore to Australia, the cultural differences he encountered, and how he embraced his identity as a quiet achiever. This episode is also super packed with practical tips for introverts to be seen and heard in the workplace. Such as:<br />
+                <ul>                 
+                  <li>Introducing ourselves to a group</li>
+                  <li>Small Talk</li>
+                  <li>What to do when you’re asked something on the spot in a meeting</li>
+                  <li>Giving yourself permission to speak up even when your ideas are not fully formed</li>
+                  <li>Networking</li>
+                  <li>Public Speaking</li>
+                  <li>How to make remote working more inclusive — aka spend less time speaking in online meetings!</li>
+                </ul>
+                  And finally, one of my favourite part of the conversation with Tim is when we explore how we can make introverts and extroverts coexist in a team!
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="https://belongingproject.substack.com/p/quiet-leadership-tim-yeo-on-empowering"
+                    data-event-category="explore"
+                    data-event-action="click_learn_more"
+                    data-event-label="cta_podcast_belongingfiorenzza"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Listen now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                /* src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" */
+                /* src="https://www.sli.do/build/video/slido-polling-b82ad40.mp4" */
+                src="src/podcast-belongingproject.jpg"
+                alt="Podcast Belonging Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*END text right, image left */}
+      {/* START text left, image right */}
+      <div className="relative">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div id="leadership">
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   The Quiet and Strong Podcast | David Hall (Aug 2025) 
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
