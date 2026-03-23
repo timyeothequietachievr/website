@@ -8,13 +8,13 @@ export default function Toaster() {
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">
             {/* Black Friday 30 Habits 30 Days*/}
-            <span className="md:hidden">🎄Limited time: </span>
-            <span className="hidden md:inline">🎄Limited time: </span>
+            <span className="md:hidden"></span>{ /* 🎄Limited time: */}
+            <span className="hidden md:inline"></span>{ /* 🎄Limited time: */}
             <span className="block sm:ml-2 sm:inline-block">
               { /* <a href="#gifthttps://docs.google.com/forms/d/e/1FAIpQLSdVoSAkvl1ArLPunWGLbNBZoetnApIa2G9UzG2DLYBDqdNQWA/alreadyresponded" className="text-white font-bold underline"> */}
               <a href="30habits30days" data-event-category="explore" data-event-action="click_learn_more" data-event-label="cta_learn_toaster" className="text-white font-bold underline">
                 {' '}
-                Buy 30 habits in 30 days - Get The Quiet Achiever eBook for free<span aria-hidden="true">&rarr;</span>
+                Buy 30 habits in 30 days Course - Get The Quiet Achiever eBook + Audiobook for free<span aria-hidden="true">&rarr;</span>
               </a>
             </span>
             {/* gift it
