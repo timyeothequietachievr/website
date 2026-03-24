@@ -32,7 +32,7 @@ const MeetCoachingDeepDiveCallUrl = new URL(
   'https://calendar.app.google/chzxSEei1ANTBm5X6'
 );
 const FollowOnLinkedinUrl = new URL(
-  'https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=timyeo'
+  'https://www.linkedin.com/in/timyeo/'
 );
 const SubscribeOnYouTubeUrl = new URL(
   'https://www.youtube.com/@thequietachievr?sub_confirmation=1'
