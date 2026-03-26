@@ -6,8 +6,6 @@ export default function AboutCoaching() {
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
         <p className="mt-6 text-xl leading-8">
-          Privacy Policy
-Last updated: 26 March 2026
 Your privacy matters to us. This Privacy Policy explains how The Quiet Achiever ("we," "us," or "our") collects, uses, and protects your personal information when you use our website and Services.
 <br></br><br></br>1. Information We Collect
 We may collect the following types of information:
