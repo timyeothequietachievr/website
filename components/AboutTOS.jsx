@@ -6,7 +6,7 @@ export default function AboutCoaching() {
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}
         <p className="mt-6 text-xl leading-8">
-          Welcome to The Quiet Achiever ("we," "us," or "our"). By accessing or using our website, content, courses, coaching services, and any associated platforms (collectively, the "Services"), you agree to be bound by these Terms of Service. Please read them carefully.
+          Welcome to The Quiet Achiever ("we," "us," or "our"). By accessing or using our website, content, courses, coaching services, our app TheQuietAchiever and any associated platforms (collectively, the "Services"), you agree to be bound by these Terms of Service. Please read them carefully.
 
 <br></br><br></br>1. Acceptance of Terms
 
