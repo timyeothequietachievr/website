@@ -86,11 +86,9 @@ These Terms are governed by the laws of Singapore. Any disputes shall be resolve
 
 For questions about these Terms, please contact us:
 
-Tim Yeo — The Quiet Achiever
-
-Email: support@thequietachievr.com
-
-Website: https://www.thequietachievr.com
+<br></br><br></br>Tim Yeo — The Quiet Achiever
+<br></br>Email: support@thequietachievr.com
+<br></br>Website: https://www.thequietachievr.com
         </p>
       </div>
     </div>
