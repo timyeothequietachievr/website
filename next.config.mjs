@@ -23,13 +23,13 @@ const MeetTheTrainerTooValuableUrl = new URL(
   'https://calendar.app.google/G43SJXZsECYMP8xaA'
 );
 const MeetFreestUrl = new URL(
-  'https://calendar.app.google/aqqqYLnrq8vePFnz7'
+  'https://calendar.app.google/UXWV9DyHqgPDiXqZ7'
 );
 const MeetCoachingChemistryCall20minUrl = new URL(
-  'https://calendar.app.google/g3oUK69XeEQ5ao4o6'
+  'https://calendar.app.google/P2WJMi69ayBH8mFQ8'
 );
 const MeetCoachingDeepDiveCallUrl = new URL(
-  'https://calendar.app.google/chzxSEei1ANTBm5X6'
+  'https://calendar.app.google/ci4Ep8unAXZHGxhm9'
 );
 const FollowOnLinkedinUrl = new URL(
   'https://www.linkedin.com/in/timyeo/'
@@ -56,7 +56,7 @@ const ApplyCoachingUrl = new URL(
   'https://forms.gle/3NDnX989HwCbMeLQA'
 );
 const MeetCoachingSessionTimUrl = new URL(
-  'https://calendar.app.google/WykZ1uk3QumuK5BU8'
+  'https://calendar.app.google/MWQDadagbKhXZeyz5'
 );
 const MeetResearchSessionUrl = new URL(
   'https://calendar.app.google/zpVsNckekLmVE3uX7'
