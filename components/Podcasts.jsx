@@ -11,23 +11,23 @@ export default function Podcasts() {
             <div id="leadership">
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  The Quiet Warrior Podcast | Serena Low 
+                  The Quiet Warrior Podcast | Serena Low
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><br /> 
-                <strong>The Quiet Warrior Podcast</strong><br /><br /> 
-                {/*INSERT COPY */}<br /><br /> 
+                <br /><br />
+                <strong>The Quiet Warrior Podcast</strong><br /><br />
+                {/*INSERT COPY */}<br /><br />
                 {/*INSERT COPY */}
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_QuietWarriorPodcast"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Quiet Warrior Podcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -54,14 +54,14 @@ export default function Podcasts() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
-                  The Belonging Project Podcast with Fiorenza Rossini 
+                  The Belonging Project Podcast with Fiorenza Rossini
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                <strong>Quiet Leadership: Tim Yeo on Empowering Introverts</strong><br />In this episode of the Belonging Project Podcast, host Fiorenza Rossini sits down with Tim Yeo, chief introvert of the Quiet Achiever. Tim shares insights on how introverts can have an impact at work without pretending to be extroverts. “Reframe introversion as a strength”, says Tim Yeo. In this conversation with Fiorenza, Tim opens up on his journey from Singapore to Australia, the cultural differences he encountered, and how he embraced his identity as a quiet achiever. This episode is also super packed with practical tips for introverts to be seen and heard in the workplace. Such as:<br />
-                <ul>                 
+                <strong>Quiet Leadership: Tim Yeo on Empowering Introverts</strong><br />In this episode of the Belonging Project Podcast, host Fiorenza Rossini sits down with Tim Yeo, chief introvert of the Quiet Achiever. Tim shares insights on how introverts can have an impact at work without pretending to be extroverts. "Reframe introversion as a strength", says Tim Yeo. In this conversation with Fiorenza, Tim opens up on his journey from Singapore to Australia, the cultural differences he encountered, and how he embraced his identity as a quiet achiever. This episode is also super packed with practical tips for introverts to be seen and heard in the workplace. Such as:<br />
+                <ul>
                   <li>Introducing ourselves to a group</li>
                   <li>Small Talk</li>
-                  <li>What to do when you’re asked something on the spot in a meeting</li>
+                  <li>What to do when you're asked something on the spot in a meeting</li>
                   <li>Giving yourself permission to speak up even when your ideas are not fully formed</li>
                   <li>Networking</li>
                   <li>Public Speaking</li>
@@ -72,9 +72,9 @@ export default function Podcasts() {
                 <div className="mt-6">
                   <a
                     href="https://belongingproject.substack.com/p/quiet-leadership-tim-yeo-on-empowering"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_belongingfiorenzza"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Belonging Project"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -104,23 +104,23 @@ export default function Podcasts() {
             <div id="leadership">
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  The Quiet and Strong Podcast | David Hall (Aug 2025) 
+                  The Quiet and Strong Podcast | David Hall (Aug 2025)
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><br /> 
-                <strong>The Quiet Achiever's Guide to Authentic Introverted Leadership</strong><br /><br /> 
-                Have you ever wondered what authentic leadership looks like for introverts—and how you can harness your natural strengths to create real impact without pretending to be someone you are not?<br /><br /> 
+                <br /><br />
+                <strong>The Quiet Achiever's Guide to Authentic Introverted Leadership</strong><br /><br />
+                Have you ever wondered what authentic leadership looks like for introverts—and how you can harness your natural strengths to create real impact without pretending to be someone you are not?<br /><br />
                 Join David and Tim as they explore how introverts can become powerful leaders by embracing, rather than hiding, their quiet strengths. You will learn why introversion is never a weakness and how society misconceptions can actually help you discover your unique path to leadership. Tim shares his journey from feeling like he had to wear a mask at work to finding confidence and success on his own terms—and he offers practical strategies for thriving as an introvert in the workplace.
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://thequietandstrongpodcast.buzzsprout.com/1572478/episodes/17765722-ep-239-the-quiet-achiever-s-guide-to-authentic-introverted-leadership-with-tim-yeo"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_QuietStrongPodcast"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Quiet and Strong"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -147,11 +147,11 @@ export default function Podcasts() {
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {/* Weekly office hours */}
-                  Powerful Introvert podcast with Greg Weinger 
+                  Powerful Introvert podcast with Greg Weinger
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
                 <strong>Who says quiet leaders cannot lead loud rooms?</strong><br />In this episode, Greg Weinger and Tim Yeo unpack what it really takes for introverts to lead powerfully in a noisy world.<br />From navigating small talk to commanding conference stages, his story is packed with frameworks, mindset shifts, and hard-won insights to help introverted professionals lead with clarity, presence, and calm power.<br />💡 Key Takeaways:<br />
-                <ul>                 
+                <ul>
                   <li>Quiet ≠ shy—introversion is about stimulation, not fear</li>
                   <li>Small talk and networking are learnable skills, not personality traits</li>
                   <li>Influence does not require dominance—it requires alignment and trust</li>
@@ -167,9 +167,9 @@ export default function Podcasts() {
                 <div className="mt-6">
                   <a
                     href="https://www.powerfulintrovertpodcast.com/p/tim-yeo-on-redefining-leadership"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_gregweinger"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Powerful Introvert"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -199,21 +199,21 @@ export default function Podcasts() {
             <div id="leadership">
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  The Human Centered Design Podcast | Gerry Scullion (May 2025) 
+                  The Human Centered Design Podcast | Gerry Scullion (May 2025)
                 </h2>
                 <p className="mt-mt-5 prose prose-indigo text-gray-500 text-lg text-gray-500">
-                <br /><br /> 
+                <br /><br />
                 🎙️ Dive into an insightful episode with Gerry Scullion as he discusses leadership, introversion, and the invisible emotional toll of workplace dynamics with Tim Yeo, the author of 'The Quiet Achiever'.<br /><br />👥 Tim shares his journey of self-discovery and challenges the extroverted ideal in leadership, paving the way for more inclusive and diverse workplace environments.
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://www.thisishcd.com/episode/unlocking-the-power-of-introversion-in-leadership-workplaces"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_HCDpodcast"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - HCD Podcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -249,9 +249,9 @@ export default function Podcasts() {
                 <div className="mt-6">
                   <a
                     href="https://youtu.be/saNYHLWGoA8?si=_5ijUJWkhgN0l-a8"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_ranliu"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Ran Talks Design"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -290,12 +290,12 @@ export default function Podcasts() {
                 <div className="mt-6">
                   <a
                     href="https://www.youtube.com/watch?v=q7bMuU8aqUY"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_larry"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Invincible Career"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -324,16 +324,16 @@ export default function Podcasts() {
                   Stratergies for introverts (May 2023) - UX Cake Podcast
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                This episode is about quiet leadership - how you can be an authentic leader even if you don’t have the loudest voice in the room. We’re joined by Tim Yeo, a design leader and speaker who helps introverts have an impact and influence without having to pretend to be extroverts. Tim is the brain behind The Quiet Achiever, where he coaches introverts to use their strengths to their advantage.
-Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />  
+                This episode is about quiet leadership - how you can be an authentic leader even if you don't have the loudest voice in the room. We're joined by Tim Yeo, a design leader and speaker who helps introverts have an impact and influence without having to pretend to be extroverts. Tim is the brain behind The Quiet Achiever, where he coaches introverts to use their strengths to their advantage.
+Tim shares his experience working in environments where strong opinions and loud voices are the norm, and how he was pressured to speak up more. We also discuss the challenges that introverts face in the design industry, where we have to make our work visible, as well as in leadership, where there can be a perception that the ideal leader is an extrovert, and how to overcome those challenges.<br />
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://podcasts.apple.com/au/podcast/the-quiet-leader-strategies-for-introverts-with-tim-yeo/id1350595015?i=1000611676060"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_uxcake"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - UX Cake Podcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -370,12 +370,12 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://uxpodcast.com/296-introverts-tim-yeo/"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_uxpodcast"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - UX Podcast"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -403,15 +403,15 @@ Tim shares his experience working in environments where strong opinions and loud
                   Design leadership for introverts with Tim Yeo (Jul 2022) - Design Feeling
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                Founder of the Quiet Achiever and proud introvert, Tim Yeo, shares his personal journey of being an introverted designer and design leader and how he’s now helping other introverts have better impact and influence without pretending to be extroverts.<br />  
+                Founder of the Quiet Achiever and proud introvert, Tim Yeo, shares his personal journey of being an introverted designer and design leader and how he's now helping other introverts have better impact and influence without pretending to be extroverts.<br />
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://www.designfeeling.co/design-leadership-for-introverts-with-tim-yeo/"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_designfeeling"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Design Feeling"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -448,12 +448,12 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://podcasts.apple.com/ph/podcast/14-the-remote-conference-keynote-speakers-ucd/id1591604213?i=1000564673772"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_understandingusers"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - Understanding Users"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>
@@ -481,15 +481,15 @@ Tim shares his experience working in environments where strong opinions and loud
                    Design leadership for introverts (Dec 2021) - IxDA Sydney Podcast
                 </h2>
                 <p className="mt-5 prose prose-indigo text-gray-500">
-                We dive into the following themes:<br />- How designers starting out in the industry can stand out when trying to get their first role.<br />- What kind of mindset to have while approaching design exercises.<br />- How introverts in particular can start to really craft their design paths<br />  
+                We dive into the following themes:<br />- How designers starting out in the industry can stand out when trying to get their first role.<br />- What kind of mindset to have while approaching design exercises.<br />- How introverts in particular can start to really craft their design paths<br />
                   {/* Once a week, we will meet via video conference. Ask a question or dial in to listen. No preparation required; participate as much or as little as you want. */}
                 </p>
                 <div className="mt-6">
                   <a
                     href="https://open.spotify.com/episode/2Ds4joYDHHqPyEi53lQFd2"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_ixdasydney"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - IxDA Sydney"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Listen now
@@ -526,12 +526,12 @@ Tim shares his experience working in environments where strong opinions and loud
                 <div className="mt-6">
                   <a
                     href="https://open.spotify.com/episode/5mSLWrX174tx47ICfepU1r"
-                    data-event-category="explore"
-                    data-event-action="click_learn_more"
-                    data-event-label="cta_podcast_uxmaturity"
+                    data-event-category="podcast"
+                    data-event-action="click_listen_now"
+                    data-event-label="Listen now - UX Maturity"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Listen now 
+                    Listen now
                   </a>
                 </div>
               </div>

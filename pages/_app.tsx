@@ -23,15 +23,22 @@ export default function App({ Component, pageProps }) {
     }
 
     const trackGaEvents = (e) => {
-      if (e.target.matches('[data-event-category][data-event-action][data-event-label]')) {
+      // Walk up from the click target to find the nearest element
+      // that has all three data-event-* attributes. This makes the
+      // listener work on CTAs with nested children (icon + text).
+      const target = e.target instanceof Element
+        ? e.target.closest('[data-event-category][data-event-action][data-event-label]') as HTMLElement | null
+        : null;
+
+      if (target) {
         let eventData: EventData = {
-          action: e.target.dataset.eventAction,
-          category: e.target.dataset.eventCategory,
-          label: e.target.dataset.eventLabel,
+          action: target.dataset.eventAction,
+          category: target.dataset.eventCategory,
+          label: target.dataset.eventLabel,
         };
 
-        if (e.target.dataset.eventValue) {
-          eventData.value = e.target.dataset.eventValue;
+        if (target.dataset.eventValue) {
+          eventData.value = target.dataset.eventValue;
         }
 
         gtag.event(eventData)
@@ -94,7 +101,7 @@ export default function App({ Component, pageProps }) {
           `,
         }}
       />
-      
+
       <Toaster />
       <Navigation items={navigationItems} />
       <Component {...pageProps} />
