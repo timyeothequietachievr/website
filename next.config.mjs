@@ -65,8 +65,7 @@ const WriteAReviewUrl = new URL(
   'https://forms.gle/P3q28mSRBCz5ttMYA'
 );
 const MagnetBookFreeChapterURL = new URL(
-  'https://watery-crustacean-f88.notion.site/The-Quiet-Achiever-Book-Free-Chapter-Tiny-Habits-Checklist-91d073990e084e79b5f3a10e03fddcd2?source=copy_link
-'
+  'https://watery-crustacean-f88.notion.site/The-Quiet-Achiever-Book-Free-Chapter-Tiny-Habits-Checklist-91d073990e084e79b5f3a10e03fddcd2'
 );
 
 const nextConfig = {
