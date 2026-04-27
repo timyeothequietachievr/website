@@ -67,6 +67,9 @@ const WriteAReviewUrl = new URL(
 const MagnetBookFreeChapterURL = new URL(
   'https://watery-crustacean-f88.notion.site/The-Quiet-Achiever-Book-Free-Chapter-Tiny-Habits-Checklist-91d073990e084e79b5f3a10e03fddcd2'
 );
+const SpeakingForOrganisersURL = new URL(
+  'https://watery-crustacean-f88.notion.site/Speaking-for-event-organisers-e4dc6e4cf7db472c901150b3b1d199b4'
+);
 
 const nextConfig = {
   async redirects() {
@@ -185,7 +188,12 @@ const nextConfig = {
         source: '/freechapter',
         destination: MagnetBookFreeChapterURL.toString(),
         permanent: true,
-      }, 
+      },
+      {
+        source: '/speakingfororganisers',
+        destination: SpeakingForOrganisersURL.toString(),
+        permanent: true,
+      },  
 
     ]
   }
