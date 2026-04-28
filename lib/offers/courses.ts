@@ -200,16 +200,27 @@ const courses: Array<CourseOffer> = [
 
       USD: {
         currency: 'USD',
-        price: 299,
+        price: 399,
         paymentLinks: {
           split: '#',
-          full: 'https://buy.stripe.com/5kQ9AM81UapX6bS1P03Rv0N'
+          full: 'https://buy.stripe.com/aFadR281UapXfMs0KW3Rv1b'
         }
       }
     }
   },
   /*
   {
+
+USD299: {
+        currency: 'USD',
+        price: 399,
+        paymentLinks: {
+          split: '#',
+          full: 'https://buy.stripe.com/5kQ9AM81UapX6bS1P03Rv0N'
+        }
+
+
+
     name: '1 year access',
     badge: 'On-Demand',
     features: ['100+ lessons, 6hrs+ focused learning', '20+ exercises; practice and get feedback iteratively', 'Online and On-Demand; learn at your own pace','1 year full access to content and The Quiet Achiever Community'],
