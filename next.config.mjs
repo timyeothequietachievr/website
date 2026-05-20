@@ -28,6 +28,8 @@ const MeetFreestUrl = new URL(
 const MeetCoachingChemistryCall20minUrl = new URL(
   'https://calendar.app.google/P2WJMi69ayBH8mFQ8'
 );
+const MeetCoachingDiscoveryCall45minUrl = new URL(
+  'https://calendar.app.google/P2WJMi69ayBH8mFQ8'
 const MeetCoachingDeepDiveCallUrl = new URL(
   'https://calendar.app.google/ci4Ep8unAXZHGxhm9'
 );
@@ -194,7 +196,11 @@ const nextConfig = {
         destination: SpeakingForOrganisersURL.toString(),
         permanent: true,
       },  
-
+      {
+        source: '/discoverycall',
+        destination: MeetCoachingDiscoveryCall45minUrl.toString(),
+        permanent: true,
+      },
     ]
   }
 }
