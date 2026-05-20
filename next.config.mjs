@@ -30,6 +30,7 @@ const MeetCoachingChemistryCall20minUrl = new URL(
 );
 const MeetCoachingDiscoveryCall45minUrl = new URL(
   'https://calendar.app.google/P2WJMi69ayBH8mFQ8'
+);
 const MeetCoachingDeepDiveCallUrl = new URL(
   'https://calendar.app.google/ci4Ep8unAXZHGxhm9'
 );
