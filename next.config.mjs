@@ -207,7 +207,7 @@ const nextConfig = {
       },
       {
         source: '/approov',
-        destination: clientApproovURL.toString(),
+        destination: ClientApproovURL.toString(),
         permanent: true,
       },
     ]
